@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Test2 test2test2test2 'asd'"
-description: "a really nice test2"
-category: [test, qwe, poi, piiasdsda]
-tags: [test, sdf, fgd]
+title: "Lorem Ipsum"
+description: "Lorem ipsum dolor sit amet"
+category: [lorem, ipsum]
+tags: [lorem]
 ---
 {% include JB/setup %}
 

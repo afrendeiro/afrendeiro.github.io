@@ -5,17 +5,19 @@ header: Posts By Tag
 group: navigation
 ---
 {% include JB/setup %}
-
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
+<h3>All tags:</h3>
+<ul class="tags list-inline list-unstyled">
+	{% assign tags_list = site.tags %}  
+	{% include JB/tags_list %}
 </ul>
 
-
+<h3>Posts per tag:</h3>
 {% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
+	<h4 id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
+	<ul class="tags list-inline list-unstyled">
+		<i>
+			{% assign pages_list = tag[1] %}  
+			{% include JB/pages_list %}
+		</i>
+	</ul>
 {% endfor %}

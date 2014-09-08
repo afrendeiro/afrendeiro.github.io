@@ -22,5 +22,11 @@ Edit `_config.yml` and you're ready to go.
 
 see pages on `http://0.0.0.0:4000/`.
 
-## Optional:
-Customize theme or create new.
+## Customize
+
+### Install theme
+Go to `http://themes.jekyllbootstrap.com/`, choose a theme and install it:
+    
+    rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
+
+Customize it or create new from scratch.

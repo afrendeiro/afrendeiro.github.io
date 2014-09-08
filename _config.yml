@@ -18,6 +18,12 @@ author :
   googleplus: AndréRendeiro
   feedburner : feedname
 
+# Fill here if you wish to licence your content with a Creative Commons Licence.
+# Read here (http://creativecommons.org/licenses/) about CC and choose a licence.
+# Available options are: by, by-sa, by-nd, by-nc, by-nc-sa, by-nc-nd
+# Leave empty if 
+licence: by
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls

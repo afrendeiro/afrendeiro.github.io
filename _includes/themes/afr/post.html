@@ -1,14 +1,10 @@
-<div class="row">
-	<!-- Main content -->
-	<div class="col-xs-12 col-md-9 content">
+<div class="col-xs-12 col-md-9 content">
+	
+	<div class="post-meta">
+			{{ page.date | date: "%D" }} - 
 
-		<div class="page-header">
-			<h1><a href="{{ page.url }}">{{ page.title }}</a>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-			<small>{{ page.date | date: "%D" }}</small>
-			
-			<p>
 			{% unless page.categories == empty %}
-				<ul class="tags">
+				<ul class="tags list-inline list-unstyled">
 					<li><b>Categories:</b> </li>
 					{% assign categories_list = page.categories %}
 					{% include JB/categories_list %}
@@ -16,66 +12,60 @@
 			{% endunless %}
 				 
 			{% unless page.tags == empty %}
-				<ul class="tags">
+				<ul class="tags list-inline list-unstyled">
 					<li><b>Tags: </b></li>
 					{% assign tags_list = page.tags %}
 					{% include JB/tags_list %}
 				</ul>
 			{% endunless %}
-			</p>
-		</div>
-		
-		<div>
-			{{ content }}
-		</div>
-
-		<div class="text-center">
-			<ul class="pager">
-			{% if page.previous %}
-				<li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-			{% else %}
-				<li class="previous disabled"><a>&larr; Previous</a></li>
-			{% endif %}
-				<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-			{% if page.next %}
-				<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-			{% else %}
-				<li class="next disabled"><a>Next &rarr;</a>
-			{% endif %}
-			</ul>
-		</div>
 	</div>
 
-	<!-- Sidebar -->
-	<div class="col-xs-12 col-md-3 sidebar">
-		<h4> Latest posts: </h4>
-		<ul class="posts">  
-			{% for post in site.posts limit:5 %}
-			   <li>  
-				   <span>{{ post.date | date: "%D" }}</span> - 
-				   <a href="{{ BASE_PATH }}{{ post.url }}">  
-				   {{ post.title }}</a>  
-			   </li>  
-			{% endfor %}
-		</ul>
-
-		<h4> All categories: </h4>
-		<ul class="tags">  
-			{% assign categories_list = site.categories %}
-			{% include JB/categories_list %}
-		</ul>
-
-		<h4> All tags: </h4>
-		<ul class="tags">
-			{% assign tags_list = site.tags %}
-			{% include JB/tags_list %}
-		</ul>
-
+	<div>
+		{{ content }}
 	</div>
-</div>
 
-<hr>
+	<div class="text-center">
+		<ul class="pager">
+		{% if page.previous %}
+			<li class="previous"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+		{% else %}
+			<li class="previous disabled"><a>&larr; Previous</a></li>
+		{% endif %}
+			<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+		{% if page.next %}
+			<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+		{% else %}
+			<li class="next disabled"><a>Next &rarr;</a>
+		{% endif %}
+		</ul>
+	</div>
+	<div class="row">
+		{% include JB/comments %}
+	</div>
+</div><!-- ./col -->
 
-<div class="row">
-	{% include JB/comments %}
-</div>
+<!-- Sidebar -->
+<div class="col-xs-12 col-md-3 sidebar">
+	<h4> Latest posts: </h4>
+	<ul class="posts">  
+		{% for post in site.posts limit:5 %}
+		   <li>  
+			   <span>{{ post.date | date: "%D" }}</span> - 
+			   <a href="{{ BASE_PATH }}{{ post.url }}">  
+			   {{ post.title }}</a>  
+		   </li>  
+		{% endfor %}
+	</ul>
+
+	<h4> All categories: </h4>
+	<ul class="tags list-inline list-unstyled">  
+		{% assign categories_list = site.categories %}
+		{% include JB/categories_list %}
+	</ul>
+
+	<h4> All tags: </h4>
+	<ul class="tags list-inline list-unstyled">
+		{% assign tags_list = site.tags %}
+		{% include JB/tags_list %}
+	</ul>
+</div><!-- ./col -->

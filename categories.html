@@ -6,17 +6,20 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
+<h3>All categories:</h3>
+<ul class="tags list-inline list-unstyled">
+	{% assign categories_list = site.categories %}
+	{% include JB/categories_list %}
 </ul>
 
-
+<h3>Posts per category:</h3>
 {% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-  </ul>
+	<h4 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h4>
+	<ul>
+		<i>
+			{% assign pages_list = category[1] %}  
+			{% include JB/pages_list %}
+		</i>
+	</ul>
 {% endfor %}
 
