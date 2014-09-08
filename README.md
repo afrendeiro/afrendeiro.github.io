@@ -22,6 +22,9 @@ Edit `_config.yml` and you're ready to go.
 
 see pages on `http://0.0.0.0:4000/`.
 
+## Edit configuration
+Edit the `_config.yaml` file with your information, social networks, licence, etc...
+
 ## Customize
 
 ### Install theme

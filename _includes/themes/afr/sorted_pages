@@ -1,0 +1,17 @@
+{% comment %}<!--
+Adds list of pages sorted alphabetically. Supports group filtering (e.g. navigation pages).
+Usefull for sorting pages in navbars.
+-->
+{% endcomment %}
+
+{% for node in sorted_pages %}
+	{% if node.title != null %}
+		{% if group == null or group == node.group %}
+			{% if node.url == page.url %}
+				<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+			{% else %}
+				<li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+			{% endif %}
+		{% endif %}
+	{% endif %}
+{% endfor %}

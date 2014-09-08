@@ -52,9 +52,9 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						{% assign pages_list = site.pages %}
 						{% assign group = 'navigation' %}
-						{% include JB/pages_list %}
+						{% assign sorted_pages = site.pages | sort:"title" %}
+						{% include themes/afr/sorted_pages %}
 					</ul>
 					
 					<!-- Search -->
