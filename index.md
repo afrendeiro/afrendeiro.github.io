@@ -7,8 +7,10 @@ tagline: "An Open Science notebook"
 
 ## Welcome to my Open Electronic Online Lab Notebook
 
-Read more about the notebook <a href="/2014/09/09/notebook">here</a>
+[Read more about the notebook here][1]
 
 ## Latest posts:
 {% assign posts_list = site.posts %}
 {% include JB/posts_list %}
+
+[1]: http://andre-rendeiro.me/2014/10/29/notebook/
