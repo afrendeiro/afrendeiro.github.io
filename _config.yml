@@ -89,7 +89,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : andre-rendeiro-notebook
+      short_name : andre-rendeiro
     livefyre :
       site_id : 123
     intensedebate :
