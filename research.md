@@ -11,19 +11,10 @@ weight: 1
 .centerImages {
 	line-height:200px;
 	text-align:center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    vertical-align:middle;
-}
-
-.sidebyside{
-	float: left;
-	height: 350px;
-	margin-right: 1%;
-	margin-bottom: 0.5em;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
+	width: 90%;
+	vertical-align:middle;
 }
 </style>
 
@@ -73,13 +64,13 @@ We found that the location of chromatin modifications relative to genes and dist
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
 <div class="centerImages">
-	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_chipSeq.png" class="sidebyside"
+	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_chipSeq.png"
 		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle"/>
 
-	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_hmmStates.png" class="sidebyside"
+	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_hmmStates.png"
 		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
 
-	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_enhancers.png" class="sidebyside"
+	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_enhancers.png"
 		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle"/>
 </div>
 
