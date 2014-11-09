@@ -19,7 +19,7 @@ weight: 1
 
 .sidebyside{
 	float: left;
-	height: 300px;
+	height: 350px;
 	margin-right: 1%;
 	margin-bottom: 0.5em;
 	margin-left: auto;
@@ -58,6 +58,8 @@ We performed ChIP-seq on two antagonist transcription factors (E2F1 and E2F7) in
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/oikopleura_change_cell-cycle.png"
 		 alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" align="middle" style="height: 150px;"/>
 </div>
+<p style="clear: both;"> </p>
+
 ---
 
 ## Evolution of the eumetazoan regulatory landscape: epigenetics, chromatin modifications and regulatory elements in *Nematostella vectensis*
@@ -75,7 +77,7 @@ Taken together our work showed that the genomic landscape of gene regulatory ele
 		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle"/>
 
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_hmmStates.png" class="sidebyside"
-		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle"/>
+		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
 
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_enhancers.png" class="sidebyside"
 		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle"/>
