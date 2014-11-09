@@ -9,16 +9,21 @@ weight: 1
 
 <style>
 .centerImages {
+	line-height:200px;
+	text-align:center;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
+    vertical-align:middle;
 }
 
 .sidebyside{
 	float: left;
-	height: 200px;
+	height: 300px;
 	margin-right: 1%;
 	margin-bottom: 0.5em;
+	margin-left: auto;
+    margin-right: auto;
 }
 </style>
 
@@ -65,7 +70,7 @@ We found that the location of chromatin modifications relative to genes and dist
 
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
-<div class="sideBySideImages">
+<div class="centerImages">
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_chipSeq.png" class="sidebyside"
 		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle"/>
 
