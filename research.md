@@ -65,13 +65,13 @@ Taken together our work showed that the genomic landscape of gene regulatory ele
 
 <div class="centerImages">
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_chipSeq.png"
-		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle"/>
+		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle" style="height: 350px;"/>
 
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_hmmStates.png"
 		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
 
 	<img src="https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_enhancers.png"
-		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle"/>
+		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle" style="height: 350px;"/>
 </div>
 
 <p style="clear: both;"> </p>
