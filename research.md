@@ -26,7 +26,7 @@ Here are projects I am currently working on or have worked in the past:
 
 ## Uncovering the contribution of epigenetics to development and disease
 
-In this project I will try to gain insights into the contribution of epigenetic modulators and their effects for normal development and disease with an unbiased bottom-up approach.
+In this project I will try to gain insights into the contribution of epigenetic modulators and their effects during normal development and disease with an unbiased bottom-up approach.
 
 ---
 
