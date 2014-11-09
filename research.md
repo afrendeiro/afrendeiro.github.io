@@ -14,8 +14,11 @@ Here are projects I am currently working on or have worked in the past:
 
 # Current projects
 
+## Uncovering the contribution of epigenetics to development and disease
 
+In this project I will try to gain insights into the contribution of epigenetic modulators and their effects for normal development and disease with an unbiased bottom-up approach.
 
+===
 
 # Past projects
 
@@ -29,6 +32,10 @@ This project aims to study the mechanisms of transition between different cell c
 
 We performed ChIP-seq on two antagonist transcription factors (E2F1 and E2F7) involved in the control of cell cycle progression that have been shown to have differential patterns of regulation in mitotic and endocycling cell cycle modes. We set ourselves to perform an initial functional study of H3K79me in *Oikopleura* though Dot1 inhibition in developmental stages employing different cell cycle modes.
 
+![*Oikopleura dioica* employs various types of cell cycle during its life cycle][lifeCycle]
+
+![We're interested in the molecular mechanisms leading to the transition between cell cycle modes][cellCycle]
+
 ---
 
 ## Evolution of the eumetazoan regulatory landscape: epigenetics, chromatin modifications and regulatory elements in *Nematostella vectensis*
@@ -41,10 +48,16 @@ We found that the location of chromatin modifications relative to genes and dist
 
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
+![ChIP-seq of histone modifications in the cnidarian *Nematostella vectensis*][chipSeq] ![Chromatin segmentation allows discovery of cis-regulatory elements][hmmStates] ![Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes][enhancers]
+
 [See full publication here][1].
 
 [See also a poster about this project on Figshare][2].
 
-
+[lifeCycle]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/oikopleura_lifeCycle.png
+[cellCycle]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/oikopleura_change_cell-cycle.png
+[chipSeq]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_chipSeq.png
+[hmmStates]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_hmmStates.png
+[enhancers]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_enhancers.png
 [1]: http://genome.cshlp.org/content/24/4/639.full
 [2]: http://figshare.com/articles/Identification_of_gene_regulatory_elements_in_the_sea_anemone_Nematostella_vectensis/107026
