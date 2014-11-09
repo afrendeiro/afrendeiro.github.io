@@ -13,7 +13,7 @@ I'm a PhD fellow at the [Center for Molecular Medicine of the Austrian Academy o
 My research interests revolve around [epigenetics][3] in animal development and bioinformatics, but also on all kinds of gene regulation.
 
 ## CV
-[Download my CV in PDF format][4] (last updated 07/04/2014)
+[Download my CV in PDF format][4] (last updated 09/11/2014)
 
 
 [1]: http://www.cemm.oeaw.ac.at/
