@@ -19,4 +19,4 @@ My research interests revolve around [epigenetics][3] in animal development and 
 [1]: http://www.cemm.oeaw.ac.at/
 [2]: http://medical-epigenomics.org/
 [3]: http://en.wikipedia.org/wiki/Epigenetics
-[4]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/documents/cv.pdf
+[4]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/documents/cv.pdf

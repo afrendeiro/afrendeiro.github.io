@@ -54,10 +54,10 @@ Taken together our work showed that the genomic landscape of gene regulatory ele
 
 [See also a poster about this project on Figshare][2].
 
-[lifeCycle]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/oikopleura_lifeCycle.png
-[cellCycle]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/oikopleura_change_cell-cycle.png
-[chipSeq]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_chipSeq.png
-[hmmStates]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_hmmStates.png
-[enhancers]: https://github.com/afrendeiro/afrendeiro.github.io/blob/master/_data/figures/nematostella_enhancers.png
+[lifeCycle]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/oikopleura_lifeCycle.png
+[cellCycle]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/oikopleura_change_cell-cycle.png
+[chipSeq]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_chipSeq.png
+[hmmStates]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_hmmStates.png
+[enhancers]: https://raw.githubusercontent.com/afrendeiro/afrendeiro.github.io/master/_data/figures/nematostella_enhancers.png
 [1]: http://genome.cshlp.org/content/24/4/639.full
 [2]: http://figshare.com/articles/Identification_of_gene_regulatory_elements_in_the_sea_anemone_Nematostella_vectensis/107026
