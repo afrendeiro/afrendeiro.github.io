@@ -1,7 +1,7 @@
 <div class="col-xs-12 col-md-9 content">
 	
 	<div class="post-meta">
-			{{ page.date | date: "%D" }} 
+			{{ page.date | date: "%-d %b %Y" }} 
 
 			{% unless page.categories == empty %}
 				<ul class="tags list-inline list-unstyled">
@@ -13,7 +13,7 @@
 				 
 			{% unless page.tags == empty %}
 				<ul class="tags list-inline list-unstyled">
-					<li> - <b>Tags: </b></li>
+					<li> <b>Tags: </b></li>
 					{% assign tags_list = page.tags %}
 					{% include JB/tags_list %}
 				</ul>

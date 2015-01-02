@@ -28,12 +28,12 @@ Usage:
 			{% if group == null or group == post.group %}
 				{% if page.url == post.url %}
 				 	<li class="active">
-						{{ post.date | date: "%D" }}
+						{{ post.date | date: "%-d %b %Y" }}
 				 		<i><a href="{{ BASE_PATH }}{{post.url}}" class="active">{{post.title}}</a></i>
 				 	</li>
 				{% else %}
 					<li>
-						{{ post.date | date: "%D" }}
+						{{ post.date | date: "%-d %b %Y" }}
 						<i><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></i>
 					</li>
 				{% endif %}

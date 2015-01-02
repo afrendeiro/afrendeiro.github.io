@@ -33,7 +33,7 @@ Usage:
     {% endif %}
   
     <li>
-      {{ post.date | date: "%D" }}
+      {{ post.date | date: "%-d %b %Y" }}
       <i><a href="{{ BASE_PATH }}{{post.url}}">{{post.title}}</a></i>
     </li>
           
