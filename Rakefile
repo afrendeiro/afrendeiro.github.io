@@ -8,6 +8,7 @@ CONFIG = {
   'version' => "0.3.0",
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
+  'drafts' => File.join(SOURCE, "_drafts"),
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
@@ -22,6 +23,7 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
+      :drafts => "_drafts",
       :posts => "_posts"
     }
     
@@ -40,63 +42,110 @@ module JB
   end #Path
 end #JB
 
-# Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
-desc "Begin a new post in #{CONFIG['posts']}"
-task :post do
-  abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
-  title = ENV["title"] || "new-post"
-  tags = ENV["tags"] || "[]"
-  category = ENV["category"] || ""
-  category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-  begin
-    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-  rescue => e
-    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
-    exit -1
+
+### Drafts
+namespace :draft do
+  desc "Creating a new draft for post/entry"
+  task :new do
+    abort("rake aborted: '#{CONFIG['drafts']}' directory not found.") unless FileTest.directory?(CONFIG['drafts'])
+    title = ENV["title"] || "new-post"
+    tags = ENV["tags"] || "[]"
+    category = ENV["category"] || ""
+    category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+    slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+    filename = "_drafts/#{slug}.md"
+    if File.exist?(filename)
+        abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+    end
+
+    puts "Creating new draft: #{filename}"
+    open(filename, 'w') do |post|
+        post.puts "---"
+        post.puts "layout: post"
+        post.puts "title: \"#{title.gsub(/-/,' ')}\""
+        post.puts 'description: ""'
+        post.puts "category: #{category}"
+        post.puts "tags: #{tags}"
+        post.puts "---"
+        post.puts "{% include JB/setup %}"
+    end
   end
-  filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
-  if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+
+  desc "copy draft to production post!"
+  task :ready do
+    title = ENV["title"]
+    if ! File.exist?("_drafts/#{title}.md")
+        abort("_drafts/#{title}.md does not exist! Aborted.")
+    end
+    date = Time.now.strftime("%F")
+    File.rename("_drafts/#{title}.md", "_posts/#{title}.md")
+    File.rename("_posts/#{title}.md", "_posts/#{date}-#{title}.md")
+    puts "Post copied and ready to deploy!"
   end
-  
-  puts "Creating new post: #{filename}"
-  open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/-/,' ')}\""
-    post.puts 'description: ""'
-    post.puts "category: #{category}"
-    post.puts "tags: #{tags}"
-    post.puts "---"
-    post.puts "{% include JB/setup %}"
-  end
-end # task :post
+end
+
+### Posts
+namespace :post do
+    # Usage: rake post:new title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
+    desc "Begin a new post in #{CONFIG['posts']}"
+    task :new do
+      abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
+      title = ENV["title"] || "new-post"
+      tags = ENV["tags"] || "[]"
+      category = ENV["category"] || ""
+      category = "\"#{category.gsub(/-/,' ')}\"" if !category.empty?
+      slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+      begin
+        date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+      rescue => e
+        puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+        exit -1
+      end
+      filename = File.join(CONFIG['posts'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+      if File.exist?(filename)
+        abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+      end
+      
+      puts "Creating new post: #{filename}"
+      open(filename, 'w') do |post|
+        post.puts "---"
+        post.puts "layout: post"
+        post.puts "title: \"#{title.gsub(/-/,' ')}\""
+        post.puts 'description: ""'
+        post.puts "category: #{category}"
+        post.puts "tags: #{tags}"
+        post.puts "---"
+        post.puts "{% include JB/setup %}"
+      end
+    end # task :post
+end
 
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.
 # If you don't specify a file extention we create an index.html at the path specified
-desc "Create a new page."
-task :page do
-  name = ENV["name"] || "new-page.md"
-  filename = File.join(SOURCE, "#{name}")
-  filename = File.join(filename, "index.html") if File.extname(filename) == ""
-  title = File.basename(filename, File.extname(filename)).gsub(/[\W\_]/, " ").gsub(/\b\w/){$&.upcase}
-  if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-  end
-  
-  mkdir_p File.dirname(filename)
-  puts "Creating new page: #{filename}"
-  open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: page"
-    post.puts "title: \"#{title}\""
-    post.puts 'description: ""'
-    post.puts "---"
-    post.puts "{% include JB/setup %}"
-  end
-end # task :page
+namespace :page do
+    desc "Create a new page."
+    task :new do
+      name = ENV["name"] || "new-page.md"
+      filename = File.join(SOURCE, "#{name}")
+      filename = File.join(filename, "index.html") if File.extname(filename) == ""
+      title = File.basename(filename, File.extname(filename)).gsub(/[\W\_]/, " ").gsub(/\b\w/){$&.upcase}
+      if File.exist?(filename)
+        abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+      end
+      
+      mkdir_p File.dirname(filename)
+      puts "Creating new page: #{filename}"
+      open(filename, 'w') do |post|
+        post.puts "---"
+        post.puts "layout: page"
+        post.puts "title: \"#{title}\""
+        post.puts 'description: ""'
+        post.puts "---"
+        post.puts "{% include JB/setup %}"
+      end
+    end # task :page
+end
 
 desc "Launch preview environment"
 task :preview do
@@ -256,6 +305,7 @@ namespace :theme do
   end
   
 end # end namespace :theme
+
 
 # Internal: Download and process a theme from a git url.
 # Notice we don't know the name of the theme until we look it up in the manifest.

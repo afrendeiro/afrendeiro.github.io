@@ -14,13 +14,20 @@ git push origin master
 Edit the `_config.yaml` file with your information, social networks, licence, etc... and you're ready to go!
 
 ## Create pages and post
-    rake page name="about"
-    rake post title="notebook"
+    rake page:new name="about"
+    rake post:new title="notebook"
+or to make a draft and publish it only after:
+
+    rake draft:new title="new post"
+    rake draft:ready title="new post"
 
 ## Run locally
+    rake preview
+or
+
     jekyll serve
 
-see pages on `http://0.0.0.0:4000/`.
+served at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 
 ## Themes
 Go to `http://themes.jekyllbootstrap.com/`, choose a theme and install it:
