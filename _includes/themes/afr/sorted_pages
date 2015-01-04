@@ -1,7 +1,6 @@
-{% comment %}<!--
+{% comment %}
 Adds list of pages sorted alphabetically. Supports group filtering (e.g. navigation pages).
 Usefull for sorting pages in navbars.
--->
 {% endcomment %}
 
 {% for node in sorted_pages %}

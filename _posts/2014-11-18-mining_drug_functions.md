@@ -143,7 +143,7 @@ Further development could focus on the optimization of the data mining process, 
 
 #<a href="{{page.url}}#methods" name="methods">Methods</a>
 
-##<a name="database mining">Database mining</a>
+####<a name="database mining">Database mining</a>
 Sources for the annotation of chemical compounds were diverse databases with relevance to Chemical Biology or specialized on their use in a biological context. Matches to most databases were performed by a simplified molecular-input line-entry system (*SMILES*) - a one-line notation commonly used to describe the structure of a chemical compound. This system has the advantage of while still being human-readable, it provides an unequivocal description of a given chemical compound (one *SMILES* - one compound), but the reverse relationship can be redundant (one compound - many *SMILES*). This property makes database searches by *SMILES* suboptimal if the same compound is described with different *SMILES* in various entries.
 
 [ChemSpider](www.chemspider.com/), maintained by the Royal Society of Chemistry contains chemical structures of over 32 million compounds and provides text search with an API. Matches to database were performed based on *SMILES*. 
