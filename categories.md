@@ -3,6 +3,7 @@ layout: page
 title: Categories
 header: Posts By Category
 group: navigation
+weight: 4
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: page
 title : Archive
 header : Post Archive
 group: navigation
+weight: 3
 ---
 {% include JB/setup %}
 

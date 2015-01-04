@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mining CosmicDB"
-description: "asd"
+description: "Mining Cosmic database for commonly mutated genes in cancer"
 category: research
 tags: [data mining, python]
 ---

@@ -52,7 +52,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						{% assign group = 'navigation' %}
-						{% assign sorted_pages = site.pages | sort:"title" %}
+						{% assign sorted_pages = site.pages | sort:"weight" %}
 						{% include themes/afr/sorted_pages %}
 					</ul>
 					

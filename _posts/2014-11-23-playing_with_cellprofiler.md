@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Playing with CellProfiler"
-description: "Analysis of image-based single-cell chemical screens"
+description: "Analysis of image-based single-cell chemical screens with cellprofiller"
 category: research
 tags: [cellprofiler, chemical screens, python]
 submenu:

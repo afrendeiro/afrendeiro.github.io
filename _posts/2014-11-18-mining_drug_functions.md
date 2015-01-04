@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mining drug functions into an ontology"
-description: ""
+description: "Mining drug functions into an ontology, testing for enrichment of terms"
 category: research
 tags: [chemical biology, chemical screening, data mining, python]
 submenu:

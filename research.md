@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 description: ""
 group: navigation
-weight: 1
+weight: 2
 ---
 {% include JB/setup %}
 
