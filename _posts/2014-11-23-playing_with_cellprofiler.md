@@ -45,7 +45,7 @@ A combination of increasing demand for new drugs and advances in automation have
 In this small rotation project, I optimized the usage of existing computational tools for the analysis of image-based chemical screens at the single-cell level.
 
 ##<a href="{{page.url}}#background" name="background">Background</a>
-While there is increasing need for the discovery of new drugs, the number of new approved drugs per decade is in a fast decline. In response to this, high-throughput screening of chemical compounds is a tool that is increasingly more used and in high demand due to its ability to investigate hundreds of thousands of compounds in a relatively short time.
+While there is increasing need for the discovery of new drugs, the number of new approved drugs per decade is in fast decline. In response to this, high-throughput screening of chemical compounds is a tool that is increasingly more used and in high demand due to its ability to investigate hundreds of thousands of compounds in a relatively short time.
     
 Image-based screens are able to measure hundreds of cellular and sub-cellular features quantitatively and are therefore extremely powerful. Although generally slower than other screening methods, the amount and variety of data acquired in high-throughput image-based screening is unsurpassed. It's ability to have single-cell measurements is a quality which only very recently is starting to be acquired in other fields of molecular biology, and thus makes it by excellence a data-rich method.
 
@@ -54,7 +54,7 @@ Of particular interest is the ability of these screens to probe into the cell-to
 <p align="center"><small> I know citations are due here, I'm looking into https://github.com/inukshuk/jekyll-scholar to do that in the best way.</small></p>
 
 ##<a href="{{page.url}}#results" name="results">Results</a>
-To obtain objects from the images captured in the screen, object detection using the Cell Profiler was performed. This was performed by manually adjusting detection parameters (see Methods section). Based on previously identified objects from the raw signal (Figure 1A-D), other cellular features can be inferred (Figure 1E) and several metrics dependent on the detected objects can be computed (Figure 1F).
+To obtain objects from the images captured in the screen, object detection using Cell Profiler was performed. This was performed by manually adjusting detection parameters (see Methods section). Based on previously identified objects from the raw signal (Figure 1A-D), other cellular features can be inferred (Figure 1E) and several metrics dependent on the detected objects can be computed (Figure 1F).
 
 <div class="centerImages">
     <img src={{ site.url }}"/data/figures/cellProfiler.png"

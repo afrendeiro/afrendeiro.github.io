@@ -26,6 +26,8 @@ submenu:
 </ul>
 {% endif %}
 
+<br>
+
 In this short rotation, I mined several databases for known biological functions of chemical compounds and built an ontology which can be used to test enrichment of functional classes in interesting compounds discovered by chemical screening.
 
 #<a href="{{page.url}}#background" name="background">Background</a>
