@@ -7,5 +7,5 @@ group:
 {% include JB/setup %}
 
 <h3>Posts by date:</h3>
-{% assign diary_collate = site.posts %}
+{% assign labnotebook_collate = site.posts %}
 {% include JB/labnotebook_collate %}
