@@ -1,22 +1,11 @@
 ---
 layout: page
 title: "Research"
-description: ""
+description: "Current and past research projects and interests"
 group: navigation
 weight: 2
 ---
 {% include JB/setup %}
-
-<style>
-.centerImages {
-	line-height:200px;
-	text-align:center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-	vertical-align:middle;
-}
-</style>
 
 I am generally interested in epigenetics in animal development and bioinformatics.
 
@@ -26,7 +15,7 @@ Here are projects I am currently working on or have worked in the past:
 
 ## Uncovering the contribution of epigenetics to development and disease
 
-In this project I will try to gain insights into the contribution of epigenetic modulators and their effects during normal development and disease with an unbiased bottom-up approach.
+In this project I will try to gain insights into the contribution of epigenetic effectors in normal development and disease with a more unbiased approach.
 
 ---
 
@@ -42,12 +31,18 @@ This project aims to study the mechanisms of transition between different cell c
 
 We performed ChIP-seq on two antagonist transcription factors (E2F1 and E2F7) involved in the control of cell cycle progression that have been shown to have differential patterns of regulation in mitotic and endocycling cell cycle modes. We set ourselves to perform an initial functional study of H3K79me in *Oikopleura* though Dot1 inhibition in developmental stages employing different cell cycle modes.
 
-<div class="centerImages">
+{% comment %}
+	Html divs inside markdown documents cannot have markdown inside them again, so I write the images in html as well.
+	Ideally, I'd create a html div with a class with text:center, etc...
+	and inside just add images in markdown syntax [alt](url "hover").
+{% endcomment %}
+
+<div class="center">
 	<img src={{ site.url }}"/data/figures/oikopleura_lifeCycle.png"
-		 alt="<i>Oikopleura dioica</i> employs various types of cell cycle during its life cycle" align="middle" style="height: 200px;"/>
+		 alt="<i>Oikopleura dioica</i> employs various types of cell cycle during its life cycle" style="height: 200px;"/>
 
 	<img src={{ site.url }}"/data/figures/oikopleura_change_cell-cycle.png"
-		 alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" align="middle" style="height: 150px;"/>
+		 alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" style="height: 150px;"/>
 </div>
 <p style="clear: both;"> </p>
 
@@ -63,7 +58,7 @@ We found that the location of chromatin modifications relative to genes and dist
 
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
-<div class="centerImages">
+<div class="center">
 	<img src={{ site.url }}"/data/figures/nematostella_chipSeq.png"
 		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle" style="height: 350px;"/>
 

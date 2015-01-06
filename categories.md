@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Categories
+description: "Post category archiver"
 header: Posts By Category
 group: navigation
 weight: 4
@@ -15,7 +16,7 @@ weight: 4
 
 <h3>Posts per category:</h3>
 {% for category in site.categories %}
-{% if category[0] != "diary" %}
+{% if category[0] != "labnotebook" %}
 <h4 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h4>
 <ul>
 {% assign pages_list = category[1] %}

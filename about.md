@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: ""
+description: "Biography, interests and curriculum vitae of André Rendeiro"
 group: navigation
 weight: 1
 ---

@@ -1,0 +1,37 @@
+{% comment %}
+This gets previous and next posts which are only of a category to admit 
+(passed as the "admit" variable) and returns pagers.
+{% endcomment %}
+{% for i in (1..100) %}
+	{% if i == 1 %}
+		{% assign prev = page.previous %}
+	{% else %}
+		{% assign prev = prev.previous %}
+	{% endif %}
+	{% if prev %}
+		{% if prev.category == admit %}
+			<li class="previous"><a href="{{ BASE_PATH }}{{ prev.url }}" title="{{ prev.title }}">&larr; Previous</a></li>
+			{% break %}
+		{% endif %}
+	{% else %}
+		<li class="previous disabled"><a>&larr; Previous</a></li>
+		{% break %}
+	{% endif %}
+{% endfor %}
+<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+{% for i in (1..100) %}
+	{% if i == 1 %}
+		{% assign nex = page.next %}
+	{% else %}
+		{% assign nex = nex.next %}
+	{% endif %}
+	{% if nex %}
+		{% if nex.category == admit %}
+			<li class="next"><a href="{{ BASE_PATH }}{{ nex.url }}" title="{{ nex.title }}">&rarr; Next</a></li>
+			{% break %}
+		{% endif %}
+	{% else %}
+		<li class="next disabled"><a>&rarr; Next</a></li>
+		{% break %}
+	{% endif %}
+{% endfor %}

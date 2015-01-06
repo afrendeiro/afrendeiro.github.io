@@ -1,6 +1,7 @@
 ---
 layout: page
 title : Archive
+description: "Post archive"
 header : Post Archive
 group: navigation
 weight: 3
@@ -13,4 +14,4 @@ weight: 3
 
 <br>
 
-<p align="right"><a href={{site.url}}"/diary.html">Diary entries</a></p>
+<p align="right"><a href={{site.url}}"/labnotebook.html">Labnotebook entries</a></p>

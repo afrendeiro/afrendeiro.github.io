@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tags
+description: "Post tags archive"
 header: Posts By Tag
 group: navigation
 weight: 5
@@ -15,7 +16,6 @@ weight: 5
 
 <h3>Posts per tag:</h3>
 {% for tag in site.tags %} 
-{% if tag[0] != "diary" %}
 <h4 id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
 <ul>
 {% assign pages_list = tag[1] %}  
@@ -30,5 +30,4 @@ weight: 5
 {% endif %}
 {% endfor %}
 </ul>
-{% endif %}
 {% endfor %}

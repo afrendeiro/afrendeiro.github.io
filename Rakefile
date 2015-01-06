@@ -10,6 +10,7 @@ CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'drafts' => File.join(SOURCE, "_drafts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'labnotebook' => File.join(SOURCE, "_posts/labnotebook"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -24,7 +25,8 @@ module JB
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
       :drafts => "_drafts",
-      :posts => "_posts"
+      :posts => "_posts",
+      :labnotebook => "_posts/labnotebook"
     }
     
     def self.base
@@ -119,6 +121,40 @@ namespace :post do
       end
     end # task :post
 end
+
+
+### Lab notebook entries
+namespace :entry do
+    # Usage: rake entry:new title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
+    desc "Begin a new entry in #{CONFIG['labnotebook']}"
+    task :new do
+      abort("rake aborted: '#{CONFIG['labnotebook']}' directory not found.") unless FileTest.directory?(CONFIG['labnotebook'])
+      title = ENV["title"] || "new-entry"
+      category = "labnotebook"
+      slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+      begin
+        date = (Time.now).strftime('%Y-%m-%d')
+      rescue => e
+        puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+        exit -1
+      end
+      filename = File.join(CONFIG['labnotebook'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+      if File.exist?(filename)
+        abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+      end
+      
+      puts "Creating new entry: #{filename}"
+      open(filename, 'w') do |entry|
+        entry.puts "---"
+        entry.puts "layout: labnotebook"
+        entry.puts "title: \"#{title.gsub(/-/,' ')}\""
+        entry.puts "category: #{category}"
+        entry.puts "---"
+        entry.puts "{% include JB/setup %}"
+      end
+    end # task :entry
+end
+
 
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.

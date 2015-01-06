@@ -26,8 +26,8 @@
 
 	<div class="text-center">
 		<ul class="pager">
-			{% assign exclude = "diary" %}
-			{% include themes/afr/posts_pager %}
+			{% assign admit = "diary" %}
+			{% include themes/afr/labnotebook_pager %}
 		</ul>
 	</div>
 	<div class="row">
@@ -38,20 +38,18 @@
 <!-- Sidebar -->
 <div class="col-xs-12 col-md-3 sidebar">
 	<h4> Latest posts: </h4>
-	<ul class="posts">
+	<ul class="posts">  
 		{% for post in site.posts limit:5 %}
-			{% if post.category != "diary" %}
-			   <li>  
-				   <span>{{ post.date | date: "%D" }}</span> - 
-				   <a href="{{ BASE_PATH }}{{ post.url }}">  
-				   {{ post.title }}</a>  
-			   </li>  
-			{% endif %}
+		   <li>  
+			   <span>{{ post.date | date: "%D" }}</span> - 
+			   <a href="{{ BASE_PATH }}{{ post.url }}">  
+			   {{ post.title }}</a>  
+		   </li>  
 		{% endfor %}
 	</ul>
 
 	<h4> All categories: </h4>
-	<ul class="tags list-inline list-unstyled">  
+	<ul class="tags list-inline list-unstyled">
 		{% assign categories_list = site.categories %}
 		{% include JB/categories_list %}
 	</ul>

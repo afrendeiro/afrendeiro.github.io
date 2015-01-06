@@ -26,7 +26,7 @@ Usage:
 {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-{% if post.category == "diary" %}
+{% if post.category == "labnotebook" %}
 {% if forloop.first %}
 <h3>{{next_year}}</h3>
 <h4>{{next_month}}</h4>
