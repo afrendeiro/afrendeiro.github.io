@@ -19,7 +19,7 @@ Now the task going to be called is written in a separate script that is called b
 
 The basic usage would be something like this:
 
-```python
+{% highlight python %}
 slurm = DivideAndSlurm() 							# create instance of object
 regions = [promoters, genes]						# data is iterable with iterables - each is a separate task with multiple regions
 											
@@ -29,7 +29,8 @@ for region in regions:								# Add several tasks:
 
 slurm.is_ready(taskNumber)							# check if task is done
 output = slurm.collect_distances(taskNumber)		# collect output
-```
+{% endhighlight %}
+
 This would submit 20 jobs per task, which would each take further advantage of parallel processing.
 
 The essential code for the class is here:
