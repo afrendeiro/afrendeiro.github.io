@@ -2,7 +2,7 @@
 layout: post
 title: "MapReduce-like operations across jobs in cluster"
 description: ""
-category: programming
+category: research
 tags: [programming, python, slurm, cluster]
 ---
 {% include JB/setup %}
