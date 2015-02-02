@@ -34,7 +34,7 @@ This would submit 20 jobs per task, which would each take further advantage of p
 
 The essential code for the class is here:
 
-```python
+{% highlight python %}
 import os
 import time
 import subprocess
@@ -183,11 +183,12 @@ class DivideAndSlurm(object):
                 self._rm_temps(taskNumber)                   # delete tmp files
                 return self.tasks[taskNumber]["output"]
  
- ```
+{% endhighlight %}
 
 In a second level of parallelization, a regular map-reduce operation is also employed. Here I request the help of the `parmap` module (a wrapper to `multiprocessing`), since `multiprocessing.map()` does not allow several arguments passed to the function:
 
-```python
+{% highlight python %}
+
 import multiprocessing
 import parmap
 from collections import Counter
@@ -204,7 +205,9 @@ output = reduce(
         parmap.map(task, features, bamFile
         )
     )
-```
+
+{% endhighlight %}
+
 Also, `collections.Counter` objects are really usefull and one can reduce them by summation.
 
 # Complete example:
