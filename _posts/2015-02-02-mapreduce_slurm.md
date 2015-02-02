@@ -7,7 +7,6 @@ tags: [programming, python, slurm, cluster]
 ---
 {% include JB/setup %}
 
-
 MapReduce operations allow parallelization of tasks taking advantage of aditional available cpus. However, one might want to use processors across several nodes in a computing cluster and while several options exist to perform this (with very different aims and scallability options), I didn't feel like there was an option which would allow doing this interactively (for example during a `IPython` session) in a Slurm cluster and without requiring diving into lots of documentation. So obviously, here's my custom solution.
 
 The strategy I followed splits input in pools which are submitted in parallel through jobs to the cluster, each one of them is further processed in parallel using the `multiprocessing` library. This is a middle term between mapping all inputs to different jobs (clogging the cluster) and using only the CPUs available in one machine/node, by controlling the number of jobs that are submitted to the cluster and the size of each pool submitted. This approach was inspired by conversations with Michael Schuster and Nathan Sheffield in my lab.
@@ -20,15 +19,15 @@ Now the task going to be called is written in a separate script that is called b
 The basic usage would be something like this:
 
 {% highlight python %}
-slurm = DivideAndSlurm() 							# create instance of object
-regions = [promoters, genes]						# data is iterable with iterables - each is a separate task with multiple regions
+slurm = DivideAndSlurm() 			# create instance of object
+regions = [promoters, genes]		# data is iterable with iterables - each is a separate task with multiple regions
 											
-for region in regions:								# Add several tasks:
-    taskNumber = slurm.task(region, 20, bamFile) 	# Add new task - syntax: data, fractions, *aditional arguments
-    slurm.submit(taskNumber)     					# Submit new task
+for region in regions:				# Add several tasks:
+	taskNumber = slurm.task(region, 20, bamFile) 	# Add new task - syntax: data, fractions, *aditional arguments
+	slurm.submit(taskNumber)		# Submit new task
 
-slurm.is_ready(taskNumber)							# check if task is done
-output = slurm.collect_distances(taskNumber)		# collect output
+slurm.is_ready(taskNumber)			# check if task is done
+output = slurm.collect_distances(taskNumber)	# collect output
 {% endhighlight %}
 
 This would submit 20 jobs per task, which would each take further advantage of parallel processing.
@@ -42,147 +41,127 @@ import subprocess
 import cPickle as pickle
 
 class DivideAndSlurm(object):
-    """DivideAndSlurm is a class to handle a map-reduce style submission of jobs to a Slurm cluster."""
-    def __init__(self, tmpDir="", logDir="", queue="", userMail=""):
-        super(DivideAndSlurm, self).__init__()
-        self.tasks = dict()
-        self.name = time.strftime("%Y%m%d%H%M%S", time.localtime())
-        self.tmpDir = os.path.abspath(tmpDir)
-        self.logDir = os.path.abspath(logDir)
-        self.queue = queue
-        self.userMail = userMail
+	"""DivideAndSlurm is a class to handle a map-reduce style submission of jobs to a Slurm cluster."""
+	def __init__(self):
+		self.tasks = dict()
  
-    def _slurmHeader(self):
-        command = """            #!/bin/bash
-            # Start running the job
-            hostname
-            date
+	def _slurmHeader(self):
+		command = """			#!/bin/bash
+			# Start running the job
+			hostname
+			date
 
-        """ 
-        return command
+		""" 
+		return command
  
-    def _slurmFooter(self):
-        command = """
-            date # Job end
-        """
-         return command
+	def _slurmFooter(self):
+		command = """
+			date # Job end
+		"""
+		 return command
  
-    def _slurmSubmitJob(self, jobFile):
-        """
-        Submit command to shell.
-        """
-        command = "sbatch %s" % jobFile
-        p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-        return p.communicate()
+	def _slurmSubmitJob(self, jobFile):
+		"""Submit command to shell."""
+		command = "sbatch %s" % jobFile
+		p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+		return p.communicate()
  
-    def _split_data(self, taskName, data, fractions):
-        """
-        Split data in fractions and create pickle objects with them.
-        """
-        chunkify = lambda lst,n: [lst[i::n] for i in xrange(n)]
+	def _split_data(self, taskName, data, fractions):
+		"""Split data in fractions and create pickle objects with them."""
+		chunkify = lambda lst,n: [lst[i::n] for i in xrange(n)]
  
-        groups = chunkify(data, fractions)
-        ids = [taskName + "_" + str(i) for i in xrange(len(groups))]
-        files = [os.path.join(self.tmpDir, ID) for ID in ids]
-        
-        # keep track of groups in self
-        groups = zip(ids, groups, files)
+		groups = chunkify(data, fractions)
+		ids = [taskName + "_" + str(i) for i in xrange(len(groups))]
+		files = [os.path.join(self.tmpDir, ID) for ID in ids]
+		
+		groups = zip(ids, groups, files)				# keep track of groups in self
  
-        # serialize groups
-        for i in xrange(len(groups)):
-            pickle.dump(groups[i][1],                  # actual group of objects
-                open(groups[i][2] + ".pickle", 'wb'),  # group pickle file
-                protocol=pickle.HIGHEST_PROTOCOL
-            )
-        return groups
+		# serialize groups
+		for i in xrange(len(groups)):
+			pickle.dump(groups[i][1],					# actual group of objects
+				open(groups[i][2] + ".pickle", 'wb'),	# group pickle file
+				protocol=pickle.HIGHEST_PROTOCOL
+			)
+		return groups
  
-    def task(self, data, fractions, bam_file, strand_wise=True, fragment_size=1):
-        """
-        Add task to be performed with data.
-        """
-        now = string.join([time.strftime("%Y%m%d%H%M%S", time.localtime()) str(random.randint(1,1000))], sep="_")
-        taskName = "task_name_{0}".format(now)
-        log = taskName + ".log"
+	def task(self, data, fractions, bam_file, strand_wise=True, fragment_size=1):
+		"""Add task to be performed with data."""
+		now = string.join([time.strftime("%Y%m%d%H%M%S", time.localtime()) str(random.randint(1,1000))], sep="_")
+		taskName = "task_name_{0}".format(now)
+		log = taskName + ".log"
  
-        # check data is iterable
-        if type(data) == dict or type(data) == OrderedDict:
-            data = data.items()
+		# check data is iterable
+		if type(data) == dict or type(data) == OrderedDict:
+			data = data.items()
  
-        # split data in fractions
-        groups = self._split_data(taskName, data, fractions)
+		# split data in fractions
+		groups = self._split_data(taskName, data, fractions)
  
-        # make jobs with groups of data
-        jobs = list()
-        jobFiles = list()
+		# make jobs with groups of data
+		jobs = list()
+		jobFiles = list()
  
-        for i in xrange(len(groups)):
-            jobFile = groups[i][2] + "_task_name.sh"
-            input_pickle = groups[i][2] + ".pickle"
-            output_pickle = groups[i][2] + ".output.pickle"
+		for i in xrange(len(groups)):
+			jobFile = groups[i][2] + "_task_name.sh"
+			input_pickle = groups[i][2] + ".pickle"
+			output_pickle = groups[i][2] + ".output.pickle"
  
-            # assemble command for job
-            task = "    python perform_task_parallel.py {0} {1} {2} ".format(input_pickle, output_pickle, bam_file)
+			# assemble command for job
+			task = "    python perform_task_parallel.py {0} {1} {2} ".format(input_pickle, output_pickle, bam_file)
  
-            if strand_wise:
-                task += "--strand-wise "
-            task += "--fragment-size {0}".format(fragment_size)
+			if strand_wise:
+				task += "--strand-wise "
+			task += "--fragment-size {0}".format(fragment_size)
  
-            # assemble job file
-            job = self._slurmHeader(groups[i][0], log, queue=self.queue, userMail=self.userMail) + task + self._slurmFooter()
+			# assemble job file
+			job = self._slurmHeader(groups[i][0], log, queue=self.queue, userMail=self.userMail) + task + self._slurmFooter()
  
-            # keep track of jobs and their files
-            jobs.append(job)
-            jobFiles.append(jobFile)
+			# keep track of jobs and their files
+			jobs.append(job)
+			jobFiles.append(jobFile)
  
-            # write job file to disk
-            with open(jobFile, 'w') as handle:
-                handle.write(textwrap.dedent(job))
+			# write job file to disk
+			with open(jobFile, 'w') as handle:
+				handle.write(textwrap.dedent(job))
  
-        # save task in object
-        taskNumber = len(self.tasks)
-        self.tasks[taskNumber] = {  # don't keep track of data
-            "name" : taskName,
-            "groups" : groups,
-            "jobs" : jobs,
-            "jobFiles" : jobFiles,
-            "log" : log
-        }
-        # return taskNumber so that it can be used later
-        return taskNumber
+		# save task in object
+		taskNumber = len(self.tasks)
+		self.tasks[taskNumber] = {  # don't keep track of data
+			"name" : taskName,
+			"groups" : groups,
+			"jobs" : jobs,
+			"jobFiles" : jobFiles,
+			"log" : log
+		}
+		# return taskNumber so that it can be used later
+		return taskNumber
  
-    def submit(self, taskNumber):
-        """
-        Submit slurm jobs with each fraction of data.
-        """
-        if taskNumber not in self.tasks:
-            raise KeyError("Task number not in object's tasks.")
-        jobIDs = list()
-        for i in xrange(len(self.tasks[taskNumber]["jobs"])):
-            output, err = self._slurmSubmitJob(self.tasks[taskNumber]["jobFiles"][i])
-            jobIDs.append(re.sub("\D", "", output))
-        self.tasks[taskNumber]["submission_time"] = time.time()
-        self.tasks[taskNumber]["jobIDs"] = jobIDs
+	def submit(self, taskNumber):
+		"""Submit slurm jobs with each fraction of data."""
+		jobIDs = list()
+		for i in xrange(len(self.tasks[taskNumber]["jobs"])):
+			output, err = self._slurmSubmitJob(self.tasks[taskNumber]["jobFiles"][i])
+			jobIDs.append(re.sub("\D", "", output))
+		self.tasks[taskNumber]["submission_time"] = time.time()
+		self.tasks[taskNumber]["jobIDs"] = jobIDs
 
-    def collect_output(self, taskNumber):
-        """
-        If self.is_ready(taskNumber), return joined data.
-        """
-        if taskNumber not in self.tasks:
-            raise KeyError("Task number not in object's tasks.")
+	def collect_output(self, taskNumber):
+		"""If self.is_ready(taskNumber), return joined data."""
+		if taskNumber not in self.tasks:
+			raise KeyError("Task number not in object's tasks.")
  
-        if "output" in self.tasks[taskNumber]:                  # if output is already stored, just return it
-            return self.tasks[taskNumber]["output"]
+		if "output" in self.tasks[taskNumber]: # if output is already stored, just return it
+			return self.tasks[taskNumber]["output"]
  
-        # load all pickles into list
-        groups = self.tasks[taskNumber]["groups"]
-        outputs = [pickle.load(open(groups[i][2] + ".output.pickle", 'r')) for i in xrange(len(groups))]
-        # if all are counters, and their elements are counters, sum them
-        if all([type(outputs[i]) == Counter for i in range(len(outputs))]):
-            output = reduce(lambda x, y: x + y, outputs) # reduce
-            if type(output) == Counter:
-                self.tasks[taskNumber]["output"] = output    # store output in object
-                self._rm_temps(taskNumber)                   # delete tmp files
-                return self.tasks[taskNumber]["output"]
+		# load all pickles into list
+		groups = self.tasks[taskNumber]["groups"]
+		outputs = [pickle.load(open(groups[i][2] + ".output.pickle", 'r')) for i in xrange(len(groups))]
+		# if all are counters, and their elements are counters, sum them
+		if all([type(outputs[i]) == Counter for i in range(len(outputs))]):
+			output = reduce(lambda x, y: x + y, outputs) # reduce
+			if type(output) == Counter:
+				self.tasks[taskNumber]["output"] = output    # store output in object
+				return self.tasks[taskNumber]["output"]
  
 {% endhighlight %}
 
@@ -195,17 +174,15 @@ import parmap
 from collections import Counter
 
 def task(singleFeature, bamFile):
-    """
-    Computes something with reads present in a single, specific interval. Returns Counter.
-    """
-    # ...
-    return Counter
+	"""Computes something with reads present in a single, specific interval.Returns Counter."""
+	# ...
+	return Counter
 
 output = reduce(
-        lambda x, y: x + y,
-        parmap.map(task, features, bamFile
-        )
-    )
+		lambda x, y: x + y,
+		parmap.map(task, features, bamFile
+		)
+	)
 
 {% endhighlight %}
 
