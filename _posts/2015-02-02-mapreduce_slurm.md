@@ -19,15 +19,15 @@ Now the task going to be called is written in a separate script that is called b
 The basic usage would be something like this:
 
 {% highlight python %}
-slurm = DivideAndSlurm() 			# create instance of object
-regions = [promoters, genes]		# data is iterable with iterables - each is a separate task with multiple regions
+slurm = DivideAndSlurm() # create instance of object
+regions = [promoters, genes] # data is iterable with iterables - each is a separate task with multiple regions
 											
-for region in regions:				# Add several tasks:
-	taskNumber = slurm.task(region, 20, bamFile) 	# Add new task - syntax: data, fractions, *aditional arguments
-	slurm.submit(taskNumber)		# Submit new task
+for region in regions: # Add several tasks:
+	taskNumber = slurm.task(region, 20, bamFile) # Add new task - syntax: data, fractions, *aditional arguments
+	slurm.submit(taskNumber) # Submit new task
 
-slurm.is_ready(taskNumber)			# check if task is done
-output = slurm.collect_distances(taskNumber)	# collect output
+slurm.is_ready(taskNumber) # check if task is done
+output = slurm.collect_distances(taskNumber) # collect output
 {% endhighlight %}
 
 This would submit 20 jobs per task, which would each take further advantage of parallel processing.
@@ -41,7 +41,7 @@ import subprocess
 import cPickle as pickle
 
 class DivideAndSlurm(object):
-	"""DivideAndSlurm is a class to handle a map-reduce style submission of jobs to a Slurm cluster."""
+	"""Class to handle a map-reduce style submission of jobs to a Slurm cluster."""
 	def __init__(self):
 		self.tasks = dict()
  
@@ -74,11 +74,11 @@ class DivideAndSlurm(object):
 		ids = [taskName + "_" + str(i) for i in xrange(len(groups))]
 		files = [os.path.join(self.tmpDir, ID) for ID in ids]
 		
-		groups = zip(ids, groups, files)				# keep track of groups in self
+		groups = zip(ids, groups, files) # keep track of groups in self
  
 		# serialize groups
 		for i in xrange(len(groups)):
-			pickle.dump(groups[i][1],					# actual group of objects
+			pickle.dump(groups[i][1],	# actual group of objects
 				open(groups[i][2] + ".pickle", 'wb'),	# group pickle file
 				protocol=pickle.HIGHEST_PROTOCOL
 			)
@@ -160,7 +160,7 @@ class DivideAndSlurm(object):
 		if all([type(outputs[i]) == Counter for i in range(len(outputs))]):
 			output = reduce(lambda x, y: x + y, outputs) # reduce
 			if type(output) == Counter:
-				self.tasks[taskNumber]["output"] = output    # store output in object
+				self.tasks[taskNumber]["output"] = output	# store output in object
 				return self.tasks[taskNumber]["output"]
  
 {% endhighlight %}
@@ -174,7 +174,8 @@ import parmap
 from collections import Counter
 
 def task(singleFeature, bamFile):
-	"""Computes something with reads present in a single, specific interval.Returns Counter."""
+	"""Computes something with reads present in a single, specific interval.
+	Returns Counter."""
 	# ...
 	return Counter
 
@@ -193,4 +194,4 @@ I illustrate the complete implementation of the Class with an example which take
 
 I add more functions to the main Object to perform tasks such as removal of temporary files (pickles, sh file, logs...) and to check if job is finished and output is of the right form.
 
-{% gist b5e97b429ff7363f5574 %}
+{% gist b5e97b429ff7363f5574 %}.

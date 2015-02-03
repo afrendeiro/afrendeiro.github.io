@@ -4,6 +4,8 @@ A Jekyll powered notebook for open science. Uses [Jekyll Bootstrap](http://jekyl
 
 ## Install
 ```bash
+sudo gem install jekyll # install jekyll (requires ruby)
+
 USERNAME=afrendeiro # replace with your username
 git clone https://github.com/plusjade/jekyll-bootstrap.git $USERNAME.github.io
 cd $USERNAME.github.io
