@@ -7,7 +7,7 @@ tags: [programming, python, slurm, cluster]
 ---
 {% include JB/setup %}
 
-In [my previous post](2015-02-02-mapreduce_slurm.md) concerning interactive (*e.g.* during a `IPython` session) parallelization of tasks with a MapReduce-like aproach across nodes in a cluster, I created an object which interfaces Slurm and the interactive session I'm working on, by splitting an input in pools and submitting each pool as a job that would be further processed in parallel.
+In [my previous post](http://andre-rendeiro.me/2015/01/31/mapreduce_slurm/) concerning interactive (*e.g.* during a `IPython` session) parallelization of tasks with a MapReduce-like aproach across nodes in a cluster, I created an object which interfaces Slurm and the interactive session I'm working on, by splitting an input in pools and submitting each pool as a job that would be further processed in parallel.
 
 Since the class was performing two distinct functions (handling jobs, splitting input in a task-dependent manner), I split it into two classes: `DivideAndSlurm` - which takes care of job processing; `Task` which is a meta-class for different tasks which can be parallelized this way.
 
