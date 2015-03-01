@@ -23,6 +23,8 @@ My research interests revolve around <a href="http://en.wikipedia.org/wiki/Epige
         <dd><a property="http://purl.org/spar/datacite/orcid" href="https://orcid.org/0000-0001-9362-5373" onclick="recordOutboundLink(this, 'Link', '| + input + |'); return false;">0000-0001-9362-5373</a></dd>
         <dt>Google Scholar:</dt>
         <dd><a href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">André Figueiredo Rendeiro</a></dd>
+        <dt>Public Key:</dt>
+        <dd><a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a></dd>
     </dl>
 </div>
 </div>
