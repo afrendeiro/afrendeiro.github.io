@@ -33,7 +33,7 @@ My research interests revolve around <a href="http://en.wikipedia.org/wiki/Epige
 <div prefix="datacite: http://purl.org/spar/datacite/">
 	<ol reversed="">
 		<li>
-			<p>Michaela Schwaiger, Anna Schönauer, <strong>André F Rendeiro</strong>, Carina Pribitzer, Alexandra Schauer, Anna F Gilles, Johannes B Schinko, Eduard Renfer, David Fredman, Ulrich Technau. (2014) Evolutionary conservation of the eumetazoan gene regulatory landscape. Genome research 24(4), 639-650. <a rel="datacite:doi" href="http://dx.doi.org/10.1101/gr.162529.113" onclick="recordOutboundLink(this, 'DOI', '10.1101/gr.162529.113'); return false;">doi:10.1101/gr.162529.113</a> <span data-badge-type="2" data-doi="10.1101/gr.162529.113" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+			<p>Michaela Schwaiger, Anna Schönauer, <strong>André F Rendeiro</strong>, Carina Pribitzer, Alexandra Schauer, Anna F Gilles, Johannes B Schinko, Eduard Renfer, David Fredman, Ulrich Technau. (2014) Evolutionary conservation of the eumetazoan gene regulatory landscape. Genome research 24(4), 639-650. <a rel="datacite:doi" href="http://dx.doi.org/10.1101/gr.162529.113" onclick="recordOutboundLink(this, 'DOI', '10.1101/gr.162529.113'); return false;">doi:10.1101/gr.162529.113</a> <a href="http://genome.cshlp.org/content/24/4/639.full.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a> <span data-badge-type="2" data-doi="10.1101/gr.162529.113" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
 		</li>
 	</ol>
 </div>
