@@ -34,6 +34,9 @@ licence: by
 #
 production_url : http://afrendeiro.github.io
 
+# After production, specify here the github repo's url to have e.g. pages linking to its source
+repository_url : https://github.com/afrendeiro/afrendeiro.github.io
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :

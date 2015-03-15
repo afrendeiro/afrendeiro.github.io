@@ -1,16 +1,23 @@
 <div class="col-xs-12 col-md-9 content">
-	
-	<div class="post-meta">
-			{{ page.date | date: "%-d %b %Y" }} 
 
+	<div class="post-meta">
+		<ul class="list-inline">
+			<li>{{ page.date | date: "%-d %b %Y" }}</li>
+			<li>
+				<button type="button" class="btn btn-default btn-xs glyphicon glyphicon-time">
+					<a href="{{ site.repository_url }}/commits/master/{{ page.path }}"> Versions</a>
+				</button>
+			</li>
+			<li>
 			{% unless page.categories == empty %}
 				<ul class="tags list-inline list-unstyled">
 					<li> - <b>Categories:</b> </li>
 					{% assign categories_list = page.categories %}
 					{% include JB/categories_list %}
-				</ul>	
+				</ul>
 			{% endunless %}
-				 
+			</li>
+			<li>
 			{% unless page.tags == empty %}
 				<ul class="tags list-inline list-unstyled">
 					<li> <b>Tags: </b></li>
@@ -18,6 +25,8 @@
 					{% include JB/tags_list %}
 				</ul>
 			{% endunless %}
+			</li>
+		</ul>
 	</div>
 
 	<div>
@@ -37,21 +46,27 @@
 
 <!-- Sidebar -->
 <div class="col-xs-12 col-md-3 sidebar">
+	<div>
+		<a href="{{ site.repository_url }}/blob/master/{{ page.path }}"> View post's source
+			<button type="button" class="btn btn-default btn-xs glyphicon glyphicon-pencil"></button>
+		</a>
+	</div>
+
 	<h4> Latest posts: </h4>
 	<ul class="posts">
 		{% for post in site.posts limit:5 %}
 			{% if post.category != "diary" %}
-			   <li>  
-				   <span>{{ post.date | date: "%D" }}</span> - 
-				   <a href="{{ BASE_PATH }}{{ post.url }}">  
-				   {{ post.title }}</a>  
-			   </li>  
+			   <li>
+				   <span>{{ post.date | date: "%D" }}</span> -
+				   <a href="{{ BASE_PATH }}{{ post.url }}">
+				   {{ post.title }}</a>
+			   </li>
 			{% endif %}
 		{% endfor %}
 	</ul>
 
 	<h4> All categories: </h4>
-	<ul class="tags list-inline list-unstyled">  
+	<ul class="tags list-inline list-unstyled">
 		{% assign categories_list = site.categories %}
 		{% include JB/categories_list %}
 	</ul>
@@ -61,4 +76,5 @@
 		{% assign tags_list = site.tags %}
 		{% include JB/tags_list %}
 	</ul>
+
 </div><!-- ./col -->
