@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tools for ChIP-seq differential binding analysis"
-description: "Tools for ChIP-seq differential binding analysis"
+description: ""
 category: research
 tags: [chip-seq, differential binding, tools, software]
 ---
@@ -9,7 +9,7 @@ tags: [chip-seq, differential binding, tools, software]
 
 Detection of differential binding events in ChIP-seq data is still a tricky business. For a new collaboration, the whole project is going to depend on it, so I went out there and tried to collect existing tools, work with them and see their pros and cons.
 
-I was looking specifically for tools that work well without replicates or input controls since we already have some data lying around from a pilot in the beggining of the project, but they might be useful as well as the data comes along.
+I was looking specifically for tools that work well without replicates or input controls since we already have some data lying around from a pilot in the begging of the project, but they might be useful as well as the data comes along.
 
 In no particular order:
 
@@ -27,6 +27,7 @@ In no particular order:
 - Terrible code packaging and usage practices.
 
 Commands to install dependencies are outdated. If anyone is also strugling with it. Here's what worked for me:
+
 ```r
 source("http://bioconductor.org/biocLite.R")
 biocLite("aroma.light") 
