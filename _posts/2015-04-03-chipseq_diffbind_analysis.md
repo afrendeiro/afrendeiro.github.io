@@ -29,9 +29,9 @@ In no particular order:
 Commands to install dependencies are outdated. If anyone is also strugling with it. Here's what worked for me:
 
 ```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("aroma.light") 
-install.packages(c("R.oo","R.utils","MASS"))
+    source("http://bioconductor.org/biocLite.R")
+    biocLite("aroma.light")
+    install.packages(c("R.oo","R.utils","MASS"))
 ```
 
 ## [Diffreps](https://github.com/shenlab-sinai/diffreps)
