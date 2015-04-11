@@ -43,12 +43,20 @@ Upload in parallel to Google cloud storage:
     configure .boto
 
     # with Rsync
-    gsutil -m rsync -r . gs://storage-cm/data/
+    gsutil -m rsync -r . gs://storage/data/
 
     # selectively using grep
     ls /localdir/data/mapped | grep .dups.bam | \  # grep samples
     grep -v _string_ | \  # exclude some samples based on some string
     gsutil -m cp -I gs://storagedir/data/mapped/  # upload
+
+
+#### Change permissions
+*e.g.* upload bigwig tracks and hub, make them publicly accessible
+
+    gsutil -m rsync data/bigWig gs://storage/bigWig/
+    gsutil cp trackHub_hg19.txt gs://storage/bigWig/
+    gsutil -m acl ch -g All:R gs://storage/bigWig/*
 
 Auto-resumable uploads, pretty fast.
 
