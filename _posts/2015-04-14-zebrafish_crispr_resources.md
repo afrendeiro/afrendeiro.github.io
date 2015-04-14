@@ -17,10 +17,10 @@ You can [order the plasmids from Addgene](https://www.addgene.org/crispr/chen/).
 ### gRNA design 
 Target region should obey the following pattern: `GG-N(19)-GG`.
 
-#### tools
-- http://www.e-crisp.org/E-CRISP/
-- https://chopchop.rc.fas.harvard.edu/
-- http://crispr.dbcls.jp/
+#### Tools
+- [http://www.e-crisp.org/E-CRISP ](http://www.e-crisp.org/E-CRISP)
+- [https://chopchop.rc.fas.harvard.edu](https://chopchop.rc.fas.harvard.edu)
+- [http://crispr.dbcls.jp](http://crispr.dbcls.jp)
 
 #### Dos & don'ts (probably incomplete)
 - Pick 2-3 distinct targets;
@@ -60,6 +60,26 @@ for i in range(len(df)):
 df.to_csv("gRNA_design.primers.csv", index=False)
 
 {% endhighlight %} 
+
+
+### Cloning
+As [described here](https://www.addgene.org/static/cms/filer_public/02/12/0212c99c-6937-4884-8fb0-a097b965f1c3/sgrna-plasmid-construction-protocol.pdf):
+
+#### Plasmids
+- [pCS2-nCas9n](https://www.addgene.org/47929/) - zf codon-optimized Cas9 with nuclear localization signals
+- [pT7-gRNA](https://www.addgene.org/46759/) - gRNA backbone
+
+#### Reagents, materials
+- BsmBI, BglII, SalI, BamHI and NotI or XbaI restriction enzymes
+- T4 ligase
+- Proteinase K
+- MEGAshortscript T7 kit (Ambion/Invitrogen)
+- mMESSAGE mMACHINE SP6 or T3 kit (Invitrogen)
+- RNeasy Mini kit (Qiagen)
+- mirVana miRNA Isolation Kit (Ambion/Invitrogen)
+- NEB Buffer 1, 3
+- T4 ligase buffer
+- LB/amp plates
 
 # Literature
 1. Ablain, J., Durand, E. M., Yang, S., Zhou, Y. & Zon, L. I. A CRISPR/Cas9 Vector System for Tissue-Specific Gene Disruption in Zebrafish. Dev. Cell 32, 756–764 (2015).
