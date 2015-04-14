@@ -67,12 +67,12 @@ Unfortunately, I haven't found a way of sharing images :disappointed:.
 ### Uploading to gcs
 Upload in parallel to Google cloud storage:
 
-    pip install crc...
-    configure .boto
-
+    pip install crcmod
+    # configure ~/.boto
+    # uncomment parallel_process_count line
+    # or use this: https://github.com/afrendeiro/dotfiles/blob/master/.boto
     # with Rsync
     gsutil -m rsync -r . gs://storage/data/
-
     # selectively using grep
     ls /localdir/data/mapped | grep .dups.bam | \  # grep samples
     grep -v _string_ | \  # exclude some samples based on some string
