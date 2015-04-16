@@ -41,7 +41,7 @@ Commands to install dependencies are outdated. If anyone is also strugling with 
 - Some nice tools downstream of differential calling (mostly region annotation).
 
 ## [Odin](http://www.regulatory-genomics.org/odin-2/basic-introduction/)
-- Does not use inputs for analysis.
+- Can use inputs for analysis.
 - Limited description of output.
 - Output in "a proprietary BED format" (do I need to say anything?)
 
