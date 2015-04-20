@@ -26,13 +26,11 @@ In no particular order:
 - Does not require input files.
 - Terrible code packaging and usage practices.
 
-Commands to install dependencies are outdated. If anyone is also strugling with it. Here's what worked for me:
+Commands to install dependencies are outdated. If anyone is also strugling with it, here's what worked for me:
 
-```r
-source("http://bioconductor.org/biocLite.R")
-biocLite("aroma.light")
-install.packages(c("R.oo","R.utils","MASS"))
-```
+    source("http://bioconductor.org/biocLite.R")
+    biocLite("aroma.light")
+    install.packages(c("R.oo","R.utils","MASS"))
 
 ## [Diffreps](https://github.com/shenlab-sinai/diffreps)
 - Installation is not straightforward (dependency hell).
