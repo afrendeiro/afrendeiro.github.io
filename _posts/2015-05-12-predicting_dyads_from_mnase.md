@@ -35,7 +35,7 @@ tags: [nucleosomes, dyads, MNase-seq]
 
 <br>
 
-I needed the location of nucleosomal dyads in the K562 cell line (ENCODE tier 1 line). Surprisingly, although plenty of MNase-seq data exists, no nucleosome and dyad prediction exists.
+I needed the location of nucleosomal dyads in the K562 cell line (ENCODE tier 1 line). Surprisingly, although plenty of MNase-seq data for that cell line is available, no nucleosome and dyad prediction exists.
 
 ### NuMap
 I found the [NuMap](http://www-hsc.usc.edu/~valouev/NuMap/NuMap.html) software by Anton Valouev to do exactly what I intended.
