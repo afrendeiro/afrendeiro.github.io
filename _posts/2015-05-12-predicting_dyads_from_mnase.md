@@ -44,7 +44,7 @@ Since it is in a somewhat obscure page and this seemed to be the only place wher
 
 Predicting dyads from MNase-seq data with NuMap seemed trivial: I downloaded the [K562 MNase-seq data set](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeSydhNsome/) (11 replicates ~85Gb!!), combined all replicates and ran NuMap on the data(instructions on the Github README).
 
-From NuMap output there are [dyad positions in bed format](/data/K562_dyads.bed) and you can also produce several metrics to evaluate how good the prediction was.
+From NuMap output there are [dyad positions in bed format](https://www.dropbox.com/s/asmp7bi40lrvtjb/K562_dyads.bed?dl=0) and you can also produce several metrics to evaluate how good the prediction was.
 
 ### Distograms & phasograms
 
