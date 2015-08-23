@@ -21,6 +21,24 @@ In this project I will try to gain insights into the contribution of epigenetic 
 
 # Past projects
 
+## ChIPmentation: ChIP meets ATAC-seq
+
+To understand how genes are regulated, genome-wide maps connecting regulatory proteins to their target sites on the DNA are created. This analysis is typically performed using “chromatin immunoprecipitation followed by sequencing” (ChIP-seq). Unfortunately, ChIP-seq can still be a relatively complex protocol that requires many cells, which makes it difficult to analyze some of the most interesting cell types – for example stem cells and cancer initiating cells.
+
+Our lab developed a new and very efficient alternative to ChIP-seq that addresses these limitations. The approach, which is called “ChIPmentation”, combines the creation and enrichment of antibody-bound DNA fragments in a single-step reaction, making it much faster and more efficient for rare and difficult cell types.
+
+I was responsible for analysing ChIPmentation data and comparing it to existing methods. In the future I will also keep working on developing methods to use these data in the detection of transcription factor footprints and accurate nucleosome positioning.
+
+<small>Part of the text was adapted from [http://www.cemm.oeaw.ac.at/news/](http://www.cemm.oeaw.ac.at/news/)</small>
+
+
+<div class="center">
+    <img src={{ site.url }}"/data/figures/chipmentation_method.png"
+         alt="The ChIPmentation method." style="height: 160px;"/>
+</div>
+<p style="clear: both;"> </p>
+
+
 ## The role of E2F factors and H3K79 methylation in *Oikopleura dioica*'s cell cycle modes
 
 The eukaryotic cell cycle is one of the most studied biological processes. However, variations of the canonical cell cycle have been discovered and found to be more predominant than previously expected. Endoreplication and endocycling - two such variants - produce polyploid cells, conferring advantages in growth and genotoxic stress. Although some of the regulatory principles of these cycles are being discovered, little is known about how cells can transition from a mitotic cell cycle to them.
