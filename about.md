@@ -53,7 +53,7 @@ weight: 1
         <div prefix="datacite: http://purl.org/spar/datacite/">
             <ol reversed="">
                 <li>
-                    <p><strong>André F Rendeiro</strong>, Pavla Navratilova, Eric Thompson. 2014. Chromatin preparation for ChIP-seq in Oikopleura dioica. Figshare. <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.1101/gr.162529.113</a>
+                    <p><strong>André F Rendeiro</strong>, Pavla Navratilova, Eric Thompson. 2014. Chromatin preparation for ChIP-seq in Oikopleura dioica. Figshare. <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.6084/m9.figshare.884562</a>
                     <br>
                     <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <span data-badge-type="2" data-doi="10.6084/m9.figshare.884562" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
