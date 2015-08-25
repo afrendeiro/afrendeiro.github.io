@@ -16,7 +16,7 @@ Here's the basics of what I implemented. See the full code at [github](https://g
 In its simplest form, a project object holds attributes and defines and creates (if necessary) a directory structure.
 Here's how I chose to structure my projects:
 
-{% highlight %}
+{% highlight python %}
 parent
 |___name
     |___data
