@@ -16,7 +16,7 @@ Here's the basics of what I implemented. See the full code at [github](https://g
 In its simplest form, a project object holds attributes and defines and creates (if necessary) a directory structure.
 Here's how I chose to structure my projects:
 
-```
+{% highlight %}
 parent
 |___name
     |___data
@@ -26,12 +26,12 @@ parent
        |___executables
        |___pickles
        |___logs
-```
+{% endhighlight %}
 
 So, all the `Project` object takes as argument is `name` and `parent`. The structure is then created when `__init__` (which is called automatically upon creation of the object), calling in its turn `setProjectDirs` and `makeProjectDirs`.
 
 
-```python
+{% highlight python %}
 import os as _os
 
 
@@ -73,7 +73,7 @@ class Project(object):
             if not _os.path.exists(path):
                 _os.makedirs(path)
 
-```
+{% endhighlight %}
 
 ## A *Sample* object
 
@@ -81,7 +81,7 @@ I decided to have my `Sample` objects created from a Pandas `Series`, since samp
 
 I wanted something like:
 
-```python
+{% highlight python %}
 import pandas as pd
 
 series = pd.Series(
@@ -89,13 +89,13 @@ series = pd.Series(
     index=["technique", "genome", "unmappedBam"]
 )
 sample = Sample(series)
-```
+{% endhighlight %}
 
 I first considered creating `Sample` inheriting from `pandas.Series` to take advantage of its already implemented methods, but in the end it was lacking some features (tab-completion in iPython wasn't showing the methods I defined). Also, compatibility with new Pandas versions was not guarenteed. Therefore, I simply assign the pandas `Series` attributes to a new `Sample` object.
 
 The directory structure if sample-centric: all files from a sample are under a sample-specific directory, and then, other sub-directories hold more specific files:
 
-```python
+{% highlight python %}
 class Sample(object):
     """
     Class to model NGS samples.
@@ -137,14 +137,14 @@ class Sample(object):
             if not _os.path.exists(path):
                 _os.makedirs(path)
 
-```
+{% endhighlight %}
 
 #### *Sample* methods
 I create some useful methods for the samples.
 
 I check if it contains required attributes and if these aren't `nan`:
 
-```python
+{% highlight python %}
 def checkValid(self):
     """Check if any of its important attributes is None."""
     req = ["technique", "genome", "unmappedBam"]
@@ -154,11 +154,11 @@ def checkValid(self):
 
     if any([attr == "nan" for attr in req]):
         raise ValueError("Required values for sample are empty.")
-```
+{% endhighlight %}
 
 I create a name for a sample from every non-`nan` attribute it might contain from a specific list:
 
-```python
+{% highlight python %}
 def generateName(self):
     """Generates a name for the sample by joining some of its possible attribute strings."""
     self.name = "_".join(
@@ -169,7 +169,7 @@ def generateName(self):
             "experimentName", "genome"] if hasattr(self, attr) and str(self.__getattribute__(attr)) != "nan"]
     )
 
-```
+{% endhighlight %}
 
 ## A *SampleSheet* object
 
@@ -178,7 +178,7 @@ Obviously, always creating a new Pandas `Series`, just to pass it to `Sample` do
 I created a new class which loads a sample annotation sheet form a csv file 
 and creates samples from it.
 
-```python
+{% highlight python %}
 class SampleSheet(object):
     """
     Class to model a sample annotation sheet.
@@ -208,13 +208,13 @@ class SampleSheet(object):
 
         if len(missing) != 0:
             raise TypeError("Annotation sheet is missing columns: %s" % " ".join(missing))
-```
+{% endhighlight %}
 
 #### *SampleSheet* methods
 
 Obviously methods to create samples from the `SampleSheet` (either from a single pandas `Series` or from the whole sheet:
 
-```python
+{% highlight python %}
     def makeSample(self, series):
         """
         Make a children of class Sample dependent on its "technique" attribute.
@@ -235,11 +235,11 @@ Obviously methods to create samples from the `SampleSheet` (either from a single
         """
         for i in range(len(self.df)):
             self.samples.append(self.makeSample(self.df.ix[i]))
-```
+{% endhighlight %}
 
 Two methods to revert to a csv file (`to_csv` like in a `pandas.DataFrame`) and to get a new data frame from the already created samples (`asDataFrame`):
 
-```python
+{% highlight python %}
     def asDataFrame(self):
         """
         Returns a `pandas.DataFrame` representation of self.
@@ -256,7 +256,7 @@ Two methods to revert to a csv file (`to_csv` like in a `pandas.DataFrame`) and 
         :type all: bool
         """
         self.asDataFrame().to_csv(path, index=False)
-```
+{% endhighlight %}
 
 
 ## Binding them all
@@ -268,7 +268,7 @@ Ideally one would:
     1. Make new `Sample` objects for each sample, creating its attributes and directory structure;
     2. Add the `Sample` objects to a container in `Project`.
 
-```python
+{% highlight python %}
 class Project(object):
     ...
     def addSampleSheet(self, csv):
@@ -293,13 +293,13 @@ class Project(object):
             self.addSample(sample)
             sample.setFilePaths()
             sample.makeSampleDirs()
-```
+{% endhighlight %}
 
 # Practical examples
 
 Here's a step in an example pipeline which runs Fastqc on (unmapped) bam files from all samples:
 
-```python
+{% highlight python %}
 from pipelines import Project, SampleSheet
 
 def fastqc(inputBam, outputDir, sampleName):
@@ -312,7 +312,7 @@ for sample in prj.samples:
     cmd = fastqc(sample.unmappedBam, sample.dirs.sampleRoot, sample.name)
     os.system(cmd)  # in real-life one wouldn't use `os.system`
     ...
-```
+{% endhighlight %}
 
 Notice the absent use of file paths in the pipeline. Although still pretty simple, it is now much simpler to handle every file created by the pipeline for each sample.
 
@@ -320,7 +320,7 @@ These objects are also useful during analysis steps to quickly grab files produc
 
 Here I grab all ChIP-seq peak files from all samples and create a peak set by concatenating them all and merging:
 
-```python
+{% highlight python %}
 from pipelines import Project, SampleSheet
 import pybedtools
 
@@ -342,4 +342,4 @@ for i, sample in enumerate(self.samples):
 # Merge overlaping peaks across samples
 sites = sites.merge()
 
-```
+{% endhighlight %}
