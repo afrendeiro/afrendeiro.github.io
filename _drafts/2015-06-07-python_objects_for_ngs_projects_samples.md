@@ -2,18 +2,16 @@
 layout: post
 title: "Python objects for NGS projects and samples"
 category: research
-tags: [python]
+tags: [python, oop]
 ---
 {% include JB/setup %}
 
-I've been using [Python programs to manage NGS sample pipelines](https://github.com/afrendeiro/pipelines) for a while, and while it started slowly and very 
-They're in a state in which the code is much more reliable and I can work much faster.
-
+I've been using [Python programs to manage NGS sample pipelines](https://github.com/afrendeiro/pipelines) for a while, and while it started slowly, they're in a state in which the code is much more reliable and I can work much faster.
 
 A big part of it was due to some simple object modeling of projects and samples.
-Here's the basics of what I implemented:
+Here's the basics of what I implemented. See the full code at [github](https://github.com/afrendeiro/pipelines/blob/master/pipelines/models.py).
 
-#### A *Project* object
+## A *Project* object
 
 In its simplest form, a project object holds attributes and defines and creates (if necessary) a directory structure.
 Here's how I chose to structure my projects:
@@ -29,7 +27,8 @@ parent
        |___pickles
        |___logs
 ```
-So, all the `Project` object takes as argument is `name` and `parent`. The structure is then created when `__init__` (which is called automatically upon creation of the object) calls in its turn `setProjectDirs` and `makeProjectDirs`.
+
+So, all the `Project` object takes as argument is `name` and `parent`. The structure is then created when `__init__` (which is called automatically upon creation of the object), calling in its turn `setProjectDirs` and `makeProjectDirs`.
 
 
 ```python
@@ -76,12 +75,11 @@ class Project(object):
 
 ```
 
-#### A Sample object
+## A *Sample* object
 
+I decided to have my `Sample` objects created from a Pandas `Series`, since sample annotation sheet are often in tabular form and can easily be read with Pandas.
 
-
-Sample centric
-
+I wanted something like:
 
 ```python
 import pandas as pd
@@ -93,9 +91,9 @@ series = pd.Series(
 sample = Sample(series)
 ```
 
+I first considered creating `Sample` inheriting from `pandas.Series` to take advantage of its already implemented methods, but in the end it was lacking some features (tab-completion in iPython wasn't showing the methods I defined). Also, compatibility with new Pandas versions was not guarenteed. Therefore, I simply assign the pandas `Series` attributes to a new `Sample` object.
 
-
-
+The directory structure if sample-centric: all files from a sample are under a sample-specific directory, and then, other sub-directories hold more specific files:
 
 ```python
 class Sample(object):
@@ -115,31 +113,7 @@ class Sample(object):
         for key, value in series.to_dict().items():
             setattr(self, key, value)
 
-        self.checkValid()
-        self.generateName()
-        self.getReadType()
-
         self.dirs = Paths()
-
-    def checkValid(self):
-        """Check if any of its important attributes is None."""
-        req = ["technique", "genome", "unmappedBam"]
-
-        if not all([hasattr(self, attr) for attr in req]):
-            raise ValueError("Required values for sample do not exist.")
-
-        if any([attr == "nan" for attr in req]):
-            raise ValueError("Required values for sample are empty.")
-
-    def generateName(self):
-        """Generates a name for the sample by joining some of its possible attribute strings."""
-        self.name = "_".join(
-            [str(self.__getattribute__(attr)) for attr in [
-                "cellLine", "numberCells", "technique", "ip",
-                "patient", "patientID", "sampleID", "treatment", "condition",
-                "biologicalReplicate", "technicalReplicate",
-                "experimentName", "genome"] if hasattr(self, attr) and str(self.__getattribute__(attr)) != "nan"]
-        )
 
     def setFilePaths(self):
         """Sets the paths of all files for this sample."""
@@ -147,28 +121,11 @@ class Sample(object):
 
         # Files in the root of the sample dir
         self.fastqc = self.dirs.sampleRoot
-        self.trimlog = _os.path.join(self.dirs.sampleRoot, self.name + ".trimlog.txt")
-        self.alnRates = _os.path.join(self.dirs.sampleRoot, self.name + ".alnRates.txt")
-        self.alnMetrics = _os.path.join(self.dirs.sampleRoot, self.name + ".alnMetrics.txt")
-        self.dupsMetrics = _os.path.join(self.dirs.sampleRoot, self.name + ".duplicates.txt")
-
         # Unmapped: merged bam, fastq, trimmed fastq
         self.dirs.unmapped = _os.path.join(self.dirs.sampleRoot, "unmapped")
         self.unmapped = _os.path.join(self.dirs.unmapped, self.name + ".bam")
-        if self.readType == "SE":
-            self.fastq = _os.path.join(self.dirs.unmapped, self.name + ".fastq")
-        else:
-            self.fastq1 = _os.path.join(self.dirs.unmapped, self.name + ".1.fastq")
-            self.fastq2 = _os.path.join(self.dirs.unmapped, self.name + ".2.fastq")
-            self.fastqUnpaired = _os.path.join(self.dirs.unmapped, self.name + ".unpaired.fastq")
-        if self.readType == "SE":
-            self.trimmed = _os.path.join(self.dirs.unmapped, self.name + ".trimmed.fastq")
-        else:
-            self.trimmed1 = _os.path.join(self.dirs.unmapped, self.name + ".1.trimmed.fastq")
-            self.trimmed2 = _os.path.join(self.dirs.unmapped, self.name + ".2.trimmed.fastq")
-            self.trimmed1Unpaired = _os.path.join(self.dirs.unmapped, self.name + ".1_unpaired.trimmed.fastq")
-            self.trimmed2Unpaired = _os.path.join(self.dirs.unmapped, self.name + ".2_unpaired.trimmed.fastq")
-
+        self.fastq = _os.path.join(self.dirs.unmapped, self.name + ".fastq")
+        self.trimmed = _os.path.join(self.dirs.unmapped, self.name + ".trimmed.fastq")
         # Mapped: mapped, duplicates marked, removed, reads shifted
         self.dirs.mapped = _os.path.join(self.dirs.sampleRoot, "mapped")
         self.mapped = _os.path.join(self.dirs.mapped, self.name + ".trimmed.bowtie2.bam")
@@ -182,22 +139,207 @@ class Sample(object):
 
 ```
 
-```
+#### *Sample* methods
+I create some useful methods for the samples.
 
-class Paths(object):
-    """
-    A class to hold paths as attributes.
-    """
-    pass
-```
-
-
+I check if it contains required attributes and if these aren't `nan`:
 
 ```python
-    def getReadType(self):
-        """Gets the read type and length of bam file."""
-        ...
-        self.readLength = [0-9]+
-        self.readType = ["SE", "PE"]
-        self.paired = [False, True]
+def checkValid(self):
+    """Check if any of its important attributes is None."""
+    req = ["technique", "genome", "unmappedBam"]
+
+    if not all([hasattr(self, attr) for attr in req]):
+        raise ValueError("Required values for sample do not exist.")
+
+    if any([attr == "nan" for attr in req]):
+        raise ValueError("Required values for sample are empty.")
+```
+
+I create a name for a sample from every non-`nan` attribute it might contain from a specific list:
+
+```python
+def generateName(self):
+    """Generates a name for the sample by joining some of its possible attribute strings."""
+    self.name = "_".join(
+        [str(self.__getattribute__(attr)) for attr in [
+            "cellLine", "numberCells", "technique", "ip",
+            "patient", "patientID", "sampleID", "treatment", "condition",
+            "biologicalReplicate", "technicalReplicate",
+            "experimentName", "genome"] if hasattr(self, attr) and str(self.__getattribute__(attr)) != "nan"]
+    )
+
+```
+
+## A *SampleSheet* object
+
+Obviously, always creating a new Pandas `Series`, just to pass it to `Sample` does not make much sense.
+
+I created a new class which loads a sample annotation sheet form a csv file 
+and creates samples from it.
+
+```python
+class SampleSheet(object):
+    """
+    Class to model a sample annotation sheet.
+
+    :param csv: Path to csv file.
+    :type csv: str
+    """
+    def __init__(self, csv):
+
+        super(SampleSheet, self).__init__()
+        # TODO: checks on given args
+        self.csv = csv
+        self.samples = list()
+        self.checkSheet()
+
+    def checkSheet(self):
+        """
+        Check if csv file exists and has all required columns.
+        """
+        try:
+            self.df = _pd.read_csv(self.csv)
+        except IOError("Given csv file couldn't be read.") as e:
+            raise e
+
+        req = ["technique", "genome", "unmappedBam"]
+        missing = [col for col in req if col not in self.df.columns]
+
+        if len(missing) != 0:
+            raise TypeError("Annotation sheet is missing columns: %s" % " ".join(missing))
+```
+
+#### *SampleSheet* methods
+
+Obviously methods to create samples from the `SampleSheet` (either from a single pandas `Series` or from the whole sheet:
+
+```python
+    def makeSample(self, series):
+        """
+        Make a children of class Sample dependent on its "technique" attribute.
+
+        :param series: Pandas `Series` object.
+        :type series: pandas.Series
+        :return: An object or class `Sample` or a child of that class.
+        :rtype: pipelines.Sample
+        """
+        if technique in ["chipseq", "atac-seq"]:
+            return Sample(series)
+        else:
+            raise TypeError("Sample is not in known technique.")
+
+    def makeSamples(self):
+        """
+        Creates samples from annotation sheet dependent on technique and adds them to the project.
+        """
+        for i in range(len(self.df)):
+            self.samples.append(self.makeSample(self.df.ix[i]))
+```
+
+Two methods to revert to a csv file (`to_csv` like in a `pandas.DataFrame`) and to get a new data frame from the already created samples (`asDataFrame`):
+
+```python
+    def asDataFrame(self):
+        """
+        Returns a `pandas.DataFrame` representation of self.
+        """
+        return _pd.DataFrame([s.asSeries() for s in self.samples])
+
+    def to_csv(self, path, all=False):
+        """
+        Saves a csv annotation sheet from the samples.
+
+        :param path: Path to csv file to be written.
+        :type path: str
+        :param all: If all sample attributes should be kept in the annotation sheet.
+        :type all: bool
+        """
+        self.asDataFrame().to_csv(path, index=False)
+```
+
+
+## Binding them all
+
+Ideally one would:
+
+1. create a `Project`;
+2. add a csv file to it in a new method which would create a `SampleSheet` object. This would:
+    1. Make new `Sample` objects for each sample, creating its attributes and directory structure;
+    2. Add the `Sample` objects to a container in `Project`.
+
+```python
+class Project(object):
+    ...
+    def addSampleSheet(self, csv):
+        """
+        Build a `SampleSheet` object from a csv file and
+        add it and its samples to the project.
+
+        :param csv: Path to csv file.
+        :type csv: str
+        """
+        # Make SampleSheet object
+        self.sheet = SampleSheet(csv)
+
+        # pair project and sheet
+        self.sheet.project = self
+
+        # Generate sample objects from annotation sheet
+        self.sheet.makeSamples()
+
+        # Add samples to Project
+        for sample in self.sheet.samples:
+            self.addSample(sample)
+            sample.setFilePaths()
+            sample.makeSampleDirs()
+```
+
+# Practical examples
+
+Here's a step in an example pipeline which runs Fastqc on (unmapped) bam files from all samples:
+
+```python
+from pipelines import Project, SampleSheet
+
+def fastqc(inputBam, outputDir, sampleName):
+    return "fastqc --noextract --outdir {0} {1}".format(outputDir, inputBam)
+
+prj = Project("ngs")
+prj.addSampleSheet("/projects/example/sheet.csv")
+
+for sample in prj.samples:
+    cmd = fastqc(sample.unmappedBam, sample.dirs.sampleRoot, sample.name)
+    os.system(cmd)  # in real-life one wouldn't use `os.system`
+    ...
+```
+
+Notice the absent use of file paths in the pipeline. Although still pretty simple, it is now much simpler to handle every file created by the pipeline for each sample.
+
+These objects are also useful during analysis steps to quickly grab files produced by the pipeline and start an analysis right away.
+
+Here I grab all ChIP-seq peak files from all samples and create a peak set by concatenating them all and merging:
+
+```python
+from pipelines import Project, SampleSheet
+import pybedtools
+
+prj = Project("ngs")
+prj.addSampleSheet("/projects/example/sheet.csv")
+
+for i, sample in enumerate(self.samples):
+    print(sample.name)
+    # Get peaks
+    peaks = pybedtools.BedTool(sample.peaks)
+    # Merge overlaping peaks within a sample if existing
+    peaks = peaks.merge()
+    if i == 0:
+        sites = peaks
+    else:
+        # Concatenate all peaks
+        sites = sites.cat(peaks)
+
+# Merge overlaping peaks across samples
+sites = sites.merge()
+
 ```
