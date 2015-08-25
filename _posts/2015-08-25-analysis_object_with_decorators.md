@@ -73,14 +73,16 @@ class Analysis(object):
 
 {% endhighlight %}
 
+This works however, for functions accepting only `self` as argument as in the example. To allow an arbitrary number of arguments passed to each function, we will make the decorator function accept one argument which will be the `Analysis` (I keep calling it `obj`) object and any number of arguments (by using `*args`), which will be passed to the function that is decorated. 
+
 If I give the `Analysis` class an attribute holding where it should be pickled (`pickle_file`), then I can tell the decorator function to get it from the class itself:
 
 {% highlight python %}
 
 # decorator for some methods of Analysis class
 def pickle_me(function):
-    def wrapper(obj):
-        function(obj)
+    def wrapper(obj, *args):
+        function(obj, *args)
         pickle.dump(obj, open(obj.pickle_file, 'wb'))
     return wrapper
 
@@ -94,7 +96,8 @@ class Analysis(object):
 
     @pickle_me
     def do_some_work(self):
-        ...
-        self.results = results
+        pass
+
+    ...
 
 {% endhighlight %}
