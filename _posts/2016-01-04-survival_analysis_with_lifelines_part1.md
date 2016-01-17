@@ -1,22 +1,33 @@
-Survival analysis with lifelines - part 1
-=========================================
+---
+layout: post
+title: "Survival analysis with lifelines - part 1"
+description: "Survival analysis with lifelines - part 1"
+category: research
+tags: [survival, python]
+---
 
-> This post is available as a [Jupiter notebook](http://jupyter.readthedocs.org/) in [lifelines_survival_part1.ipynb](/data/notebooks/lifelines_survival_part1.ipynb)
+{% include JB/setup %}
+
+> This post is available as a [Jupiter notebook](http://jupyter.readthedocs.org/) [here](http://nbviewer.jupyter.org/github/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/lifelines_survival_part1.ipynb).
 
 The [lifelines package](http://lifelines.readthedocs.org/) is a well documented, easy-to-use Python package for survival analysis.
 
-I had never done any survival analysis and just by reading the documentation was able to understand the key concepts and run a few analysis on my clinical data, so I highly recommend it at least for begginers on the topic.
+I had never done any survival analysis and the fact that this has great documentation, made me adventure in the field. From the documentation I was able to understand the key concepts of survival analysis and run a few simple analysis on clinical data gathered by our collaborators from a cohort of cancer patients. This obviously does not mean this is a replacement of proper study of the field, but nonetheless I highly recommend reading the whole documentation for begginers on the topic and the usage of the package to anyone working in the field.
 
-Although all one needs for survival analysis are two arrays with the time the patient observation took and if death was observed during that time or not, in reality you're more likely to get from clinicians an Excel file with dates of birth, diagnosis, and death along with other relevant information on the clinical cohort.
+
+### Getting our hands dirty
+
+Although all one needs for survival analysis are two arrays with the time patients were observed and whether death occured during that time, in reality you're more likely to get from clinicians an Excel file with dates of birth, diagnosis, and death along with other relevant information on the clinical cohort.
 
 Let's read some data in and transform those fields into the time we have been observing the patient (from diagnosis to the last checkup):
 
-> Hint: make sure you tell pandas which columns hold dates and the format they are in for correct date parsing.
+<small><strong>Hint:</strong> make sure you tell pandas which columns hold dates and the format they are in for correct date parsing.</small>
 
-In these data, although already anonymized, I have added some jitter for the actual values differ from the real ones.
+<small><strong>Note:</strong> In these data, although already anonymized, I have added some jitter for the actual values differ from the real ones.</small>
 
 
-```python
+{% highlight python %}
+
 import pandas as pd
 
 clinical = pd.read_csv(
@@ -29,7 +40,7 @@ clinical["duration"] = clinical["patient_last_checkup_date"] - clinical["diagnos
 
 clinical.head()
 
-```
+{% endhighlight %}
 
 
 <div>
@@ -160,7 +171,8 @@ clinical.head()
 Let's check globaly how our patients are doing:
 
 
-```python
+{% highlight python %}
+
 from lifelines import KaplanMeierFitter
 
 # Duration of patient following in months
@@ -174,7 +186,7 @@ fitter = KaplanMeierFitter()
 fitter.fit(T, event_observed=C, label="all patients")
 fitter.plot(show_censors=True)
 
-```
+{% endhighlight %}
 
 
 
@@ -190,7 +202,8 @@ fitter.plot(show_censors=True)
 Now we want to split our cohort according to values in several variables (*e.g.* gender, age, presence/absence of a clinical marker), and check what's the progression of survival, and if differences between groups are significant.
 
 
-```python
+{% highlight python %}
+
 import matplotlib.pyplot as plt
 from lifelines.statistics import logrank_test
 from matplotlib.offsetbox import AnchoredText
@@ -223,7 +236,7 @@ p = logrank_test(
 # add p-value to plot
 ax.add_artist(AnchoredText("p = %f" % round(p, 5), loc=4, frameon=False))
 
-```
+{% endhighlight %}
 
 
 
@@ -239,14 +252,15 @@ ax.add_artist(AnchoredText("p = %f" % round(p, 5), loc=4, frameon=False))
 We can also see how 
 
 
-```python
+{% highlight python %}
+
 from lifelines import NelsonAalenFitter
 
 fitter = NelsonAalenFitter()
 fitter.fit(T, event_observed=C, label="all patients")
 fitter.plot(show_censors=True)
 
-```
+{% endhighlight %}
 
 
 
@@ -264,7 +278,8 @@ Great, so if we make the code more general and wrap it into a function, we can r
 We can also investigate variables with more than one class and compare them in a pairwise fashion.
 
 
-```python
+{% highlight python %}
+
 from lifelines import NelsonAalenFitter
 import itertools
 
@@ -312,10 +327,10 @@ def survival_plot(clinical, fitter, fitter_name, feature, time):
 
     ax.set_title("%s - %s since diagnosis" % (feature, fitter_name))
 
-```
+{% endhighlight %}
 
 
-```python
+{% highlight python %}
 
 features = ["t%i" % i for i in range(1, 11)]
 
@@ -324,7 +339,7 @@ for feature in features:
     survival_plot(clinical, KaplanMeierFitter(), "survival", feature, "duration")
     survival_plot(clinical, NelsonAalenFitter(), "hazard", feature, "duration")
 
-```
+{% endhighlight %}
 
 
 ![png](/data/figures/survival_part1/output_13_0.png)

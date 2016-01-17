@@ -32,7 +32,9 @@ weight: 1
                     <br>
                     <a href="http://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
+                    <!-- unfortunately I cannot open-source this :(
                     <a href="https://github.com/afrendeiro/chipmentation"><button type="button" class="btn btn-default btn-sm"> <span class="fa fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    -->
                     <span data-badge-type="2" data-doi="10.1038/nmeth.3542" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
