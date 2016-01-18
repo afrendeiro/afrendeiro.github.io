@@ -12,18 +12,18 @@ tags: [survival, python]
 
 The [lifelines package](http://lifelines.readthedocs.org/) is a well documented, easy-to-use Python package for survival analysis.
 
-I had never done any survival analysis and the fact that this has great documentation, made me adventure in the field. From the documentation I was able to understand the key concepts of survival analysis and run a few simple analysis on clinical data gathered by our collaborators from a cohort of cancer patients. This obviously does not mean this is a replacement of proper study of the field, but nonetheless I highly recommend reading the whole documentation for begginers on the topic and the usage of the package to anyone working in the field.
+I had never done any survival analysis, but  the fact that package has great documentation made me adventure in the field. From the documentation I was able to understand the key concepts of survival analysis and run a few simple analysis on clinical data gathered by our collaborators from a cohort of cancer patients. This obviously does not mean it is a replacement of proper study of the field, but nonetheless I highly recommend reading the whole documentation for begginers on the topic and the usage of the package to anyone working in the field.
 
 
 ### Getting our hands dirty
 
-Although all one needs for survival analysis are two arrays with the time patients were observed and whether death occured during that time, in reality you're more likely to get from clinicians an Excel file with dates of birth, diagnosis, and death along with other relevant information on the clinical cohort.
+<small><strong>Note:</strong> In these data, although already anonymized, I have added some jitter for the actual values to differ from the real ones.</small>
+
+Although all one needs for survival analysis is two arrays with the time duration patients were observed and whether death occured during that time, in reality you're more likely to get from clinicians an Excel file with dates of birth, diagnosis, and death along with other relevant information on the clinical cohort.
 
 Let's read some data in and transform those fields into the time we have been observing the patient (from diagnosis to the last checkup):
 
 <small><strong>Hint:</strong> make sure you tell pandas which columns hold dates and the format they are in for correct date parsing.</small>
-
-<small><strong>Note:</strong> In these data, although already anonymized, I have added some jitter for the actual values differ from the real ones.</small>
 
 
 {% highlight python %}
@@ -249,7 +249,7 @@ ax.add_artist(AnchoredText("p = %f" % round(p, 5), loc=4, frameon=False))
 ![png](/data/figures/survival_part1/output_8_1.png)
 
 
-We can also see how 
+We can also investigate hazard over time instead of survival:
 
 
 {% highlight python %}
