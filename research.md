@@ -13,9 +13,14 @@ Here are projects I am currently working on or have worked in the past:
 
 # Current projects
 
-## Uncovering the contribution of epigenetics to development and disease
+## Harnessing epigenetics for personalized medicine in cancer
 
-In this project I will try to gain insights into the contribution of epigenetic effectors in normal development and disease with a more unbiased approach.
+<div class="center">
+    <img src={{ site.url }}"/data/figures/cll-chromatin.png"
+         alt="CLL ATAC-seq." style="height: 400px;"/>
+</div>
+<p style="clear: both;"> </p>
+
 
 ---
 
