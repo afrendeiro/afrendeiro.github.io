@@ -13,7 +13,7 @@ Here are projects I am currently working on or have worked in the past:
 
 # Current projects
 
-## Harnessing epigenetics for personalized medicine in cancer
+## Epigenetics for personalized medicine in cancer
 
 <div class="center">
     <img src={{ site.url }}"/data/figures/cll-chromatin.png"

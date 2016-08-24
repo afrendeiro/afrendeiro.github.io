@@ -81,14 +81,31 @@ weight: 1
     <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
         <dl>
             <dt>Address:</dt>
-            <dd><span property="schema:address" typeof="http://schema.org/PostalAddress" vocab="http://schema.org/PostalAddress/"><span property="streetAddress"><a href="http://www.cemm.oeaw.ac.at/">CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences </a></span>, <a href="https://www.google.at/maps/place/CeMM+-+Forschungszentrum+für+Molekulare+Medizin+GmbH./@48.2194743,16.3496347,18z/"><span property="postalCode">1090</span> <span property="addressLocality">Vienna</span>, <span property="addressCountry">Austria</span></span></a> </dd>
+                <dd>
+                    <span property="schema:address" typeof="http://schema.org/PostalAddress" vocab="http://schema.org/PostalAddress/">
+                        <span property="streetAddress">
+                            <a href="http://www.cemm.oeaw.ac.at/">CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences </a>
+                        </span>, 
+                        <a href="https://www.google.at/maps/place/CeMM+-+Forschungszentrum+für+Molekulare+Medizin+GmbH./@48.2194743,16.3496347,18z/">
+                            <span property="postalCode">1090</span>
+                            <span property="addressLocality">Vienna</span>, 
+                            <span property="addressCountry">Austria</span>
+                        </a>
+                    </span>
+                </dd>
 
             <dt>Orcid ID:</dt>
-            <dd><a property="http://purl.org/spar/datacite/orcid" href="https://orcid.org/0000-0001-9362-5373" onclick="recordOutboundLink(this, 'Link', '| + input + |'); return false;">0000-0001-9362-5373</a></dd>
+                <dd>
+                    <a property="http://purl.org/spar/datacite/orcid" href="https://orcid.org/0000-0001-9362-5373" onclick="recordOutboundLink(this, 'Link', '| + input + |'); return false;">0000-0001-9362-5373</a>
+                </dd>
             <dt>Google Scholar:</dt>
-            <dd><a href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">André Figueiredo Rendeiro</a></dd>
+                <dd>
+                    <a href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">André Figueiredo Rendeiro</a>
+                </dd>
             <dt>Public Key:</dt>
-            <dd><a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a></dd>
+                <dd>
+                    <a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
+                </dd>
         </dl>
     </div>
 
