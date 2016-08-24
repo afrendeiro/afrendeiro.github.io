@@ -5,6 +5,9 @@ permalink: /:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
+# Gem dependencies
+gems: ["jekyll-sitemap", "jekyll-gist"]
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -41,6 +44,9 @@ repository_url : https://github.com/afrendeiro/afrendeiro.github.io
 #
 JB :
   version : 0.3.0
+
+  # Name of theme to use
+  THEME: afr
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
