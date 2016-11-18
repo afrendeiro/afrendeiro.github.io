@@ -16,7 +16,7 @@ Here are projects I am currently working on or have worked in the past:
 ## Epigenetics for personalized medicine in cancer
 
 <div class="center">
-    <img src={{ site.url }}"/data/figures/cll-chromatin.png"
+    <img src="{{ site.url }}/data/figures/cll-chromatin.png"
          alt="CLL ATAC-seq." style="height: 400px;"/>
 </div>
 <p style="clear: both;"> </p>
@@ -38,7 +38,7 @@ I was responsible for analysing ChIPmentation data and comparing it to existing 
 
 
 <div class="center">
-    <img src={{ site.url }}"/data/figures/chipmentation_method.png"
+    <img src="{{ site.url }}/data/figures/chipmentation_method.png"
          alt="The ChIPmentation method." style="height: 160px;"/>
 </div>
 <p style="clear: both;"> </p>
@@ -61,10 +61,10 @@ We performed ChIP-seq on two antagonist transcription factors (E2F1 and E2F7) in
 {% endcomment %}
 
 <div class="center">
-	<img src={{ site.url }}"/data/figures/oikopleura_lifeCycle.png"
+	<img src="{{ site.url }}/data/figures/oikopleura_lifeCycle.png"
 		 alt="<i>Oikopleura dioica</i> employs various types of cell cycle during its life cycle" style="height: 200px;"/>
 
-	<img src={{ site.url }}"/data/figures/oikopleura_change_cell-cycle.png"
+	<img src="{{ site.url }}/data/figures/oikopleura_change_cell-cycle.png"
 		 alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" style="height: 150px;"/>
 </div>
 <p style="clear: both;"> </p>
@@ -82,13 +82,13 @@ We found that the location of chromatin modifications relative to genes and dist
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
 <div class="center">
-	<img src={{ site.url }}"/data/figures/nematostella_chipSeq.png"
+	<img src="{{ site.url }}/data/figures/nematostella_chipSeq.png"
 		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle" style="height: 350px;"/>
 
-	<img src={{ site.url }}"/data/figures/nematostella_hmmStates.png"
+	<img src="{{ site.url }}/data/figures/nematostella_hmmStates.png"
 		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
 
-	<img src={{ site.url }}"/data/figures/nematostella_enhancers.png"
+	<img src="{{ site.url }}/data/figures/nematostella_enhancers.png"
 		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle" style="height: 350px;"/>
 </div>
 
