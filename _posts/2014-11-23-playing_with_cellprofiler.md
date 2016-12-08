@@ -57,7 +57,7 @@ Of particular interest is the ability of these screens to probe into the cell-to
 To obtain objects from the images captured in the screen, object detection using Cell Profiler was performed. This was performed by manually adjusting detection parameters (see Methods section). Based on previously identified objects from the raw signal (Figure 1A-D), other cellular features can be inferred (Figure 1E) and several metrics dependent on the detected objects can be computed (Figure 1F).
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/cellProfiler.png"
+    <img src="{{ site.url }}/data/figures/cellProfiler.png"
          align="middle" style="width: 700px;"/>
 </div>
 
@@ -70,7 +70,7 @@ Objects representing cells were detected  and their properties were quantified i
 Due to position-dependent differences in the conditions for cell growth, plate-dependent effects are noticeable on virtually every cellular measurement taken during the screen. To neutralize this, measurements were normalized by taking into account the cell's position on the plate (see methods). Normalization of the bias is noticeable (Figure 2) and in the case of measurements capable to distinguish cell viability (*e.g.* number of cells, cell area), led to generally higher Z-factor scores for that measurement. Normalization not only corrects experimental biases but improves the ability to compare wells with different treatments and therefore distinguish between negative and positive controls - *e.g.* notice the difference between wells in diagonals (positive controls) in raw versus normalized data in Figure 2B.
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/concatenated_plots.jpg"
+    <img src="{{ site.url }}/data/figures/concatenated_plots.jpg"
          align="middle" style="width: 700px;"/>
 </div>
 
@@ -86,7 +86,7 @@ Since no single measurement is able to perfectly discriminate the cellular respo
 In accordance with expectations, some measurements revealed a high degree of correlation due to their intrinsic physical relationships. Mean cellular area and perimeter are naturally correlated (Figure 2A) and this is not particularly informative since these cellular properties are maintained during cellular growth or death. Cell number and measurements of cellular form factor are anti-correlated (Figure 2B), showing that the second measurement is detecting changes in cellular shape as the number of cells in a well diminishes. Measurements of overall cellular shape, seem therefore better fitted than measurements of cellular dimension to discriminate between positive and negative controls either when in combination (Figure 2C) or when compared with other cellular measurements (Figure 2D).
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/correlation_plots.jpg"
+    <img src="{{ site.url }}/data/figures/correlation_plots.jpg"
          align="middle" style="width: 500px;"/>
 </div>
 
@@ -100,7 +100,7 @@ In accordance with expectations, some measurements revealed a high degree of cor
 To explore the variability of cellular response to the same chemical perturbation under the same conditions, I took advantage of the power of this screen to measure single-cells. Variability can be observed as a density function produced for each well (Figure 4). The general shape of the distribution in most measurements resembles a Gaussian distribution, showing that the majority of cells exposed to the same stimuli respond equally. Nevertheless, for some compounds it is possible to notice variable response within the cellular population exposed to it, forming sub-populations. The existence of sub-populations can be explained by technical artefacts such as cell death and fragmentation during the immunostaining procedure, incorrect detection of cellular objects, but the existence of a true differential response to a compound from cells can also be due to differential population contexts.
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/single_cell_density.jpg"
+    <img src="{{ site.url }}/data/figures/single_cell_density.jpg"
          align="middle" style="width: 500px;"/>
 </div>
 
@@ -114,7 +114,7 @@ As a first step, I used both subsets (12 to 48 measurements) and the whole group
 
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/pcas.jpg"
+    <img src="{{ site.url }}/data/figures/pcas.jpg"
          align="middle" style="width: 500px;"/>
 </div>
 

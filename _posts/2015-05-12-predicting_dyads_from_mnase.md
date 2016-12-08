@@ -51,7 +51,7 @@ From NuMap output there are [dyad positions in bed format](https://www.dropbox.c
 Valouev describes two measurements of the frequencies of distances between MNase-seq reads. The frequency of distances between reads mapping to opposite strands can be used to build a "distogram", which ilustrates the expected nucleosome length (147 bp) - this is consistent across most eukaryotic cells. The frequency of distances between reads mapping to the same strand gives a measurement of the distance between nucleosomes, as they're separated by some linker DNA - (Valouev calls this plot a "phasogram"). This measurement, on the other hand tends to be species and cell-type specific.
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/dist-phasogram.png"
+    <img src="{{ site.url }}/data/figures/dist-phasogram.png"
          align="middle"/>
 </div>
 <p align="center">Valouev, A., Johnson, S. M., Boyd, S. D., Smith, C. L., Fire, A. Z., Sidow, A. (2011). Determinants of nucleosome organization in primary human cells. Nature, 474(7352), 516–520. <a href="http://doi.org/10.1038/nature10002">http://doi.org/10.1038/nature10002</a></p>
@@ -59,14 +59,14 @@ Valouev describes two measurements of the frequencies of distances between MNase
 #### K562 predictions:
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/mnase-distogram.png"
+    <img src="{{ site.url }}/data/figures/mnase-distogram.png"
          align="middle"/>
 </div>
 <p align="center">The expected 147 bp nucleosome length in K562 cells.</p>
 
 
 <div class="centerImages">
-    <img src={{ site.url }}"/data/figures/mnase-phasogram.png"
+    <img src="{{ site.url }}/data/figures/mnase-phasogram.png"
          align="middle"/>
 </div>
 <p align="center">The average distance between dyads in K562 cells seems to be 185 bp.</p>
