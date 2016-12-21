@@ -14,7 +14,7 @@ weight: 1
     </p>
 
     <p>
-    My research interests revolve around <a href="http://en.wikipedia.org/wiki/Epigenetics">epigenetics</a> in animal development and bioinformatics, but also on all kinds of gene regulation.
+    My research interests revolve around <a href="http://en.wikipedia.org/wiki/Epigenetics">epigenetics</a> in both development and disease, in which I apply bioinformatics and computational biology methods.
     </p>
 </div>
 

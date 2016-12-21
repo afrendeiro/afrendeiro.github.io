@@ -7,20 +7,26 @@ weight: 2
 ---
 {% include JB/setup %}
 
-I am generally interested in epigenetics in animal development and bioinformatics.
-
 Here are projects I am currently working on or have worked in the past:
 
 # Current projects
 
 ## Epigenetics for personalized medicine in cancer
 
+Chromatin accessibility profiling in leukemia as a mean to better understand the disease and for better patient stratification.
+
+Chronic lymphocytic leukemia (CLL) is characterized by substantial clinical heterogeneity, despite relatively few genetic alterations. To provide a basis for studying epigenome deregulation in CLL, we established genome-wide chromatin accessibility maps for 88 CLL samples from 55 patients using the ATAC-seq assay, which we complemented by ChIPmentation and RNA-seq data for a representative subset of samples. Furthermore, we devised a bioinformatic method for linking these chromatin profiles to clinical annotations. Our analysis identified sample-specific variation on top of a shared core of CLL regulatory regions. IGHV mutation status – which distinguishes the two major subtypes of CLL – was accurately predicted by the chromatin profiles, and gene regulatory networks inferred for IGHV-mutated vs. IGHV-unmutated samples identified characteristic regulatory differences between these two disease subtypes. In summary, we found widespread heterogeneity in the CLL chromatin landscape, established a community resource for studying epigenome deregulation in leukemia, and demonstrated the feasibility of chromatin accessibility mapping in cancer cohorts and clinical research.
+
 <div class="center">
+<a href="http://dx.doi.org/10.1038/ncomms11938">
     <img src="{{ site.url }}/data/figures/cll-chromatin.png"
          alt="CLL ATAC-seq." style="height: 400px;"/>
-</div>
+</a>
 <p style="clear: both;"> </p>
 
+<iframe src="https://widgets.figshare.com/articles/3479528/embed?show_title=1" width="75%" height="800px" frameborder="0"></iframe>
+
+</div>
 
 ---
 
