@@ -22,13 +22,27 @@ weight: 1
     <div class="col-sm-8 blog-main">
 
         <h2>Publications</h2>
-
-        <h4>Peer reviewed</h4>
         <div prefix="datacite: http://purl.org/spar/datacite/">
+
+        <h4>All peer reviewed publications</h4>
             <ol reversed="">
                 <li>
                     <p>
-                    <strong>André F Rendeiro*</strong>, Christian Schmidl*, Jonathan C. Strefford*,  Renata Walewska, Zadie Davis, Matthias Farlik,   David Oscier, Christoph Bock. Nature Communications. 7:11938 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">doi:10.1038/ncomms11938</a>
+                    Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <strong>Andre Rendeiro</strong>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany. Nature Neuroscience. <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
+                    <br>
+                    <span data-badge-type="2" data-doi="10.1038/ncomms11938" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    Clara Jana-Lui Busch, Tim Hendrikx, David Weismann, Sven Jäckel, Sofie M. A. Walenbergh, <strong>André F. Rendeiro</strong>, Juliane Weißer, Florian Puhm, Anastasiya Hladik, Laura Göderle, Nikolina Papac-Milicevic, Gerald Haas, Vincent Millischer, Saravanan Subramaniam, Sylvia Knapp, Keiryn L. Bennett, Christoph Bock, Christoph Reinhardt, Ronit Shiri-Sverdlov, Christoph J. Binder. Hepatology. <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
+                    <br>
+                    <span data-badge-type="2" data-doi="10.1002/hep.28970" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <strong>André F Rendeiro*</strong>, Christian Schmidl*, Jonathan C. Strefford*,  Renata Walewska, Zadie Davis, Matthias Farlik,   David Oscier, Christoph Bock. Chromatin accessibility maps of chronic lymphocytic leukaemia identify subtype-specific epigenome signatures and transcription regulatory networks. Nature Communications. 7:11938 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">doi:10.1038/ncomms11938</a>
                     <br>
                     <a href="http://www.nature.com/ncomms/2016/160627/ncomms11938/pdf/ncomms11938.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <a href="https://ega-archive.org/studies/EGAS00001001821"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Raw data</button></a>
@@ -60,7 +74,7 @@ weight: 1
 
         <br>
 
-        <h4>Non-peer reviewed</h4>
+        <h4>Non-peer reviewed publications</h4>
         <div prefix="datacite: http://purl.org/spar/datacite/">
             <ol reversed="">
                 <li>
@@ -74,7 +88,7 @@ weight: 1
 
         <h2>CV</h2>
         <p>
-        <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a> (last updated 09/11/2014)
+        <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a> (last updated 2016/08/21)
         </p>
     </div>
 
