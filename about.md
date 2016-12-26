@@ -120,6 +120,10 @@ weight: 1
                 <dd>
                     <a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
                 </dd>
+            <dt>ZeroNet ID:</dt>
+                <dd>
+                    <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
+                </dd>
         </dl>
     </div>
 
