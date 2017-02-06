@@ -38,7 +38,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                    Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <strong>Andre Rendeiro</strong>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany. Nature Neuroscience. <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
+                    Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <strong>Andre Rendeiro</strong>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany. Molecular interrogation of hypothalamic organization reveals distinct dopamine neuronal subtypes. Nature Neuroscience. <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
                     <br>                    
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
                     <span data-badge-type="2" data-doi="10.1038/nn.4462" data-hide-no-mentions="true" class="altmetric-embed"></span>
@@ -46,7 +46,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                    Clara Jana-Lui Busch, Tim Hendrikx, David Weismann, Sven Jäckel, Sofie M. A. Walenbergh, <strong>André F. Rendeiro</strong>, Juliane Weißer, Florian Puhm, Anastasiya Hladik, Laura Göderle, Nikolina Papac-Milicevic, Gerald Haas, Vincent Millischer, Saravanan Subramaniam, Sylvia Knapp, Keiryn L. Bennett, Christoph Bock, Christoph Reinhardt, Ronit Shiri-Sverdlov, Christoph J. Binder. Hepatology. <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
+                    Clara Jana-Lui Busch, Tim Hendrikx, David Weismann, Sven Jäckel, Sofie M. A. Walenbergh, <strong>André F. Rendeiro</strong>, Juliane Weißer, Florian Puhm, Anastasiya Hladik, Laura Göderle, Nikolina Papac-Milicevic, Gerald Haas, Vincent Millischer, Saravanan Subramaniam, Sylvia Knapp, Keiryn L. Bennett, Christoph Bock, Christoph Reinhardt, Ronit Shiri-Sverdlov, Christoph J. Binder. Malondialdehyde epitopes are sterile mediators of hepatic inflammation in hypercholesterolemic mice. Hepatology. <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
                     <br>
                     <span data-badge-type="2" data-doi="10.1002/hep.28970" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
