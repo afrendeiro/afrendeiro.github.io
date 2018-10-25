@@ -98,7 +98,7 @@ fig.savefig("atac-seq_power_analysis.coverage_distribution.svg", bbox_inches="ti
 ```
 
 
-![png](output_8_0.png)
+![png](https://github.com/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/atacseq_power_analysis/output_8_0.png)
 
 
 We see that across projects the type and shape of the distribution associated with read counts are extremely similar.
@@ -124,7 +124,7 @@ fig.savefig("atac-seq_power_analysis.CV_distribution.svg", bbox_inches="tight", 
 ```
 
 
-![png](output_10_0.png)
+![png](https://github.com/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/atacseq_power_analysis/output_10_0.png)
 
 
 While for all projects the distributions are some sort of gamma distribution, the the shape and scale parameters vary quite considerably.
@@ -153,7 +153,7 @@ fig.savefig("atac-seq_power_analysis.cumulative_CV.svg", bbox_inches="tight", dp
 ```
 
 
-![png](output_12_0.png)
+![png](https://github.com/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/atacseq_power_analysis/output_12_0.png)
 
 
 Having measured and investigated the technical and parameters of ATAC-seq experiments, we can now start to infer what is the sample size needed to discover differential regulatory elements between sample groups given some level of confidence, effect size and power.
@@ -320,7 +320,7 @@ fig.savefig("atac-seq_power_analysis.sample_size.heatmaps.svg", bbox_inches="tig
 ```
 
 
-![png](output_19_0.png)
+![png](https://github.com/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/atacseq_power_analysis/output_19_0.png)
 
 
 
