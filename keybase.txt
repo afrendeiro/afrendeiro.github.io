@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/afrendeiro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andre-rendeiro.com
+  * I am afrendeiro (https://keybase.io/afrendeiro) on keybase.
+  * I have a public key with fingerprint 49D4 FD17 7E13 916B A655  B868 75ED D35B C386 D1D8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208b8fd322f50c86c9a4bf133f8cd4bd9d69313196e94a9f01b696d803feffe6370a",
+      "fingerprint": "49d4fd177e13916ba655b86875edd35bc386d1d8",
+      "host": "keybase.io",
+      "key_id": "75edd35bc386d1d8",
+      "kid": "01011924496d2adf086cb2de62938699a1789761831c050085f11b7b9c8bed9c350e0a",
+      "uid": "7d876491f7975ee815816b637739d919",
+      "username": "afrendeiro"
+    },
+    "merkle_root": {
+      "ctime": 1552380057,
+      "hash_meta": "aea56239dc8fda333f86cd745d019360d71da3ddf9afa78aeb43f87178cb61e2",
+      "seqno": 4928112
+    },
+    "revoke": {
+      "sig_ids": [
+        "31e1d0c37f7ee5ed9bcf4b5e0277ce34b9f40aadf168df0004148aa14da3f9600f"
+      ]
+    },
+    "service": {
+      "hostname": "andre-rendeiro.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1552380079,
+  "expire_in": 157680000,
+  "prev": "3890b3264852f69f9464d81bd4483eb5779a13012d7df1a970bbd5145b38fbed",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtk19sFUUUxu+FGuuVkrZqG8ASXSVGvJSZndn5czVGBSsmBp9ogIo3Mzszt5u2
+u7d7t0WKrdpESUkKVB4sYtQQMP4DlCYGXpRYAolUhWDUpi+2SoIoGB98UIJxtnpj
+Ynza7NlvvvOd357ZU7cwk8v2XbnQMfnS+W+zZ3+Umad2lCe3OzJS25zCdqdLzz90
+t9KVpNgVKKfgAOgCJplRyHWNB3xGfC6wNBAhw3yFpeKKcAQR5ERzLLgBUBJOFAPI
+aGM0QRQIJ++YICzpuBwHYWJtMVfYKEiphohDIgXxPMkIo55WCnnSR4woqJg92BlV
+0hM2nBQV3RpEtmZfivPx/kdfzQ0g5C7GNoorlAE2uHSVJi63Us4FpIxTAhmCPvAA
+YJ6BUFLJfSa14j7ygJ7P3fd3H8UowRwaym1LzaDHbGo7G0VccchTYUXHoejRVi1M
+rEOlgzhyBvNOj467unUxjqIkxesnQSqCnuciBoBH7Yii0lns0YlIz2rhEde6+ha6
+QClm4iuKPQUgRwQoCm1ZKcOFEZQJLbGVUDuOLwnUrk1S0b1h5BQwdxmErk0Q6/6o
+S6fNK0HJgqs4hQ4HwZNDGirgI2qo1hYkl77B0tPApdTXCEtuMBAWHiTMEgQAQ8yE
+gNgGMJwAYJwtg2m7uD/w5+3Tf1VlEKpYr6pyaPWjHpusHEdJ5Efd9ntnkpQLKZ5k
+WznVb9Wy+I9TUQahsutiD/TruBJEocVllf8hR3ne0c+Ug1gXg1ThUWKrAKRtdL+1
+RIwDiVyCmecawg3HBCsGpcKYIS09Su0aILvhitoZBadASuVB7EnEjN2Cf1FCa5qI
+kvW0AEOR9MXaGcyNZFFNJpvLtDTdWfP4V9ebh24Z63prw/HO6hW7YUF6vzK5m+qr
+la+najPH9INndr25o2XFxreX7DnivD/Ow+GpcnRH/YnPxtaP/F6f/+CB76YLA70N
+d5ePFiauLVZi6/CC8YmHluXCgaQxd/bILy++EHaMDBy4//axpb2b7rtw4pOGxlvn
+6q78Vvr+tkNXdz350eU1e6c3/7Aqe/PnbfKPY+d3TpdvPD2Zn1vRNrrp1dqmcyfL
+rU9s2fBnw3PDh6+1fXNp6stnWw7Xzk6sW9/+8e6Hm+5d9M7MotnFl9qbH0FDs5t/
+vei+vO6x3c65faXGT73jox+ebj61dN9PTz9ffG//2vaZ/eHBgxcvHziz+t2VmZ3s
+9SVrVi6szx69WvPG6CtfzN2z8VSreW3m+urJRw8t/3n5XXvrxteGy/4C
+=quMB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/afrendeiro
+
+==================================================================
