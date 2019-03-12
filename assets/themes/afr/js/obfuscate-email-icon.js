@@ -17,5 +17,5 @@
       link += (key.charAt(ltr))
     }
   }
-document.write("<a class='btn navbar-btn btn-social-icon btn-vk' href='mailto:"+link+"'><i class='fa fa-envelope-o'></i></a>")
+document.write("<a class='btn navbar-btn btn-social-icon navbar-btn' href='mailto:"+link+"'><i class='fas fa-envelope' style='color:#cc724f'></i></a>")
 }

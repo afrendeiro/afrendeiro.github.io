@@ -17,13 +17,16 @@
 		<!-- Pygments -->
 		<link rel="stylesheet" href="/assets/themes/afr/css/pygments_style.css">
 		<!-- Font awesome -->
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 		<!-- Bootstrap-social -->
-		<link href="http://cdn.bootcss.com/bootstrap-social/4.2.1/bootstrap-social.css" rel="stylesheet">
-		
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" rel="stylesheet">
+
 		<!-- Custom CSS -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+		<!-- ORCID icon -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
 		<!-- Le fav and touch icons -->
 		<!-- Update these with your own images
@@ -38,7 +41,7 @@
 
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container-fluid">
-				
+
 				<!-- Title and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -49,7 +52,7 @@
 					</button>
 					<a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
 				</div><!-- /.navbar-header -->
-				
+
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
@@ -57,7 +60,7 @@
 						{% assign sorted_pages = site.pages | sort:"weight" %}
 						{% include themes/afr/sorted_pages %}
 					</ul>
-					
+
 					<!-- Search -->
 					<div class="navbar-header navbar-right">
 						<form class="navbar-form" role="search" method="get" action="http://google.com/search">
@@ -71,27 +74,35 @@
 
 					<div class="navbar-header navbar-right">
 						{% if site.author.twitter %}
-							<a class="btn navbar-btn btn-social-icon btn-twitter navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
 						{% endif %}
 
 						{% if site.author.github %}
-							<a class="btn navbar-btn btn-social-icon btn-github navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" style="color:black"></i></a>
 						{% endif %}
 
-						{% if site.author.googleplus %}
-							<a class="btn navbar-btn btn-social-icon btn-google-plus" href="https://plus.google.com/+{{ site.author.googleplus }}"><i class="fa fa-google-plus"></i></a>
+						{% if site.author.orcid %}
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="http://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" style="color:#A6CE39"></i>
+						{% endif %}
+
+						{% if site.author.google-scholar %}
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://scholar.google.at/citations?user={{ site.author.google-scholar }}&hl=en"><i class="ai ai-google-scholar"></i>
+						{% endif %}
+
+						{% if site.author.cv %}
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="{{ site.author.cv }}"><i class="ai ai-cv" style="color:black"></i>
 						{% endif %}
 
 						{% if site.author.email %}
 							<script type='text/javascript' src='{{ ASSET_PATH }}/js/obfuscate-email-icon.js'></script>
 						{% endif %}
-						
+
 					</div>
 
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container -->
 		</nav><!-- /.navbar -->
-		
+
 		<div class="container">
 
 			<!-- Page header -->
@@ -102,7 +113,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!-- Main content -->
 			<div class="row" id="content">
 				{{ content }}
@@ -111,7 +122,7 @@
 		</div> <!-- ./container -->
 
 		<hr>
-		
+
 		<!-- Footer -->
 		<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverted footer">
 			<div class="container">
@@ -124,20 +135,20 @@
 						<!-- Credit -->
 						<p>
 							<small>With help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-							, <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a> 
+							, <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>
 							and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 							</small>
 						</p>
-						
+
 						<!-- CC licence -->
 						{% if site.licence %}
 							<a class="licence" rel="license" href="http://creativecommons.org/licenses/{{ site.licence }}/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/{{ site.licence }}/4.0/80x15.png" /></a>
-						{% endif %}				
+						{% endif %}
 					</div>
 				</div><!-- ./row -->
 			</div><!-- ./container -->
 		</nav>
-		
+
 		{% include google_analytics.html %}
 		{% include JB/analytics %}
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

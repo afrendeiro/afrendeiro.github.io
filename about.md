@@ -7,32 +7,41 @@ weight: 1
 ---
 {% include JB/setup %}
 
-
-
-<div typeof="foaf:Person" about="http://andre-rendeiro.me/about" prefix="schema: http://schema.org/Person#">
-    <p>I'm a <span property="schema:jobTitle">PhD student</span> at <a rel="schema:affiliation" href="http://www.cemm.oeaw.ac.at/">CeMM</a> in the lab of <a rel="foaf:knows" href="http://medical-epigenomics.org/">Christoph Bock</a>.
-    </p>
-
-    <p>
-    My research interests revolve around <a href="http://en.wikipedia.org/wiki/Epigenetics">epigenetics</a> in both development and disease, in which I apply bioinformatics and computational biology methods.
-    </p>
-</div>
-
 <div class="row">
     <div class="col-sm-8 blog-main">
-
+        <h2>CV</h2>
+        <p>
+        <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a>
+        </p>
         <h2>Publications</h2>
         <div prefix="datacite: http://purl.org/spar/datacite/">
-
         <h4>All peer reviewed publications</h4>
             <ol reversed="">
+                <li>
+                    <p>
+                    Christian Schmidl*, Gregory I Vladimer*, <strong>André F. Rendeiro*</strong>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, EditPorpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber,Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock. Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL. Nature Chemical Biology. (2019) <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">doi:10.1038/s41589-018-0205-2</a>
+                    <br>
+                    <a href="https://www.nature.com/articles/s41589-018-0205-2.epdf?author_access_token=bhLY62eOUKzMxIek0Lrur9RgN0jAjWel9jnR3ZoTv0OorJZAyhsTHb_lKvE8iHB4D-HCNtQW3iuHJ6rd4yyhVuqSRybOkvDAylqw3Y4ls_TSAbSvsrbyBKCASfcuMe_LYEtnAVhV2dzkOxsLOLffEA%3D%3D"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
+                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
+                    <a href="https://github.com/epigen/cll-ibrutinib"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41589-018-0205-2" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    Tahsin Stefan Barakat, Florian Halbritter, Man Zhang, <strong>André F. Rendeiro</strong>, Christoph Bock, Ian Chambers. Functional dissection of the enhancer repertoire in human embryonic stem cells.   Cell Stem Cell. (2018) <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
+                    <br>
+                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
+                    <span data-badge-type="2" data-doi="10.1016/j.stem.2018.06.014" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
                 <li>
                     <p>
                     Paul Datlinger,	<strong>André F Rendeiro*</strong>, Christian Schmidl*, Thomas Krausgruber, Peter Traxler, Johanna Klughammer, Linda C Schuster, Amelie Kuchler, Donat Alpar, Christoph Bock. Pooled CRISPR screening with single-cell transcriptome readout. Nature Methods. (2017) <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">doi:10.1038/nmeth.4177</a>
                     <br>
                     <a href="http://rdcu.be/oDFf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
-                    <a href="https://github.com/epigen/crop-seq"><button type="button" class="btn btn-default btn-sm"> <span class="fa fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <a href="https://github.com/epigen/crop-seq"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                     <span data-badge-type="2" data-doi="10.1038/nmeth.4177" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
@@ -58,7 +67,7 @@ weight: 1
                     <a href="http://www.nature.com/ncomms/2016/160627/ncomms11938/pdf/ncomms11938.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <a href="https://ega-archive.org/studies/EGAS00001001821"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Raw data</button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Processed data</button></a>
-                    <a href="https://github.com/epigen/cll-chromatin"><button type="button" class="btn btn-default btn-sm"> <span class="fa fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <a href="https://github.com/epigen/cll-chromatin"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                     <span data-badge-type="2" data-doi="10.1038/ncomms11938" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
@@ -68,7 +77,7 @@ weight: 1
                     <br>
                     <a href="http://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
-                    <a href="https://github.com/epigen/chipmentation"><button type="button" class="btn btn-default btn-sm"> <span class="fa fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <a href="https://github.com/epigen/chipmentation"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                     <span data-badge-type="2" data-doi="10.1038/nmeth.3542" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
@@ -82,12 +91,21 @@ weight: 1
             </ol>
             * equal contributions
         </div>
-
         <br>
-
         <h4>Non-peer reviewed publications</h4>
         <div prefix="datacite: http://purl.org/spar/datacite/">
             <ol reversed="">
+                <li>
+                    <p>Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Gerald Hofstaetter, Anna Ringler, Herwig P Moll, Wanhui You, Kristaps Klavins, Bettina Guertl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik,Peter Majek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L Buckley, Otto Hudecz, Richard Imre, Robert Kralovics, Keiryn L Bennett, Andre C Mueller, Karl Mechtler, Joerg Menche, James E Bradner, Georg E Winter, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek,MTHFD1 is agenetic interactor of BRD4 and links folate metabolism to transcriptional regulation. BiorXiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/439422" onclick="recordOutboundLink(this, 'DOI', '10.1101/439422'); return false;">doi:10.1101/439422</a>
+                    <br>
+                    <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <span data-badge-type="2" data-doi="10.1101/439422" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+                </li>
+                <li>
+                    <p>Alexander Swoboda, Robert Soukup, Katharina Kinslechner, Bettina Wingelhofer, David Schoerghofer, Christina Sternberg, Ha Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beer-mann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <strong>André F. Rendeiro</strong>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschlaeger, Peter Petzelbauer, Mario Mikula, Richard Moriggl. STAT3 promotes melanomametastasis by CEBP-induced repression of the MITF pigmentation path-way. BiorXiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/422832" onclick="recordOutboundLink(this, 'DOI', '10.1101/422832'); return false;">doi:10.1101/422832</a>
+                    <br>
+                    <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+                </li>
                 <li>
                     <p><strong>André F Rendeiro</strong>, Pavla Navratilova, Eric Thompson. 2014. Chromatin preparation for ChIP-seq in Oikopleura dioica. Figshare. <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.6084/m9.figshare.884562</a>
                     <br>
@@ -96,48 +114,7 @@ weight: 1
                 </li>
             </ol>
         </div>
-
-        <h2>CV</h2>
-        <p>
-        <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a> (last updated 2016/08/21)
-        </p>
     </div>
-
-    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-        <dl>
-            <dt>Address:</dt>
-                <dd>
-                    <span property="schema:address" typeof="http://schema.org/PostalAddress" vocab="http://schema.org/PostalAddress/">
-                        <span property="streetAddress">
-                            <a href="http://www.cemm.oeaw.ac.at/">CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences </a>
-                        </span>, 
-                        <a href="https://www.google.at/maps/place/CeMM+-+Forschungszentrum+für+Molekulare+Medizin+GmbH./@48.2194743,16.3496347,18z/">
-                            <span property="postalCode">1090</span>
-                            <span property="addressLocality">Vienna</span>, 
-                            <span property="addressCountry">Austria</span>
-                        </a>
-                    </span>
-                </dd>
-
-            <dt>Orcid ID:</dt>
-                <dd>
-                    <a property="http://purl.org/spar/datacite/orcid" href="https://orcid.org/0000-0001-9362-5373" onclick="recordOutboundLink(this, 'Link', '| + input + |'); return false;">0000-0001-9362-5373</a>
-                </dd>
-            <dt>Google Scholar:</dt>
-                <dd>
-                    <a href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">André Figueiredo Rendeiro</a>
-                </dd>
-            <dt>Public Key:</dt>
-                <dd>
-                    <a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
-                </dd>
-            <dt>ZeroNet ID:</dt>
-                <dd>
-                    <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
-                </dd>
-        </dl>
-    </div>
-
 </div>
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
