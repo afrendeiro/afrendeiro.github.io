@@ -7,7 +7,7 @@ description: "My personal website"
 
 <div class="row">
     <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.me/about" prefix="schema: http://schema.org/Person#">
-        <img src="{{ 'afrendeiro@gmail.com' | gravatar }}" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">
+        <img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">
         <p>
             I'm a <span property="schema:jobTitle">PhD student</span> at <a rel="schema:affiliation" href="http://www.cemm.oeaw.ac.at/">CeMM</a> in the lab of <a rel="foaf:knows" href="http://medical-epigenomics.org/">Christoph Bock</a>.
         </p>
