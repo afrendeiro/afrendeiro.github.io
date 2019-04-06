@@ -9,11 +9,11 @@ weight: 1
 
 <div class="row">
     <div class="col-sm-8 blog-main">
-        <h2>CV</h2>
+        <h2>Curriculum Vitae</h2>
         <p>
         <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a>
         </p>
-        <h2>Publications</h2>
+        <h2>Publications and associated resources</h2>
         <div prefix="datacite: http://purl.org/spar/datacite/">
         <h4>All peer reviewed publications</h4>
             <ol reversed="">
@@ -96,13 +96,20 @@ weight: 1
         <div prefix="datacite: http://purl.org/spar/datacite/">
             <ol reversed="">
                 <li>
-                    <p>Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Gerald Hofstaetter, Anna Ringler, Herwig P Moll, Wanhui You, Kristaps Klavins, Bettina Guertl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik,Peter Majek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L Buckley, Otto Hudecz, Richard Imre, Robert Kralovics, Keiryn L Bennett, Andre C Mueller, Karl Mechtler, Joerg Menche, James E Bradner, Georg E Winter, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek,MTHFD1 is agenetic interactor of BRD4 and links folate metabolism to transcriptional regulation. BiorXiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/439422" onclick="recordOutboundLink(this, 'DOI', '10.1101/439422'); return false;">doi:10.1101/439422</a>
+                    <p>Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Gerald Hofstaetter, Anna Ringler, Herwig P Moll, Wanhui You, Kristaps Klavins, Bettina Guertl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik,Peter Majek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L Buckley, Otto Hudecz, Richard Imre, Robert Kralovics, Keiryn L Bennett, Andre C Mueller, Karl Mechtler, Joerg Menche, James E Bradner, Georg E Winter, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek. Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib drug response in chronic lymphocytic leukemia. bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/597005" onclick="recordOutboundLink(this, 'DOI', '10.1101/597005'); return false;">doi:10.1101/597005</a>
+                    <br>
+                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
+                    <a href="https://github.com/epigen/cll-time_course"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                    <span data-badge-type="2" data-doi="10.1101/597005" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
+                </li>
+                <li>
+                    <p>Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Gerald Hofstaetter, Anna Ringler, Herwig P Moll, Wanhui You, Kristaps Klavins, Bettina Guertl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik,Peter Majek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L Buckley, Otto Hudecz, Richard Imre, Robert Kralovics, Keiryn L Bennett, Andre C Mueller, Karl Mechtler, Joerg Menche, James E Bradner, Georg E Winter, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek. MTHFD1 is agenetic interactor of BRD4 and links folate metabolism to transcriptional regulation. bioRxiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/439422" onclick="recordOutboundLink(this, 'DOI', '10.1101/439422'); return false;">doi:10.1101/439422</a>
                     <br>
                     <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                     <span data-badge-type="2" data-doi="10.1101/439422" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
                 </li>
                 <li>
-                    <p>Alexander Swoboda, Robert Soukup, Katharina Kinslechner, Bettina Wingelhofer, David Schoerghofer, Christina Sternberg, Ha Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beer-mann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <strong>André F. Rendeiro</strong>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschlaeger, Peter Petzelbauer, Mario Mikula, Richard Moriggl. STAT3 promotes melanomametastasis by CEBP-induced repression of the MITF pigmentation path-way. BiorXiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/422832" onclick="recordOutboundLink(this, 'DOI', '10.1101/422832'); return false;">doi:10.1101/422832</a>
+                    <p>Alexander Swoboda, Robert Soukup, Katharina Kinslechner, Bettina Wingelhofer, David Schoerghofer, Christina Sternberg, Ha Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beer-mann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <strong>André F. Rendeiro</strong>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschlaeger, Peter Petzelbauer, Mario Mikula, Richard Moriggl. STAT3 promotes melanomametastasis by CEBP-induced repression of the MITF pigmentation path-way. bioRxiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/422832" onclick="recordOutboundLink(this, 'DOI', '10.1101/422832'); return false;">doi:10.1101/422832</a>
                     <br>
                     <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span></p>
                 </li>
