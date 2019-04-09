@@ -13,20 +13,44 @@ Here are projects I am currently working on or have worked in the past:
 
 ## Epigenetics for personalized medicine in cancer
 
-Chromatin accessibility profiling in leukemia as a mean to better understand the disease and for better patient stratification.
-
-Chronic lymphocytic leukemia (CLL) is characterized by substantial clinical heterogeneity, despite relatively few genetic alterations. To provide a basis for studying epigenome deregulation in CLL, we established genome-wide chromatin accessibility maps for 88 CLL samples from 55 patients using the ATAC-seq assay, which we complemented by ChIPmentation and RNA-seq data for a representative subset of samples. Furthermore, we devised a bioinformatic method for linking these chromatin profiles to clinical annotations. Our analysis identified sample-specific variation on top of a shared core of CLL regulatory regions. IGHV mutation status – which distinguishes the two major subtypes of CLL – was accurately predicted by the chromatin profiles, and gene regulatory networks inferred for IGHV-mutated vs. IGHV-unmutated samples identified characteristic regulatory differences between these two disease subtypes. In summary, we found widespread heterogeneity in the CLL chromatin landscape, established a community resource for studying epigenome deregulation in leukemia, and demonstrated the feasibility of chromatin accessibility mapping in cancer cohorts and clinical research.
+<h4>Relevant papers:</h4>
+<ol>
+    <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
+    </li>
+    <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
+    </li>
+    <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/597005" onclick="recordOutboundLink(this, 'DOI', '10.1101/597005'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, bioRxiv 2019</a>
+    </li>
+</ol>
 
 <div class="center">
-<a href="http://dx.doi.org/10.1038/ncomms11938">
-    <img src="{{ site.url }}/data/figures/cll-chromatin.png"
+<img src="{{ site.url }}/data/figures/cll-chromatin.png"
          alt="CLL ATAC-seq." style="height: 400px;"/>
-</a>
+</div>
 <p style="clear: both;"> </p>
 
-<iframe src="https://widgets.figshare.com/articles/3479528/embed?show_title=1" width="75%" height="800px" frameborder="0"></iframe>
 
+## Technology development
+
+<h4>Relevant papers:</h4>
+<ol>
+    <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">Datlinger, <i>et al</i>, Nature Methods, 2017</a>
+    </li>
+    <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">Schmidl*, Rendeiro*, <i>et al</i>, Nature Methods, 2015</a>
+    </li>
+</ol>
+
+<div class="center">
+<img src="{{ site.url }}/data/figures/crop-seq.png"
+     alt="CLL ATAC-seq." style="height: 400px;"/>
 </div>
+<p style="clear: both;"> </p>
+
 
 ---
 
@@ -61,17 +85,17 @@ This project aims to study the mechanisms of transition between different cell c
 We performed ChIP-seq on two antagonist transcription factors (E2F1 and E2F7) involved in the control of cell cycle progression that have been shown to have differential patterns of regulation in mitotic and endocycling cell cycle modes. We set ourselves to perform an initial functional study of H3K79me in *Oikopleura* though Dot1 inhibition in developmental stages employing different cell cycle modes.
 
 {% comment %}
-	Html divs inside markdown documents cannot have markdown inside them again, so I write the images in html as well.
-	Ideally, I'd create a html div with a class with text:center, etc...
-	and inside just add images in markdown syntax [alt](url "hover").
+    Html divs inside markdown documents cannot have markdown inside them again, so I write the images in html as well.
+    Ideally, I'd create a html div with a class with text:center, etc...
+    and inside just add images in markdown syntax [alt](url "hover").
 {% endcomment %}
 
 <div class="center">
-	<img src="{{ site.url }}/data/figures/oikopleura_lifeCycle.png"
-		 alt="<i>Oikopleura dioica</i> employs various types of cell cycle during its life cycle" style="height: 200px;"/>
+    <img src="{{ site.url }}/data/figures/oikopleura_lifeCycle.png"
+         alt="<i>Oikopleura dioica</i> employs various types of cell cycle during its life cycle" style="height: 200px;"/>
 
-	<img src="{{ site.url }}/data/figures/oikopleura_change_cell-cycle.png"
-		 alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" style="height: 150px;"/>
+    <img src="{{ site.url }}/data/figures/oikopleura_change_cell-cycle.png"
+         alt="We're interested in the molecular mechanisms leading to the transition between cell cycle modes" style="height: 150px;"/>
 </div>
 <p style="clear: both;"> </p>
 
@@ -88,14 +112,14 @@ We found that the location of chromatin modifications relative to genes and dist
 Taken together our work showed that the genomic landscape of gene regulatory elements and associated genes is highly similar between *Nematostella* and bilaterian model organisms. This suggests that the eumetazoan ancestor already possessed highly complex gene regulation and that the complexity of bilaterian body plans in general did not arise through novel gene regulatory mechanisms. We hypothesize that rather a re-wiring of a few important interactions in gene regulatory networks might have led to the evolution of new body plans and an increase in complexity in bilaterians.
 
 <div class="center">
-	<img src="{{ site.url }}/data/figures/nematostella_chipSeq.png"
-		 alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle" style="height: 350px;"/>
+    <img src="{{ site.url }}/data/figures/nematostella_chipSeq.png"
+         alt="ChIP-seq of histone modifications in the cnidarian <i>Nematostella vectensis</i>" align="middle" style="height: 350px;"/>
 
-	<img src="{{ site.url }}/data/figures/nematostella_hmmStates.png"
-		 alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
+    <img src="{{ site.url }}/data/figures/nematostella_hmmStates.png"
+         alt="Chromatin segmentation allows discovery of cis-regulatory elements" align="middle" style="height: 200px;"/>
 
-	<img src="{{ site.url }}/data/figures/nematostella_enhancers.png"
-		 alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle" style="height: 350px;"/>
+    <img src="{{ site.url }}/data/figures/nematostella_enhancers.png"
+         alt="Predicted enhancers drive expression in a manner that recapitulates expression of nearby genes" align="middle" style="height: 350px;"/>
 </div>
 
 <p style="clear: both;"> </p>
