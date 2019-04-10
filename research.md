@@ -38,6 +38,9 @@ Here are projects I am currently working on or have worked in the past:
 <h4>Relevant papers:</h4>
 <ol>
     <li>
+        <a rel="datacite:doi" href="http://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">Barakat*, Halbritter*, <i>et al</i>, Cell Stem Cell, 2018</a>
+    </li>
+    <li>
         <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">Datlinger, <i>et al</i>, Nature Methods, 2017</a>
     </li>
     <li>

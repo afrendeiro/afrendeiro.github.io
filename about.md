@@ -29,7 +29,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Tahsin Stefan Barakat, Florian Halbritter, Man Zhang, <strong>André F. Rendeiro</strong>, Christoph Bock, Ian Chambers. Functional dissection of the enhancer repertoire in human embryonic stem cells.   Cell Stem Cell. (2018) <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
+                        Tahsin Stefan Barakat*, Florian Halbritter*, Man Zhang, <strong>André F. Rendeiro</strong>, Christoph Bock, Ian Chambers. Functional dissection of the enhancer repertoire in human embryonic stem cells.   Cell Stem Cell. (2018) <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
                         <br>
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
                         <span data-badge-type="2" data-doi="10.1016/j.stem.2018.06.014" data-hide-no-mentions="true" class="altmetric-embed"></span>
