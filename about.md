@@ -19,6 +19,14 @@ weight: 1
             <ol reversed="">
                 <li>
                     <p>
+                        Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Wanhui You, Jung-Ming G. Lin, Anna Ringler, Gerald Hofstätter, Herwig P. Moll, Bettina Gürtl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik, Peter Májek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L. Buckley, Otto Hudecz, Richard Imre, Shuang-Yan Wang, Hans Michael Maric, Robert Kralovics, Keiryn L. Bennett, Andre C. Müller, Karl Mechtler, Jörg Menche, James E. Bradner, Georg E. Winter, Kristaps Klavins, Emilio Casanova, Christoph Bock, Johannes Zuber & Stefan Kubicek. MTHFD1 interaction with BRD4 links folate metabolism to transcriptional regulation. Nature Genetics (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41588-019-0413-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-019-0413-z'); return false;">doi:10.1038/s41588-019-0413-z</a>
+                        <br>
+                        <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                        <span data-badge-type="2" data-doi="10.1038/s41588-019-0413-z" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
                         Christian Schmidl*, Gregory I Vladimer*, <strong>André F. Rendeiro*</strong>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, EditPorpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber,Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock. Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL. Nature Chemical Biology. (2019) <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">doi:10.1038/s41589-018-0205-2</a>
                         <br>
                         <a href="https://www.nature.com/articles/s41589-018-0205-2.epdf?author_access_token=bhLY62eOUKzMxIek0Lrur9RgN0jAjWel9jnR3ZoTv0OorJZAyhsTHb_lKvE8iHB4D-HCNtQW3iuHJ6rd4yyhVuqSRybOkvDAylqw3Y4ls_TSAbSvsrbyBKCASfcuMe_LYEtnAVhV2dzkOxsLOLffEA%3D%3D"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
@@ -104,14 +112,6 @@ weight: 1
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
                         <a href="https://github.com/epigen/cll-time_course"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                         <span data-badge-type="2" data-doi="10.1101/597005" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Gerald Hofstaetter, Anna Ringler, Herwig P Moll, Wanhui You, Kristaps Klavins, Bettina Guertl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik,Peter Majek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L Buckley, Otto Hudecz, Richard Imre, Robert Kralovics, Keiryn L Bennett, Andre C Mueller, Karl Mechtler, Joerg Menche, James E Bradner, Georg E Winter, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek. MTHFD1 is agenetic interactor of BRD4 and links folate metabolism to transcriptional regulation. bioRxiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/439422" onclick="recordOutboundLink(this, 'DOI', '10.1101/439422'); return false;">doi:10.1101/439422</a>
-                        <br>
-                        <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
-                        <span data-badge-type="2" data-doi="10.1101/439422" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
                 <li>
