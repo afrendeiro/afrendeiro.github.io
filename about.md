@@ -19,6 +19,15 @@ weight: 1
             <ol reversed="">
                 <li>
                     <p>
+                        Sandra Schick, <strong>André F. Rendeiro</strong>, Kathrin Runggatscher, Anna Ringler, Bernd Boidol, Melanie Hinkel, Peter Májek, Loan Vulliard, Thomas Penz, Katja Parapatics, Christian Schmidl, Jörg Menche, Guido Boehmelt, Mark Petronczki, André C. Müller, Christoph Bock, Stefan Kubicek. Systematic characterization of BAF mutations provides insights into intracomplex synthetic lethalities in human cancers. Nature Genetics (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41588-019-0477-9" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-019-0477-9'); return false;">doi:10.1038/s41588-019-0477-9</a>
+                        <br>
+                        <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108390"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
+                        <a href="https://github.com/epigen/baf-complex"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
+                        <span data-badge-type="2" data-doi="10.1038/s41588-019-0477-9" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
                         Sara Sdelci, <strong>André F. Rendeiro</strong>, Philipp Rathert, Wanhui You, Jung-Ming G. Lin, Anna Ringler, Gerald Hofstätter, Herwig P. Moll, Bettina Gürtl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik, Peter Májek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L. Buckley, Otto Hudecz, Richard Imre, Shuang-Yan Wang, Hans Michael Maric, Robert Kralovics, Keiryn L. Bennett, Andre C. Müller, Karl Mechtler, Jörg Menche, James E. Bradner, Georg E. Winter, Kristaps Klavins, Emilio Casanova, Christoph Bock, Johannes Zuber & Stefan Kubicek. MTHFD1 interaction with BRD4 links folate metabolism to transcriptional regulation. Nature Genetics (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41588-019-0413-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-019-0413-z'); return false;">doi:10.1038/s41588-019-0413-z</a>
                         <br>
                         <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
@@ -27,7 +36,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Christian Schmidl*, Gregory I Vladimer*, <strong>André F. Rendeiro*</strong>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, EditPorpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber,Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock. Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL. Nature Chemical Biology. (2019) <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">doi:10.1038/s41589-018-0205-2</a>
+                        Christian Schmidl*, Gregory I Vladimer*, <strong>André F. Rendeiro*</strong>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, EditPorpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber,Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock. Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL. Nature Chemical Biology (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">doi:10.1038/s41589-018-0205-2</a>
                         <br>
                         <a href="https://www.nature.com/articles/s41589-018-0205-2.epdf?author_access_token=bhLY62eOUKzMxIek0Lrur9RgN0jAjWel9jnR3ZoTv0OorJZAyhsTHb_lKvE8iHB4D-HCNtQW3iuHJ6rd4yyhVuqSRybOkvDAylqw3Y4ls_TSAbSvsrbyBKCASfcuMe_LYEtnAVhV2dzkOxsLOLffEA%3D%3D"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
@@ -55,7 +64,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <strong>Andre Rendeiro</strong>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany. Molecular interrogation of hypothalamic organization reveals distinct dopamine neuronal subtypes. Nature Neuroscience. <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
+                        Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <strong>Andre Rendeiro</strong>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany. Molecular interrogation of hypothalamic organization reveals distinct dopamine neuronal subtypes. Nature Neuroscience (2017). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
                         <br>                    
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
                         <span data-badge-type="2" data-doi="10.1038/nn.4462" data-hide-no-mentions="true" class="altmetric-embed"></span>
@@ -63,14 +72,14 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Clara Jana-Lui Busch, Tim Hendrikx, David Weismann, Sven Jäckel, Sofie M. A. Walenbergh, <strong>André F. Rendeiro</strong>, Juliane Weißer, Florian Puhm, Anastasiya Hladik, Laura Göderle, Nikolina Papac-Milicevic, Gerald Haas, Vincent Millischer, Saravanan Subramaniam, Sylvia Knapp, Keiryn L. Bennett, Christoph Bock, Christoph Reinhardt, Ronit Shiri-Sverdlov, Christoph J. Binder. Malondialdehyde epitopes are sterile mediators of hepatic inflammation in hypercholesterolemic mice. Hepatology. <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
+                        Clara Jana-Lui Busch, Tim Hendrikx, David Weismann, Sven Jäckel, Sofie M. A. Walenbergh, <strong>André F. Rendeiro</strong>, Juliane Weißer, Florian Puhm, Anastasiya Hladik, Laura Göderle, Nikolina Papac-Milicevic, Gerald Haas, Vincent Millischer, Saravanan Subramaniam, Sylvia Knapp, Keiryn L. Bennett, Christoph Bock, Christoph Reinhardt, Ronit Shiri-Sverdlov, Christoph J. Binder. Malondialdehyde epitopes are sterile mediators of hepatic inflammation in hypercholesterolemic mice. Hepatology (2017). <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
                         <br>
                         <span data-badge-type="2" data-doi="10.1002/hep.28970" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
                 <li>
                     <p>
-                        <strong>André F Rendeiro*</strong>, Christian Schmidl*, Jonathan C. Strefford*,  Renata Walewska, Zadie Davis, Matthias Farlik,   David Oscier, Christoph Bock. Chromatin accessibility maps of chronic lymphocytic leukaemia identify subtype-specific epigenome signatures and transcription regulatory networks. Nature Communications. 7:11938 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">doi:10.1038/ncomms11938</a>
+                        <strong>André F Rendeiro*</strong>, Christian Schmidl*, Jonathan C. Strefford*,  Renata Walewska, Zadie Davis, Matthias Farlik,   David Oscier, Christoph Bock. Chromatin accessibility maps of chronic lymphocytic leukaemia identify subtype-specific epigenome signatures and transcription regulatory networks. Nature Communications (2016). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">doi:10.1038/ncomms11938</a>
                         <br>
                         <a href="http://www.nature.com/ncomms/2016/160627/ncomms11938/pdf/ncomms11938.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                         <a href="https://ega-archive.org/studies/EGAS00001001821"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Raw data</button></a>
@@ -81,7 +90,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Christian Schmidl*, <strong>André F Rendeiro*</strong>, Nathan C Sheffield, Christoph Bock. 2015. ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors. Nature Methods. <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">doi:10.1038/nmeth.3542</a>
+                        Christian Schmidl*, <strong>André F Rendeiro*</strong>, Nathan C Sheffield, Christoph Bock. 2015. ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors. Nature Methods (2015). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">doi:10.1038/nmeth.3542</a>
                         <br>
                         <a href="http://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
@@ -91,7 +100,7 @@ weight: 1
                 </li>
                 <li>
                     <p>
-                        Michaela Schwaiger, Anna Schönauer, <strong>André F Rendeiro</strong>, Carina Pribitzer, Alexandra Schauer, Anna F Gilles, Johannes B Schinko, Eduard Renfer, David Fredman, Ulrich Technau. 2014. Evolutionary conservation of the eumetazoan gene regulatory landscape. Genome Research 24(4), 639-650. <a rel="datacite:doi" href="http://dx.doi.org/10.1101/gr.162529.113" onclick="recordOutboundLink(this, 'DOI', '10.1101/gr.162529.113'); return false;">doi:10.1101/gr.162529.113</a>
+                        Michaela Schwaiger, Anna Schönauer, <strong>André F Rendeiro</strong>, Carina Pribitzer, Alexandra Schauer, Anna F Gilles, Johannes B Schinko, Eduard Renfer, David Fredman, Ulrich Technau. Evolutionary conservation of the eumetazoan gene regulatory landscape. Genome Research (2014). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/gr.162529.113" onclick="recordOutboundLink(this, 'DOI', '10.1101/gr.162529.113'); return false;">doi:10.1101/gr.162529.113</a>
                         <br>
                         <a href="http://genome.cshlp.org/content/24/4/639.full.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>PDF</button></a>
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46488"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
@@ -102,7 +111,7 @@ weight: 1
             * equal contributions
         </div>
         <br>
-        <h4>Non-peer reviewed publications</h4>
+        <h4>Preprints</h4>
         <div prefix="datacite: http://purl.org/spar/datacite/">
             <ol reversed="">
                 <li>
