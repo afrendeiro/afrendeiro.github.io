@@ -6,7 +6,7 @@ description: "My personal website"
 {% include JB/setup %}
 
 <div class="row">
-    <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.me/about" prefix="schema: http://schema.org/Person#">
+    <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">
         <p>
             I'm a <span property="schema:jobTitle">PhD student</span> at <a rel="schema:affiliation" href="http://www.cemm.oeaw.ac.at/">CeMM</a> in the lab of <a rel="foaf:knows" href="http://medical-epigenomics.org/">Christoph Bock</a>.
@@ -54,7 +54,7 @@ description: "My personal website"
             <br>
             <dt>Public Key:</dt>
                 <dd>
-                    <a href="http://andre-rendeiro.me/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
+                    <a href="http://andre-rendeiro.com/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
                 </dd>
 <!--             <dt>ZeroNet ID:</dt>
                 <dd>
