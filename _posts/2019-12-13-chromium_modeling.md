@@ -23,11 +23,11 @@ This notebook aims to explore the droplet generation and cell/nuclei loading pro
 To that end, we ran the device channels with increasing numbers of nuclei and with a buffer that did not cause lysis. This way, after collecting the droplet emulsion, we were able to simply count optically the number of nuclei in each droplet. Here is how the droplet emulsion looks like for various concentrations:
 <img src="http://www.medical-epigenomics.org/papers/datlinger2019/data/FigS1a.png" alt="FigS1a" width="100%"/>
 
-For more details on the experimental procedure, please refer to the [scifiRNA-seq preprint](https://biorxiv.org/).
+For more details on the experimental procedure, please refer to the [scifi-RNA-seq preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.879304v1).
 
 We hoped to gain deeper understanding into the droplet generation, bead and nuclei loading procedures, in order to derive the statistical properties underlying them.
 
-In this notebook we will focus on the nuclei loading procedure and we will use the counts of nuclei per droplet in the resulting emultion to model this distributions and make some predictions about the scalability of Chromium loading and the consequences in terms of nuclei collision (the occurence of more than one uniquely labeled nuclei within a droplet) for the 10X protocol as well as the scifiRNA-seq protocol.
+In this notebook we will focus on the nuclei loading procedure and we will use the counts of nuclei per droplet in the resulting emultion to model this distributions and make some predictions about the scalability of Chromium loading and the consequences in terms of nuclei collision (the occurence of more than one uniquely labeled nuclei within a droplet) for the 10X protocol as well as the scifi-RNA-seq protocol.
 
 
 ```python
@@ -933,9 +933,9 @@ if savefig:
 
 This shows that in high loading concentrations, the empty droplets are almost fully explained by a technical component then by the "normal" underlying Poisson process.
 
-### Using this model to project doublet rates in scifiRNA-seq data
+### Using the ZIP model to predict collision rates in scifi-RNA-seq data
 
-Now let's project doublet rates as a function of loading rate, given a fixed number of barcodes in round 1.
+Now let's predict collision rates as a function of loading rate, given a fixed number of barcodes in round 1.
 
 We simply have to divide the number of input cells per number of barcodes since round 1 barcoding effectively reduces the number of collisions we care about by the same order.
 
@@ -1015,14 +1015,14 @@ for barcodes in barcode_combos:
         # s = scipy.stats.bernoulli(psi).rvs(n) * scipy.stats.poisson(lamb).rvs(n)
         s = pm.distributions.ZeroInflatedPoisson.dist(psi=psi, theta=lamb).random(size=n)
 
-        # Now we simply count fraction of doublets (droplets with more than one nuclei)
+        # Now we simply count fraction of collisions (droplets with more than one nuclei)
         f[(barcodes, input_nuclei)] = [lamb, psi, (s > 1).sum() / n]
-f = pd.DataFrame(f, index=["lambda", "psi", "doublet_rate"]).T
+f = pd.DataFrame(f, index=["lambda", "psi", "collision_rate"]).T
 f.index.names = ['barcodes', 'loaded_nuclei']
 print(f)
 ```
 
-                               lambda       psi  doublet_rate
+                               lambda       psi  collision_rate
     barcodes loaded_nuclei                                   
     1        1.000000e+03    0.293869  0.463584       0.01689
              2.448437e+03    0.308521  0.465498       0.01798
@@ -1072,7 +1072,7 @@ fig, axis = plt.subplots(1, 1, figsize=(1 * 5, 5))
 fig.suptitle("Prediction with Zero Inflated Poisson", fontsize=16)
 for barcodes in barcode_combos:
     axis.plot(
-        f.loc[barcodes].index, f.loc[barcodes, 'doublet_rate'] * 100,
+        f.loc[barcodes].index, f.loc[barcodes, 'collision_rate'] * 100,
         linestyle="-", marker="o", label=f"{barcodes} round1 barcodes")
 axis.set_xscale("log")
 axis.set_yscale("log")
@@ -1085,7 +1085,7 @@ for y_ in [10500, 191000, 383000, 765000, 1530000]:
     axis.axvline(y_, color="grey", linestyle="--")
 if savefig:
     fig.savefig(
-        "droplet_counts.ZIP_params.prediction_of_doublet_rate.svg",
+        "droplet_counts.ZIP_params.prediction_of_collision_rate.svg",
         dpi=300, bbox_inches="tight")
 ```
 
@@ -1104,7 +1104,7 @@ My interpretation of Ψ is the same as in ZIP - the main difference between the 
 Here's this model (again from bottom to top):
  - the observed count data comes from a Zero-Inflated Negative Binomial distribution, of parameters mu, alpha and psi;
  - the μ (mu) parameter, just like in the ZIP distribution, comes from a Exponential distribution (λ > 0) for which we impose as prior knowledge the mean number of cells per droplet for within a given experiment;
- - the α (alpha) parameter, is Gamma distributed, which is in it's turn parametrized with α (shape; α > 0) and β (scale/rate; β > 0). For the priors, here I'm a bit at loss so for α I use the the standard deviation of the observed counts and 5 for β;
+ - the α (alpha) parameter, is Gamma distributed, which is in it's turn parametrized with α (shape; α > 0) and β (scale/rate; β > 0). For the priors, here I'm a bit at loss so for α I use the the standard deviation of the observed counts an an uninformative prior of 5 for β;
  - the Ψ (psi) parameter comes from a Uniform distribution (0 < Ψ < 1) and we don't impose any prior on it;
  - each of these parameters have shape of `n_exp` which is the number of experiments/loading concentrations (i.e. they will be estimated for each loading concentration separately).
 
@@ -1241,7 +1241,7 @@ print(zinb_res)
 
 
 ```python
-# # # Plot posterior 
+# # # Plot posterior
 fig, axis = plt.subplots(1, 2, figsize=(2 * 4, 4), sharey=True, sharex=True)
 fig.suptitle(
     "Nuclei loading counts modeled as output of a ZeroInflatedNegativeBinomial function",
@@ -1418,6 +1418,7 @@ if savefig:
 
 ![png](/data/notebooks/chromium_modeling/output_70_0.png)
 
+### Using the ZINB model to predict collision rates in scifi-RNA-seq data
 
 
 ```python
@@ -1436,8 +1437,8 @@ for barcodes in barcode_combos:
         psi = min(psi, 1 - sys.float_info.epsilon)
         psi = max(psi, 0 + sys.float_info.epsilon)
         # alpha = zinb_alpha_f([input_nuclei / barcodes])[0]
-        # ALPHA should also be bound to [0, +inf] since the extrapolation is unbounded.
-        # However, it's a bit more tricky then to set it to and arbitrary low value
+        # This should also be bound to 0 < ALPHA < +inf since the extrapolation is unbounded.
+        # However, it's a bit more tricky than simply set it to and arbitrary low value
         # (e.g. sys.float_info.epsilon). Instead I regularize it with a ReLU function.
         alpha = np.log(1 + np.e ** zinb_alpha_f([input_nuclei / barcodes])[0])
         mu = zinb_mu_f([input_nuclei / barcodes])[0]
@@ -1452,14 +1453,14 @@ for barcodes in barcode_combos:
             continue
         if s.sum() == 0:
             continue
-        # Now we simply count fraction of doublets
+        # Now we simply count fraction of collisions
         f[(barcodes, input_nuclei)] = [mu, alpha, psi, (s > 1).sum() / n]
-f = pd.DataFrame(f, index=["mu", "alpha", "psi", "doublet_rate"]).T
+f = pd.DataFrame(f, index=["mu", "alpha", "psi", "collision_rate"]).T
 f.index.names = ['barcodes', 'loaded_nuclei']
 print(f)
 ```
 
-                                   mu      alpha       psi  doublet_rate
+                                   mu      alpha       psi  collision_rate
     barcodes loaded_nuclei                                              
     1        1.000000e+03    0.158251   1.277566  0.822348       0.01443
              2.448437e+03    0.167693   1.272095  0.823231       0.01562
@@ -1509,7 +1510,7 @@ fig, axis = plt.subplots(1, 1, figsize=(1 * 5, 5))
 fig.suptitle("Prediction with Zero Inflated Negative Binomial", fontsize=16)
 for barcodes in f.index.levels[0]:
     axis.plot(
-        f.loc[barcodes].index, f.loc[barcodes, 'doublet_rate'] * 100,
+        f.loc[barcodes].index, f.loc[barcodes, 'collision_rate'] * 100,
         linestyle="-", marker="o", label=f"{barcodes} round1 barcodes")
 axis.set_xscale("log")
 axis.set_yscale("log")
@@ -1522,7 +1523,7 @@ for y_ in [10500, 191000, 383000, 765000, 1530000]:
     axis.axvline(y_, color="grey", linestyle="--")
 if savefig:
     fig.savefig(
-        "droplet_counts.ZINB_params.prediction_of_doublet_rate.svg",
+        "droplet_counts.ZINB_params.prediction_of_collision_rate.svg",
         dpi=300, bbox_inches="tight")
 ```
 
@@ -1670,6 +1671,8 @@ Both models show that the mean number of nuclei per droplet (λ or μ parameters
 
 That's exactly what the *scifi* concept introduces: by labeling all molecules of the transcriptome of each cell, one is able to reduce the number of colisions linearly by the number of unique round1 combinations. Modeling the nuclei loading procedure on the Chromium device shows that it is theoretically possible to load up to \~1 million pre-labeled nuclei with the scifi method into the Chromium device with an acceptable collision rate.
 
+
+*Thank you to Nikolaus Fortelny for feedback on this post.*
 
 # Appendix
 
