@@ -131,8 +131,18 @@ weight: 1
             <ol reversed="">
                 <li>
                     <p>
-                        <strong>André F. Rendeiro</strong>, Thomas Krausgruber*, Nikolaus Fortelny, Fangwen Zhao, ThomasPenz, Matthias Farlik, Linda C. Schuster, Amelie Nemc, Szabolcs Tasnády, MariennRéti, Zoltán Mátrai, Donat Alpar, Csaba Bödör, Christian Schmidl, Christoph BockChromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib drug response in chronic lymphocytic leukemia. bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/597005" onclick="recordOutboundLink(this, 'DOI', '10.1101/597005'); return false;">doi:10.1101/597005</a>
+                        Paul Datlinger*, <strong>André F. Rendeiro*</strong>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock. Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing. bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">doi:10.1101/2019.12.17.879304</a>
                         <br>
+                        <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>Preprint</button></a>
+                        <a href="/2019/12/13/chromium_modeling"><button type="button" class="btn btn-default btn-sm"> <span class="fab book-open" style="font-size: 1.4em;" aria-hidden="true"></span> Notebook</button></a>
+                        <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>André F. Rendeiro*</strong>, Thomas Krausgruber*, Nikolaus Fortelny, Fangwen Zhao, ThomasPenz, Matthias Farlik, Linda C. Schuster, Amelie Nemc, Szabolcs Tasnády, MariennRéti, Zoltán Mátrai, Donat Alpar, Csaba Bödör, Christian Schmidl, Christoph Bock. Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib drug response in chronic lymphocytic leukemia. bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/597005" onclick="recordOutboundLink(this, 'DOI', '10.1101/597005'); return false;">doi:10.1101/597005</a>
+                        <br>
+                        <a href="https://dx.doi.org/10.1101/597005"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>Preprint</button></a>
                         <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data</button></a>
                         <a href="https://github.com/epigen/cll-time_course"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code</button></a>
                         <span data-badge-type="2" data-doi="10.1101/597005" data-hide-no-mentions="true" class="altmetric-embed"></span>
@@ -142,6 +152,7 @@ weight: 1
                     <p>
                         Alexander Swoboda, Robert Soukup, Katharina Kinslechner, Bettina Wingelhofer, David Schoerghofer, Christina Sternberg, Ha Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beer-mann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <strong>André F. Rendeiro</strong>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschlaeger, Peter Petzelbauer, Mario Mikula, Richard Moriggl. STAT3 promotes melanomametastasis by CEBP-induced repression of the MITF pigmentation path-way. bioRxiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/422832" onclick="recordOutboundLink(this, 'DOI', '10.1101/422832'); return false;">doi:10.1101/422832</a>
                         <br>
+                        <a href="https://dx.doi.org/10.1101/422832"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span>Preprint</button></a>
                         <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span>
                     </p>
                 </li>
