@@ -16,7 +16,7 @@ Here are projects I am currently working on or have worked in the past:
 <h4>Relevant papers:</h4>
 <ol>
     <li>
-        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/597005" onclick="recordOutboundLink(this, 'DOI', '10.1101/597005'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, bioRxiv 2019</a>
+        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-019-14081-6'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications 2020</a>
     </li>
     <li>
         <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
