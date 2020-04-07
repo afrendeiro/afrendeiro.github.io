@@ -42,14 +42,15 @@ description: "My personal website"
                 <dd>
                     <a href="http://andre-rendeiro.com/data/documents/public_key.pgp" title="Use this to send me encrypted email">PGP public key</a>
                 </dd>
-<!--             <dt>ZeroNet ID:</dt>
+            <!-- <dt>ZeroNet ID:</dt>
                 <dd>
                     <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
-                </dd> -->
+                </dd>
             <dt>My Keybase identity:</dt>
                 <dd>
                     <a href="https://keybase.io/afrendeiro" title="Me on Keybase">keybase.io/afrendeiro</a>
                 </dd>
+                 -->
         </dl>
     </div>
     <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
@@ -105,6 +106,7 @@ description: "My personal website"
     </div>
 </div>
 
+<hr>
 
 <div class="row" prefix="datacite: http://purl.org/spar/datacite/">
     <h3>Publications and associated resources</h3>
