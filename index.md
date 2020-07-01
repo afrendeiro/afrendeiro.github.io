@@ -116,7 +116,7 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
-                    Thomas Krausgruber, Nikolaus Fortelny, Victoria Fife-Gernedl, Martin Senekowitsch, Linda C. Schuster, Alexander Lercher, Amelie Nemc, Christian Schmidl, André F. Rendeiro, Andreas Bergthaler, Christoph Bock.
+                    Thomas Krausgruber, Nikolaus Fortelny, Victoria Fife-Gernedl, Martin Senekowitsch, Linda C. Schuster, Alexander Lercher, Amelie Nemc, Christian Schmidl, <u>André F. Rendeiro</u>, Andreas Bergthaler, Christoph Bock.
                     <br><strong>Structural cells are key regulators of organ-specific immune responses</strong>.
                     <br>Nature (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-020-2424-4" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-020-2424-4'); return false;">doi:10.1038/s41586-020-2424-4</a>
                     <br>
@@ -127,7 +127,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Rainer Hubmann, Susanne Schnabl, Mohammad Araghi, Christian Schmidl, André F. Rendeiro, Martin Hilgarth, Dita Demirtas, Farghaly Ali,Philipp B. Staber, Peter Valent, Christoph Zielinski, Ulrich Jäger, Medhat Shehata.
+                    Rainer Hubmann, Susanne Schnabl, Mohammad Araghi, Christian Schmidl, <u>André F. Rendeiro</u>, Martin Hilgarth, Dita Demirtas, Farghaly Ali,Philipp B. Staber, Peter Valent, Christoph Zielinski, Ulrich Jäger, Medhat Shehata.
                     <br><strong>Targeting Nuclear NOTCH2 by Gliotoxin Recovers a Tumor-Suppressor NOTCH3 Activity in CLL</strong>.
                     <br>Cells (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.3390/cells9061484" onclick="recordOutboundLink(this, 'DOI', '10.3390/cells9061484'); return false;">doi:10.3390/cells9061484</a>
                     <br>
