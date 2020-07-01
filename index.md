@@ -116,6 +116,25 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Thomas Krausgruber, Nikolaus Fortelny, Victoria Fife-Gernedl, Martin Senekowitsch, Linda C. Schuster, Alexander Lercher, Amelie Nemc, Christian Schmidl, André F. Rendeiro, Andreas Bergthaler, Christoph Bock.
+                    <br><strong>Structural cells are key regulators of organ-specific immune responses</strong>.
+                    <br>Nature (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-020-2424-4" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-020-2424-4'); return false;">doi:10.1038/s41586-020-2424-4</a>
+                    <br>
+                    <a href="http://structural-immunity-paper.medical-epigenomics.org/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134663"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/epigen/StructuralImmunity"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Rainer Hubmann, Susanne Schnabl, Mohammad Araghi, Christian Schmidl, André F. Rendeiro, Martin Hilgarth, Dita Demirtas, Farghaly Ali,Philipp B. Staber, Peter Valent, Christoph Zielinski, Ulrich Jäger, Medhat Shehata.
+                    <br><strong>Targeting Nuclear NOTCH2 by Gliotoxin Recovers a Tumor-Suppressor NOTCH3 Activity in CLL</strong>.
+                    <br>Cells (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.3390/cells9061484" onclick="recordOutboundLink(this, 'DOI', '10.3390/cells9061484'); return false;">doi:10.3390/cells9061484</a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Elizabeth C Rosser, Christopher J.M. Piper, Diana E Matei ,Paul A. Blair, <u>André F. Rendeiro</u>, Michael Orford, Dagmar G. Alber, Thomas Krausgruber, Diego Catalan, Nigel Klein, Jessica J. Manson, Ignat Drozdov, Christoph Bock, Lucy R Wedderburn, Simon Eaton, Claudia Mauri.
                     <br><strong>Microbiota-Derived Metabolites Suppress Arthritis by Amplifying Aryl-Hydrocarbon Receptor Activation in Regulatory B Cells</strong>.
                     <br>Cell Metabolism (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.cmet.2020.03.003" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.cmet.2020.03.003'); return false;">doi:10.1016/j.cmet.2020.03.003</a>
