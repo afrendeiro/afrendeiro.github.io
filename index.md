@@ -198,7 +198,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Christian Schmidl*, Gregory I Vladimer*, <u>André F. Rendeiro*</u>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, EditPorpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber, Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock.
+                    Christian Schmidl*, Gregory I Vladimer*, <u>André F. Rendeiro*</u>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, Edit Porpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber, Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock.
                     <br><strong>Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL</strong>.
                     <br>Nature Chemical Biology (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">doi:10.1038/s41589-018-0205-2</a>
                     <br>
@@ -264,7 +264,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Christian Schmidl*, <u>André F Rendeiro*</u>, Nathan C Sheffield, Christoph Bock. 2015.
+                    Christian Schmidl*, <u>André F Rendeiro*</u>, Nathan C Sheffield, Christoph Bock.
                     <br><strong>ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors</strong>.
                     <br>Nature Methods (2015). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">doi:10.1038/nmeth.3542</a>
                     <br>
@@ -292,6 +292,16 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    <u>André F. Rendeiro</u>, Joseph Casano, Charles Kyriakos Vorkas, Harjot Singh, Ayana Morales, Robert A DeSimone, Grant B Ellsworth, Rosemary Soave, Shashi N Kapadia, Kohta Saito, Christopher D Brown, JingMei Hsu, Christopher Kyriakides, Steven Chui, Luca Cappelli, Maria Teresa Cacciapuoti, Wayne Tam, Lorenzo Galluzzi, Paul D Simonson, Olivier Elemento, Mirella Salvatore, Giorgio Inghirami.
+                    <br><strong>Longitudinal immune profiling of mild and severe COVID-19 reveals innate and adaptive immune dysfunction and provides an early prediction tool for clinical progression</strong>.
+                    <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">doi:10.1101/2020.09.08.20189092</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2020.09.08.20189092"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
+            <li>
+                <p>
                     Paul Datlinger*, <u>André F. Rendeiro*</u>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
                     <br><strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
                     <br>bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">doi:10.1101/2019.12.17.879304</a>
@@ -313,9 +323,9 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    <u>André F Rendeiro</u>, Pavla Navratilova, Eric Thompson. 2014.
+                    <u>André F Rendeiro</u>, Pavla Navratilova, Eric Thompson.
                     <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
-                    <br>Figshare. <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.6084/m9.figshare.884562</a>
+                    <br>Figshare (2014). <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.6084/m9.figshare.884562</a>
                     <br>
                     <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <span data-badge-type="2" data-doi="10.6084/m9.figshare.884562" data-hide-no-mentions="true" class="altmetric-embed"></span>
