@@ -57,7 +57,7 @@ description: "My personal website"
         <!--<img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">-->
         <p>
             I'm a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
-            <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute of Computational Biomedicine of Weill Cornell Medicine</a>
+            <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
             and the 
             <a rel="schema:affiliation" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
             in the lab of <a rel="foaf:knows" href="https://physiology.med.cornell.edu/people/olivier-elemento-ph-d/">Olivier Elemento</a>.
