@@ -290,6 +290,17 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>Preprints</h4>
         <ol reversed="">
+        	<li>
+                <p>
+                    Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
+                    <br><strong>Linking big biomedical datasets to modular analysis with Portable Encapsulated Projects</strong>.
+                    <br>bioRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.08.331322" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.08.331322'); return false;">doi:10.1101/2020.10.08.331322</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2020.10.08.331322"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/pepkit/peppy"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1101/2020.10.08.331322" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     <u>André F. Rendeiro</u>, Joseph Casano, Charles Kyriakos Vorkas, Harjot Singh, Ayana Morales, Robert A DeSimone, Grant B Ellsworth, Rosemary Soave, Shashi N Kapadia, Kohta Saito, Christopher D Brown, JingMei Hsu, Christopher Kyriakides, Steven Chui, Luca Cappelli, Maria Teresa Cacciapuoti, Wayne Tam, Lorenzo Galluzzi, Paul D Simonson, Olivier Elemento, Mirella Salvatore, Giorgio Inghirami.
@@ -297,6 +308,7 @@ description: "My personal website"
                     <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">doi:10.1101/2020.09.08.20189092</a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/2020.09.08.20189092"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/ElementoLab/covid-flowcyto"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
