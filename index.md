@@ -55,7 +55,7 @@ description: "My personal website"
         <h4>Curriculum Vitae</h4>
         <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a>
     </div>
-    <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
+    <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <!--<img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">-->
         <p>
             I'm a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
@@ -117,7 +117,7 @@ description: "My personal website"
 
 <hr>
 
-<div class="row" prefix="datacite: http://purl.org/spar/datacite/" id="publications">
+<div class="row blog-main" prefix="datacite: http://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-6">
@@ -306,7 +306,8 @@ description: "My personal website"
                     <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">doi:10.1101/2020.10.26.20219584</a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/2020.10.26.20219584"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Raw data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4139443"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Processed data </button></a>
                     <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
