@@ -86,3 +86,12 @@ body, h1, h2, h3, h4, h5, h6 {
 .tags > li {
 	display: inline;
 }
+
+.blog-main {
+    padding-top: 76px;
+    margin-top: -56px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
