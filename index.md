@@ -52,6 +52,8 @@ description: "My personal website"
                 </dd>
                  -->
         </dl>
+        <h4>Curriculum Vitae</h4>
+        <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a>
     </div>
     <div class="col-sm-8 blog-main" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <!--<img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">-->
@@ -70,8 +72,17 @@ description: "My personal website"
             I did my PhD at the <a href="https://cemm.at">CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences</a> in the lab of Christoph Bock where I applied computational methods to high-dimentional molecular biology datasets of primary patient data in an effort to produce novel ways to monitor disease progression, predict risk and stratify patients and develop novel therapeutical avenues.
         </p>
     </div>
-    <div class="col-sm-8 blog-main">
+    <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
+        <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
+        <ol>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2020</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">Rendeiro* <i>et al</i>, MedRxiv, 2020</a>
+            </li>
+        </ol>
         <h5>Epigenetics for personalized medicine in cancer:</h5>
         <ol>
             <li>
@@ -99,16 +110,14 @@ description: "My personal website"
                 ChIPmentation: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
             </li>
         </ol>
-    </div>
-    <div class="col-sm-8 blog-main">
-        <h4>Curriculum Vitae</h4>
-        <p><a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a></p>
+        <h4>Support</h4>
+        <p>I am supported by a National Cancer Institute T32 grant for Molecular and Translational Oncology Research (T32CA203702) awarded to Weill Cornell Medical College.</p>
     </div>
 </div>
 
 <hr>
 
-<div class="row" prefix="datacite: http://purl.org/spar/datacite/">
+<div class="row" prefix="datacite: http://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-6">
@@ -290,6 +299,18 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>Preprints</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    <u>André F. Rendeiro*</u>, Hiranmayi Ravichandran*, Yaron Bram, Steven Salvatore, Alain Borczuk, Olivier Elemento, Robert E. Schwartz.
+                    <br><strong>The spatio-temporal landscape of lung pathology in SARS-CoV-2 infection</strong>.
+                    <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">doi:10.1101/2020.10.26.20219584</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2020.10.26.20219584"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
         	<li>
                 <p>
                     Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.

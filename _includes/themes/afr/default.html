@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.title }} - {{ site.title }}</title>
+		<title>{{ page.title }}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 		<meta name="author" content="{{ site.author.name }}">
 
@@ -56,6 +56,8 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
+						<li><a href="#research">Research</a></li>
+						<li><a href="#publications">Publications</a></li>
 						{% assign group = 'navigation' %}
 						{% assign sorted_pages = site.pages | sort:"weight" %}
 						{% include themes/afr/sorted_pages %}
