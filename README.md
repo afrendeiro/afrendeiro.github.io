@@ -22,9 +22,8 @@ bundle install
 ### The actual website
 
 ```bash
-USERNAME=afrendeiro # replace with your username
-git clone https://github.com/plusjade/jekyll-bootstrap.git $USERNAME.github.io
-cd $USERNAME.github.io
+git clone https://github.com/plusjade/jekyll-bootstrap.git ${USERNAME}.github.io
+cd ${USERNAME}.github.io
 git remote set-url origin git@github.io:${USERNAME}/${USERNAME}.github.io.git
 git push origin master
 ```
@@ -44,11 +43,7 @@ or to make a draft and publish it only after:
 
 ## Run locally
 
-    rake preview
-
-or
-
-    jekyll serve
+    bundle exec jekyll serve
 
 served at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 

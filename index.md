@@ -80,7 +80,7 @@ description: "My personal website"
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2020</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">Rendeiro* <i>et al</i>, MedRxiv, 2020</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">Rendeiro <i>et al</i>, MedRxiv, 2020</a>
             </li>
         </ol>
         <h5>Epigenetics for personalized medicine in cancer:</h5>
@@ -123,6 +123,16 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Alexander Swoboda, Robert Soukup, Oliver Eckel, Katharina Kinslechner, Bettina Wingelhofer, David Schörghofer, Christina Sternberg, Ha T T Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beermann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <u>André F Rendeiro</u>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschläger, Peter Petzelbauer, Mario Mikula, Richard Moriggl.
+                    <br><strong>STAT3 promotes melanoma metastasis by CEBP-induced repression of the MITF pathway</strong>.
+                    <br>Oncogene (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41388-020-01584-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41388-020-01584-6'); return false;">doi:10.1038/s41388-020-01584-6</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/422832"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     Thomas Krausgruber, Nikolaus Fortelny, Victoria Fife-Gernedl, Martin Senekowitsch, Linda C. Schuster, Alexander Lercher, Amelie Nemc, Christian Schmidl, <u>André F. Rendeiro</u>, Andreas Bergthaler, Christoph Bock.
@@ -343,16 +353,6 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="/2019/12/13/chromium_modeling"><button type="button" class="btn btn-default btn-sm"> <span class="fab book-open" style="font-size: 1.4em;" aria-hidden="true"></span> Notebook</button></a>
                     <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Alexander Swoboda, Robert Soukup, Katharina Kinslechner, Bettina Wingelhofer, David Schoerghofer, Christina Sternberg, Ha Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beer-mann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <u>André F. Rendeiro</u>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschlaeger, Peter Petzelbauer, Mario Mikula, Richard Moriggl.
-                    <br><strong>STAT3 promotes melanomametastasis by CEBP-induced repression of the MITF pigmentation pathway</strong>.
-                    <br>bioRxiv (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/422832" onclick="recordOutboundLink(this, 'DOI', '10.1101/422832'); return false;">doi:10.1101/422832</a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/422832"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
