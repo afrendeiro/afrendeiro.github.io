@@ -58,7 +58,7 @@ description: "My personal website"
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <!--<img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">-->
         <p>
-            I'm a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
+            I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
             <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
             and the 
             <a rel="schema:affiliation" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
@@ -80,7 +80,7 @@ description: "My personal website"
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2020</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">Rendeiro <i>et al</i>, MedRxiv, 2020</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
             </li>
         </ol>
         <h5>Epigenetics for personalized medicine in cancer:</h5>
@@ -123,6 +123,18 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    <u>André F. Rendeiro</u>, Joseph Casano, Charles Kyriakos Vorkas, Harjot Singh, Ayana Morales, Robert A DeSimone, Grant B Ellsworth, Rosemary Soave, Shashi N Kapadia, Kohta Saito, Christopher D Brown, JingMei Hsu, Christopher Kyriakides, Steven Chui, Luca Cappelli, Maria Teresa Cacciapuoti, Wayne Tam, Lorenzo Galluzzi, Paul D Simonson, Olivier Elemento, Mirella Salvatore, Giorgio Inghirami.
+                    <br><strong>Profiling of immune dysfunction in COVID-19 patients allows early prediction of disease progression</strong>.
+                    <br>Life Science Alliance (2020). <a rel="datacite:doi" href="https://doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">doi:10.26508/lsa.202000955</a>
+                    <br>
+                    <a href="https://www.life-science-alliance.org/content/lsa/4/2/e202000955.full.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
+                    <a href="https://dx.doi.org/10.1101/2020.09.08.20189092"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/ElementoLab/covid-flowcyto"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.26508/lsa.202000955" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     Alexander Swoboda, Robert Soukup, Oliver Eckel, Katharina Kinslechner, Bettina Wingelhofer, David Schörghofer, Christina Sternberg, Ha T T Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beermann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <u>André F Rendeiro</u>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschläger, Peter Petzelbauer, Mario Mikula, Richard Moriggl.
@@ -319,7 +331,7 @@ description: "My personal website"
                     <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Raw data </button></a>
                     <a href="https://doi.org/10.5281/zenodo.4139443"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Processed data </button></a>
                     <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <span data-badge-type="2" data-doi="10.1101/2020.10.26.20219584" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
         	<li>
@@ -331,17 +343,6 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1101/2020.10.08.331322"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/pepkit/peppy"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <span data-badge-type="2" data-doi="10.1101/2020.10.08.331322" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <u>André F. Rendeiro</u>, Joseph Casano, Charles Kyriakos Vorkas, Harjot Singh, Ayana Morales, Robert A DeSimone, Grant B Ellsworth, Rosemary Soave, Shashi N Kapadia, Kohta Saito, Christopher D Brown, JingMei Hsu, Christopher Kyriakides, Steven Chui, Luca Cappelli, Maria Teresa Cacciapuoti, Wayne Tam, Lorenzo Galluzzi, Paul D Simonson, Olivier Elemento, Mirella Salvatore, Giorgio Inghirami.
-                    <br><strong>Longitudinal immune profiling of mild and severe COVID-19 reveals innate and adaptive immune dysfunction and provides an early prediction tool for clinical progression</strong>.
-                    <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.09.08.20189092" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.09.08.20189092'); return false;">doi:10.1101/2020.09.08.20189092</a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2020.09.08.20189092"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://github.com/ElementoLab/covid-flowcyto"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
