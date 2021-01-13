@@ -10,7 +10,7 @@ description: "My personal website"
         <img src="me.jpeg" style="width:70%;" alt="It's me!">
         <dl>
             <br>
-            <dt>André Figueiredo Rendeiro</dt>
+            <dt><span property="foaf:firstName">André</span> <span property="foaf:familyName">Figueiredo Rendeiro</span></dt>
             <dd>Postdoctoral Associate</dd>
             <dd>Institute for Computational Biomedicine</dd>
             <dd>Englander Institute for Precision Medicine</dd>
@@ -62,7 +62,7 @@ description: "My personal website"
             <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
             and the 
             <a rel="schema:affiliation" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
-            in the lab of <a rel="foaf:knows" href="https://physiology.med.cornell.edu/people/olivier-elemento-ph-d/">Olivier Elemento</a>.
+            in the lab of <a rel="foaf:member" href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
         </p>
         <p>
             I am currently developing computational methodologies to understand the spatial organization of tissue and the interplay between cancer cells, immune system and structural cell types, and how that can be applied for the development of novel therapeutical options or disease management.
