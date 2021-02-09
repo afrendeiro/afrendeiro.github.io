@@ -164,6 +164,7 @@ description: "My personal website"
                     <a href="http://structural-immunity-paper.medical-epigenomics.org/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134663"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/StructuralImmunity"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41586-020-2424-4" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
@@ -172,6 +173,7 @@ description: "My personal website"
                     <br><strong>Targeting Nuclear NOTCH2 by Gliotoxin Recovers a Tumor-Suppressor NOTCH3 Activity in CLL</strong>.
                     <br>Cells (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.3390/cells9061484" onclick="recordOutboundLink(this, 'DOI', '10.3390/cells9061484'); return false;">doi:10.3390/cells9061484</a>
                     <br>
+                    <span data-badge-type="2" data-doi="10.3390/cells9061484" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
@@ -182,6 +184,7 @@ description: "My personal website"
                     <br>
                     <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7345/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7525/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <span data-badge-type="2" data-doi="10.1016/j.cmet.2020.03.003" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
