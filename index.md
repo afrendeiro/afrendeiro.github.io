@@ -119,10 +119,20 @@ description: "My personal website"
 
 <div class="row blog-main" prefix="datacite: http://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
+	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-6">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>Sandra Schick, Sarah Grosche, Katharina Eva Kohl, Danica Drpic, Martin G. Jaeger, Nara C. Marella, Hana Imrichova, Jung-Ming G. Lin, Gerald Hofstätter, Michael Schuster, <u>André F. Rendeiro</u>, Anna Koren, Mark Petronczki, Christoph Bock, André C. Müller, Georg E. Winter & Stefan Kubicek.
+            	<br><strong>Acute BAF perturbation causes immediate changes in chromatin accessibility</strong>.
+                <br>Nature Genetics (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41588-021-00777-3" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-021-00777-3'); return false;">doi:10.1038/s41588-021-00777-3</a>
+                <br>
+                <a href="https://github.com/Kubicek-Lab-at-CeMM/BAF-kinetics"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                <span data-badge-type="2" data-doi="10.1038/s41588-021-00777-3" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     <u>André F. Rendeiro</u>, Joseph Casano, Charles Kyriakos Vorkas, Harjot Singh, Ayana Morales, Robert A DeSimone, Grant B Ellsworth, Rosemary Soave, Shashi N Kapadia, Kohta Saito, Christopher D Brown, JingMei Hsu, Christopher Kyriakides, Steven Chui, Luca Cappelli, Maria Teresa Cacciapuoti, Wayne Tam, Lorenzo Galluzzi, Paul D Simonson, Olivier Elemento, Mirella Salvatore, Giorgio Inghirami.
