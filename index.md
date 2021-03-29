@@ -6,7 +6,7 @@ description: "My personal website"
 {% include JB/setup %}
 
 <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-3 center-block text-center brd">
         <img src="me.jpeg" style="width:70%;" alt="It's me!">
         <dl>
             <br>
@@ -16,7 +16,7 @@ description: "My personal website"
             <dd>Englander Institute for Precision Medicine</dd>
             <dd>Weill Cornell Medicine</dd>
             <br>
-            <!--<dt>Address:</dt>
+            <dt>Address:</dt>
                 <dd>
                     <span property="schema:address" typeof="http://schema.org/PostalAddress" vocab="http://schema.org/PostalAddress/">
                         <a href="https://goo.gl/maps/E1cvcQCrLWKNQBct5">
@@ -28,7 +28,6 @@ description: "My personal website"
                     </span>
                 </dd>
             <br>
-            -->
             <dt>Orcid ID:</dt>
                 <dd>
                     <a property="http://purl.org/spar/datacite/orcid" href="https://orcid.org/0000-0001-9362-5373" onclick="recordOutboundLink(this, 'Link', '| + input + |'); return false;">0000-0001-9362-5373</a>
@@ -77,7 +76,7 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2020</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
@@ -125,12 +124,31 @@ description: "My personal website"
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
             <li>
-                <p>Sandra Schick, Sarah Grosche, Katharina Eva Kohl, Danica Drpic, Martin G. Jaeger, Nara C. Marella, Hana Imrichova, Jung-Ming G. Lin, Gerald Hofstätter, Michael Schuster, <u>André F. Rendeiro</u>, Anna Koren, Mark Petronczki, Christoph Bock, André C. Müller, Georg E. Winter & Stefan Kubicek.
-            	<br><strong>Acute BAF perturbation causes immediate changes in chromatin accessibility</strong>.
-                <br>Nature Genetics (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41588-021-00777-3" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-021-00777-3'); return false;">doi:10.1038/s41588-021-00777-3</a>
-                <br>
-                <a href="https://github.com/Kubicek-Lab-at-CeMM/BAF-kinetics"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                <span data-badge-type="2" data-doi="10.1038/s41588-021-00777-3" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                <p>
+                    <u>André F. Rendeiro</u>*, Hiranmayi Ravichandran*, Yaron Bram, Vasuretha Chandar, Junbum Kim, Cem Meydan, Jiwoon Park, Jonathan Foox, Tyler Hether, Sarah Warren, Youngmi Kim, Jason Reeves, Steven Salvatore, Christopher E. Mason, Eric C. Swanson, Alain C. Borczuk, Olivier Elemento, Robert E. Schwartz.
+                    <br><strong>The spatial landscape of lung pathology during COVID-19 progression</strong>.
+                    <br>Nature (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">doi:10.1038/s41586-021-03475-6</a>
+                    <br>
+                    <a href="https://www.nature.com/articles/s41586-021-03475-6_reference.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
+                    <a href="https://doi.org/10.1101/2020.10.26.20219584"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" style="font-size: 1.4em;" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4139443"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4637034"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4633905"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.4635285"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <a href="https://github.com/ElementoLab/covid-imc-viz"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41586-021-03475-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Sandra Schick, Sarah Grosche, Katharina Eva Kohl, Danica Drpic, Martin G. Jaeger, Nara C. Marella, Hana Imrichova, Jung-Ming G. Lin, Gerald Hofstätter, Michael Schuster, <u>André F. Rendeiro</u>, Anna Koren, Mark Petronczki, Christoph Bock, André C. Müller, Georg E. Winter & Stefan Kubicek.
+                	<br><strong>Acute BAF perturbation causes immediate changes in chromatin accessibility</strong>.
+                    <br>Nature Genetics (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41588-021-00777-3" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-021-00777-3'); return false;">doi:10.1038/s41588-021-00777-3</a>
+                    <br>
+                    <a href="https://github.com/Kubicek-Lab-at-CeMM/BAF-kinetics"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41588-021-00777-3" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
@@ -196,6 +214,17 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1038/s41467-019-14081-6"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/cll-time_course"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Michael Delacher, Charles D Imbusch, Agnes Hotz-Wagenblatt, Jan-Philipp Mallm, Katharina Bauer, Malte Simon, Dania Riegel, <u>André F. Rendeiro</u>, Sebastian Bittner, Lieke Sanderink, Asmita Pant, Lisa Schmidleithner, Kathrin L Braband, Bernd Echtenachter, Alexander Fischer, Valentina Giunchiglia, Petra Hoffmann, Matthias Edinger, Christoph Bock, Michael Rehli, Benedikt Brors, Christian Schmidl, Markus Feuerer.
+                    <br><strong>Precursors for Nonlymphoid-Tissue Treg Cells Reside in Secondary Lymphoid Organs and Are Programmed by the Transcription Factor BATF</strong>.
+                    <br>Immunity (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.immuni.2019.12.002" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.immuni.2019.12.002'); return false;">doi:10.1016/j.immuni.2019.12.002</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1016/j.immuni.2019.12.002"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
+                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130884"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
@@ -334,19 +363,6 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>Preprints</h4>
         <ol reversed="">
-            <li>
-                <p>
-                    <u>André F. Rendeiro*</u>, Hiranmayi Ravichandran*, Yaron Bram, Steven Salvatore, Alain Borczuk, Olivier Elemento, Robert E. Schwartz.
-                    <br><strong>The spatio-temporal landscape of lung pathology in SARS-CoV-2 infection</strong>.
-                    <br>medRxiv (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.26.20219584" onclick="recordOutboundLink(this, 'DOI', '10.1101/2020.10.26.20219584'); return false;">doi:10.1101/2020.10.26.20219584</a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2020.10.26.20219584"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://doi.org/10.5281/zenodo.4110560"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Raw data </button></a>
-                    <a href="https://doi.org/10.5281/zenodo.4139443"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" style="font-size: 1.4em;" aria-hidden="true"></span> Processed data </button></a>
-                    <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/2020.10.26.20219584" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                </p>
-            </li>
         	<li>
                 <p>
                     Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
