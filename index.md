@@ -76,6 +76,9 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
@@ -123,6 +126,15 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Johannes C. Melms*, Jana Biermann*, Huachao Huang*, Yiping Wang*, Ajay Nair*, Somnath Tagore*, Igor Katsyv*, <u>André F. Rendeiro</u>*, Amit Dipak Amin*, Denis Schapiro, Chris J. Frangieh, Adrienne M. Luoma, Aveline Filliol, Yinshan Fang, Hiranmayi Ravichandran, Mariano G. Clausi, George A. Alba, Meri Rogava, Sean W. Chen, Patricia Ho, Daniel T. Montoro, Adam E. Kornberg, Arnold S. Han, Mathieu F. Bakhoum, Niroshana Anandasabapathy, Mayte Suárez-Fariñas, Samuel F. Bakhoum, Yaron Bram, Alain Borczuk, Xinzheng V.Guo, Jay H. Lefkowitch, Charles Marboe, Stephen. M. Lagana, Armando Del Portillo, Emmanuel Zorn, Glen S. Markowitz, Robert F. Schwabe, Robert E. Schwartz, Olivier Elemento, Anjali Saqi, Hanina Hibshoosh, Jianwen Que, Benjamin Izar. <strong>A molecular single-cell lung atlas of lethal COVID-19</strong>.
+                    <br>Nature (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">doi:10.1038/s41586-021-03569-1</a>
+                    <br>
+                    <a href="https://www.nature.com/articles/s41586-021-03569-1_reference.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41586-021-03569-1" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     <u>André F. Rendeiro</u>*, Hiranmayi Ravichandran*, Yaron Bram, Vasuretha Chandar, Junbum Kim, Cem Meydan, Jiwoon Park, Jonathan Foox, Tyler Hether, Sarah Warren, Youngmi Kim, Jason Reeves, Steven Salvatore, Christopher E. Mason, Eric C. Swanson, Alain C. Borczuk, Olivier Elemento, Robert E. Schwartz.
