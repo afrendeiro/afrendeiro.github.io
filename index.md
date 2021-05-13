@@ -225,7 +225,7 @@ description: "My personal website"
                     <br>
                     <a href="https://dx.doi.org/10.1038/s41467-019-14081-6"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <a href="https://github.com/epigen/cll-time_course"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
+                    <a href="https://github.com/epigen/cll-ibrutinib_time"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
@@ -244,7 +244,7 @@ description: "My personal website"
                 <p>
                     Christopher JM Piper, Elizabeth C Rosser, Kristine Oleinika, Kiran Nistala, Thomas Krausgruber, <u>André F. Rendeiro</u>, Aggelos Banos, Ignat Drozdov, Matteo Villa, Scott Thomson, Georgina Xanthou, Christoph Bock, Brigitta Stockinger, Claudia Mauri.
                     <br><strong>Aryl Hydrocarbon Receptor Contributes to the Transcriptional Program of IL-10-Producing Regulatory B Cells</strong>.
-                    <br>Cell Reports. (2019) <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.celrep.2019.10.018" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.celrep.2019.10.018'); return false;">doi:10.1016/j.celrep.2019.10.018</a>
+                    <br>Cell Reports (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.celrep.2019.10.018" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.celrep.2019.10.018'); return false;">doi:10.1016/j.celrep.2019.10.018</a>
                     <br>
                     <a href="https://www.ebi.ac.uk/arrayexpress/search.html?query=Aryl+hydrocarbon+receptor+governs+a+transcriptional+programme+that+determines+regulatory+B+cell+differentiation+and+function"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <span data-badge-type="2" data-doi="10.1016/j.celrep.2019.10.018" data-hide-no-mentions="true" class="altmetric-embed"></span>
@@ -254,7 +254,7 @@ description: "My personal website"
                 <p>
                     Florian Puhm, Taras Afonyushkin, Ulrike Resch, Georg Obermayer, Manfred Rohde, Thomas Penz, Michael Schuster, Gabriel Wagner, <u>André F. Rendeiro</u>, Imene Melki, Christoph Kaun, Johann Wojta, Christoph Bock, Bernd Jilma, Nigel Mackman, Eric Boilard, Christoph J Binder.
                     <br><strong>Mitochondria are a subset of extracellular vesicles released by activated monocytes and induce type I IFN and TNF responses in endothelial cells</strong>.
-                    <br>Circulation Research. (2019) <a rel="datacite:doi" href="http://dx.doi.org/10.1161/CIRCRESAHA.118.314601" onclick="recordOutboundLink(this, 'DOI', '10.1161/CIRCRESAHA.118.314601'); return false;">doi:10.1161/CIRCRESAHA.118.314601</a>
+                    <br>Circulation Research (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1161/CIRCRESAHA.118.314601" onclick="recordOutboundLink(this, 'DOI', '10.1161/CIRCRESAHA.118.314601'); return false;">doi:10.1161/CIRCRESAHA.118.314601</a>
                     <br>
                     <span data-badge-type="2" data-doi="10.1161/CIRCRESAHA.118.314601" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
@@ -297,7 +297,7 @@ description: "My personal website"
                 <p>
                     Tahsin Stefan Barakat*, Florian Halbritter*, Man Zhang, <u>André F. Rendeiro</u>, Christoph Bock, Ian Chambers.
                     <br><strong>Functional dissection of the enhancer repertoire in human embryonic stem cells</strong>.
-                    <br>Cell Stem Cell. (2018) <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
+                    <br>Cell Stem Cell (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
                     <br>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <span data-badge-type="2" data-doi="10.1016/j.stem.2018.06.014" data-hide-no-mentions="true" class="altmetric-embed"></span>
@@ -307,7 +307,7 @@ description: "My personal website"
                 <p>
                     Paul Datlinger, <u>André F Rendeiro*</u>, Christian Schmidl*, Thomas Krausgruber, Peter Traxler, Johanna Klughammer, Linda C Schuster, Amelie Kuchler, Donat Alpar, Christoph Bock.
                     <br><strong>Pooled CRISPR screening with single-cell transcriptome readout</strong>.
-                    <br>Nature Methods. (2017) <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">doi:10.1038/nmeth.4177</a>
+                    <br>Nature Methods (2017). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">doi:10.1038/nmeth.4177</a>
                     <br>
                     <a href="http://rdcu.be/oDFf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
@@ -374,6 +374,7 @@ description: "My personal website"
     </div>
     <div class="col-sm-6">
         <h4>Preprints</h4>
+        <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
         	<li>
                 <p>
