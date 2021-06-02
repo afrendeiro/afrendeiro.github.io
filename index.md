@@ -100,7 +100,7 @@ description: "My personal website"
         <h5>Technology development:</h5>
         <ol>
             <li>
-                scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, bioRxiv, 2019</a>
+                scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2021</a>
             </li>
             <li>
                 ChIP-STARR-seq: <a rel="datacite:doi" href="http://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">Barakat<sup>*</sup>, Halbritter<sup>*</sup>, <i>et al</i>, Cell Stem Cell, 2018</a>
@@ -126,6 +126,17 @@ description: "My personal website"
     <div class="col-sm-6">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Paul Datlinger*, André F. Rendeiro*, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock. <strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
+                    <br>Nature Methods (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">doi:10.1038/s41592-021-01153-z</a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/epigen/scifiRNA-seq_publication"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Code </button></a>
+                    <a href="/2019/12/13/chromium_modeling"><button type="button" class="btn btn-default btn-sm"> <span class="fab book-open" style="font-size: 1.4em;" aria-hidden="true"></span> Notebook</button></a>
+                    <span data-badge-type="2" data-doi="10.1038/s41592-021-01153-z" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                </p>
+            </li>
             <li>
                 <p>
                     Peter Peneder, Adrian Stütz, Didier Surdez, Manuela Krumbholz, Sabine Semper, Mathieu Chicard, Nathan Sheffield, Gaelle Pierron, Eve Lapouble, Marcus Tötzl, Bekir Ergüner, Daniele Barreca, \underline{André F. Rendeiro}, Abbas Agaimy, Heidrun Boztug, Gernot Engstler, Michael Dworzak, Marie Bernkopf, Sabine Taschner-Mandl, Inge Ambros, Ola Myklebost, Perrine Marec-Berard, Susan Burchill, Bernadette Brennan, Sandra Strauss, Jeremy Whelan, Gudrun Schleiermacher, Christiane Schaefer, Uta Dirksen, Caroline Hutter, Kjetil Boye, Peter Ambros, Olivier Delattre, Markus Metzler, Christoph Bock, Eleni Tomazou. <strong>Multimodal analysis of cell-free DNA whole genome sequencing for pediatric cancers with low mutational burden</strong>.
@@ -395,17 +406,6 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1101/2020.10.08.331322"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/pepkit/peppy"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <span data-badge-type="2" data-doi="10.1101/2020.10.08.331322" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Paul Datlinger*, <u>André F. Rendeiro*</u>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
-                    <br><strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
-                    <br>bioRxiv (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">doi:10.1101/2019.12.17.879304</a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <a href="/2019/12/13/chromium_modeling"><button type="button" class="btn btn-default btn-sm"> <span class="fab book-open" style="font-size: 1.4em;" aria-hidden="true"></span> Notebook</button></a>
-                    <span data-badge-type="2" data-doi="10.1101/2019.12.17.879304" data-hide-no-mentions="true" class="altmetric-embed"></span>
                 </p>
             </li>
             <li>
