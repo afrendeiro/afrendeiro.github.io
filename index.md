@@ -76,44 +76,54 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">
+                    Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">
+                    Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">
+                    Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
             </li>
         </ol>
         <h5>Epigenetics for personalized medicine in cancer:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-019-14081-6'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-019-14081-6'); return false;">
+                    Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">
+                    Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
             </li>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">
+                    Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
             </li>
         </ol>
         <h5>Technology development:</h5>
         <ol>
             <li>
-                scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2021</a>
+                scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">
+                    Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2021</a>
             </li>
             <li>
-                ChIP-STARR-seq: <a rel="datacite:doi" href="http://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">Barakat<sup>*</sup>, Halbritter<sup>*</sup>, <i>et al</i>, Cell Stem Cell, 2018</a>
+                ChIP-STARR-seq: <a rel="datacite:doi" href="http://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">
+                    Barakat<sup>*</sup>, Halbritter<sup>*</sup>, <i>et al</i>, Cell Stem Cell, 2018</a>
             </li>
             <li>
-                CROP-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">Datlinger, <i>et al</i>, Nature Methods, 2017</a>
+                CROP-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">
+                    Datlinger, <i>et al</i>, Nature Methods, 2017</a>
             </li>
             <li>
-                ChIPmentation: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
+                ChIPmentation: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">
+                    Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
             </li>
         </ol>
         <h4>Support</h4>
-        <p>I am supported by a National Cancer Institute T32 grant for Molecular and Translational Oncology Research (T32CA203702) awarded to Weill Cornell Medical College.</p>
+        <p>I am the recipient of a National Cancer Institute T32 grant for Molecular and Translational Oncology Research (T32CA203702) awarded to Weill Cornell Medical College.</p>
     </div>
 </div>
 
@@ -123,12 +133,13 @@ description: "My personal website"
     <h3>Publications and associated resources</h3>
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <small><sup>*</sup> equal contributions</small><br>
-    <div class="col-sm-6">
+    <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
             <li>
                 <p>
-                    Paul Datlinger*, André F. Rendeiro*, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock. <strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
+                    Paul Datlinger*, <u>André F. Rendeiro*</u>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
+                    <br><strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
                     <br>Nature Methods (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">doi:10.1038/s41592-021-01153-z</a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
@@ -139,7 +150,8 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Peter Peneder, Adrian Stütz, Didier Surdez, Manuela Krumbholz, Sabine Semper, Mathieu Chicard, Nathan Sheffield, Gaelle Pierron, Eve Lapouble, Marcus Tötzl, Bekir Ergüner, Daniele Barreca, \underline{André F. Rendeiro}, Abbas Agaimy, Heidrun Boztug, Gernot Engstler, Michael Dworzak, Marie Bernkopf, Sabine Taschner-Mandl, Inge Ambros, Ola Myklebost, Perrine Marec-Berard, Susan Burchill, Bernadette Brennan, Sandra Strauss, Jeremy Whelan, Gudrun Schleiermacher, Christiane Schaefer, Uta Dirksen, Caroline Hutter, Kjetil Boye, Peter Ambros, Olivier Delattre, Markus Metzler, Christoph Bock, Eleni Tomazou. <strong>Multimodal analysis of cell-free DNA whole genome sequencing for pediatric cancers with low mutational burden</strong>.
+                    Peter Peneder, Adrian Stütz, Didier Surdez, Manuela Krumbholz, Sabine Semper, Mathieu Chicard, Nathan Sheffield, Gaelle Pierron, Eve Lapouble, Marcus Tötzl, Bekir Ergüner, Daniele Barreca, <u>André F. Rendeiro</u>, Abbas Agaimy, Heidrun Boztug, Gernot Engstler, Michael Dworzak, Marie Bernkopf, Sabine Taschner-Mandl, Inge Ambros, Ola Myklebost, Perrine Marec-Berard, Susan Burchill, Bernadette Brennan, Sandra Strauss, Jeremy Whelan, Gudrun Schleiermacher, Christiane Schaefer, Uta Dirksen, Caroline Hutter, Kjetil Boye, Peter Ambros, Olivier Delattre, Markus Metzler, Christoph Bock, Eleni Tomazou.
+                    <br><strong>Multimodal analysis of cell-free DNA whole genome sequencing for pediatric cancers with low mutational burden</strong>.
                     <br>Nature Communications (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41467-021-23445-w" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-021-23445-w'); return false;">doi:10.1038/s41467-021-23445-w</a>
                     <br>
                     <a href="https://www.nature.com/articles/s41467-021-23445-w.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
@@ -149,7 +161,8 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Johannes C. Melms*, Jana Biermann*, Huachao Huang*, Yiping Wang*, Ajay Nair*, Somnath Tagore*, Igor Katsyv*, <u>André F. Rendeiro</u>*, Amit Dipak Amin*, Denis Schapiro, Chris J. Frangieh, Adrienne M. Luoma, Aveline Filliol, Yinshan Fang, Hiranmayi Ravichandran, Mariano G. Clausi, George A. Alba, Meri Rogava, Sean W. Chen, Patricia Ho, Daniel T. Montoro, Adam E. Kornberg, Arnold S. Han, Mathieu F. Bakhoum, Niroshana Anandasabapathy, Mayte Suárez-Fariñas, Samuel F. Bakhoum, Yaron Bram, Alain Borczuk, Xinzheng V.Guo, Jay H. Lefkowitch, Charles Marboe, Stephen. M. Lagana, Armando Del Portillo, Emmanuel Zorn, Glen S. Markowitz, Robert F. Schwabe, Robert E. Schwartz, Olivier Elemento, Anjali Saqi, Hanina Hibshoosh, Jianwen Que, Benjamin Izar. <strong>A molecular single-cell lung atlas of lethal COVID-19</strong>.
+                    Johannes C. Melms*, Jana Biermann*, Huachao Huang*, Yiping Wang*, Ajay Nair*, Somnath Tagore*, Igor Katsyv*, <u>André F. Rendeiro</u>*, Amit Dipak Amin*, Denis Schapiro, Chris J. Frangieh, Adrienne M. Luoma, Aveline Filliol, Yinshan Fang, Hiranmayi Ravichandran, Mariano G. Clausi, George A. Alba, Meri Rogava, Sean W. Chen, Patricia Ho, Daniel T. Montoro, Adam E. Kornberg, Arnold S. Han, Mathieu F. Bakhoum, Niroshana Anandasabapathy, Mayte Suárez-Fariñas, Samuel F. Bakhoum, Yaron Bram, Alain Borczuk, Xinzheng V.Guo, Jay H. Lefkowitch, Charles Marboe, Stephen. M. Lagana, Armando Del Portillo, Emmanuel Zorn, Glen S. Markowitz, Robert F. Schwabe, Robert E. Schwartz, Olivier Elemento, Anjali Saqi, Hanina Hibshoosh, Jianwen Que, Benjamin Izar.
+                    <br><strong>A molecular single-cell lung atlas of lethal COVID-19</strong>.
                     <br>Nature (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">doi:10.1038/s41586-021-03569-1</a>
                     <br>
                     <a href="https://www.nature.com/articles/s41586-021-03569-1_reference.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
@@ -393,7 +406,7 @@ description: "My personal website"
             </li>
         </ol>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-12">
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
