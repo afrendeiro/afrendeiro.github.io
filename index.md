@@ -133,6 +133,7 @@ description: "My personal website"
 <div class="row blog-main" prefix="datacite: http://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
@@ -146,7 +147,10 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1101/2019.12.17.879304"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/epigen/scifiRNA-seq_publication"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Code </button></a>
                     <a href="/2019/12/13/chromium_modeling"><button type="button" class="btn btn-default btn-sm"> <span class="fab book-open" style="font-size: 1.4em;" aria-hidden="true"></span> Notebook</button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41592-021-01153-z" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span class="altmetric-embed" data-badge-type="2" data-doi="10.1038/s41592-021-01153-z"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41592-021-01153-z" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -157,7 +161,10 @@ description: "My personal website"
                     <br>
                     <a href="https://www.nature.com/articles/s41467-021-23445-w.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="https://doi.org/10.5281/zenodo.4719434"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41467-021-23445-w" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41467-021-23445-w" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-021-23445-w" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -167,7 +174,10 @@ description: "My personal website"
                     <br>Nature (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">doi:10.1038/s41586-021-03569-1</a>
                     <br>
                     <a href="https://www.nature.com/articles/s41586-021-03569-1_reference.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41586-021-03569-1" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41586-021-03569-1" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41586-021-03569-1" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -185,7 +195,10 @@ description: "My personal website"
                     <a href="https://doi.org/10.5281/zenodo.4635285"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/ElementoLab/covid-imc"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
                     <a href="https://github.com/ElementoLab/covid-imc-viz"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41586-021-03475-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41586-021-03475-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41586-021-03475-6" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -195,7 +208,10 @@ description: "My personal website"
                     <br>Nature Genetics (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41588-021-00777-3" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41588-021-00777-3'); return false;">doi:10.1038/s41588-021-00777-3</a>
                     <br>
                     <a href="https://github.com/Kubicek-Lab-at-CeMM/BAF-kinetics"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41588-021-00777-3" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41588-021-00777-3" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41588-021-00777-3" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -207,7 +223,10 @@ description: "My personal website"
                     <a href="https://www.life-science-alliance.org/content/lsa/4/2/e202000955.full.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="https://dx.doi.org/10.1101/2020.09.08.20189092"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/ElementoLab/covid-flowcyto"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.26508/lsa.202000955" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.26508/lsa.202000955" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.26508/lsa.202000955" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -217,7 +236,10 @@ description: "My personal website"
                     <br>Oncogene (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41388-020-01584-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41388-020-01584-6'); return false;">doi:10.1038/s41388-020-01584-6</a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/422832"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1101/422832" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1101/422832" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -229,7 +251,10 @@ description: "My personal website"
                     <a href="http://structural-immunity-paper.medical-epigenomics.org/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134663"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/StructuralImmunity"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41586-020-2424-4" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41586-020-2424-4" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41586-020-2424-4" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -238,7 +263,10 @@ description: "My personal website"
                     <br><strong>Targeting Nuclear NOTCH2 by Gliotoxin Recovers a Tumor-Suppressor NOTCH3 Activity in CLL</strong>.
                     <br>Cells (2020). <a rel="datacite:doi" href="http://dx.doi.org/10.3390/cells9061484" onclick="recordOutboundLink(this, 'DOI', '10.3390/cells9061484'); return false;">doi:10.3390/cells9061484</a>
                     <br>
-                    <span data-badge-type="2" data-doi="10.3390/cells9061484" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.3390/cells9061484" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.3390/cells9061484" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -249,7 +277,10 @@ description: "My personal website"
                     <br>
                     <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7345/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7525/"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1016/j.cmet.2020.03.003" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1016/j.cmet.2020.03.003" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cmet.2020.03.003" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -261,7 +292,10 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1038/s41467-019-14081-6"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/cll-ibrutinib_time"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-019-14081-6" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -272,7 +306,10 @@ description: "My personal website"
                     <br>
                     <a href="https://dx.doi.org/10.1016/j.immuni.2019.12.002"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130884"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-019-14081-6" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -282,7 +319,10 @@ description: "My personal website"
                     <br>Cell Reports (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.celrep.2019.10.018" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.celrep.2019.10.018'); return false;">doi:10.1016/j.celrep.2019.10.018</a>
                     <br>
                     <a href="https://www.ebi.ac.uk/arrayexpress/search.html?query=Aryl+hydrocarbon+receptor+governs+a+transcriptional+programme+that+determines+regulatory+B+cell+differentiation+and+function"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1016/j.celrep.2019.10.018" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1016/j.celrep.2019.10.018" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2019.10.018" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -291,7 +331,10 @@ description: "My personal website"
                     <br><strong>Mitochondria are a subset of extracellular vesicles released by activated monocytes and induce type I IFN and TNF responses in endothelial cells</strong>.
                     <br>Circulation Research (2019). <a rel="datacite:doi" href="http://dx.doi.org/10.1161/CIRCRESAHA.118.314601" onclick="recordOutboundLink(this, 'DOI', '10.1161/CIRCRESAHA.118.314601'); return false;">doi:10.1161/CIRCRESAHA.118.314601</a>
                     <br>
-                    <span data-badge-type="2" data-doi="10.1161/CIRCRESAHA.118.314601" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1161/CIRCRESAHA.118.314601" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1161/CIRCRESAHA.118.314601" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -302,7 +345,10 @@ description: "My personal website"
                     <br>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108390"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/baf-complex"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41588-019-0477-9" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41588-019-0477-9" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41588-019-0477-9" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -313,7 +359,10 @@ description: "My personal website"
                     <br>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105786"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/mthfd1"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41588-019-0413-z" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41588-019-0413-z" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41588-019-0413-z" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -325,7 +374,10 @@ description: "My personal website"
                     <a href="https://www.nature.com/articles/s41589-018-0205-2.epdf?author_access_token=bhLY62eOUKzMxIek0Lrur9RgN0jAjWel9jnR3ZoTv0OorJZAyhsTHb_lKvE8iHB4D-HCNtQW3iuHJ6rd4yyhVuqSRybOkvDAylqw3Y4ls_TSAbSvsrbyBKCASfcuMe_LYEtnAVhV2dzkOxsLOLffEA%3D%3D"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/cll-ibrutinib"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/s41589-018-0205-2" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/s41589-018-0205-2" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41589-018-0205-2" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -335,7 +387,10 @@ description: "My personal website"
                     <br>Cell Stem Cell (2018). <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', '10.1016/j.stem.2018.06.014'); return false;">doi:10.1016/j.stem.2018.06.014</a>
                     <br>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1016/j.stem.2018.06.014" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1016/j.stem.2018.06.014" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.stem.2018.06.014" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -347,7 +402,10 @@ description: "My personal website"
                     <a href="http://rdcu.be/oDFf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/crop-seq"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/nmeth.4177" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/nmeth.4177" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.4177" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -357,7 +415,10 @@ description: "My personal website"
                     <br>Nature Neuroscience (2017). <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462" onclick="recordOutboundLink(this, 'DOI', '10.1038/nn.4462'); return false;">doi:10.1038/nn.4462</a>
                     <br>                    
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/nn.4462" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/nn.4462" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/nn.4462" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -366,7 +427,10 @@ description: "My personal website"
                     <br><strong>Malondialdehyde epitopes are sterile mediators of hepatic inflammation in hypercholesterolemic mice</strong>.
                     <br>Hepatology (2017). <a rel="datacite:doi" href="http://dx.doi.org/10.1002/hep.28970" onclick="recordOutboundLink(this, 'DOI', '10.1002/hep.28970'); return false;">doi:10.1002/hep.28970</a>
                     <br>
-                    <span data-badge-type="2" data-doi="10.1002/hep.28970" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1002/hep.28970" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1002/hep.28970" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -379,7 +443,10 @@ description: "My personal website"
                     <a href="https://ega-archive.org/studies/EGAS00001001821"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Raw data</button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Processed data</button></a>
                     <a href="https://github.com/epigen/cll-chromatin"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/ncomms11938" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/ncomms11938" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/ncomms11938" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -391,7 +458,10 @@ description: "My personal website"
                     <a href="http://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/chipmentation"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1038/nmeth.3542" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1038/nmeth.3542" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.3542" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -402,7 +472,10 @@ description: "My personal website"
                     <br>
                     <a href="http://genome.cshlp.org/content/24/4/639.full.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46488"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/gr.162529.113" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1101/gr.162529.113" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1101/gr.162529.113" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
                 </p>
             </li>
         </ol>
@@ -419,7 +492,9 @@ description: "My personal website"
                     <br>
                     <a href="https://dx.doi.org/10.1101/2020.10.08.331322"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/pepkit/peppy"><button type="button" class="btn btn-default btn-sm"> <span class="fab fa-github" style="font-size: 1.4em;" aria-hidden="true"></span> Code </button></a>
-                    <span data-badge-type="2" data-doi="10.1101/2020.10.08.331322" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.1101/2020.10.08.331322" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </a>
                 </p>
             </li>
             <li>
@@ -429,7 +504,9 @@ description: "My personal website"
                     <br>Figshare (2014). <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562" onclick="recordOutboundLink(this, 'DOI', '10.6084/m9.figshare.884562'); return false;">doi:10.6084/m9.figshare.884562</a>
                     <br>
                     <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
-                    <span data-badge-type="2" data-doi="10.6084/m9.figshare.884562" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    <a style="float:right">
+                        <span data-badge-type="2" data-doi="10.6084/m9.figshare.884562" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                    </a>
                 </p>
             </li>
         </ol>
