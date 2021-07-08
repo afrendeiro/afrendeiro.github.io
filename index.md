@@ -7,7 +7,7 @@ description: "My personal website"
 
 <div class="row">
     <div class="col-sm-3 center-block text-center brd">
-        <img src="me.jpeg" style="width:70%;" alt="It's me!">
+        <img src="me.jpeg" class="my_image" alt="It's me, André!">
         <dl>
             <br>
             <dt><span property="foaf:firstName">André</span> <span property="foaf:familyName">Figueiredo Rendeiro</span></dt>
@@ -54,6 +54,7 @@ description: "My personal website"
         <h4>Curriculum Vitae</h4>
         <a href="https://raw.githubusercontent.com/afrendeiro/cv/master/cv.pdf">Download my CV in PDF format</a>
     </div>
+    <br>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <!--<img src="me.jpeg" style="width:210px; height:210px; margin: 0px 10px; float:left" alt="It's me!">-->
         <p>
