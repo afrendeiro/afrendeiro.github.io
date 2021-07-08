@@ -307,8 +307,8 @@ description: "My personal website"
                     <a href="https://dx.doi.org/10.1016/j.immuni.2019.12.002"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130884"><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span> Data </button></a>
                     <a style="float:right">
-                        <span data-badge-type="2" data-doi="10.1038/s41467-019-14081-6" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                        <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-019-14081-6" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                        <span data-badge-type="2" data-doi="10.1016/j.immuni.2019.12.002" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1016/j.immuni.2019.12.002" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
                     </a>
                 </p>
             </li>
