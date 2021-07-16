@@ -140,6 +140,18 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Laurienne Edgar, Naveed Akbar, Adam T Braithwaite, Thomas Krausgruber, Héctor Gallart-Ayala, Jade Bailey, Alastair L Corbin, Tariq E Khoyratty, Joshua T Chai, Mohammad Alkhalil, <u>André F. Rendeiro</u>, Klemen Ziberna, Ritu Arya, Thomas J Cahill, Christoph Bock, Jurga Laurencikiene, Mark J Crabtree, Madeleine E Lemieux, Niels P Riksen, Mihai G Netea, Craig E Wheelock, Keith M Channon, Mikael Rydén, Irina A Udalova, Ricardo Carnicer, Robin P Choudhury
+                    <br><strong>Hyperglycaemia Induces Trained Immunity in Macrophages and Their Precursors and Promotes Atherosclerosis</strong>.
+                    <br>Circulation (2021). <a rel="datacite:doi" href="https://doi.org/10.1161/CIRCULATIONAHA.120.046464" onclick="recordOutboundLink(this, 'DOI', '10.1161/CIRCULATIONAHA.120.046464'); return false;">doi:10.1161/CIRCULATIONAHA.120.046464</a>
+                    <br>
+                    <a style="float:right">
+                        <span class="altmetric-embed" data-badge-type="2" data-doi="10.1161/CIRCULATIONAHA.120.046464"></span>
+                        <span class="__dimensions_badge_embed__" data-doi="10.1161/CIRCULATIONAHA.120.046464" data-legend="hover-right" data-style="small_rectangle" style='display: inline-block;'></span>
+                    </a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Paul Datlinger*, <u>André F. Rendeiro*</u>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
                     <br><strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
                     <br>Nature Methods (2021). <a rel="datacite:doi" href="https://doi.org/10.1038/s41592-021-01153-z" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41592-021-01153-z'); return false;">doi:10.1038/s41592-021-01153-z</a>
