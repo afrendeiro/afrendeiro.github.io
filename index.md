@@ -7,7 +7,7 @@ description: "My personal website"
 
 <div class="row">
     <div class="col-sm-3 center-block text-center brd">
-        <img src="me.jpeg" class="my_image" alt="It's me, André!">
+        <img src="me.jpg" class="my_image" alt="It's me, André!">
         <dl>
             <br>
             <dt><span property="foaf:firstName">André</span> <span property="foaf:familyName">Figueiredo Rendeiro</span></dt>
@@ -77,12 +77,12 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">
-                    Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
-            </li>
-            <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03475-6'); return false;">
                     Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41586-021-03569-1'); return false;">
+                    Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955" onclick="recordOutboundLink(this, 'DOI', '10.26508/lsa.202000955'); return false;">
