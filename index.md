@@ -97,6 +97,10 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
+                Rendeiro <i>et al</i>, MedRxiv, 2021</a>
+            </li>
+            <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
                 Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
             </li>
@@ -1038,6 +1042,35 @@ description: "My personal website"
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
+            <li>
+                <p>
+                    <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
+                    <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
+                    <br>
+                    MedRxiv (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
+                        doi:10.1101/2021.09.05.21263141</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2021.09.05.21263141"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/ElementoLab/covid-metabolomics">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                            class="fab fa-github"
+                            style="font-size: 1.4em;"
+                            aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
         	<li>
                 <p>
                     Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
