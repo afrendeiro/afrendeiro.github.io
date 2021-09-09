@@ -165,17 +165,18 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
-                    Laurienne Edgar, Naveed Akbar, Adam T Braithwaite, Thomas Krausgruber, Héctor Gallart-Ayala, Jade Bailey, Alastair L Corbin, Tariq E Khoyratty, Joshua T Chai, Mohammad Alkhalil, <u>André F. Rendeiro</u>, Klemen Ziberna, Ritu Arya, Thomas J Cahill, Christoph Bock, Jurga Laurencikiene, Mark J Crabtree, Madeleine E Lemieux, Niels P Riksen, Mihai G Netea, Craig E Wheelock, Keith M Channon, Mikael Rydén, Irina A Udalova, Ricardo Carnicer, Robin P Choudhury
+                    Laurienne Edgar, Naveed Akbar, Adam T Braithwaite, Thomas Krausgruber, Héctor Gallart-Ayala, Jade Bailey, Alastair L Corbin, Tariq E Khoyratty, Joshua T Chai, Mohammad Alkhalil, <u>André F. Rendeiro</u>, Klemen Ziberna, Ritu Arya, Thomas J Cahill, Christoph Bock, Jurga Laurencikiene, Mark J Crabtree, Madeleine E Lemieux, Niels P Riksen, Mihai G Netea, Craig E Wheelock, Keith M Channon, Mikael Rydén, Irina A Udalova, Ricardo Carnicer, Robin P Choudhury.
                     <br><strong>Hyperglycaemia Induces Trained Immunity in Macrophages and Their Precursors and Promotes Atherosclerosis</strong>.
                     <br>
                     Circulation (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1161/CIRCULATIONAHA.120.046464">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1161/CIRCULATIONAHA.120.046464">
                         doi:10.1161/CIRCULATIONAHA.120.046464</a>
                     <a style="float:right">
                         <span
-                            class="altmetric-embed"
                             data-badge-type="2"
-                            data-doi="10.1161/CIRCULATIONAHA.120.046464"></span>
+                            data-doi="10.1161/CIRCULATIONAHA.120.046464"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
                             data-doi="10.1161/CIRCULATIONAHA.120.046464"
@@ -188,17 +189,18 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Paul Datlinger*, <u>André F. Rendeiro*</u>, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
+                    Paul Datlinger*, <u>André F. Rendeiro</u>*, Thorina Boenke, Thomas Krausgruber, Daniele Barreca, Christoph Bock.
                     <br><strong>Ultra-high throughput single-cell RNA sequencing by combinatorial fluidic indexing</strong>.
                     <br>
                     Nature Methods (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1038/s41592-021-01153-z">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z">
                         doi:10.1038/s41592-021-01153-z</a>
                     <a style="float:right">
                         <span
-                            class="altmetric-embed"
                             data-badge-type="2"
-                            data-doi="10.1038/s41592-021-01153-z"></span>
+                            data-doi="10.1038/s41592-021-01153-z"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
                             data-doi="10.1038/s41592-021-01153-z"
@@ -212,17 +214,21 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://dx.doi.org/10.1101/2019.12.17.879304">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://github.com/epigen/scifiRNA-seq_publication">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                                class="glyphicon glyphicon-hdd"
+                                class="fab fa-github"
                                 aria-hidden="true"></span> Code </button></a>
                     <a href="/2019/12/13/chromium_modeling">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="fab book-open"
-                                style="font-size: 1.4em;"
-                                aria-hidden="true"></span> Notebook</button></a>
+                                aria-hidden="true"></span> Notebook </button></a>
                 </p>
             </li>
             <li>
@@ -231,7 +237,7 @@ description: "My personal website"
                     <br><strong>Multimodal analysis of cell-free DNA whole genome sequencing for pediatric cancers with low mutational burden</strong>.
                     <br>
                     Nature Communications (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1038/s41467-021-23445-w">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-021-23445-w">
                         doi:10.1038/s41467-021-23445-w</a>
                     <a style="float:right">
                         <span
@@ -256,7 +262,7 @@ description: "My personal website"
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span> Code </button></a>
+                                aria-hidden="true"></span> Data </button></a>
                 </p>
             </li>
             <li>
@@ -265,7 +271,7 @@ description: "My personal website"
                     <br><strong>A molecular single-cell lung atlas of lethal COVID-19</strong>.
                     <br>
                     Nature (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03569-1">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
                         doi:10.1038/s41586-021-03569-1</a>
                     <a style="float:right">
                         <span
@@ -294,7 +300,7 @@ description: "My personal website"
                     <br><strong>The spatial landscape of lung pathology during COVID-19 progression</strong>.
                     <br>
                     Nature (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1038/s41586-021-03475-6">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
                         doi:10.1038/s41586-021-03475-6</a>
                     <a style="float:right">
                         <span
@@ -318,15 +324,13 @@ description: "My personal website"
                     <a href="https://doi.org/10.1101/2020.10.26.20219584">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="glyphicon glyphicon-file"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Preprint </button></a>
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
                     <a href="https://doi.org/10.5281/zenodo.4719434">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span>Data
-                        </button></a>
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="https://doi.org/10.5281/zenodo.4139443">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -350,24 +354,22 @@ description: "My personal website"
                     <a href="https://github.com/ElementoLab/covid-imc">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                     <a href="https://github.com/ElementoLab/covid-imc-viz">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Sandra Schick, Sarah Grosche, Katharina Eva Kohl, Danica Drpic, Martin G. Jaeger, Nara C. Marella, Hana Imrichova, Jung-Ming G. Lin, Gerald Hofstätter, Michael Schuster, <u>André F. Rendeiro</u>, Anna Koren, Mark Petronczki, Christoph Bock, André C. Müller, Georg E. Winter & Stefan Kubicek.
-                	<br><strong>Acute BAF perturbation causes immediate changes in chromatin accessibility</strong>.
+                    Sandra Schick, Sarah Grosche, Katharina Eva Kohl, Danica Drpic, Martin G. Jaeger, Nara C. Marella, Hana Imrichova, Jung-Ming G. Lin, Gerald Hofstätter, Michael Schuster, <u>André F. Rendeiro</u>, Anna Koren, Mark Petronczki, Christoph Bock, André C. Müller, Georg E. Winter, Stefan Kubicek.
+                    <br><strong>Acute BAF perturbation causes immediate changes in chromatin accessibility</strong>.
                     <br>
                     Nature Genetics (2021).
-                    <a rel="datacite:doi" href="https://doi.org/10.1038/s41588-021-00777-3">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41588-021-00777-3">
                         doi:10.1038/s41588-021-00777-3</a>
                     <a style="float:right">
                         <span
@@ -386,9 +388,8 @@ description: "My personal website"
                     <a href="https://github.com/Kubicek-Lab-at-CeMM/BAF-kinetics">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
@@ -397,7 +398,7 @@ description: "My personal website"
                     <br><strong>Profiling of immune dysfunction in COVID-19 patients allows early prediction of disease progression</strong>.
                     <br>
                     Life Science Alliance (2020).
-                    <a rel="datacite:doi" href="https://doi.org/10.26508/lsa.202000955">
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
                         doi:10.26508/lsa.202000955</a>
                     <a style="float:right">
                         <span
@@ -426,14 +427,13 @@ description: "My personal website"
                     <a href="https://github.com/ElementoLab/covid-flowcyto">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Alexander Swoboda, Robert Soukup, Oliver Eckel, Katharina Kinslechner, Bettina Wingelhofer, David Schörghofer, Christina Sternberg, Ha T T Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beermann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <u>André F Rendeiro</u>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschläger, Peter Petzelbauer, Mario Mikula, Richard Moriggl.
+                    Alexander Swoboda, Robert Soukup, Oliver Eckel, Katharina Kinslechner, Bettina Wingelhofer, David Schörghofer, Christina Sternberg, Ha T T Pham, Maria Vallianou, Jaqueline Horvath, Dagmar Stoiber, Lukas Kenner, Lionel Larue, Valeria Poli, Friedrich Beermann, Takashi Yokota, Stefan Kubicek, Thomas Krausgruber, <u>André F. Rendeiro</u>, Christoph Bock, Rainer Zenz, Boris Kovacic, Fritz Aberger, Markus Hengstschläger, Peter Petzelbauer, Mario Mikula, Richard Moriggl.
                     <br><strong>STAT3 promotes melanoma metastasis by CEBP-induced repression of the MITF pathway</strong>.
                     <br>
                     Oncogene (2020).
@@ -442,12 +442,12 @@ description: "My personal website"
                     <a style="float:right">
                         <span
                             data-badge-type="2"
-                            data-doi="10.1101/422832"
+                            data-doi="10.1038/s41388-020-01584-6"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
-                            data-doi="10.1101/422832"
+                            data-doi="10.1038/s41388-020-01584-6"
                             data-legend="hover-right"
                             data-style="small_rectangle"
                             style='display: inline-block;'></span>
@@ -485,8 +485,8 @@ description: "My personal website"
                     <a href="http://structural-immunity-paper.medical-epigenomics.org/">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> PDF </button></a>
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134663">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -495,9 +495,8 @@ description: "My personal website"
                     <a href="https://github.com/epigen/StructuralImmunity">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
@@ -560,7 +559,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    <u>André F. Rendeiro*</u>, Thomas Krausgruber*, Nikolaus Fortelny, Fangwen Zhao, ThomasPenz, Matthias Farlik, Linda C. Schuster, Amelie Nemc, Szabolcs Tasnády, MariennRéti, Zoltán Mátrai, Donat Alpar, Csaba Bödör, Christian Schmidl, Christoph Bock.
+                    <u>André F. Rendeiro</u>*, Thomas Krausgruber*, Nikolaus Fortelny, Fangwen Zhao, Thomas Penz, Matthias Farlik, Linda C. Schuster, Amelie Nemc, Szabolcs Tasnády, Marienn Réti, Zoltán Mátrai, Donat Alpar, Csaba Bödör, Christian Schmidl, Christoph Bock.
                     <br><strong>Chromatin mapping and single-cell immune profiling define the temporal dynamics of ibrutinib drug response in CLL</strong>.
                     <br>
                     Nature Communications (2020).
@@ -593,9 +592,8 @@ description: "My personal website"
                     <a href="https://github.com/epigen/cll-ibrutinib_time">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
@@ -654,7 +652,17 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://www.ebi.ac.uk/arrayexpress/search.html?query=Aryl+hydrocarbon+receptor+governs+a+transcriptional+programme+that+determines+regulatory+B+cell+differentiation+and+function">
+                    <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7525/">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7375/">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7345/">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -715,14 +723,13 @@ description: "My personal website"
                     <a href="https://github.com/epigen/baf-complex">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Sara Sdelci, <u>André F. Rendeiro</u>, Philipp Rathert, Wanhui You, Jung-Ming G. Lin, Anna Ringler, Gerald Hofstätter, Herwig P. Moll, Bettina Gürtl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik, Peter Májek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L. Buckley, Otto Hudecz, Richard Imre, Shuang-Yan Wang, Hans Michael Maric, Robert Kralovics, Keiryn L. Bennett, Andre C. Müller, Karl Mechtler, Jörg Menche, James E. Bradner, Georg E. Winter, Kristaps Klavins, Emilio Casanova, Christoph Bock, Johannes Zuber & Stefan Kubicek.
+                    Sara Sdelci, <u>André F. Rendeiro</u>, Philipp Rathert, Wanhui You, Jung-Ming G. Lin, Anna Ringler, Gerald Hofstätter, Herwig P. Moll, Bettina Gürtl, Matthias Farlik, Sandra Schick, Freya Klepsch, Matthew Oldach, Pisanu Buphamalai, Fiorella Schischlik, Peter Májek, Katja Parapatics, Christian Schmidl, Michael Schuster, Thomas Penz, Dennis L. Buckley, Otto Hudecz, Richard Imre, Shuang-Yan Wang, Hans Michael Maric, Robert Kralovics, Keiryn L. Bennett, Andre C. Müller, Karl Mechtler, Jörg Menche, James E. Bradner, Georg E. Winter, Kristaps Klavins, Emilio Casanova, Christoph Bock, Johannes Zuber, Stefan Kubicek.
                     <br><strong>MTHFD1 interaction with BRD4 links folate metabolism to transcriptional regulation</strong>.
                     <br>
                     Nature Genetics (2019).
@@ -750,14 +757,13 @@ description: "My personal website"
                     <a href="https://github.com/epigen/mthfd1">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Christian Schmidl*, Gregory I Vladimer*, <u>André F. Rendeiro*</u>, Susanne Schnabl*,Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, MohammadAraghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher,Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, Edit Porpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber, Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock.
+                    Christian Schmidl*, Gregory I Vladimer*, <u>André F. Rendeiro</u>*, Susanne Schnabl*, Thomas Krausgruber, Christina Taubert, Nikolaus Krall, Tea Pemovska, Mohammad Araghi, Berend Snijder, Rainer Hubmann, Anna Ringler, Kathrin Runggatscher, Dita Demirtas, Oscar Lopez de la Fuente, Martin Hilgarth, Cathrin Skrabs, Edit Porpaczy, Michaela Gruber, Gregor Hoermann, Stefan Kubicek, Philipp B Staber, Medhat Shehata, Giulio Superti-Furga, Ulrich Jäger, Christoph Bock.
                     <br><strong>Combined chemosensitivity and chromatin profiling prioritizes drug combinations in CLL</strong>.
                     <br>
                     Nature Chemical Biology (2019).
@@ -790,17 +796,16 @@ description: "My personal website"
                     <a href="https://github.com/epigen/cll-ibrutinib">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Tahsin Stefan Barakat*, Florian Halbritter*, Man Zhang, <u>André F. Rendeiro</u>, Christoph Bock, Ian Chambers.
+                    Tahsin Stefan Barakat, Florian Halbritter, Man Zhang, <u>André F. Rendeiro</u>, Christoph Bock, Ian Chambers.
                     <br><strong>Functional dissection of the enhancer repertoire in human embryonic stem cells</strong>.
                     <br>
-                    Cell Stem Cell (2018).
+                    Cell Stem Cell (2017).
                     <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014">
                         doi:10.1016/j.stem.2018.06.014</a>
                     <a style="float:right">
@@ -826,7 +831,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Paul Datlinger, <u>André F Rendeiro*</u>, Christian Schmidl*, Thomas Krausgruber, Peter Traxler, Johanna Klughammer, Linda C Schuster, Amelie Kuchler, Donat Alpar, Christoph Bock.
+                    Paul Datlinger, <u>André F. Rendeiro</u>*, Christian Schmidl*, Thomas Krausgruber, Peter Traxler, Johanna Klughammer, Linda C Schuster, Amelie Kuchler, Donat Alpar, Christoph Bock.
                     <br><strong>Pooled CRISPR screening with single-cell transcriptome readout</strong>.
                     <br>
                     Nature Methods (2017).
@@ -859,17 +864,16 @@ description: "My personal website"
                     <a href="https://github.com/epigen/crop-seq">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema,  Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling,  Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <u>Andre Rendeiro</u>, Matthias Farlik, Mathias Uhlén, Peer Wulff,  Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt,  Sten Linnarsson, Tamas L Horvath & Tibor Harkany.
+                    Roman A Romanov, Amit Zeisel, Joanne Bakker, Fatima Girach, Arash Hellysaz, Raju Tomer, Alán Alpár, Jan Mulder, Frédéric Clotman, Erik Keimpema, Brian Hsueh, Ailey K Crow, Henrik Martens, Christian Schwindling, Daniela Calvigioni, Jaideep S Bains, Zoltán Máté, Gábor Szabó, Yuchio Yanagawa, Ming-Dong Zhang, <u>André F. Rendeiro</u>, Matthias Farlik, Mathias Uhlén, Peer Wulff, Christoph Bock, Christian Broberger, Karl Deisseroth, Tomas Hökfelt, Sten Linnarsson, Tamas L Horvath, Tibor Harkany.
                     <br><strong>Molecular interrogation of hypothalamic organization reveals distinct dopamine neuronal subtypes</strong>.
                     <br>
-                    Nature Neuroscience (2017).
+                    Nature Neuroscience (2016).
                     <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nn.4462">
                         doi:10.1038/nn.4462</a>
                     <a style="float:right">
@@ -919,10 +923,10 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    <u>André F Rendeiro*</u>, Christian Schmidl*, Jonathan C. Strefford*,  Renata Walewska, Zadie Davis, Matthias Farlik,   David Oscier, Christoph Bock.
+                    <u>André F. Rendeiro</u>*, Christian Schmidl*, Jonathan C. Strefford*, Renata Walewska, Zadie Davis, Matthias Farlik, David Oscier, Christoph Bock.
                     <br><strong>Chromatin accessibility maps of chronic lymphocytic leukaemia identify subtype-specific epigenome signatures and transcription regulatory networks</strong>.
                     <br>
-                    Nature Communications (2016).
+                    Nature Communications. 7:11938 (2016).
                     <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938">
                         doi:10.1038/ncomms11938</a>
                     <a style="float:right">
@@ -948,23 +952,22 @@ description: "My personal website"
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span> Raw data</button></a>
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span> Processed data</button></a>
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/epigen/cll-chromatin">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Christian Schmidl*, <u>André F Rendeiro*</u>, Nathan C Sheffield, Christoph Bock.
+                    Christian Schmidl*, <u>André F. Rendeiro</u>*, Nathan C Sheffield, Christoph Bock. 2015.
                     <br><strong>ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors</strong>.
                     <br>
                     Nature Methods (2015).
@@ -997,14 +1000,13 @@ description: "My personal website"
                     <a href="https://github.com/epigen/chipmentation">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    Michaela Schwaiger, Anna Schönauer, <u>André F Rendeiro</u>, Carina Pribitzer, Alexandra Schauer, Anna F Gilles, Johannes B Schinko, Eduard Renfer, David Fredman, Ulrich Technau.
+                    Michaela Schwaiger, Anna Schönauer, <u>André F. Rendeiro</u>, Carina Pribitzer, Alexandra Schauer, Anna Gilles, Johannes Schinko, David Fredman, and Ulrich Technau.
                     <br><strong>Evolutionary conservation of the eumetazoan gene regulatory landscape</strong>.
                     <br>
                     Genome Research (2014).
@@ -1056,6 +1058,12 @@ description: "My personal website"
                             data-doi="10.1101/2021.09.05.21263141"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2021.09.05.21263141"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
                     </a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
@@ -1066,12 +1074,11 @@ description: "My personal website"
                     <a href="https://github.com/ElementoLab/covid-metabolomics">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
-        	<li>
+            <li>
                 <p>
                     Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
                     <br><strong>Linking big biomedical datasets to modular analysis with Portable Encapsulated Projects</strong>.
@@ -1085,6 +1092,12 @@ description: "My personal website"
                             data-doi="10.1101/2020.10.08.331322"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2020.10.08.331322"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
                     </a>
                     <br>
                     <a href="https://dx.doi.org/10.1101/2020.10.08.331322">
@@ -1095,14 +1108,13 @@ description: "My personal website"
                     <a href="https://github.com/pepkit/peppy">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                            class="fab fa-github"
-                            style="font-size: 1.4em;"
-                            aria-hidden="true"></span> Code </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
                 <p>
-                    <u>André F Rendeiro</u>, Pavla Navratilova, Eric Thompson.
+                    <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
                     <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
                     <br>
                     Figshare (2014).
@@ -1114,6 +1126,12 @@ description: "My personal website"
                             data-doi="10.6084/m9.figshare.884562"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.6084/m9.figshare.884562"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
                     </a>
                     <br>
                     <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf">
@@ -1128,3 +1146,4 @@ description: "My personal website"
     <br>
 </div>
 
+Updated on 2021-09-09.
