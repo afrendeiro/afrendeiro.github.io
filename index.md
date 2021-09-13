@@ -16,9 +16,10 @@ description: "My personal website"
                 <span property="foaf:familyName">Rendeiro</span>
             </dt>
             <dd>Postdoctoral Associate</dd>
-            <dd>Institute for Computational Biomedicine</dd>
-            <dd>Englander Institute for Precision Medicine</dd>
-            <dd>Weill Cornell Medicine</dd>
+            <dd><a style="color: inherit;" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine</a></dd>
+            <dd><a style="color: inherit;" href="https://physiology.med.cornell.edu/">Department of Physiology and Biophysics</a></dd>
+            <dd><a style="color: inherit;" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a></dd>
+            <dd><a style="color: inherit;" href="https://weill.cornell.edu/">Weill Cornell Medicine</a></dd>
             <br>
             <dt>Address:</dt>
                 <dd>
@@ -73,7 +74,7 @@ description: "My personal website"
                 </dd>
             </dl>
     </div>
-    <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
+    <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#" style="text-align: justify;text-justify: inter-word;">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
             <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
@@ -82,11 +83,11 @@ description: "My personal website"
             in the lab of <a rel="foaf:member" href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
         </p>
         <p>
-            I am currently developing computational methodologies to understand the spatial organization of tissue and the interplay between cancer cells, immune system and structural cell types, and how that can be applied for the development of novel therapeutical options or disease management.
+            I develop computational methodologies to understand the spatial organization of human tissue and the interplay between cancer cells, immune system, stroma, and extracellular matrix. Advances in the area can be used to develop novel therapeutical options or disease management approaches.
             I develop and sometimes contribute to open source software. Check out my <a href="https://github.com/afrendeiro">GitHub profile</a> to see my tools and project contributions.
         </p>
         <p>
-            I did my PhD at the <a href="https://cemm.at">CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences</a> in the lab of Christoph Bock where I applied computational methods to high-dimentional molecular biology datasets of primary patient data in an effort to produce novel ways to monitor disease progression, predict risk and stratify patients and develop novel therapeutical avenues.
+            I did my PhD at the <a href="https://cemm.at">CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences</a> in the <a href="https://www.bocklab.org/">lab of Christoph Bock</a>  where I developed and applied computational methods to  understand biological data from patients in an effort to develop ways to monitor disease, predict risk, and develop novel therapeutical approaches.
         </p>
     </div>
     <div class="col-sm-8 blog-main" id="research">
