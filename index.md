@@ -6,7 +6,7 @@ description: "My personal website"
 {% include JB/setup %}
 
 <div class="row">
-    <div class="col-sm-3 center-block text-center brd custom-col-width">
+    <div class="col-sm-4 center-block text-center brd custom-col-width">
         <img src="me.jpg" class="my_image" alt="It's me, André!">
         <dl>
             <br>
@@ -34,7 +34,6 @@ description: "My personal website"
                         </a>
                     </span>
                 </dd>
-            <br>
             <dt>Orcid ID:</dt>
                 <dd>
                     <a
@@ -50,7 +49,6 @@ description: "My personal website"
                         André Figueiredo Rendeiro
                     </a>
                 </dd>
-            <br>
             <dt>Public Key:</dt>
                 <dd>
                     <a
@@ -75,7 +73,6 @@ description: "My personal website"
                 </dd>
             </dl>
     </div>
-    <br>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
