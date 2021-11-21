@@ -6,7 +6,7 @@ description: "My personal website"
 {% include JB/setup %}
 
 <div class="row">
-    <div class="col-sm-4 center-block text-center brd custom-col-width">
+    <div class="col-sm-3 center-block text-center brd custom-col-width">
         <img src="me.jpg" class="my_image" alt="It's me, André!">
         <dl>
             <br>
@@ -16,10 +16,9 @@ description: "My personal website"
                 <span property="foaf:familyName">Rendeiro</span>
             </dt>
             <dd>Postdoctoral Associate</dd>
-            <dd><a style="color: inherit;" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine</a></dd>
-            <dd><a style="color: inherit;" href="https://physiology.med.cornell.edu/">Department of Physiology and Biophysics</a></dd>
-            <dd><a style="color: inherit;" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a></dd>
-            <dd><a style="color: inherit;" href="https://weill.cornell.edu/">Weill Cornell Medicine</a></dd>
+            <dd>Institute for Computational Biomedicine</dd>
+            <dd>Englander Institute for Precision Medicine</dd>
+            <dd>Weill Cornell Medicine</dd>
             <br>
             <dt>Address:</dt>
                 <dd>
@@ -35,6 +34,7 @@ description: "My personal website"
                         </a>
                     </span>
                 </dd>
+            <br>
             <dt>Orcid ID:</dt>
                 <dd>
                     <a
@@ -50,6 +50,7 @@ description: "My personal website"
                         André Figueiredo Rendeiro
                     </a>
                 </dd>
+            <br>
             <dt>Public Key:</dt>
                 <dd>
                     <a
@@ -74,7 +75,8 @@ description: "My personal website"
                 </dd>
             </dl>
     </div>
-    <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#" style="text-align: justify;text-justify: inter-word;">
+    <br>
+    <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
             <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
@@ -83,11 +85,11 @@ description: "My personal website"
             in the lab of <a rel="foaf:member" href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
         </p>
         <p>
-            I develop computational methodologies to understand the spatial organization of human tissue and the interplay between cancer cells, immune system, stroma, and extracellular matrix. Advances in the area can be used to develop novel therapeutical options or disease management approaches.
+            I am currently developing computational methodologies to understand the spatial organization of tissue and the interplay between cancer cells, immune system and structural cell types, and how that can be applied for the development of novel therapeutical options or disease management.
             I develop and sometimes contribute to open source software. Check out my <a href="https://github.com/afrendeiro">GitHub profile</a> to see my tools and project contributions.
         </p>
         <p>
-            I did my PhD at the <a href="https://cemm.at">CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences</a> in the <a href="https://www.bocklab.org/">lab of Christoph Bock</a>  where I developed and applied computational methods to  understand biological data from patients in an effort to develop ways to monitor disease, predict risk, and develop novel therapeutical approaches.
+            I did my PhD at the <a href="https://cemm.at">CeMM - Research Center for Molecular Medicine of the Austrian Academy of Sciences</a> in the lab of Christoph Bock where I applied computational methods to high-dimentional molecular biology datasets of primary patient data in an effort to produce novel ways to monitor disease progression, predict risk and stratify patients and develop novel therapeutical avenues.
         </p>
     </div>
     <div class="col-sm-8 blog-main" id="research">
@@ -159,8 +161,145 @@ description: "My personal website"
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-12">
+        <h4>Preprints</h4>
+        <small>(does not include preprints later published as journal articles)</small>
+        <ol reversed="">
+            <li>
+                <p>
+                    Kentaro Ohara, <u>André F. Rendeiro</u>, Bhavneet Bhinder, Kenneth Wha Eng, Hiranmayi Ravichandran, David Pisapia, Aram Vosoughi, Evan Fernandez, Kyrillus Shohdy, Jyothi Manohar, Shaham Beg, David Wilkes, Brian Robinson, Francesca Khani, Rohan Bareja, Scott Tagawa, Andrea Sboner, Olivier Elemento, Bishoy Morris Faltas, Juan Miguel Mosquera.
+                    <br><strong>The evolution of genomic, transcriptomic, and single-cell protein markers of metastatic upper tract urothelial carcinoma</strong>.
+                    <br>
+                    BioRxiv (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.11.16.468622">
+                        doi:10.1101/2021.11.16.468622</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2021.11.16.468622"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2021.11.16.468622"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2021.11.16.468622">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
+                    <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
+                    <br>
+                    MedRxiv (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
+                        doi:10.1101/2021.09.05.21263141</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2021.09.05.21263141"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2021.09.05.21263141"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/ElementoLab/covid-metabolomics">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
+                    <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
+                    <br>
+                    Figshare (2014).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562">
+                        doi:10.6084/m9.figshare.884562</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.6084/m9.figshare.884562"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.6084/m9.figshare.884562"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> PDF </button></a>
+                </p>
+            </li>
+        </ol>
+    </div>
+    <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
+                    <br><strong>Linking big biomedical datasets to modular analysis with Portable Encapsulated Projects</strong>.
+                    <br>
+                    GigaScience (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1093/gigascience/giab077">
+                        doi:10.1093/gigascience/giab077</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1093/gigascience/giab077"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1093/gigascience/giab077"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2020.10.08.331322">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="http://dx.doi.org/10.5524/100936">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="http://pep.databio.org/en/latest/">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Laurienne Edgar, Naveed Akbar, Adam T Braithwaite, Thomas Krausgruber, Héctor Gallart-Ayala, Jade Bailey, Alastair L Corbin, Tariq E Khoyratty, Joshua T Chai, Mohammad Alkhalil, <u>André F. Rendeiro</u>, Klemen Ziberna, Ritu Arya, Thomas J Cahill, Christoph Bock, Jurga Laurencikiene, Mark J Crabtree, Madeleine E Lemieux, Niels P Riksen, Mihai G Netea, Craig E Wheelock, Keith M Channon, Mikael Rydén, Irina A Udalova, Ricardo Carnicer, Robin P Choudhury.
@@ -803,7 +942,7 @@ description: "My personal website"
                     Tahsin Stefan Barakat, Florian Halbritter, Man Zhang, <u>André F. Rendeiro</u>, Christoph Bock, Ian Chambers.
                     <br><strong>Functional dissection of the enhancer repertoire in human embryonic stem cells</strong>.
                     <br>
-                    Cell Stem Cell (2017).
+                    Cell Stem Cell (2018).
                     <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.stem.2018.06.014">
                         doi:10.1016/j.stem.2018.06.014</a>
                     <a style="float:right">
@@ -1038,110 +1177,7 @@ description: "My personal website"
             </li>
         </ol>
     </div>
-    <div class="col-sm-12">
-        <h4>Preprints</h4>
-        <small>(does not include preprints later published as journal articles)</small>
-        <ol reversed="">
-            <li>
-                <p>
-                    <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
-                    <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
-                    <br>
-                    MedRxiv (2021).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
-                        doi:10.1101/2021.09.05.21263141</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2021.09.05.21263141"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2021.09.05.21263141"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://github.com/ElementoLab/covid-metabolomics">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
-                    <br><strong>Linking big biomedical datasets to modular analysis with Portable Encapsulated Projects</strong>.
-                    <br>
-                    bioRxiv (2020).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2020.10.08.331322">
-                        doi:10.1101/2020.10.08.331322</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2020.10.08.331322"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2020.10.08.331322"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2020.10.08.331322">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://github.com/pepkit/peppy">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
-                    <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
-                    <br>
-                    Figshare (2014).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562">
-                        doi:10.6084/m9.figshare.884562</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.6084/m9.figshare.884562"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.6084/m9.figshare.884562"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> PDF </button></a>
-                </p>
-            </li>
-        </ol>
-    </div>
     <br>
 </div>
 
-Updated on 2021-09-09.
+Updated on 2021-11-21.

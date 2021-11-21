@@ -161,16 +161,16 @@ description: "My personal website"
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
     <small><sup>*</sup> equal contributions</small><br>
     <div class="col-sm-12">
-        <h4>All peer reviewed publications</h4>
-        <ol reversed="">
-{{publications_go_here}}
-        </ol>
-    </div>
-    <div class="col-sm-12">
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
 {{preprints_go_here}}
+        </ol>
+    </div>
+    <div class="col-sm-12">
+        <h4>All peer reviewed publications</h4>
+        <ol reversed="">
+{{publications_go_here}}
         </ol>
     </div>
     <br>

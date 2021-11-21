@@ -1,4 +1,8 @@
 doi,resource_type,resource_link
+10.1101/2021.11.16.468622,Preprint,https://dx.doi.org/10.1101/2021.11.16.468622
+10.1093/gigascience/giab077,Preprint,https://dx.doi.org/10.1101/2020.10.08.331322
+10.1093/gigascience/giab077,Code,http://dx.doi.org/10.5524/100936
+10.1093/gigascience/giab077,Code,http://pep.databio.org/en/latest/
 10.1101/2021.09.05.21263141,Preprint,https://dx.doi.org/10.1101/2021.09.05.21263141
 10.1101/2021.09.05.21263141,Code,https://github.com/ElementoLab/covid-metabolomics
 10.1161/CIRCULATIONAHA.120.046464,,
@@ -62,4 +66,4 @@ doi,resource_type,resource_link
 10.1101/gr.162529.113,Data,http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46488
 10.1101/2020.10.08.331322,Preprint,https://dx.doi.org/10.1101/2020.10.08.331322
 10.1101/2020.10.08.331322,Code,https://github.com/pepkit/peppy
-10.6084/m9.figshare.884562,PDF,http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf
+10.6084/m9.figshare.884562,Preprint,http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf
