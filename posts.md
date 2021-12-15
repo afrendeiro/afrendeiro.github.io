@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Posts
 description: "Post tags archive"
 header: Latest posts
 group: navigation

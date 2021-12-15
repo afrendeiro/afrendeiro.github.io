@@ -75,7 +75,6 @@ description: "My personal website"
                 </dd>
             </dl>
     </div>
-    <br>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
