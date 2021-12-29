@@ -194,40 +194,6 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
-                    <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
-                    <br>
-                    MedRxiv (2021).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
-                        doi:10.1101/2021.09.05.21263141</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2021.09.05.21263141"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2021.09.05.21263141"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> Preprint </button></a>
-                    <a href="https://github.com/ElementoLab/covid-metabolomics">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
                     <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
                     <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
                     <br>
@@ -252,7 +218,7 @@ description: "My personal website"
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> PDF </button></a>
+                                aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
         </ol>
@@ -260,6 +226,40 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
+                    <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
+                    <br>
+                    Frontiers in Immunology (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
+                        doi:10.3389/fimmu.2021.809937</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.3389/fimmu.2021.809937"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.3389/fimmu.2021.809937"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2021.09.05.21263141">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/ElementoLab/covid-metabolomics">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Nathan C. Sheffield, Michał Stolarczyk, Vincent P. Reuter, <u>André F. Rendeiro</u>.
@@ -1179,4 +1179,4 @@ description: "My personal website"
     <br>
 </div>
 
-Updated on 2021-11-21.
+Updated on 2021-12-29.
