@@ -78,7 +78,6 @@ description: "My personal website"
     <p>
     <strong>Starting June 2022, I will be a Principal Investigator at <a href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Center for Molecular Medicine of the Austrian Academy of Sciences</a> leading a research group on spatial biology, computational biomedicine, and applications to the study of aging and pathology.</strong>
     </p>
-
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
@@ -100,16 +99,16 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.09.05.21263141">
-                Rendeiro <i>et al</i>, MedRxiv, 2021</a>
-            </li>
-            <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
                 Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
             </li>
             <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
                 Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
+                Rendeiro <i>et al</i>, Frontiers in Immunology, 2021</a>
             </li>
             <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
