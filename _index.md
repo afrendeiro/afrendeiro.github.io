@@ -75,9 +75,12 @@ description: "My personal website"
                 </dd>
             </dl>
     </div>
-    <p>
-    <strong>Starting June 2022, I will be a Principal Investigator at <a href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Center for Molecular Medicine of the Austrian Academy of Sciences</a> leading a research group on spatial biology, computational biomedicine, and applications to the study of aging and pathology.</strong>
-    </p>
+    <div class="text-center">
+        <p>
+        <strong>Starting June 2022, I will be a Principal Investigator at <a href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Center for Molecular Medicine of the Austrian Academy of Sciences</a> leading a research group on spatial biology, computational biomedicine, and applications to the study of aging and pathology.</strong>
+        </p>
+    </div>
+    <hr>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
             I am a <span property="schema:jobTitle">Postdoctoral Associate</span> in Computational Biomedicine at the 
