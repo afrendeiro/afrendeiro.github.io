@@ -234,6 +234,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Jiwoon Park, Jonathan Foox, Tyler Hether, David C. Danko, Sarah Warren, Youngmi Kim, Jason Reeves, Daniel J. Butler, Christopher Mozsary, Joel Rosiene, Alon Shaiber, Evan E. Afshin, Matthew MacKay, <u>André F. Rendeiro</u>, Yaron Bram, Vasuretha Chandar, Heather Geiger, Arryn Craney, Priya Velu, Ari M. Melnick, Iman Hajirasouliha, Afshin Beheshti, Deanne Taylor, Amanda Saravia-Butler, Urminder Singh, Eve Syrkin Wurtele, Jonathan Schisler, Samantha Fennessey, André Corvelo, Michael C. Zody, Soren Germer, Steven Salvatore, Shawn Levy, Shixiu Wu, Nicholas P. Tatonetti, Sagi Shapira, Mirella Salvatore, Lars F. Westblade, Melissa Cushing, Hanna Rennert, Alison J. Kriegel, Olivier Elemento, Marcin Imielinski, Charles M. Rice, Alain C. Borczuk, Cem Meydan, Robert E. Schwartz, Christopher E. Mason.
+                    <br><strong>System-wide transcriptome damage and tissue identity loss in COVID-19 patients</strong>.
+                    <br>
+                    Cell Reports Medicine (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.xcrm.2022.100522">
+                        doi:10.1016/j.xcrm.2022.100522</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.xcrm.2022.100522"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.xcrm.2022.100522"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     <u>André F. Rendeiro</u>, Charles Kyriakos Vorkas, Jan Krumsiek, Harjot Singh, Shashi N Kapadia, Luca Vincenzo Cappelli, Maria Teresa Cacciapuoti, Giorgio Inghirami, Olivier Elemento, Mirella Salvatore.
                     <br><strong>Metabolic and immune markers for precise monitoring of COVID-19 severity and treatment</strong>.
                     <br>
@@ -264,6 +288,11 @@ description: "My personal website"
                             <span
                                 class="fab fa-github"
                                 aria-hidden="true"></span> Code </button></a>
+                    <a href="https://github.com/ElementoLab/covid-metabolomics/tree/main/data">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
                 </p>
             </li>
             <li>
@@ -1185,4 +1214,4 @@ description: "My personal website"
     <br>
 </div>
 
-Updated on 2022-01-10.
+Updated on 2022-02-01.

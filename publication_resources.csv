@@ -1,6 +1,8 @@
 doi,resource_type,resource_link
+10.1016/j.xcrm.2022.100522,,
 10.3389/fimmu.2021.809937,Preprint,https://dx.doi.org/10.1101/2021.09.05.21263141
 10.3389/fimmu.2021.809937,Code,https://github.com/ElementoLab/covid-metabolomics
+10.3389/fimmu.2021.809937,Data,https://github.com/ElementoLab/covid-metabolomics/tree/main/data
 10.1101/2021.11.16.468622,Preprint,https://dx.doi.org/10.1101/2021.11.16.468622
 10.1093/gigascience/giab077,Preprint,https://dx.doi.org/10.1101/2020.10.08.331322
 10.1093/gigascience/giab077,Code,http://dx.doi.org/10.5524/100936
