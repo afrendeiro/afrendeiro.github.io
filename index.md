@@ -99,6 +99,13 @@ description: "My personal website"
     </div>
     <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
+        <h5>Spatially resolved biology and tissue architecture:</h5>
+        <ol>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/tmp3">
+                Kim, <i>et al</i>, BioRxiv, 2022</a>
+            </li>
+        </ol>
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
@@ -164,11 +171,35 @@ description: "My personal website"
     <h3>Publications and associated resources</h3>
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-    <small><sup>*</sup> equal contributions</small><br>
+    <small><sup>*</sup> equal first-author contributions; <sup>Ω</sup> joint corresponding authors</small><br>
     <div class="col-sm-12">
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
+            <li>
+                <p>
+                    Samir Rustam, Yang Hu, Seyed Babak Mahjour, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Scott H. Randell, Bradley Richmond, Vasiliy Polosukhin, Jonathan A. Kropski, Timothy S. Blackwell, Frank d'Ovidio, Fernando J. Martinez, Olivier Elemento, Renat Shaykhiev.
+                    <br><strong>A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease</strong>.
+                    <br>
+                    BioRxiv (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.16.484543">
+                        doi:10.1101/2022.03.16.484543</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2022.03.16.484543"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2022.03.16.484543"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
             <li>
                 <p>
                     Kentaro Ohara, <u>André F. Rendeiro</u>, Bhavneet Bhinder, Kenneth Wha Eng, Hiranmayi Ravichandran, David Pisapia, Aram Vosoughi, Evan Fernandez, Kyrillus Shohdy, Jyothi Manohar, Shaham Beg, David Wilkes, Brian Robinson, Francesca Khani, Rohan Bareja, Scott Tagawa, Andrea Sboner, Olivier Elemento, Bishoy Morris Faltas, Juan Miguel Mosquera.
@@ -254,6 +285,11 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                    <a href="https://www.sciencedirect.com/science/article/pii/S2666379122000222/pdfft?md5=d0d26d9a767cddacc0e92b849f193155&pid=1-s2.0-S2666379122000222-main.pdf">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> PDF </button></a>
                 </p>
             </li>
             <li>
@@ -1212,6 +1248,8 @@ description: "My personal website"
         </ol>
     </div>
     <br>
+    <div class="col-sm-12" style="margin-bottom: 30px;">
+        <p>Last updated on 2022-03-17.</p>
+    </div>
+    <br>
 </div>
-
-Updated on 2022-02-01.
