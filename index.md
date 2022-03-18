@@ -178,6 +178,35 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Junbum Kim, Samir Rustam, Juan Miguel Mosquera, Scott H. Randell, Renat Shaykhiev, <u>André F. Rendeiro</u><sup>Ω</sup>, Olivier Elemento<sup>Ω</sup>.
+                    <br><strong>Unsupervised discovery of tissue architecture in multiplexed imaging</strong>.
+                    <br>
+                    BioRxiv (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
+                        doi:10.1101/2022.03.15.484534</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2022.03.15.484534"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2022.03.15.484534"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://github.com/ElementoLab/utag">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Samir Rustam, Yang Hu, Seyed Babak Mahjour, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Scott H. Randell, Bradley Richmond, Vasiliy Polosukhin, Jonathan A. Kropski, Timothy S. Blackwell, Frank d'Ovidio, Fernando J. Martinez, Olivier Elemento, Renat Shaykhiev.
                     <br><strong>A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease</strong>.
                     <br>
@@ -1249,7 +1278,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-03-17.</p>
+        <p>Last updated on 2022-03-18.</p>
     </div>
     <br>
 </div>
