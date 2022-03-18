@@ -99,6 +99,13 @@ description: "My personal website"
     </div>
     <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
+        <h5>Spatially resolved biology and tissue architecture:</h5>
+        <ol>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
+                Kim, <i>et al</i>, BioRxiv, 2022</a>
+            </li>
+        </ol>
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
@@ -164,7 +171,7 @@ description: "My personal website"
     <h3>Publications and associated resources</h3>
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-    <small><sup>*</sup> equal contributions</small><br>
+    <small><sup>*</sup> equal first-author contributions; <sup>Ω</sup> joint corresponding authors</small><br>
     <div class="col-sm-12">
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
@@ -179,6 +186,8 @@ description: "My personal website"
         </ol>
     </div>
     <br>
+    <div class="col-sm-12" style="margin-bottom: 30px;">
+        <p>Last updated on {{current_date}}.</p>
+    </div>
+    <br>
 </div>
-
-Updated on {{current_date}}.

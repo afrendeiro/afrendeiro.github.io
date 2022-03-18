@@ -90,7 +90,7 @@ def main() -> int:
             .replace("{{preprints_go_here}}", "\n".join(pub_list["preprint"]))
             .replace("{{current_date}}", DATE)
         )
-    content = content.replace(AUTHOR_NAME, "<u>" + AUTHOR_NAME + "</u>")
+    content = content.replace(AUTHOR_NAME, "<u>" + AUTHOR_NAME + "</u>").replace(r"$^\Omega$", "<sup>Ω</sup>")
     with open(OUTPUT_DIR / output_file, "w") as handle:
         handle.write(content)
 

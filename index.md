@@ -102,7 +102,7 @@ description: "My personal website"
         <h5>Spatially resolved biology and tissue architecture:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/tmp3">
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
                 Kim, <i>et al</i>, BioRxiv, 2022</a>
             </li>
         </ol>
@@ -1278,7 +1278,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-03-18.</p>
+        <p>Last updated on 2022-03-21.</p>
     </div>
     <br>
 </div>
