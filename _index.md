@@ -73,7 +73,11 @@ description: "My personal website"
                 <dd>
                     <a href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf">Download my CV in PDF format</a>
                 </dd>
-            </dl>
+            <br>
+            <small>I am the recipient of a National Cancer Institute T32 grant for Molecular and
+            Translational Oncology Research (T32CA203702) awarded to Weill Cornell Medical College.</small>
+            <br>
+        </dl>
     </div>
     <div class="text-center">
         <p>
@@ -159,9 +163,6 @@ description: "My personal website"
                 Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
             </li>
         </ol>
-        <h4>Support</h4>
-        <p>I am the recipient of a National Cancer Institute T32 grant for Molecular and
-           Translational Oncology Research (T32CA203702) awarded to Weill Cornell Medical College.</p>
     </div>
 </div>
 

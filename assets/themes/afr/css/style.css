@@ -84,6 +84,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
+    margin-bottom: -15px;
     height: 20px;
     line-height: 8px;
 }
