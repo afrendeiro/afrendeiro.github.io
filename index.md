@@ -199,6 +199,11 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                    <a href="10.5281/zenodo.6376767">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="https://github.com/ElementoLab/utag">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -252,6 +257,16 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                    <a href="https://github.com/ElementoLab/utuc-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="10.5281/zenodo.5719188">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
                     <a href="https://dx.doi.org/10.1101/2021.11.16.468622">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -293,6 +308,40 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Hussein Alnajar*, Hiranmayi Ravichandran*, <u>André F. Rendeiro</u>, Kentaro Ohara, Wael Al Zoughbi, Jyothi Manohar, Noah Greco, Michael Sigouros, Jesse Fox, Emily Muth, Samuel Angiuoli, Bishoy Faltas, Michael Shusterman, Cora N. Sternberg, Olivier Elemento, Juan Miguel Mosquera.
+                    <br><strong>Tumor-Immune Microenvironment Revealed by Imaging Mass Cytometry in a Metastatic Sarcomatoid Urothelial Carcinoma with a Prolonged Response to Pembrolizumab</strong>.
+                    <br>
+                    Cold Spring Harbor Molecular Case Studies (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/mcs.a006151">
+                        doi:10.1101/mcs.a006151</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/mcs.a006151"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/mcs.a006151"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.5281/zenodo.6251221">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/msuc-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Jiwoon Park, Jonathan Foox, Tyler Hether, David C. Danko, Sarah Warren, Youngmi Kim, Jason Reeves, Daniel J. Butler, Christopher Mozsary, Joel Rosiene, Alon Shaiber, Evan E. Afshin, Matthew MacKay, <u>André F. Rendeiro</u>, Yaron Bram, Vasuretha Chandar, Heather Geiger, Arryn Craney, Priya Velu, Ari M. Melnick, Iman Hajirasouliha, Afshin Beheshti, Deanne Taylor, Amanda Saravia-Butler, Urminder Singh, Eve Syrkin Wurtele, Jonathan Schisler, Samantha Fennessey, André Corvelo, Michael C. Zody, Soren Germer, Steven Salvatore, Shawn Levy, Shixiu Wu, Nicholas P. Tatonetti, Sagi Shapira, Mirella Salvatore, Lars F. Westblade, Melissa Cushing, Hanna Rennert, Alison J. Kriegel, Olivier Elemento, Marcin Imielinski, Charles M. Rice, Alain C. Borczuk, Cem Meydan, Robert E. Schwartz, Christopher E. Mason.
@@ -1279,7 +1328,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-03-24.</p>
+        <p>Last updated on 2022-04-06.</p>
     </div>
     <br>
 </div>
