@@ -1,6 +1,8 @@
 doi,resource_type,resource_link
 10.1101/mcs.a006151,Data,https://doi.org/10.5281/zenodo.6251221
 10.1101/mcs.a006151,Code,https://github.com/ElementoLab/msuc-imc
+10.1016/j.isci.2022.104223,Code,https://github.com/ElementoLab/covid-placenta
+10.1016/j.isci.2022.104223,Data,https://doi.org/10.5281/zenodo.6251221
 10.1101/2022.03.15.484534,Data,10.5281/zenodo.6376767
 10.1101/2022.03.15.484534,Code,https://github.com/ElementoLab/utag
 10.1101/2022.03.16.484543,,
