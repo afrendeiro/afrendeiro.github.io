@@ -271,6 +271,40 @@ description: "My personal website"
             </li>
             <li>
                 <p>
+                    David J Falvo, Adrien Grimont, Paul Zumbo, Julie L Yang, Alexa Osterhoudt, Sarah L Breves, Grace Pan, André F Rendeiro, John E Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K Yantiss, Doron Betel, Richard Koche, Rohit Chandwani.
+                    <br><strong>A lineage-specific epigenetic memory of inflammation potentiates Kras-driven pancreatic tumorigenesis</strong>.
+                    <br>
+                    BioRxiv (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.11.01.466807">
+                        doi:10.1101/2021.11.01.466807</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2021.11.01.466807"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2021.11.01.466807"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://dx.doi.org/10.1101/2021.11.01.466807">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://dx.doi.org/10.1101/2021.11.01.466807">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
                     <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
                     <br>
