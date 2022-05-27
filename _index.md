@@ -73,18 +73,17 @@ description: "My personal website"
     </div>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
-            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Center for Molecular Medicine of the Austrian Academy of Sciences</a> leading a research group that uses computational and molecular methods to study human aging and pathology.
+            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> leading a research group on computational and molecular methods to study human aging and pathology.
         </p>
         <p>
             I did a postdoc in Computational Biomedicine at the 
             <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
-            and the 
-            <a rel="schema:affiliation" href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
-            in the lab of <a rel="foaf:member" href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
+            and the <a href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
+            in the lab of <a href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
             There, I developed computational methodologies to understand the spatial organization of tissue, and employed them to understand pathology of COVID-19 and cancer progression and metastasis.
         </p>
         <p>
-            I did my PhD at <a href="https://cemm.at">CeMM</a> in the lab of Christoph Bock where I applied computational methods to high-dimentional molecular biology datasets of primary patient data in an effort to produce novel ways to monitor disease progression, predict risk and stratify patients and develop novel therapeutical avenues. I was also involved in the development of several methods for the epigenomic or single-cell profiling of primary human cells.
+            During my PhD at <a href="https://cemm.at">CeMM</a> in the lab of Christoph Bock, I applied computational methods to high-dimensional datasets of patient data to produce novel ways to monitor disease progression, stratify patients and develop novel therapeutic options. I also developed several methods for the epigenomic or single-cell profiling of human cells.
         </p>
         <!-- <p>
             I develop and sometimes contribute to open source software. Check out my <a href="https://github.com/afrendeiro">GitHub profile</a> to see my tools and project contributions.
