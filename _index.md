@@ -6,17 +6,16 @@ description: "My personal website"
 {% include JB/setup %}
 
 <div class="row">
-    <div class="col-sm-3 center-block text-center brd custom-col-width">
+    <div class="col-sm-3 center-block text-center brd">  <!--  custom-col-width -->
         <img src="me.jpg" class="my_image" alt="It's me, André!">
         <dl>
-            <br>
             <dt>
                 <span property="foaf:firstName">André</span>
                 <span property="foaf:middleName">Figueiredo</span>
                 <span property="foaf:familyName">Rendeiro</span>
             </dt>
             <dd>Principal Investigator</dd>
-            <dd>CeMM Research Center for Molecular Medicine</dd>
+            <dd>CeMM - Research Center</dd><dd>for Molecular Medicine,</dd>
             <dd>Austrian Academy of Sciences</dd>
             <br>
             <dt>Address:</dt>
@@ -26,7 +25,7 @@ description: "My personal website"
                     typeof="http://schema.org/PostalAddress"
                     vocab="http://schema.org/PostalAddress/">
                     <a href="https://goo.gl/maps/qa1K9PSu8xSp7z3M6">
-                        <span property="streetAddress">Lazarettgasse 14</span>,<br>
+                        <span property="streetAddress">Lazarettgasse 14, AKH BT 25.3</span>,<br>
                         <span property="postalCode">1090</span>
                         <span property="addressLocality">Vienna</span>, 
                         <span property="addressCountry">Austria</span>
@@ -48,14 +47,14 @@ description: "My personal website"
                     André Figueiredo Rendeiro
                 </a>
             </dd>
-            <dt>Public Key:</dt>
+            <!-- <dt>Public Key:</dt>
             <dd>
                 <a
                     href="http://andre-rendeiro.com/data/documents/public_key.pgp"
                     title="Use this to send me encrypted email">
                     PGP public key
                 </a>
-            </dd>
+            </dd> -->
             <!-- <dt>ZeroNet ID:</dt>
                 <dd>
                     <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
@@ -73,17 +72,21 @@ description: "My personal website"
     </div>
     <div class="col-sm-8" typeof="foaf:Person" about="http://andre-rendeiro.com/about" prefix="schema: http://schema.org/Person#">
         <p>
-            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM - Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> leading a research group on computational and molecular methods to study human aging and pathology.
+            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM </a>- the <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> leading a research group on computational and molecular methods to study human aging and pathology.
         </p>
         <p>
-            I did a postdoc in Computational Biomedicine at the 
-            <a rel="schema:affiliation" href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
+            My group develops computational methods for the analysis of spatial data (spatial transcriptomics, highly multiplexed imaging), and its integration with various modalities of molecular and    clinical data of individuals along their lifespan.
+            I am particularly interested in the organization of cells at the micro-anatomical level and understanding how this changes during the lifespan of individuals and at the onset of disease.
+        </p>
+        <p>
+            For my postdoctoral research, I was at the
+            <a href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
             and the <a href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
             in the lab of <a href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
-            There, I developed computational methodologies to understand the spatial organization of tissue, and employed them to understand pathology of COVID-19 and cancer progression and metastasis.
+            There, I developed computational methods to understand the spatial organization of tissue, and employed them to infectious disease and cancer.
         </p>
         <p>
-            During my PhD at <a href="https://cemm.at">CeMM</a> in the lab of Christoph Bock, I applied computational methods to high-dimensional datasets of patient data to produce novel ways to monitor disease progression, stratify patients and develop novel therapeutic options. I also developed several methods for the epigenomic or single-cell profiling of human cells.
+            During my PhD at <a href="https://cemm.at">CeMM</a> in the lab of <a href="https://www.bocklab.org/">Christoph Bock</a>, I applied computational methods to high-dimensional datasets of patient data to produce novel ways to monitor disease progression, stratify patients and develop novel therapeutic options. I also developed several methods for the epigenomic or single-cell profiling of human cells.
         </p>
         <!-- <p>
             I develop and sometimes contribute to open source software. Check out my <a href="https://github.com/afrendeiro">GitHub profile</a> to see my tools and project contributions.

@@ -28,12 +28,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 800px) {
     .my_image {
-        width: 65%;
+        width: 105%;
     }
 }
 @media (min-width: 800px) {
     .my_image {
-        width: 60%;
+        width: 90%;
     }
 }
 
