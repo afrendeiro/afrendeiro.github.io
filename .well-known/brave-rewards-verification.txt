@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: andre-rendeiro.com
+Token: 8b66a30ea3c357c8973ff84c7d0b611e47e8f8f827b1205009e122242c199014
