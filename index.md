@@ -196,11 +196,6 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://github.com/ElementoLab/utag">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
@@ -292,7 +287,7 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
-                    Paôline Laurent, Chao Yang, <u>André F. Rendeiro</u>, Benjamin E. Nilsson-payant, Lucia Carrau, Vasuretha Chandaryaron Bram, Benjamin R. Tenoever, Olivier Elemento, Lionel B. Ivashkiv, Robert E. Schwartz, Franck J. Barrat.
+                    Paôline Laurent*, Chao Yang*, <u>André F. Rendeiro</u>*, Benjamin E. Nilsson-payant, Lucia Carrau, Vasuretha Chandaryaron Bram, Benjamin R. Tenoever, Olivier Elemento, Lionel B. Ivashkiv, Robert E. Schwartz, Franck J. Barrat.
                     <br><strong>Sensing of SARS-CoV-2 by pDCs and their subsequent production of IFN-I contribute to macrophage-induced cytokine storm during COVID-19</strong>.
                     <br>
                     Science Immunology (2022).
@@ -346,6 +341,35 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Hussein Alnajar*, Hiranmayi Ravichandran*, <u>André F. Rendeiro</u>, Kentaro Ohara, Wael Al Zoughbi, Jyothi Manohar, Noah Greco, Michael Sigouros, Jesse Fox, Emily Muth, Samuel Angiuoli, Bishoy Faltas, Michael Shusterman, Cora N. Sternberg, Olivier Elemento, Juan Miguel Mosquera.
+                    <br><strong>Tumor-Immune Microenvironment Revealed by Imaging Mass Cytometry in a Metastatic Sarcomatoid Urothelial Carcinoma with a Prolonged Response to Pembrolizumab</strong>.
+                    <br>
+                    Cold Spring Harbor Molecular Case Studies (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/mcs.a006151">
+                        doi:10.1101/mcs.a006151</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/mcs.a006151"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/mcs.a006151"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://github.com/ElementoLab/msuc-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                 </p>
             </li>
             <li>
@@ -1305,7 +1329,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-09-09.</p>
+        <p>Last updated on 2022-09-26.</p>
     </div>
     <br>
 </div>
