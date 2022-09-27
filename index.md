@@ -316,6 +316,40 @@ description: "My personal website"
             </li>
             <li>
                 <p>
+                    Lissenya B Argueta, Lauretta A Lacko, Yaron Bram, Takuya Tada, Lucia Carrau, <u>André F. Rendeiro</u>, Tuo Zhang, Skyler Uhl, Brienne C Lubor, Vasuretha Chandar, Cristianel Gil, Wei Zhang, Brittany J Dodson, Jeroen Bastiaans, Malavika Prabhu, Sean Houghton, David Redmond, Christine M Salvatore, Yawei J Yang, Olivier Elemento, Rebecca N Baergen, Benjamin R tenOever, Nathaniel R Landau, Shuibing Chen, Robert E Schwartz, Heidi Stuhlmann.
+                    <br><strong>Inflammatory responses in the placenta upon SARS-CoV-2 infection late in pregnancy</strong>.
+                    <br>
+                    iScience (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.isci.2022.104223">
+                        doi:10.1016/j.isci.2022.104223</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.isci.2022.104223"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.isci.2022.104223"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.5281/zenodo.5182825">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/covid-placenta">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Jiwoon Park, Jonathan Foox, Tyler Hether, David C. Danko, Sarah Warren, Youngmi Kim, Jason Reeves, Daniel J. Butler, Christopher Mozsary, Joel Rosiene, Alon Shaiber, Evan E. Afshin, Matthew MacKay, <u>André F. Rendeiro</u>, Yaron Bram, Vasuretha Chandar, Heather Geiger, Arryn Craney, Priya Velu, Ari M. Melnick, Iman Hajirasouliha, Afshin Beheshti, Deanne Taylor, Amanda Saravia-Butler, Urminder Singh, Eve Syrkin Wurtele, Jonathan Schisler, Samantha Fennessey, André Corvelo, Michael C. Zody, Soren Germer, Steven Salvatore, Shawn Levy, Shixiu Wu, Nicholas P. Tatonetti, Sagi Shapira, Mirella Salvatore, Lars F. Westblade, Melissa Cushing, Hanna Rennert, Alison J. Kriegel, Olivier Elemento, Marcin Imielinski, Charles M. Rice, Alain C. Borczuk, Cem Meydan, Robert E. Schwartz, Christopher E. Mason.
                     <br><strong>System-wide transcriptome damage and tissue identity loss in COVID-19 patients</strong>.
                     <br>
@@ -1329,7 +1363,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-09-26.</p>
+        <p>Last updated on 2022-09-27.</p>
     </div>
     <br>
 </div>
