@@ -17,7 +17,8 @@ title: André Rendeiro
 tagline: Personal website of André Rendeiro
 author:
   name: André Rendeiro
-  email: arendeiro@cemm.at
+  # Obfuscate your email by base64 encoding it (incluide 'mailto:' part, e.g. 'mailto:example@web.com')
+  email: javascript:window.location.href=atob('bWFpbHRvOmFyZW5kZWlyb0BjZW1tLmF0')
   github: afrendeiro
   twitter: afrendeiro
   orcid: 0000-0001-9362-5373
