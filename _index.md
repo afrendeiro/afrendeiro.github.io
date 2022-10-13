@@ -94,53 +94,15 @@ description: "My personal website"
     </div>
     <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-shorter">
             <h5>Spatially resolved biology and tissue architecture:</h5>
             <ol>
                 <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
-                    Kim, <i>et al</i>, BioRxiv, 2022</a>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-022-01657-2">
+                    Kim, <i>et al</i>, Nature Methods, 2022</a>
                 </li>
             </ol>
-            <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
-            <ol>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
-                    Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
-                    Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
-                    Rendeiro <i>et al</i>, Frontiers in Immunology, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
-                    Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
-                </li>
-            </ol>
-        </div>
-        <div class="col-sm-4">
-            <h5>Epigenetics for personalized medicine in cancer:</h5>
-            <ol>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6">
-                    Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2">
-                    Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938">
-                    Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
-                </li>
-            </ol>
-        </div>
-        <div class="col-sm-4">
-            <h5>Development of novel molecular techniques:</h5>
+            <h5>Novel molecular techniques:</h5>
             <ol>
                 <li>
                     scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z">
@@ -157,6 +119,48 @@ description: "My personal website"
                 <li>
                     ChIPmentation: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542">
                     Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
+                </li>
+            </ol>
+        </div>
+        <div class="col-sm-4 col-shorter">
+        <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
+        <ol>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/">
+                Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2022</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
+                Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
+                Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
+                Rendeiro <i>et al</i>, Frontiers in Immunology, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
+                Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
+            </li>
+        </ol>
+        </div>
+        <div class="col-sm-4 col-shorter">
+            <h5>Precision medicine in cancer:</h5>
+            <ol>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6">
+                    Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
+                </li>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2">
+                    Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
+                </li>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938">
+                    Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
                 </li>
             </ol>
         </div>

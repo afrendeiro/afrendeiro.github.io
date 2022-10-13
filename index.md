@@ -94,53 +94,15 @@ description: "My personal website"
     </div>
     <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-shorter">
             <h5>Spatially resolved biology and tissue architecture:</h5>
             <ol>
                 <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
-                    Kim, <i>et al</i>, BioRxiv, 2022</a>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-022-01657-2">
+                    Kim, <i>et al</i>, Nature Methods, 2022</a>
                 </li>
             </ol>
-            <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
-            <ol>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
-                    Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
-                    Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
-                    Rendeiro <i>et al</i>, Frontiers in Immunology, 2021</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
-                    Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
-                </li>
-            </ol>
-        </div>
-        <div class="col-sm-4">
-            <h5>Epigenetics for personalized medicine in cancer:</h5>
-            <ol>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6">
-                    Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2">
-                    Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
-                </li>
-                <li>
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938">
-                    Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
-                </li>
-            </ol>
-        </div>
-        <div class="col-sm-4">
-            <h5>Development of novel molecular techniques:</h5>
+            <h5>Novel molecular techniques:</h5>
             <ol>
                 <li>
                     scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-021-01153-z">
@@ -160,6 +122,48 @@ description: "My personal website"
                 </li>
             </ol>
         </div>
+        <div class="col-sm-4 col-shorter">
+        <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
+        <ol>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/">
+                Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2022</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
+                Rendeiro*, Ravichandran*, <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03569-1">
+                Melms*, [...], Rendeiro*, [...] <i>et al</i>, Nature, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.3389/fimmu.2021.809937">
+                Rendeiro <i>et al</i>, Frontiers in Immunology, 2021</a>
+            </li>
+            <li>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.26508/lsa.202000955">
+                Rendeiro <i>et al</i>, Life Science Alliance, 2020</a>
+            </li>
+        </ol>
+        </div>
+        <div class="col-sm-4 col-shorter">
+            <h5>Precision medicine in cancer:</h5>
+            <ol>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6">
+                    Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications, 2020</a>
+                </li>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2">
+                    Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
+                </li>
+                <li>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938">
+                    Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
+                </li>
+            </ol>
+        </div>
     </div>
 </div>
 
@@ -176,21 +180,21 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
-                    Junbum Kim, Samir Rustam, Juan Miguel Mosquera, Scott H. Randell, Renat Shaykhiev, <u>André F. Rendeiro</u><sup>Ω</sup>, Olivier Elemento<sup>Ω</sup>.
-                    <br><strong>Unsupervised discovery of tissue architecture in multiplexed imaging</strong>.
+                    <u>André F. Rendeiro</u>*, Hiranmayi Ravichandran*, Junbum Kim, Alain C. Borczuk, Olivier Elemento, Robert E. Schwartz.
+                    <br><strong>Persistent alveolar type 2 dysfunction and lung structural derangement in post-acute COVID-19</strong>.
                     <br>
-                    BioRxiv (2022).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.15.484534">
-                        doi:10.1101/2022.03.15.484534</a>
+                    MedRxiv (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/__doi1__">
+                        doi:__doi1__</a>
                     <a style="float:right">
                         <span
                             data-badge-type="2"
-                            data-doi="10.1101/2022.03.15.484534"
+                            data-doi="__doi1__"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2022.03.15.484534"
+                            data-doi="__doi1__"
                             data-legend="hover-right"
                             data-style="small_rectangle"
                             style='display: inline-block;'></span>
@@ -285,6 +289,45 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Junbum Kim, Samir Rustam, Juan Miguel Mosquera, Scott H. Randell, Renat Shaykhiev, <u>André F. Rendeiro</u><sup>Ω</sup>, Olivier Elemento<sup>Ω</sup>.
+                    <br><strong>Unsupervised discovery of tissue architecture in multiplexed imaging</strong>.
+                    <br>
+                    Nature Methods (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-022-01657-2">
+                        doi:10.1038/s41592-022-01657-2</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1038/s41592-022-01657-2"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1038/s41592-022-01657-2"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://zenodo.org/record/6376767">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/utag">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://doi.org/10.1101/2022.03.15.484534">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Paôline Laurent*, Chao Yang*, <u>André F. Rendeiro</u>*, Benjamin E. Nilsson-payant, Lucia Carrau, Vasuretha Chandaryaron Bram, Benjamin R. Tenoever, Olivier Elemento, Lionel B. Ivashkiv, Robert E. Schwartz, Franck J. Barrat.
