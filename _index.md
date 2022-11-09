@@ -5,6 +5,8 @@ description: "My personal website"
 ---
 {% include JB/setup %}
 
+<a rel="me" href="https://sciencemastodon.com/@afrendeiro"></a>
+
 <div class="row">
     <div class="col-sm-3 center-block text-center brd">  <!--  custom-col-width -->
         <img src="me.jpg" class="my_image" alt="It's me, André!">

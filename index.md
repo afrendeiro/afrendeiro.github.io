@@ -5,6 +5,8 @@ description: "My personal website"
 ---
 {% include JB/setup %}
 
+<a rel="me" href="https://sciencemastodon.com/@afrendeiro"></a>
+
 <div class="row">
     <div class="col-sm-3 center-block text-center brd">  <!--  custom-col-width -->
         <img src="me.jpg" class="my_image" alt="It's me, André!">
@@ -311,6 +313,11 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                    <a href="https://news.cornell.edu/stories/2022/11/new-computational-method-builds-detailed-maps-human-tissues">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-text-color"
+                                aria-hidden="true"></span> Press </button></a>
                     <a href="https://zenodo.org/record/6376767">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -1406,7 +1413,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-10-17.</p>
+        <p>Last updated on 2022-11-09.</p>
     </div>
     <br>
 </div>
