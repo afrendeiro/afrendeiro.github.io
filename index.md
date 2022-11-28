@@ -186,22 +186,32 @@ description: "My personal website"
                     <br><strong>Persistent alveolar type 2 dysfunction and lung structural derangement in post-acute COVID-19</strong>.
                     <br>
                     MedRxiv (2022).
-                    <a rel="datacite:doi" href="http://dx.doi.org/__doi1__">
-                        doi:__doi1__</a>
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.11.28.22282811">
+                        doi:10.1101/2022.11.28.22282811</a>
                     <a style="float:right">
                         <span
                             data-badge-type="2"
-                            data-doi="__doi1__"
+                            data-doi="10.1101/2022.11.28.22282811"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
-                            data-doi="__doi1__"
+                            data-doi="10.1101/2022.11.28.22282811"
                             data-legend="hover-right"
                             data-style="small_rectangle"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                    <a href="https://github.com/ElementoLab/post-covid-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.7060271">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
                 </p>
             </li>
             <li>
@@ -1413,7 +1423,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-11-09.</p>
+        <p>Last updated on 2022-11-28.</p>
     </div>
     <br>
 </div>
