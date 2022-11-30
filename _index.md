@@ -128,8 +128,8 @@ description: "My personal website"
         <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
         <ol>
             <li>
-                <a rel="datacite:doi" href="http://dx.doi.org/">
-                Rendeiro*, Ravichandran*, <i>et al</i>, MedRxiv, 2022</a>
+                <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.11.28.22282811">
+                Rendeiro*, Ravichandran*, <i>et al</i>, medRxiv, 2022</a>
             </li>
             <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41586-021-03475-6">
