@@ -212,6 +212,11 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-hdd"
                                 aria-hidden="true"></span> Data </button></a>
+                    <a href="https://doi.org/10.1101/2022.11.28.22282811">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
             <li>
@@ -236,6 +241,35 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
+                </p>
+            </li>
+            <li>
+                <p>
+                    David J. Falvo, Adrien Grimont, Paul Zumbo, Julie L. Yang, Alexa Osterhoudt, Grace Pan, <u>André F. Rendeiro</u>, John E. Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K. Yantiss, Doron Betel, Richard Koche, Rohit Chandwani.
+                    <br><strong>An epigenetic memory of inflammation controls context-dependent lineage plasticity in the pancreas</strong>.
+                    <br>
+                    bioRxiv (2021).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.11.01.466807">
+                        doi:10.1101/2021.11.01.466807</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2021.11.01.466807"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2021.11.01.466807"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.1101/2021.11.01.466807">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
             <li>
@@ -1423,7 +1457,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-11-30.</p>
+        <p>Last updated on 2022-12-06.</p>
     </div>
     <br>
 </div>

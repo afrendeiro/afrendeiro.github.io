@@ -1,6 +1,7 @@
 doi,resource_type,resource_link
 10.1101/2022.11.28.22282811,Code,https://github.com/ElementoLab/post-covid-imc
 10.1101/2022.11.28.22282811,Data,https://doi.org/10.5281/zenodo.7060271
+10.1101/2022.11.28.22282811,Preprint,https://doi.org/10.1101/2022.11.28.22282811
 10.1038/s41592-022-01657-2,Press,https://news.cornell.edu/stories/2022/11/new-computational-method-builds-detailed-maps-human-tissues
 10.1038/s41592-022-01657-2,Data,https://zenodo.org/record/6376767
 10.1038/s41592-022-01657-2,Code,https://github.com/ElementoLab/utag
@@ -10,6 +11,7 @@ doi,resource_type,resource_link
 10.1016/j.isci.2022.104223,Data,https://doi.org/10.5281/zenodo.5182825
 10.1016/j.isci.2022.104223,Code,https://github.com/ElementoLab/covid-placenta
 10.1101/mcs.a006151,Code,https://github.com/ElementoLab/msuc-imc
+10.1101/2021.11.01.466807,Preprint,https://doi.org/10.1101/2021.11.01.466807
 10.1016/j.xcrm.2022.100522,PDF,https://www.sciencedirect.com/science/article/pii/S2666379122000222/pdfft?md5=d0d26d9a767cddacc0e92b849f193155&pid=1-s2.0-S2666379122000222-main.pdf
 10.3389/fimmu.2021.809937,Preprint,https://dx.doi.org/10.1101/2021.09.05.21263141
 10.3389/fimmu.2021.809937,Code,https://github.com/ElementoLab/covid-metabolomics
