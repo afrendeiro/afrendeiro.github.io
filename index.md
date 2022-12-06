@@ -185,7 +185,7 @@ description: "My personal website"
                     <u>André F. Rendeiro</u>*, Hiranmayi Ravichandran*, Junbum Kim, Alain C. Borczuk, Olivier Elemento, Robert E. Schwartz.
                     <br><strong>Persistent alveolar type 2 dysfunction and lung structural derangement in post-acute COVID-19</strong>.
                     <br>
-                    MedRxiv (2022).
+                    medRxiv (2022).
                     <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.11.28.22282811">
                         doi:10.1101/2022.11.28.22282811</a>
                     <a style="float:right">
