@@ -68,7 +68,10 @@ def main() -> int:
     pub_list: tp.Dict[str, tp.List[str]] = dict()
     for pub_type in ["journal", "preprint"]:
         pub_list[pub_type] = list()
-        for _, pub in pubs.query(f"publication_type == '{pub_type}'").iterrows():
+        extra = "| publication_type == 'review'" if pub_type == "journal" else ""
+        for _, pub in pubs.query(
+            f"publication_type == '{pub_type}' {extra}"
+        ).iterrows():
             res = resources.loc[[pub["doi"]]]
             _res = list()
             for i, (_, r) in enumerate(res.iterrows()):

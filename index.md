@@ -337,6 +337,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Jiwoon Park, Junbum Kim, Tyler Lewy, Charles M. Rice, Olivier Elemento, <u>André F. Rendeiro</u>, Christopher E. Mason.
+                    <br><strong>Spatial omics technologies at multimodal and single cell/subcellular level</strong>.
+                    <br>
+                    Genome Biology (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1186/s13059-022-02824-6">
+                        doi:10.1186/s13059-022-02824-6</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1186/s13059-022-02824-6"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1186/s13059-022-02824-6"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Junbum Kim, Samir Rustam, Juan Miguel Mosquera, Scott H. Randell, Renat Shaykhiev, <u>André F. Rendeiro</u><sup>Ω</sup>, Olivier Elemento<sup>Ω</sup>.
                     <br><strong>Unsupervised discovery of tissue architecture in multiplexed imaging</strong>.
                     <br>
@@ -1457,7 +1481,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-12-06.</p>
+        <p>Last updated on 2022-12-16.</p>
     </div>
     <br>
 </div>
