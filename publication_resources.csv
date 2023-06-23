@@ -1,4 +1,6 @@
 doi,resource_type,resource_link
+10.1016/j.cels.2023.05.009,,
+10.1164/rccm.202207-1384OC,Preprint,https://doi.org/10.1101/2022.03.16.484543
 10.1186/s13059-022-02824-6,,
 10.1101/2022.11.28.22282811,Code,https://github.com/ElementoLab/post-covid-imc
 10.1101/2022.11.28.22282811,Data,https://doi.org/10.5281/zenodo.7060271
@@ -8,7 +10,6 @@ doi,resource_type,resource_link
 10.1038/s41592-022-01657-2,Code,https://github.com/ElementoLab/utag
 10.1038/s41592-022-01657-2,Preprint,https://doi.org/10.1101/2022.03.15.484534
 10.1126/sciimmunol.add4906,Code,https://github.com/ElementoLab/covid-pdcs
-10.1101/2022.03.16.484543,,
 10.1016/j.isci.2022.104223,Data,https://doi.org/10.5281/zenodo.5182825
 10.1016/j.isci.2022.104223,Code,https://github.com/ElementoLab/covid-placenta
 10.1101/mcs.a006151,Code,https://github.com/ElementoLab/msuc-imc

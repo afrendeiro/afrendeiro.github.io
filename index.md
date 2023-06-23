@@ -221,30 +221,6 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Samir Rustam, Yang Hu, Seyed Babak Mahjour, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Scott H. Randell, Bradley Richmond, Vasiliy Polosukhin, Jonathan A. Kropski, Timothy S. Blackwell, Frank d'Ovidio, Fernando J. Martinez, Olivier Elemento, Renat Shaykhiev.
-                    <br><strong>A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease</strong>.
-                    <br>
-                    BioRxiv (2022).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2022.03.16.484543">
-                        doi:10.1101/2022.03.16.484543</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2022.03.16.484543"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2022.03.16.484543"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                </p>
-            </li>
-            <li>
-                <p>
                     David J. Falvo, Adrien Grimont, Paul Zumbo, Julie L. Yang, Alexa Osterhoudt, Grace Pan, <u>André F. Rendeiro</u>, John E. Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K. Yantiss, Doron Betel, Richard Koche, Rohit Chandwani.
                     <br><strong>An epigenetic memory of inflammation controls context-dependent lineage plasticity in the pancreas</strong>.
                     <br>
@@ -337,6 +313,35 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Samir Rustam, Yang Hu, Seyed Babak Mahjour, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Andreacarola Urso, Frank D’Ovidio, Fernando J. Martinez, Nasser K. Altorki, Bradley Richmond, Vasiliy Polosukhin, Jonathan A. Kropski, Timothy S. Blackwell, Scott H. Randell, Olivier Elemento, Renat Shaykhiev.
+                    <br><strong>A Unique Cellular Organization of Human Distal Airways and Its Disarray in Chronic Obstructive Pulmonary Disease</strong>.
+                    <br>
+                    American Journal of Respiratory and Critical Care Medicine (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1164/rccm.202207-1384OC">
+                        doi:10.1164/rccm.202207-1384OC</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1164/rccm.202207-1384OC"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1164/rccm.202207-1384OC"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.1101/2022.03.16.484543">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Jiwoon Park, Junbum Kim, Tyler Lewy, Charles M. Rice, Olivier Elemento, <u>André F. Rendeiro</u>, Christopher E. Mason.
                     <br><strong>Spatial omics technologies at multimodal and single cell/subcellular level</strong>.
                     <br>
@@ -405,7 +410,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Paôline Laurent*, Chao Yang*, <u>André F. Rendeiro</u>*, Benjamin E. Nilsson-payant, Lucia Carrau, Vasuretha Chandaryaron Bram, Benjamin R. Tenoever, Olivier Elemento, Lionel B. Ivashkiv, Robert E. Schwartz, Franck J. Barrat.
+                    Paôline Laurent*, Chao Yang*, <u>André F. Rendeiro</u>*, Benjamin E. Nilsson-payant, Lucia Carrau, Vasuretha Chandar, Yaron Bram, Benjamin R. Tenoever, Olivier Elemento, Lionel B. Ivashkiv, Robert E. Schwartz, Franck J. Barrat.
                     <br><strong>Sensing of SARS-CoV-2 by pDCs and their subsequent production of IFN-I contribute to macrophage-induced cytokine storm during COVID-19</strong>.
                     <br>
                     Science Immunology (2022).
@@ -1481,7 +1486,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2022-12-16.</p>
+        <p>Last updated on 2023-06-23.</p>
     </div>
     <br>
 </div>
