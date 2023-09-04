@@ -182,6 +182,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Oleksandr Petrenko, Philipp Königshofer, Ksenia Brusilovskaya, Benedikt S Hofer, Katharina Bareiner, Benedikt Simbrunner, Michael Trauner, Stefan G Kauschke, Larissa Pfisterer, Eric Simon, <u>André F. Rendeiro</u>, Laura P M H de Rooij, Philipp Schwabl, Thomas Reiberger.
+                    <br><strong>Transcriptomic signatures of progressive and regressive liver fibrosis and portal hypertension</strong>.
+                    <br>
+                    bioRxiv (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2023.07.22.550133">
+                        doi:10.1101/2023.07.22.550133</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2023.07.22.550133"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2023.07.22.550133"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     <u>André F. Rendeiro</u>*, Hiranmayi Ravichandran*, Junbum Kim, Alain C. Borczuk, Olivier Elemento, Robert E. Schwartz.
                     <br><strong>Persistent alveolar type 2 dysfunction and lung structural derangement in post-acute COVID-19</strong>.
                     <br>
@@ -311,6 +335,59 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Jin-Gyu Cheong, Arjun Ravishankar, Siddhartha Sharma, Christopher N Parkhurst, Simon Grassmann, Claire K Wingert, Paoline Laurent, Sai Ma, Lucinda Paddock, Isabella Miranda, Onur Karakaslar, Djamel Nehar-Belaid, Asa Thibodeau, Michael J Bale, Vinay K Kartha, Jim K Yee, Minh Y Mays, Chenyang Jiang, Andrew W Daman, Alexia Martinez de Paz, Dughan Ahimovic, Victor Ramos, Alexander Lercher, Erik Nielsen, Sergio Alvarez-Mullett, Ling Zheng, Andrew Earl, Alisha Yallowitz, Lexi Robbins, Elyse LaFond, Karissa Weidman, Sabrina Racine-Brzostek, He S Yang, David Price, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Junbum Kim, Alain C Borczuk, Charles M Rice, R. Brad Jones, Edward J Schenck, Robert J Kaner, Amy Chadburn, Zhen Zhao, Virginia Pascual, Olivier Elemento, Robert E Schwartz, Jason Buenrostro, Rachel E Niec, Franck J Barrat, Lindsay Lief, Joe Sun, Duygu Ucar, Steven Z Josefowicz.
+                    <br><strong>Epigenetic memory of coronavirus infection in innate immune cells and their progenitors</strong>.
+                    <br>
+                    Cell (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.cell.2023.07.019">
+                        doi:10.1016/j.cell.2023.07.019</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.cell.2023.07.019"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.cell.2023.07.019"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.1101/2022.02.09.479588">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Evan K Noch, Laura N Palma, Isaiah Yim, Nayah Bullen, Yuqing Qiu, Hiranmayi Ravichandran, Junbum Kim, <u>André F. Rendeiro</u>, Melissa B Davis, Olivier Elemento, David J Pisapia, Kevin Zhai, H Carl LeKaye, Jason A Koutcher, Patrick Y Wen, Keith L Ligon, Lewis C Cantley.
+                    <br><strong>Insulin feedback is a targetable resistance mechanism of PI3K inhibition in glioblastoma</strong>.
+                    <br>
+                    Neuro-Oncology (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1093/neuonc/noad117">
+                        doi:10.1093/neuonc/noad117</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1093/neuonc/noad117"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1093/neuonc/noad117"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
             <li>
                 <p>
                     Samir Rustam, Yang Hu, Seyed Babak Mahjour, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Andreacarola Urso, Frank D’Ovidio, Fernando J. Martinez, Nasser K. Altorki, Bradley Richmond, Vasiliy Polosukhin, Jonathan A. Kropski, Timothy S. Blackwell, Scott H. Randell, Olivier Elemento, Renat Shaykhiev.
@@ -1486,7 +1563,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2023-06-23.</p>
+        <p>Last updated on 2023-09-04.</p>
     </div>
     <br>
 </div>
