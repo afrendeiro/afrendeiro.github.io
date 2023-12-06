@@ -182,6 +182,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Everardo Hegewisch-Solloa, Janine E Melsen, Hiranmayi Ravichandran, <u>André F. Rendeiro</u>, Aharon G Freud, Bethany Mundy-Bosse, Johannes C Melms, Shira E Eisman, Benjamin Izar, Eli Grunstein, Thomas J Connors, Olivier Elemento, Amir Horowitz, Emily Mace.
+                    <br><strong>Mapping human natural killer cell development in tonsil</strong>.
+                    <br>
+                    BioRxiv (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2023.09.05.556371">
+                        doi:10.1101/2023.09.05.556371</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2023.09.05.556371"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2023.09.05.556371"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Oleksandr Petrenko, Philipp Königshofer, Ksenia Brusilovskaya, Benedikt S Hofer, Katharina Bareiner, Benedikt Simbrunner, Michael Trauner, Stefan G Kauschke, Larissa Pfisterer, Eric Simon, <u>André F. Rendeiro</u>, Laura P M H de Rooij, Philipp Schwabl, Thomas Reiberger.
                     <br><strong>Transcriptomic signatures of progressive and regressive liver fibrosis and portal hypertension</strong>.
                     <br>
@@ -245,35 +269,6 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    David J. Falvo, Adrien Grimont, Paul Zumbo, Julie L. Yang, Alexa Osterhoudt, Grace Pan, <u>André F. Rendeiro</u>, John E. Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K. Yantiss, Doron Betel, Richard Koche, Rohit Chandwani.
-                    <br><strong>An epigenetic memory of inflammation controls context-dependent lineage plasticity in the pancreas</strong>.
-                    <br>
-                    bioRxiv (2021).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.11.01.466807">
-                        doi:10.1101/2021.11.01.466807</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2021.11.01.466807"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2021.11.01.466807"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://doi.org/10.1101/2021.11.01.466807">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> Preprint </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
                     Kentaro Ohara, <u>André F. Rendeiro</u>, Bhavneet Bhinder, Kenneth Wha Eng, Hiranmayi Ravichandran, David Pisapia, Aram Vosoughi, Evan Fernandez, Kyrillus Shohdy, Jyothi Manohar, Shaham Beg, David Wilkes, Brian Robinson, Francesca Khani, Rohan Bareja, Scott Tagawa, Andrea Sboner, Olivier Elemento, Bishoy Morris Faltas, Juan Miguel Mosquera.
                     <br><strong>The evolution of genomic, transcriptomic, and single-cell protein markers of metastatic upper tract urothelial carcinoma</strong>.
                     <br>
@@ -306,6 +301,35 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    David J. Falvo, Adrien Grimont, Paul Zumbo, William B. Fall, Julie L. Yang, Alexa Osterhoudt, Grace Pan, <u>André F. Rendeiro</u>, Yinuo Meng, John E. Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K. Yantiss, Erika Hissong, Richard Koche, Doron Betel, Rohit Chandwani.
+                    <br><strong>A reversible epigenetic memory of inflammatory injury controls lineage plasticity and tumor initiation in the mouse pancreas</strong>.
+                    <br>
+                    Developmental Cell (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.devcel.2023.11.008">
+                        doi:10.1016/j.devcel.2023.11.008</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.devcel.2023.11.008"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.devcel.2023.11.008"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="10.1101/2021.11.01.466807">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Jin-Gyu Cheong, Arjun Ravishankar, Siddhartha Sharma, Christopher N Parkhurst, Simon Grassmann, Claire K Wingert, Paoline Laurent, Sai Ma, Lucinda Paddock, Isabella Miranda, Onur Karakaslar, Djamel Nehar-Belaid, Asa Thibodeau, Michael J Bale, Vinay K Kartha, Jim K Yee, Minh Y Mays, Chenyang Jiang, Andrew W Daman, Alexia Martinez de Paz, Dughan Ahimovic, Victor Ramos, Alexander Lercher, Erik Nielsen, Sergio Alvarez-Mullett, Ling Zheng, Andrew Earl, Alisha Yallowitz, Lexi Robbins, Elyse LaFond, Karissa Weidman, Sabrina Racine-Brzostek, He S Yang, David Price, <u>André F. Rendeiro</u>, Hiranmayi Ravichandran, Junbum Kim, Alain C Borczuk, Charles M Rice, R. Brad Jones, Edward J Schenck, Robert J Kaner, Amy Chadburn, Zhen Zhao, Virginia Pascual, Olivier Elemento, Robert E Schwartz, Jason Buenrostro, Rachel E Niec, Franck J Barrat, Lindsay Lief, Joe Sun, Duygu Ucar, Steven Z Josefowicz.
@@ -1534,7 +1558,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2023-09-04.</p>
+        <p>Last updated on 2023-12-06.</p>
     </div>
     <br>
 </div>
