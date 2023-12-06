@@ -301,35 +301,6 @@ description: "My personal website"
                                 aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
-            <li>
-                <p>
-                    <u>André F. Rendeiro</u>, Pavla Navratilova, Eric Thompson.
-                    <br><strong>Chromatin preparation for ChIP-seq in Oikopleura dioica</strong>.
-                    <br>
-                    Figshare (2014).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.6084/m9.figshare.884562">
-                        doi:10.6084/m9.figshare.884562</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.6084/m9.figshare.884562"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.6084/m9.figshare.884562"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="http://files.figshare.com/1360952/ChIP_chromprep_Oikopleura.pdf">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-file"
-                                aria-hidden="true"></span> Preprint </button></a>
-                </p>
-            </li>
         </ol>
     </div>
     <div class="col-sm-12">
