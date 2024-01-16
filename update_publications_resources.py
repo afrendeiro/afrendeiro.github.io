@@ -62,8 +62,8 @@ glypts = {
 
 
 def main() -> int:
-    pubs = pd.read_csv(PUBS_CSV)
-    resources = pd.read_csv(RESOURCES_CSV, index_col=0)
+    pubs = pd.read_csv(PUBS_CSV, comment="#").query("publication_type != 'unpublished'")
+    resources = pd.read_csv(RESOURCES_CSV, index_col=0, comment="#")
 
     pub_list: tp.Dict[str, tp.List[str]] = dict()
     for pub_type in ["journal", "preprint"]:
