@@ -192,7 +192,7 @@ description: "My personal website"
 
 <div class="row blog-main" prefix="datacite: https://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
-	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
     <small><sup>*</sup> equal first-author contributions; <sup>Ω</sup> joint corresponding authors</small><br>
     <div class="col-sm-12">
@@ -216,30 +216,6 @@ description: "My personal website"
                         <span
                             class="__dimensions_badge_embed__"
                             data-doi="10.1101/2023.09.05.556371"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Oleksandr Petrenko, Philipp Königshofer, Ksenia Brusilovskaya, Benedikt S Hofer, Katharina Bareiner, Benedikt Simbrunner, Michael Trauner, Stefan G Kauschke, Larissa Pfisterer, Eric Simon, <u>André F. Rendeiro</u>, Laura P M H de Rooij, Philipp Schwabl, Thomas Reiberger.
-                    <br><strong>Transcriptomic signatures of progressive and regressive liver fibrosis and portal hypertension</strong>.
-                    <br>
-                    bioRxiv (2023).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2023.07.22.550133">
-                        doi:10.1101/2023.07.22.550133</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2023.07.22.550133"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2023.07.22.550133"
                             data-legend="hover-right"
                             data-style="small_rectangle"
                             style='display: inline-block;'></span>
@@ -286,40 +262,79 @@ description: "My personal website"
                                 aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
+        </ol>
+    </div>
+    <div class="col-sm-12">
+        <h4>All peer reviewed publications</h4>
+        <ol reversed="">
             <li>
                 <p>
                     Kentaro Ohara, <u>André F. Rendeiro</u>, Bhavneet Bhinder, Kenneth Wha Eng, Hiranmayi Ravichandran, David Pisapia, Aram Vosoughi, Evan Fernandez, Kyrillus Shohdy, Jyothi Manohar, Shaham Beg, David Wilkes, Brian Robinson, Francesca Khani, Rohan Bareja, Scott Tagawa, Andrea Sboner, Olivier Elemento, Bishoy Morris Faltas, Juan Miguel Mosquera.
                     <br><strong>The evolution of genomic, transcriptomic, and single-cell protein markers of metastatic upper tract urothelial carcinoma</strong>.
                     <br>
-                    BioRxiv (2021).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2021.11.16.468622">
-                        doi:10.1101/2021.11.16.468622</a>
+                    Nature Communications (2024).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-024-46320-w">
+                        doi:10.1038/s41467-024-46320-w</a>
                     <a style="float:right">
                         <span
                             data-badge-type="2"
-                            data-doi="10.1101/2021.11.16.468622"
+                            data-doi="10.1038/s41467-024-46320-w"
                             data-hide-no-mentions="true"
                             class="altmetric-embed"></span>
                         <span
                             class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2021.11.16.468622"
+                            data-doi="10.1038/s41467-024-46320-w"
                             data-legend="hover-right"
                             data-style="small_rectangle"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://dx.doi.org/10.1101/2021.11.16.468622">
+                    <a href="https://github.com/ElementoLab/utuc-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/ElementoLab/utuc-imc">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="10.1101/2021.11.16.468622">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> Preprint </button></a>
                 </p>
             </li>
-        </ol>
-    </div>
-    <div class="col-sm-12">
-        <h4>All peer reviewed publications</h4>
-        <ol reversed="">
+            <li>
+                <p>
+                    Oleksandr Petrenko, Philipp Königshofer, Ksenia Brusilovskaya, Benedikt S. Hofer, Katharina Bareiner, Benedikt Simbrunner, Frank Jühling, Thomas F. Baumert, Joachim Lupberger, Michael Trauner, Stefan G. Kauschke, Larissa Pfisterer, Eric Simon, <u>André F. Rendeiro</u>, Laura P.M. H. de Rooij, Philipp Schwabl, Thomas Reiberger.
+                    <br><strong>Transcriptomic signatures of progressive and regressive liver fibrosis and portal hypertension</strong>.
+                    <br>
+                    iScience (2024).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.isci.2024.109301">
+                        doi:10.1016/j.isci.2024.109301</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.isci.2024.109301"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.isci.2024.109301"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="10.1101/2023.07.22.550133">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     David J. Falvo, Adrien Grimont, Paul Zumbo, William B. Fall, Julie L. Yang, Alexa Osterhoudt, Grace Pan, <u>André F. Rendeiro</u>, Yinuo Meng, John E. Wilkinson, Friederike Dündar, Olivier Elemento, Rhonda K. Yantiss, Erika Hissong, Richard Koche, Doron Betel, Rohit Chandwani.
@@ -1577,7 +1592,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-01-16.</p>
+        <p>Last updated on 2024-02-28.</p>
     </div>
     <br>
 </div>
