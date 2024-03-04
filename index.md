@@ -289,7 +289,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://github.com/ElementoLab/utuc-imc">
+                    <a href="https://zenodo.org/doi/10.5281/zenodo.5719187">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -299,7 +299,7 @@ description: "My personal website"
                             <span
                                 class="fab fa-github"
                                 aria-hidden="true"></span> Code </button></a>
-                    <a href="10.1101/2021.11.16.468622">
+                    <a href="https://doi.org/10.1101/2021.11.16.468622">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -328,7 +328,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="10.1101/2023.07.22.550133">
+                    <a href="https://doi.org/10.1101/2023.07.22.550133">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -357,7 +357,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="10.1101/2021.11.01.466807">
+                    <a href="https://doi.org/10.1101/2021.11.01.466807">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -1592,7 +1592,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-02-28.</p>
+        <p>Last updated on 2024-03-04.</p>
     </div>
     <br>
 </div>
