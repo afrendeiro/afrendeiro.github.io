@@ -269,6 +269,88 @@ description: "My personal website"
         </ol>
     </div>
     <div class="col-sm-12">
+        <h4>Opinion articles</h4>
+        <ol reversed="">
+            <li>
+                <p>
+                    Dörte Symmank, Felix Clemens Richter, <u>André F. Rendeiro</u>.
+                    <br><strong>Navigating the thymic landscape through development: from cellular atlas to tissue cartography</strong>.
+                    <br>
+                    Genes \& Immunity (2024).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41435-024-00257-8">
+                        doi:10.1038/s41435-024-00257-8</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1038/s41435-024-00257-8"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1038/s41435-024-00257-8"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fabian J. Theis, Daniel Dar, Roser Vento-Tormo, Sanja Vicković, Linghua Wang, Luciane T. Kagohara, <u>André F. Rendeiro</u>, Johanna A. Joyce.
+                    <br><strong>What do you most hope spatial molecular profiling will help us understand? Part 1</strong>.
+                    <br>
+                    Cell Systems (2023).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.cels.2023.05.009">
+                        doi:10.1016/j.cels.2023.05.009</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.cels.2023.05.009"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.cels.2023.05.009"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+        </ol>
+    </div>
+    <div class="col-sm-12">
+        <h4>Review articles</h4>
+        <ol reversed="">
+            <li>
+                <p>
+                    Jiwoon Park, Junbum Kim, Tyler Lewy, Charles M. Rice, Olivier Elemento, <u>André F. Rendeiro</u>, Christopher E. Mason.
+                    <br><strong>Spatial omics technologies at multimodal and single cell/subcellular level</strong>.
+                    <br>
+                    Genome Biology (2022).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1186/s13059-022-02824-6">
+                        doi:10.1186/s13059-022-02824-6</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1186/s13059-022-02824-6"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1186/s13059-022-02824-6"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+        </ol>
+    </div>
+    <div class="col-sm-12">
         <h4>All peer reviewed publications</h4>
         <ol reversed="">
             <li>
@@ -448,30 +530,6 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> Preprint </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Jiwoon Park, Junbum Kim, Tyler Lewy, Charles M. Rice, Olivier Elemento, <u>André F. Rendeiro</u>, Christopher E. Mason.
-                    <br><strong>Spatial omics technologies at multimodal and single cell/subcellular level</strong>.
-                    <br>
-                    Genome Biology (2022).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1186/s13059-022-02824-6">
-                        doi:10.1186/s13059-022-02824-6</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1186/s13059-022-02824-6"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1186/s13059-022-02824-6"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
                 </p>
             </li>
             <li>
