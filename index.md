@@ -351,7 +351,7 @@ description: "My personal website"
         </ol>
     </div>
     <div class="col-sm-12">
-        <h4>All peer reviewed publications</h4>
+        <h4>Peer reviewed research</h4>
         <ol reversed="">
             <li>
                 <p>
