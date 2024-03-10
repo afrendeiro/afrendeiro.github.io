@@ -9,11 +9,11 @@ weight: 6
 
 ### Tools I use (and love)
 
-+ [git](http://git-scm.com/)
-+ [github](http://github.com)
-+ [Markdown](http://commonmark.org/)
-+ [pandoc](http://pandoc.org/)
-+ [iPython](http://ipython.org/)
++ [git](https://git-scm.com/)
++ [github](https://github.com)
++ [Markdown](https://commonmark.org/)
++ [pandoc](https://pandoc.org/)
++ [iPython](https://ipython.org/)
 + [Jupyter notebooks](https://jupyter.org/)
 + [Docker](https://hub.docker.io)
 
@@ -26,5 +26,5 @@ weight: 6
 ### Interesting/silly stuff
 
 + [Gallery of unconventional bioinformatics pictures](https://www.biostars.org/p/116603/)
-+ [Mythology of bioinformatics](http://sciblogs.co.nz/code-for-life/2009/12/09/retrospective%E2%80%94the-mythology-of-bioinformatics/)
-+ [The six-way banana Venn diagram](http://www.nature.com/nature/journal/v488/n7410/fig_tab/nature11241_F4.html)
++ [Mythology of bioinformatics](https://sciblogs.co.nz/code-for-life/2009/12/09/retrospective%E2%80%94the-mythology-of-bioinformatics/)
++ [The six-way banana Venn diagram](https://www.nature.com/nature/journal/v488/n7410/fig_tab/nature11241_F4.html)

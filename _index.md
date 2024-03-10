@@ -20,7 +20,11 @@ description: "My personal website"
             <dd>CeMM - Research Center</dd><dd>for Molecular Medicine,</dd>
             <dd>Austrian Academy of Sciences</dd>
             <br>
-            <dt>Address:</dt>
+            <dd>Research Group Leader,</dd>
+            <dd>Ludwig Boltzmann Institute</dd><dd>for Network Medicine</dd>
+            <dd>at the University of Vienna</dd>
+            <br>
+            <!-- <dt>Address:</dt>
             <dd>
                 <span
                     property="schema:address"
@@ -33,7 +37,7 @@ description: "My personal website"
                         <span property="addressCountry">Austria</span>
                     </a>
                 </span>
-            </dd>
+            </dd> -->
             <dt>Orcid ID:</dt>
             <dd>
                 <a
@@ -74,7 +78,7 @@ description: "My personal website"
     </div>
     <div class="col-sm-8" typeof="foaf:Person" about="https://andre-rendeiro.com/about" prefix="schema: https://schema.org/Person#">
         <p>
-            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM </a>- the <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> leading a research group on computational and molecular methods to study human aging and pathology.
+            I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM </a>- the <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> and a <span property="schema:jobTitle">Research Group Leader</span> at the <a rel="schema:affiliation" href="https://netmed.lbg.ac.at/">Ludwig Boltzmann Institute for Network Medicine at the University of Vienna</a>, leading a research group on computational and molecular methods to study human aging and pathology.
         </p>
         <p>
             My group develops computational methods for the analysis of spatial data (spatial transcriptomics, highly multiplexed imaging), and its integration with various modalities of molecular and    clinical data of individuals along their lifespan.
@@ -192,7 +196,7 @@ description: "My personal website"
 
 <div class="row blog-main" prefix="datacite: https://purl.org/spar/datacite/" id="publications">
     <h3>Publications and associated resources</h3>
-	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
     <small><sup>*</sup> equal first-author contributions; <sup>Ω</sup> joint corresponding authors</small><br>
     <div class="col-sm-12">
@@ -203,7 +207,19 @@ description: "My personal website"
         </ol>
     </div>
     <div class="col-sm-12">
-        <h4>All peer reviewed publications</h4>
+        <h4>Opinion articles</h4>
+        <ol reversed="">
+{{opinions_go_here}}
+        </ol>
+    </div>
+    <div class="col-sm-12">
+        <h4>Review articles</h4>
+        <ol reversed="">
+{{reviews_go_here}}
+        </ol>
+    </div>
+    <div class="col-sm-12">
+        <h4>Peer reviewed research</h4>
         <ol reversed="">
 {{publications_go_here}}
         </ol>

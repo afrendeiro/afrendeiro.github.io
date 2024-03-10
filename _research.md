@@ -16,13 +16,13 @@ Here are projects I am currently working on or have worked in the past:
 <h4>Relevant papers:</h4>
 <ol>
     <li>
-        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41467-019-14081-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-019-14081-6'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications 2020</a>
+        <a rel="datacite:doi" href="https://dx.doi.org/10.1038/s41467-019-14081-6" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41467-019-14081-6'); return false;">Rendeiro*, Krausgruber*, <i>et al</i>, Nature Communications 2020</a>
     </li>
     <li>
-        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
+        <a rel="datacite:doi" href="https://dx.doi.org/10.1038/s41589-018-0205-2" onclick="recordOutboundLink(this, 'DOI', '10.1038/s41589-018-0205-2'); return false;">Schmidl*, Vladimer*, Rendeiro*, Schnabl*, <i>et al</i>, Nature Chemical Biology, 2019</a>
     </li>
     <li>
-        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
+        <a rel="datacite:doi" href="https://dx.doi.org/10.1038/ncomms11938" onclick="recordOutboundLink(this, 'DOI', '10.1038/ncomms11938'); return false;">Rendeiro*, Schmidl*, Strefford*, <i>et al</i>, Nature Communications, 2016</a>
     </li>
 </ol>
 
@@ -38,16 +38,16 @@ Here are projects I am currently working on or have worked in the past:
 <h4>Relevant papers:</h4>
 <ol>
     <li>
-        scifi-RNA-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, bioRxiv, 2019</a>
+        scifi-RNA-seq: <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2019.12.17.879304" onclick="recordOutboundLink(this, 'DOI', '10.1101/2019.12.17.879304'); return false;">Datlinger<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, bioRxiv, 2019</a>
     </li>
     <li>
-        ChIP-STARR-seq: <a rel="datacite:doi" href="http://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">Barakat<sup>*</sup>, Halbritter<sup>*</sup>, <i>et al</i>, Cell Stem Cell, 2018</a>
+        ChIP-STARR-seq: <a rel="datacite:doi" href="https://dx.doi.org/http://dx.doi.org/10.1016/j.stem.2018.06.014" onclick="recordOutboundLink(this, 'DOI', 'http://dx.doi.org/10.1016/j.stem.2018.06.014'); return false;">Barakat<sup>*</sup>, Halbritter<sup>*</sup>, <i>et al</i>, Cell Stem Cell, 2018</a>
     </li>
     <li>
-        CROP-seq: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">Datlinger, <i>et al</i>, Nature Methods, 2017</a>
+        CROP-seq: <a rel="datacite:doi" href="https://dx.doi.org/10.1038/nmeth.4177" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.4177'); return false;">Datlinger, <i>et al</i>, Nature Methods, 2017</a>
     </li>
     <li>
-        ChIPmentation: <a rel="datacite:doi" href="http://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
+        ChIPmentation: <a rel="datacite:doi" href="https://dx.doi.org/10.1038/nmeth.3542" onclick="recordOutboundLink(this, 'DOI', '10.1038/nmeth.3542'); return false;">Schmidl<sup>*</sup>, Rendeiro<sup>*</sup>, <i>et al</i>, Nature Methods, 2015</a>
     </li>
 </ol>
 

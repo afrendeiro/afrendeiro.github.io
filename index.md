@@ -797,12 +797,12 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> Preprint </button></a>
-                    <a href="http://dx.doi.org/10.5524/100936">
+                    <a href="https://dx.doi.org/10.5524/100936">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="fab fa-github"
                                 aria-hidden="true"></span> Code </button></a>
-                    <a href="http://pep.databio.org/en/latest/">
+                    <a href="https://pep.databio.org/en/latest/">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="fab fa-github"
@@ -1128,7 +1128,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://structural-immunity-paper.medical-epigenomics.org/">
+                    <a href="https://structural-immunity-paper.medical-epigenomics.org/">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1230,7 +1230,7 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> Preprint </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111015">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1269,7 +1269,7 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130884">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130884">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1361,7 +1361,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108390">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108390">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1395,7 +1395,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105786">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105786">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1434,7 +1434,7 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100672">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100672">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1468,7 +1468,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99631">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1497,12 +1497,12 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://rdcu.be/oDFf">
+                    <a href="https://rdcu.be/oDFf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1536,7 +1536,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74672">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1589,7 +1589,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.nature.com/ncomms/2016/160627/ncomms11938/pdf/ncomms11938.pdf">
+                    <a href="https://www.nature.com/ncomms/2016/160627/ncomms11938/pdf/ncomms11938.pdf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -1599,7 +1599,7 @@ description: "My personal website"
                             <span
                                 class="glyphicon glyphicon-hdd"
                                 aria-hidden="true"></span> Data </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81274">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1633,12 +1633,12 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf">
+                    <a href="https://www.cemm.oeaw.ac.at/fileadmin/img/Research/research/Schmidl_et_al_Nature_Methods_2015.pdf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70482">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1672,12 +1672,12 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="http://genome.cshlp.org/content/24/4/639.full.pdf">
+                    <a href="https://genome.cshlp.org/content/24/4/639.full.pdf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
                                 aria-hidden="true"></span> PDF </button></a>
-                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46488">
+                    <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46488">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-hdd"
@@ -1688,7 +1688,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-03-08.</p>
+        <p>Last updated on 2024-03-11.</p>
     </div>
     <br>
 </div>

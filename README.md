@@ -1,6 +1,6 @@
 # My personal website
 
-A Jekyll powered personal website. Uses [Jekyll Bootstrap](http://jekyllbootstrap.com/)
+A Jekyll powered personal website. Uses [Jekyll Bootstrap](https://jekyllbootstrap.com/)
 and is hosted on [GitHub pages](https://pages.github.com/).
 
 ## Install
@@ -49,7 +49,7 @@ served at [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
 
 ## Themes
 
-Go to `http://themes.jekyllbootstrap.com/`, choose a theme and install it:
+Go to `https://themes.jekyllbootstrap.com/`, choose a theme and install it:
 
     rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
 

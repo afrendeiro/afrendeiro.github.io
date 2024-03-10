@@ -1,5 +1,5 @@
 # This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
+# For more see: https://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
@@ -28,7 +28,7 @@ author:
   gravatar-hash: 9dcaaced1ea0b526212e580a05bc3cda
 
 # Fill here if you wish to licence your content with a Creative Commons Licence.
-# Read here (http://creativecommons.org/licenses/) about CC and choose a licence.
+# Read here (https://creativecommons.org/licenses/) about CC and choose a licence.
 # Available options are: by, by-sa, by-nd, by-nc, by-nc-sa, by-nc-nd
 # Leave empty if 
 licence: by
@@ -40,8 +40,14 @@ licence: by
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-production_url: http://afrendeiro.github.io
+
+production_url: https:/andre-rendeiro.com
+url: https:/andre-rendeiro.com
+
+site:
+  production_url: https:/andre-rendeiro.com
+  url: https:/andre-rendeiro.com
+
 
 # After production, specify here the github repo's url to have e.g. pages linking to its source
 repository_url: https://github.com/afrendeiro/afrendeiro.github.io
@@ -58,18 +64,18 @@ JB:
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
   #
-  # CNAME (http://yourcustomdomain.com)
+  # CNAME (https://yourcustomdomain.com)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Pages (http://username.github.io)
+  # GitHub Pages (https://username.github.io)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Project Pages (http://username.github.io/project-name)
+  # GitHub Project Pages (https://username.github.io/project-name)
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #  REQUIRED! Set BASE_PATH to: https://username.github.io/project-name
   #
   # CAUTION:
   #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
@@ -83,7 +89,7 @@ JB:
   #
   # Override this by defining an absolute path to assets here.
   # ex: 
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
+  #   https://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
   ASSET_PATH: false

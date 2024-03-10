@@ -66,32 +66,34 @@ def main() -> int:
     resources = pd.read_csv(RESOURCES_CSV, index_col=0, comment="#")
 
     pub_list: tp.Dict[str, tp.List[str]] = dict()
-    for pub_type in ["journal", "preprint"]:
+    for pub_type in ["journal", "opinion", "review", "preprint"]:
         pub_list[pub_type] = list()
-        extra = "| publication_type == 'review'" if pub_type == "journal" else ""
-        for _, pub in pubs.query(
-            f"publication_type == '{pub_type}' {extra}"
-        ).iterrows():
-            res = resources.loc[[pub["doi"]]]
-            _res = list()
-            for i, (_, r) in enumerate(res.iterrows()):
-                if r.isnull().all():
-                    continue
-                r["resource_glypt"] = glypts[r["resource_type"]]
-                _res.append(
-                    ("\n" if i == 0 else "")
-                    + "                    "
-                    + RESOURCE_FORMAT.format(**r.to_dict())
-                )
-            pub["resources"] = "\n".join(_res)
+        for _, pub in pubs.query("publication_type == @pub_type").iterrows():
+            if pub['doi'] in resources.index:
+                res = resources.loc[[pub["doi"]]]
+                _res = list()
+                for i, (_, r) in enumerate(res.iterrows()):
+                    if r.isnull().all():
+                        continue
+                    r["resource_glypt"] = glypts[r["resource_type"]]
+                    _res.append(
+                        ("\n" if i == 0 else "")
+                        + "                    "
+                        + RESOURCE_FORMAT.format(**r.to_dict())
+                    )
+                pub["resources"] = "\n".join(_res)
+            else:
+                pub["resources"] = ""
             p = PUB_FORMAT.format(**pub.to_dict())
             pub_list[pub_type].append("            " + p)
 
     with open(INPUT_DIR / input_file, "r") as handle:
         content = (
             handle.read()
-            .replace("{{publications_go_here}}", "\n".join(pub_list["journal"]))
             .replace("{{preprints_go_here}}", "\n".join(pub_list["preprint"]))
+            .replace("{{opinions_go_here}}", "\n".join(pub_list["opinion"]))
+            .replace("{{reviews_go_here}}", "\n".join(pub_list["review"]))
+            .replace("{{publications_go_here}}", "\n".join(pub_list["journal"]))
             .replace("{{current_date}}", DATE)
         )
     content = content.replace(AUTHOR_NAME, "<u>" + AUTHOR_NAME + "</u>").replace(

@@ -2,7 +2,7 @@ update:
 	python3 update_publications_resources.py
 
 serve: update
-	bundler exec jekyll serve
+	bundler exec jekyll serve --incremental
 
 web: update
 	# Update website: "afrendeiro.github.io"
