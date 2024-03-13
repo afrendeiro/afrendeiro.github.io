@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Building Python manywheels"
-description: ""
-category: 
-tags: []
+description: "Building Python manywheels"
+category: notebook
+tags: [python, programming]
 ---
 {% include JB/setup %}
 

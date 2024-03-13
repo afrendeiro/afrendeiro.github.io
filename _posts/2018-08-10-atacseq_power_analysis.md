@@ -3,7 +3,7 @@ layout: post
 title: "ATAC-seq power analysis"
 description: "ATAC-seq study power analysis"
 category: research
-tags: [statistics, ATAC-seq, python, notebook]
+tags: [statistics, ATAC-seq, python]
 ---
 {% include JB/setup %}
 

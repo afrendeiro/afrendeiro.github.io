@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VM setup for deep learning"
-description: ""
+description: "VM setup for deep learning"
 category: notebook
 tags: [software, deep learning, ubuntu, pytorch, setup]
 ---

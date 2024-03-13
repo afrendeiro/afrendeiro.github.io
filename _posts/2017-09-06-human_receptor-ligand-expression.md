@@ -3,7 +3,7 @@ layout: post
 title: "Human receptor-ligand interaction repertoire"
 description: "Human receptor-ligand interaction repertoire and its expression in primary cells"
 category: research
-tags: [programming, python, notebook]
+tags: [programming, python]
 ---
 {% include JB/setup %}
 

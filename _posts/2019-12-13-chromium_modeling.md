@@ -3,7 +3,7 @@ layout: post
 title: "Modeling the cell packaging process of the 10X Chromium device"
 description: "Modeling the cell packaging process of the 10X Chromium device"
 category: research
-tags: [statistics, modeling, bayesian, inference, single-cell, python, notebook]
+tags: [statistics, modeling, bayesian, inference, single-cell, python]
 ---
 {% include JB/setup %}
 
