@@ -1,10 +1,13 @@
+clean:
+	bundler exec jekyll clean
+
 update:
 	python3 update_publications_resources.py
 
-serve: update
+serve: clean update
 	bundler exec jekyll serve --incremental
 
-web: update
+web: clean update
 	# Update website: "afrendeiro.github.io"
 	git add \
 		publications.csv \

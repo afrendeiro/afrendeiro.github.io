@@ -1688,7 +1688,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-03-11.</p>
+        <p>Last updated on 2024-03-13.</p>
     </div>
     <br>
 </div>

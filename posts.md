@@ -12,7 +12,3 @@ weight: 3
 {% assign posts_list = site.posts %}
 {% include JB/posts_list %}
 
-<br>
-
-<p>This website was initially intended to be an <a href='http://andre-rendeiro.me/2014/10/29/notebook'>open electronic lab notebook</a>.</p>
-<p>However, I now post mostly general methods and approaches that I develop for my work.</p>

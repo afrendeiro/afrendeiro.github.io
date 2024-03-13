@@ -1,5 +1,5 @@
 <div class="col-xs-12 col-md-9 content">
-
+	<br>
 	<div class="post-meta">
 		<ul class="list-inline">
 			<li>{{ page.date | date: "%-d %b %Y" }}</li>
@@ -8,24 +8,26 @@
 					<a href="{{ site.repository_url }}/commits/master/{{ page.path }}"> Versions</a>
 				</button>
 			</li>
-			<li>
+			<br>
+			<br>
 			{% unless page.categories == empty %}
-				<ul class="tags list-inline list-unstyled">
-					<li> - <b>Categories:</b> </li>
-					{% assign categories_list = page.categories %}
-					{% include JB/categories_list %}
-				</ul>
+				<li><b>Categories:</b>
+					<ul class="tags list-inline list-unstyled">
+						{% assign categories_list = page.categories %}
+						{% include JB/categories_list %}
+					</ul>
+				</li>
 			{% endunless %}
-			</li>
-			<li>
+			<br>
+			<br>
 			{% unless page.tags == empty %}
-				<ul class="tags list-inline list-unstyled">
-					<li> <b>Tags: </b></li>
-					{% assign tags_list = page.tags %}
-					{% include JB/tags_list %}
-				</ul>
+				<li><b>Tags:</b>
+					<ul class="tags list-inline list-unstyled">
+						{% assign tags_list = page.tags %}
+						{% include JB/tags_list %}
+					</ul>
+				</li>
 			{% endunless %}
-			</li>
 		</ul>
 	</div>
 
