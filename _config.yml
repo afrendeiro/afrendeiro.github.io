@@ -45,8 +45,8 @@ production_url: https://andre-rendeiro.com
 url: https://andre-rendeiro.com
 
 site:
-  production_url: https:/andre-rendeiro.com
-  url: https:/andre-rendeiro.com
+  production_url: https://andre-rendeiro.com
+  url: https://andre-rendeiro.com
 
 
 # After production, specify here the github repo's url to have e.g. pages linking to its source
