@@ -12,3 +12,7 @@ weight: 3
 {% assign posts_list = site.posts %}
 {% include JB/posts_list %}
 
+<br>
+
+{% assign post_count = site.posts | size %}
+{{ post_count }} posts in total.

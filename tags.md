@@ -14,6 +14,18 @@ weight: 5
 {% include JB/tags_list %}
 </ul>
 
+{% comment %}
+Concatenate each tag with its post count, using unique separators for splitting and sorting.
+{% endcomment %}
+{% capture site_tags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}&#x1F;{{ tag | first }}
+    {% unless forloop.last %}&#x1E;{% endunless %}
+  {% endfor %}
+{% endcapture %}
+{% assign sorted_tags = site_tags | split: '&#x1E;' | sort | reverse %}
+
+
 <h3>Posts per tag:</h3>
 {% for tag in site.tags %} 
 <h4 id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
