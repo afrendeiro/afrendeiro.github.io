@@ -18,7 +18,7 @@ This gets previous and next posts which are not of a category to exclude
 		{% break %}
 	{% endif %}
 {% endfor %}
-<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+<li><a href="{{ BASE_PATH }}{{ site.JB.posts_path }}">All posts</a></li>
 {% for i in (1..100) %}
 	{% if i == 1 %}
 		{% assign nex = page.next %}
