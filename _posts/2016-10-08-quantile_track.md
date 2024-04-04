@@ -8,7 +8,7 @@ tags: [visualization, python, bash]
 {% include JB/setup %}
 
 
-The code we shared on our latest work (see [doi:10.1038/ncomms11938](http://dx.doi.org/10.1038/ncomms11938)) contained all parts necessary to reproduce the figures in the paper, but there was one part that I didn't share. In [Figure 2](http://www.nature.com/articles/ncomms11938/figures/2), you can see percentiles of normalized ATAC-seq signal for the 88 samples used in the study - the code in question produces bigWig files used in this visualization.
+The code we shared on our latest work (see [doi:10.1038/ncomms11938](https://dx.doi.org/10.1038/ncomms11938)) contained all parts necessary to reproduce the figures in the paper, but there was one part that I didn't share. In [Figure 2](https://www.nature.com/articles/ncomms11938/figures/2), you can see percentiles of normalized ATAC-seq signal for the 88 samples used in the study - the code in question produces bigWig files used in this visualization.
 
 The reason why I haven't shared it was because it was a bit challenging and I didn't manage to make it as system-independent as I'd want. Most of the code for the paper is in Python, but for this I used a combination of Python, Bash and GNU programs to handle the amount of signal genome-wide. In addition, I've made extensive use of a HPC cluster with slurm as manager to speed things up.
 

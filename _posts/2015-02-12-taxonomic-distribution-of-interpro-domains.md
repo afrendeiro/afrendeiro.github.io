@@ -18,7 +18,7 @@ from biomart import BiomartServer, BiomartDataset
 ids = ["P01106", "P17947"] # some examples
 
 # connect to biomart
-server = BiomartServer("http://www.biomart.org/biomart")
+server = BiomartServer("https://www.biomart.org/biomart")
 uniprot = server.datasets['uniprot']
 
 # query interpro domains for the prots
@@ -40,7 +40,7 @@ We now switch to the Interpro database and get the scientific name (and other st
 domains = df['interpro_id']
 attributes = ['entry_id', 'entry_type', 'entry_name', 'taxonomy_scientific_name']
 
-interpro = BiomartDataset("http://www.biomart.org/biomart", name='entry')
+interpro = BiomartDataset("https://www.biomart.org/biomart", name='entry')
 
 for domain in domains:
     # Query taxonomies with domains
@@ -60,7 +60,7 @@ for domain in domains:
 
 To assess the distribution of these proteins across clades of species, one needs more information about these species. Getting there was the bit not so obvious to me.
 
-[NCBI taxonomy](http://www.ncbi.nlm.nih.gov/taxonomy) has this type of information, but I wasn't familiar with their APIs or services so called [NCBI eutils](http://www.ncbi.nlm.nih.gov/books/NBK25501/). Luckyly there's a Python solution for [accessing NCBI’s Entrez databases thourough BioPython](http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc108).
+[NCBI taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) has this type of information, but I wasn't familiar with their APIs or services so called [NCBI eutils](https://www.ncbi.nlm.nih.gov/books/NBK25501/). Luckyly there's a Python solution for [accessing NCBI’s Entrez databases thourough BioPython](https://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc108).
 
 We define two functions: to get the ID of a taxon based on its name (this actually may fail if species names have appended stuff like "strain") and to get the record (which contains a full lineage description) for that taxon based on its ID.
 

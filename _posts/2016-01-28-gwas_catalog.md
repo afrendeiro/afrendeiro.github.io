@@ -10,7 +10,7 @@ tags: [python, gwas, variation]
 
 Ever wondered if some genomic regions of interest overlap significantly with known (or own) sets of regions?
 
-[LOLA](http://databio.org/lola/) is an R package that handles that for you. It includes a "core" set of regions from public databases and lets you extend them with your own regions of interest.
+[LOLA](https://databio.org/lola/) is an R package that handles that for you. It includes a "core" set of regions from public databases and lets you extend them with your own regions of interest.
 
 I wanted to include the position of every known SNP associated with a trait (specially clinical) in the database, but also preferebly grouped by the broad type of trait. here's what I came up with by using [EBI's GWAS catalog](https://www.ebi.ac.uk/gwas/).
 
@@ -23,8 +23,8 @@ import pandas as pd
 import re
 
 # get GWAS catalog
-os.system("wget -O gwas_catalog.tsv http://www.ebi.ac.uk/gwas/api/search/downloads/alternative")  # gwas db dump
-os.system("wget http://www.ebi.ac.uk/fgpt/gwas/ontology/GWAS-EFO-Mappings201405.xlsx")  # gwas mapping/ontology
+os.system("wget -O gwas_catalog.tsv https://www.ebi.ac.uk/gwas/api/search/downloads/alternative")  # gwas db dump
+os.system("wget https://www.ebi.ac.uk/fgpt/gwas/ontology/GWAS-EFO-Mappings201405.xlsx")  # gwas mapping/ontology
 
 # read in catalog and mappings
 df = pd.read_csv("gwas_catalog.tsv", sep="\t")
@@ -79,4 +79,4 @@ Simply create a tab-delimited file in the same folder named `collection.txt` wit
 
 |collector|date|source|description|
 |---|---|---|---|
-|arendeiro|2016-01-28|customRegionDB/hg38/gwas|GWAS from EBI's GWAS catalog (http://www.ebi.ac.uk/gwas/)|
+|arendeiro|2016-01-28|customRegionDB/hg38/gwas|GWAS from EBI's GWAS catalog (https://www.ebi.ac.uk/gwas/)|

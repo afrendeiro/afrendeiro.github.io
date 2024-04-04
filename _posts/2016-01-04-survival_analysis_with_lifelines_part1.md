@@ -8,9 +8,9 @@ tags: [survival, python]
 
 {% include JB/setup %}
 
-> This post is available as a [Jupiter notebook](http://jupyter.readthedocs.org/) [here](http://nbviewer.jupyter.org/github/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/lifelines_survival_part1.ipynb).
+> This post is available as a [Jupiter notebook](https://jupyter.readthedocs.org/) [here](https://nbviewer.jupyter.org/github/afrendeiro/afrendeiro.github.io/blob/master/data/notebooks/lifelines_survival_part1.ipynb).
 
-The [lifelines package](http://lifelines.readthedocs.org/) is a well documented, easy-to-use Python package for survival analysis.
+The [lifelines package](https://lifelines.readthedocs.org/) is a well documented, easy-to-use Python package for survival analysis.
 
 I had never done any survival analysis, but  the fact that package has great documentation made me adventure in the field. From the documentation I was able to understand the key concepts of survival analysis and run a few simple analysis on clinical data gathered by our collaborators from a cohort of cancer patients. This obviously does not mean it is a replacement of proper study of the field, but nonetheless I highly recommend reading the whole documentation for begginers on the topic and the usage of the package to anyone working in the field.
 

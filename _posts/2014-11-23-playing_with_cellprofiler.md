@@ -13,7 +13,7 @@ submenu:
 ---
 {% include JB/setup %}
 <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <style>
 .centerImages {
@@ -128,7 +128,7 @@ While many measurements of cell dimensions, shape, intensity of signal are corre
 All of our attempts to use a SVM classifier to detect compounds with effects similar to the ones used as positive controls failed. The main drawback probably lies in the requirement of SVM models to be fed with low dimension data. The use of a PCA approach to reduce dimensionality is counterproductive since it promotes severe loss of information and does not necessarily guarantee dispersion of classes as shown in Figure 4. Many of the variables might not be informative at all, increasing noise levels into the data and clouding the training step of machine learning. It is also possible that the distribution of cellular responses to treatments with a vast array of compounds is not linear and therefore a linear classifier would also not be appropriate.
 
 ##<a href="{{page.url}}#methods" name="methods">Methods</a>
-[Cell Profiler](http://cellprofiler.org/) was used to automate image analysis on the images obtained from four fields in each well of the 384-well plate. This software allows detection of objects based on the signal of the three channels used in this assay - DAPI for nuclei, Alexa488 for $\beta$-tubulin and MitoTrackerOrange staining for mitochondria. 
+[Cell Profiler](https://cellprofiler.org/) was used to automate image analysis on the images obtained from four fields in each well of the 384-well plate. This software allows detection of objects based on the signal of the three channels used in this assay - DAPI for nuclei, Alexa488 for $\beta$-tubulin and MitoTrackerOrange staining for mitochondria. 
         
 An approach to identify cellular features based on the fluorescent signal from the images was designed, allowing the establishment of relationships between them and can build on other classes of objects already identified. Two primary objects (nuclei and mitochondria) were identified based on the source of fluorescent signal from the DAPI and MitoTrackerOrange stainings, respectively. Secondary objects representing whole cells were collected by propagation from the nuclei objects until the border of signal from the Alexa 488 channel using a global thresholding strategy with the Otsu algorithm. While identifying both primary and secondary objects, objects that touched the image border were discarded. If this occurred to the secondary object, the primary object used for the propagation was discarded as well to avoid the existence of unpaired primary-secondary objects. Cytoplasm was identified as a Tertiary object through the subtraction of the nuclei area from the area of the cell objects, therefore establishing a relation between a cell's nuclei and cytoplasm. Relationships between cell and mitochondria objects were established by intersecting the location of mitochondria with the cells and each overlapping mitochondria object was annotated with its respective parent cell.
 

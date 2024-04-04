@@ -8,7 +8,7 @@ tags: [crispr, literature, zebrafish]
 {% include JB/setup %}
 
 # Zebrafish gRNA design for CRISPR
-I chose to use the [Wente-Chen design](http://dx.doi.org/10.1073%2Fpnas.1308335110) which showed excellent results even with multiplexed targeting:
+I chose to use the [Wente-Chen design](https://dx.doi.org/10.1073%2Fpnas.1308335110) which showed excellent results even with multiplexed targeting:
 
 ![Design](https://www.addgene.org/static/data/easy-thumbnails/filer_public/cms/filer_public/5d/cc/5dccae2d-9f92-4547-a03d-9c32a785b401/chen-lab-plasmid-cloning-figure.png__700x505_q85_crop_subsampling-2_upscale.png)
 
@@ -18,9 +18,9 @@ You can [order the plasmids from Addgene](https://www.addgene.org/crispr/chen/).
 Target region should obey the following pattern: `GG-N(19)-GG`.
 
 #### Tools
-- [http://www.e-crisp.org/E-CRISP ](http://www.e-crisp.org/E-CRISP)
+- [https://www.e-crisp.org/E-CRISP ](https://www.e-crisp.org/E-CRISP)
 - [https://chopchop.rc.fas.harvard.edu](https://chopchop.rc.fas.harvard.edu)
-- [http://crispr.dbcls.jp](http://crispr.dbcls.jp)
+- [https://crispr.dbcls.jp](https://crispr.dbcls.jp)
 
 #### Dos & don'ts (probably incomplete)
 - Pick 2-3 distinct targets;
@@ -38,7 +38,7 @@ While at this take notice of one primer pair to amplify the targeted region.
 
 To design oligos based on the target sequence, one must remove the PAM sequence (this will be in the genome) and add sequences to the ends of the primers so that after annealed, they can complement the pattern of the digested plasmid.
 
-For the [Wente-Chen design](http://dx.doi.org/10.1073%2Fpnas.1308335110), these are "TA" to the left primer and "AAAC" to the right one.
+For the [Wente-Chen design](https://dx.doi.org/10.1073%2Fpnas.1308335110), these are "TA" to the left primer and "AAAC" to the right one.
 
 This small Python script does the job:
 

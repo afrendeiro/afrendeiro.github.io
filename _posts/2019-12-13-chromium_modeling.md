@@ -21,7 +21,7 @@ Available as a [Jupyter notebook here](/data/notebooks/chromium_modeling/chromiu
 This notebook aims to explore the droplet generation and cell/nuclei loading processes which take place in a 10X Chromium device.
 
 To that end, we ran the device channels with increasing numbers of nuclei and with a buffer that did not cause lysis. This way, after collecting the droplet emulsion, we were able to simply count optically the number of nuclei in each droplet. Here is how the droplet emulsion looks like for various concentrations:
-<img src="http://www.medical-epigenomics.org/papers/datlinger2019/data/FigS1a.png" alt="FigS1a" width="100%"/>
+<img src="https://www.medical-epigenomics.org/papers/datlinger2019/data/FigS1a.png" alt="FigS1a" width="100%"/>
 
 For more details on the experimental procedure, please refer to the [scifi-RNA-seq preprint](https://www.biorxiv.org/content/10.1101/2019.12.17.879304v1).
 
@@ -58,7 +58,7 @@ We'll read a CSV file with counts of nuclei per droplet for different experiment
 
 ```python
 # Load observed counts of nuclei per droplet
-url = "http://www.medical-epigenomics.org/papers/datlinger2019/data/droplet_counts.csv"
+url = "https://www.medical-epigenomics.org/papers/datlinger2019/data/droplet_counts.csv"
 droplet_counts = pd.read_csv(url)
 ```
 
@@ -1550,7 +1550,7 @@ print(f"ZINB model WAIC: {zinb_waic.waic:.3f}")
 ```
 
     /home/afr/.local/lib/python3.7/site-packages/arviz/stats/stats.py:1126: UserWarning: For one or more samples the posterior variance of the log predictive densities exceeds 0.4. This could be indication of WAIC starting to fail. 
-    See http://arxiv.org/abs/1507.04544 for details
+    See https://arxiv.org/abs/1507.04544 for details
       "For one or more samples the posterior variance of the log predictive "
 
 

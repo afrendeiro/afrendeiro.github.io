@@ -55,7 +55,7 @@ You can give an external IP to your instances and transfer files easily.
 You can use Filezilla by adding your instance key (`Edit -> Preferences -> SFTP -> Add key...`) and using `sftp://<user>@<externalIP>`.
 
 ## Images
-Pretty much similar to AWS EC2: create a new instance, [install all your software](http://andre-rendeiro.me/2015/04/08/bioinfo_fresh_install_ubuntu/) and save an image of the instance. Next time start a new instance with this image and *voilá* all your software is there.
+Pretty much similar to AWS EC2: create a new instance, [install all your software](https://andre-rendeiro.me/2015/04/08/bioinfo_fresh_install_ubuntu/) and save an image of the instance. Next time start a new instance with this image and *voilá* all your software is there.
 
 Unfortunately, I haven't found a way of sharing images :disappointed:.
 
