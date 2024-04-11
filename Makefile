@@ -6,6 +6,7 @@ update:
 
 serve: clean update
 	bundler exec jekyll serve --incremental
+	xdg-open http://127.0.0.1:4000
 
 web: clean update
 	# Update website: "afrendeiro.github.io"
