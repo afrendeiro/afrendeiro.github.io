@@ -389,6 +389,35 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Andreas Reicher, Jiří Reiniš, Maria Ciobanu, Pavel Růžička, Monika Malik, Marton Siklos, Viktoriia Kartysh, Tatjana Tomek, Anna Koren, <u>André F. Rendeiro</u>, Stefan Kubicek.
+                    <br><strong>Pooled multicolor tagging for visualizing subcellular protein dynamics</strong>.
+                    <br>
+                    Nature Cell Biology (2024).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41556-024-01407-w">
+                        doi:10.1038/s41556-024-01407-w</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1038/s41556-024-01407-w"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1038/s41556-024-01407-w"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://github.com/reinisj/intron_tagging">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Kentaro Ohara, <u>André F. Rendeiro</u>, Bhavneet Bhinder, Kenneth Wha Eng, Hiranmayi Ravichandran, David Pisapia, Aram Vosoughi, Evan Fernandez, Kyrillus Shohdy, Jyothi Manohar, Shaham Beg, David Wilkes, Brian Robinson, Francesca Khani, Rohan Bareja, Scott Tagawa, Andrea Sboner, Olivier Elemento, Bishoy Morris Faltas, Juan Miguel Mosquera.
                     <br><strong>The evolution of genomic, transcriptomic, and single-cell protein markers of metastatic upper tract urothelial carcinoma</strong>.
                     <br>
@@ -1688,7 +1717,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-04-11.</p>
+        <p>Last updated on 2024-04-20.</p>
     </div>
     <br>
 </div>
