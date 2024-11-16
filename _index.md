@@ -113,10 +113,10 @@ description: "My personal website"
             <div class="col-sm-6 col-shorter">
                 <h5>Spatially resolved biology and tissue architecture:</h5>
                 <ol>
-                    <!-- <li>
-                        <a rel="datacite:doi" href="https://dx.doi.org/">
-                        X, <i>et al</i>, BioRxiv, 2024</a>
-                    </li> -->
+                    <li>
+                        <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
+                        Abila, Buljan, Zheng, <i>et al</i>, BioRxiv, 2024</a>
+                    </li>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1038/s41592-022-01657-2">
                         Kim, <i>et al</i>, Nature Methods, 2022</a>

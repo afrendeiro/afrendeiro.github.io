@@ -113,10 +113,10 @@ description: "My personal website"
             <div class="col-sm-6 col-shorter">
                 <h5>Spatially resolved biology and tissue architecture:</h5>
                 <ol>
-                    <!-- <li>
-                        <a rel="datacite:doi" href="https://dx.doi.org/">
-                        X, <i>et al</i>, BioRxiv, 2024</a>
-                    </li> -->
+                    <li>
+                        <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
+                        Abila, Buljan, Zheng, <i>et al</i>, BioRxiv, 2024</a>
+                    </li>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1038/s41592-022-01657-2">
                         Kim, <i>et al</i>, Nature Methods, 2022</a>
@@ -203,6 +203,45 @@ description: "My personal website"
         <h4>Preprints</h4>
         <small>(does not include preprints later published as journal articles)</small>
         <ol reversed="">
+            <li>
+                <p>
+                    Ernesto Abila, Iva Buljan, Yimin Zheng, Tamas Veres, Zhilong Weng, Maja C Nackenhorst, Wolfgang Hulla, Yuri Tolkach, Adelheid Woehrer, <u>André F. Rendeiro</u><sup>Ω</sup>.
+                    <br><strong>Tissue clocks derived from histological signatures of biological aging enable tissue-specific aging predictions from blood</strong>.
+                    <br>
+                    BioRxiv (2024).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2024.11.14.618081">
+                        doi:10.1101/2024.11.14.618081</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2024.11.14.618081"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2024.11.14.618081"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://github.com/rendeirolab/agingpath">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://doi.org/10.1101/2024.11.14.618081">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://zenodo.org/doi/10.5281/zenodo.13330658">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Yimin Zheng, Zhihang Zheng, <u>André F. Rendeiro</u>, Edwin Cheung.
@@ -962,7 +1001,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://www.nature.com/articles/s41586-021-03569-1_reference.pdf">
+                    <a href="https://www.nature.com/articles/s41586-021-03569-1.pdf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -991,7 +1030,7 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://www.nature.com/articles/s41586-021-03475-6_reference.pdf">
+                    <a href="https://www.nature.com/articles/s41586-021-03475-6.pdf">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
                                 class="glyphicon glyphicon-file"
@@ -1717,7 +1756,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-04-20.</p>
+        <p>Last updated on 2024-11-16.</p>
     </div>
     <br>
 </div>
