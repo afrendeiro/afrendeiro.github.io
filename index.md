@@ -244,40 +244,6 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Yimin Zheng, Zhihang Zheng, <u>André F. Rendeiro</u>, Edwin Cheung.
-                    <br><strong>Marsilea: An intuitive generalized visualization paradigm for complex datasets</strong>.
-                    <br>
-                    BioRxiv (2024).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2024.02.14.580236">
-                        doi:10.1101/2024.02.14.580236</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2024.02.14.580236"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2024.02.14.580236"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://marsilea.readthedocs.io/">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                    <a href="https://github.com/Marsilea-viz/marsilea">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                </p>
-            </li>
-            <li>
-                <p>
                     Everardo Hegewisch-Solloa, Janine E Melsen, Hiranmayi Ravichandran, <u>André F. Rendeiro</u>, Aharon G Freud, Bethany Mundy-Bosse, Johannes C Melms, Shira E Eisman, Benjamin Izar, Eli Grunstein, Thomas J Connors, Olivier Elemento, Amir Horowitz, Emily Mace.
                     <br><strong>Mapping human natural killer cell development in tonsil</strong>.
                     <br>
@@ -426,6 +392,45 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>Peer reviewed research</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Yimin Zheng, Zhihang Zheng, <u>André F. Rendeiro</u><sup>Ω</sup>, Edwin Cheung<sup>Ω</sup>.
+                    <br><strong>Marsilea: An intuitive generalized visualization paradigm for complex datasets</strong>.
+                    <br>
+                    Genome Biology (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1186/s13059-024-03469-3">
+                        doi:10.1186/s13059-024-03469-3</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1186/s13059-024-03469-3"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1186/s13059-024-03469-3"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://marsilea.readthedocs.io/">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://github.com/Marsilea-viz/marsilea">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://doi.org/10.1101/2024.02.14.580236">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Andreas Reicher, Jiří Reiniš, Maria Ciobanu, Pavel Růžička, Monika Malik, Marton Siklos, Viktoriia Kartysh, Tatjana Tomek, Anna Koren, <u>André F. Rendeiro</u>, Stefan Kubicek.
@@ -1756,7 +1761,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2024-11-16.</p>
+        <p>Last updated on 2025-03-20.</p>
     </div>
     <br>
 </div>
