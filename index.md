@@ -205,6 +205,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Salvo Danilo Lombardo, <u>André F. Rendeiro</u>, Jörg Menche.
+                    <br><strong>A multilayer network approach elucidates time- and tissue-specific developmental and aging processes</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.02.651926">
+                        doi:10.1101/2025.05.02.651926</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.05.02.651926"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.05.02.651926"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Ernesto Abila, Iva Buljan, Yimin Zheng, Tamas Veres, Zhilong Weng, Maja C Nackenhorst, Wolfgang Hulla, Yuri Tolkach, Adelheid Woehrer, <u>André F. Rendeiro</u><sup>Ω</sup>.
                     <br><strong>Tissue clocks derived from histological signatures of biological aging enable tissue-specific aging predictions from blood</strong>.
                     <br>
@@ -1686,7 +1710,7 @@ description: "My personal website"
             </li>
             <li>
                 <p>
-                    Christian Schmidl*, <u>André F. Rendeiro</u>*, Nathan C Sheffield, Christoph Bock. 2015.
+                    Christian Schmidl*, <u>André F. Rendeiro</u>*, Nathan C Sheffield, Christoph Bock.
                     <br><strong>ChIPmentation: fast, robust, low-input ChIP-seq for histones and transcription factors</strong>.
                     <br>
                     Nature Methods (2015).
@@ -1761,7 +1785,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-03-20.</p>
+        <p>Last updated on 2025-05-09.</p>
     </div>
     <br>
 </div>
