@@ -85,7 +85,7 @@ description: "My personal website"
             I am a <span property="schema:jobTitle">Principal Investigator</span> at <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">CeMM </a>- the <a rel="schema:affiliation" href="https://cemm.at/research/groups/andre-rendeiro-group">Research Center for Molecular Medicine</a> of the <a rel="schema:memberOf" href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> and a <span property="schema:jobTitle">Research Group Leader</span> at the <a rel="schema:affiliation" href="https://netmed.lbg.ac.at/">Ludwig Boltzmann Institute for Network Medicine at the University of Vienna</a>, leading a research group on computational and molecular methods to study human aging and pathology.
         </p>
         <p>
-            My group develops computational methods for the analysis of spatial data (spatial transcriptomics, highly multiplexed imaging), and its integration with various modalities of molecular and    clinical data of individuals along their lifespan.
+            <a href="https://rendeiro.group">My group</a> develops computational methods for the analysis of spatial data (spatial transcriptomics, highly multiplexed imaging), and its integration with various modalities of molecular and clinical data of individuals along their lifespan.
             I am particularly interested in the organization of cells at the micro-anatomical level and understanding how this changes during the lifespan of individuals and at the onset of disease.
         </p>
         <p>
