@@ -9,72 +9,76 @@ description: "My personal website"
 
 <div class="row">
     <div class="col-sm-3 center-block text-center brd">  <!--  custom-col-width -->
-        <img src="me.jpg" class="my_image" alt="It's me, André!">
-        <dl>
-            <dt>
-                <span property="foaf:firstName">André</span>
-                <span property="foaf:middleName">Figueiredo</span>
-                <span property="foaf:familyName">Rendeiro</span>
-            </dt>
-            <dd>Principal Investigator</dd>
-            <dd>CeMM - Research Center</dd><dd>for Molecular Medicine,</dd>
-            <dd>Austrian Academy of Sciences</dd>
-            <br>
-            <dd>Research Group Leader,</dd>
-            <dd>Ludwig Boltzmann Institute</dd><dd>for Network Medicine</dd>
-            <dd>at the University of Vienna</dd>
-            <br>
-            <!-- <dt>Address:</dt>
-            <dd>
-                <span
-                    property="schema:address"
-                    typeof="https://schema.org/PostalAddress"
-                    vocab="https://schema.org/PostalAddress/">
-                    <a href="https://goo.gl/maps/qa1K9PSu8xSp7z3M6">
-                        <span property="streetAddress">Lazarettgasse 14, AKH BT 25.3</span>,<br>
-                        <span property="postalCode">1090</span>
-                        <span property="addressLocality">Vienna</span>, 
-                        <span property="addressCountry">Austria</span>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+          <img src="me.jpg" alt="It's me, André!" class="img-responsive center-block">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <dl>
+                <dt>
+                    <span property="foaf:firstName">André</span>
+                    <span property="foaf:middleName">Figueiredo</span>
+                    <span property="foaf:familyName">Rendeiro</span>
+                </dt>
+                <dd>Principal Investigator</dd>
+                <dd>CeMM - Research Center</dd><dd>for Molecular Medicine,</dd>
+                <dd>Austrian Academy of Sciences</dd>
+                <br>
+                <dd>Research Group Leader,</dd>
+                <dd>Ludwig Boltzmann Institute</dd><dd>for Network Medicine</dd>
+                <dd>at the University of Vienna</dd>
+                <br>
+                <!-- <dt>Address:</dt>
+                <dd>
+                    <span
+                        property="schema:address"
+                        typeof="https://schema.org/PostalAddress"
+                        vocab="https://schema.org/PostalAddress/">
+                        <a href="https://goo.gl/maps/qa1K9PSu8xSp7z3M6">
+                            <span property="streetAddress">Lazarettgasse 14, AKH BT 25.3</span>,<br>
+                            <span property="postalCode">1090</span>
+                            <span property="addressLocality">Vienna</span>, 
+                            <span property="addressCountry">Austria</span>
+                        </a>
+                    </span>
+                </dd> -->
+                <dt>Orcid ID:</dt>
+                <dd>
+                    <a
+                        property="https://purl.org/spar/datacite/orcid"
+                        href="https://orcid.org/0000-0001-9362-5373">
+                        0000-0001-9362-5373
                     </a>
-                </span>
-            </dd> -->
-            <dt>Orcid ID:</dt>
-            <dd>
-                <a
-                    property="https://purl.org/spar/datacite/orcid"
-                    href="https://orcid.org/0000-0001-9362-5373">
-                    0000-0001-9362-5373
-                </a>
-            </dd>
-            <dt>Google Scholar:</dt>
-            <dd>
-                <a
-                    href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">
-                    André Figueiredo Rendeiro
-                </a>
-            </dd>
-            <!-- <dt>Public Key:</dt>
-            <dd>
-                <a
-                    href="https://andre-rendeiro.com/data/documents/public_key.pgp"
-                    title="Use this to send me encrypted email">
-                    PGP public key
-                </a>
-            </dd> -->
-            <!-- <dt>ZeroNet ID:</dt>
-                <dd>
-                    <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
                 </dd>
-            <dt>My Keybase identity:</dt>
+                <dt>Google Scholar:</dt>
                 <dd>
-                    <a href="https://keybase.io/afrendeiro" title="Me on Keybase">keybase.io/afrendeiro</a>
+                    <a
+                        href="https://scholar.google.at/citations?user=lj17pqEAAAAJ&hl=en">
+                        André Figueiredo Rendeiro
+                    </a>
                 </dd>
-                 -->
-            <dt>Curriculum Vitae:</dt>
-            <dd>
-                <a href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf">Download my CV in PDF format</a>
-            </dd>
-        </dl>
+                <!-- <dt>Public Key:</dt>
+                <dd>
+                    <a
+                        href="https://andre-rendeiro.com/data/documents/public_key.pgp"
+                        title="Use this to send me encrypted email">
+                        PGP public key
+                    </a>
+                </dd> -->
+                <!-- <dt>ZeroNet ID:</dt>
+                    <dd>
+                        <a href="http://127.0.0.1:43110/Me.ZeroNetwork.bit/?Profile/1RedkCkVaXuVXrqCMpoXQS29bwaqsuFdL/16XR1GVbekHSMMoUZ5pTQWFpq2anbkHgrC/arendeiro@zeroid.bit" title="Email me on ZeroNet">arendeiro@zeroid.bit</a>
+                    </dd>
+                <dt>My Keybase identity:</dt>
+                    <dd>
+                        <a href="https://keybase.io/afrendeiro" title="Me on Keybase">keybase.io/afrendeiro</a>
+                    </dd>
+                     -->
+                <dt>Curriculum Vitae:</dt>
+                <dd>
+                    <a href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf">Download my CV in PDF format</a>
+                </dd>
+            </dl>
+        </div>
     </div>
     <div class="col-sm-8" typeof="foaf:Person" about="https://andre-rendeiro.com/about" prefix="schema: https://schema.org/Person#">
         <p>

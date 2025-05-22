@@ -78,30 +78,37 @@
 					</div>
 
 					<div class="navbar-header navbar-right">
+						<a href="https://rendeiro.group">
+							Lab website:
+						</a>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://rendeiro.group">
+							<i class="fa-solid fa-globe"></i>
+						</a>
+
 						{% if site.author.twitter %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
 						{% endif %}
 						{% if site.author.bluesky %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://bsky.app/profile/{{ site.author.bluesky }}"><i class="fa-brands fa-bluesky" style="color:#1DA1F2"></i></a>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://bsky.app/profile/{{ site.author.bluesky }}"><i class="fa-brands fa-bluesky" style="color:#1DA1F2"></i></a>
 						{% endif %}
 						{% if site.author.github %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" style="color:black"></i></a>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" style="color:black"></i></a>
 						{% endif %}
 
 						{% if site.author.orcid %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" style="color:#A6CE39"></i>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" style="color:#A6CE39"></i>
 						{% endif %}
 
 						{% if site.author.google-scholar %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://scholar.google.at/citations?user={{ site.author.google-scholar }}&hl=en"><i class="ai ai-google-scholar"></i>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://scholar.google.at/citations?user={{ site.author.google-scholar }}&hl=en"><i class="ai ai-google-scholar"></i>
 						{% endif %}
 
 						{% if site.author.cv %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf"><i class="ai ai-cv" style="color:black"></i>
+						<a class="btn navbar-btn btn-social-icon navbar-btn" href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf"><i class="ai ai-cv" style="color:black"></i>
 						{% endif %}
 
 						{% if site.author.email %}
-							<a class='btn navbar-btn btn-social-icon navbar-btn' href="{{ site.author.email }}" style="unicode-bidi: bidi-override; direction: rtl;"><i class='fas fa-envelope' style='color:#cc724f'></i></a>
+						<a class='btn navbar-btn btn-social-icon navbar-btn' href="{{ site.author.email }}" style="unicode-bidi: bidi-override; direction: rtl;"><i class='fas fa-envelope' style='color:#cc724f'></i></a>
 						{% endif %}
 
 					</div>
