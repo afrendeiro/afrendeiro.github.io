@@ -1785,7 +1785,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-05-09.</p>
+        <p>Last updated on 2025-05-22.</p>
     </div>
     <br>
 </div>

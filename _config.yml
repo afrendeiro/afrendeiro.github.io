@@ -20,8 +20,8 @@ author:
   # Obfuscate your email by base64 encoding it (incluide 'mailto:' part, e.g. 'mailto:example@web.com')
   email: javascript:window.location.href=atob('bWFpbHRvOmFyZW5kZWlyb0BjZW1tLmF0')
   github: afrendeiro
-  twitter: afrendeiro
-  bluesky: afrendeiro
+  twitter:
+  bluesky: andre-rendeiro.com
   orcid: 0000-0001-9362-5373
   google-scholar: lj17pqEAAAAJ
   cv: "cv.pdf"

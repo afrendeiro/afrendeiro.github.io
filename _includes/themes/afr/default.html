@@ -18,7 +18,7 @@
 		<!-- Pygments -->
 		<link rel="stylesheet" href="/assets/themes/afr/css/pygments_style.css">
 		<!-- Font awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
 		<!-- Bootstrap-social -->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" rel="stylesheet">
 
@@ -81,9 +81,9 @@
 						{% if site.author.twitter %}
 							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
 						{% endif %}
-						<!-- {% if site.author.bluesky %}
-							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.bsky.app/{{ site.author.bluesky }}"><i class="fab fa-bluesky" style="color:#1DA1F2"></i></a>
-						{% endif %} -->
+						{% if site.author.bluesky %}
+							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://bsky.app/profile/{{ site.author.bluesky }}"><i class="fa-brands fa-bluesky" style="color:#1DA1F2"></i></a>
+						{% endif %}
 						{% if site.author.github %}
 							<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" style="color:black"></i></a>
 						{% endif %}
