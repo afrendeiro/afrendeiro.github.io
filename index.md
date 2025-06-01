@@ -209,6 +209,55 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Yimin Zheng, Ernesto Abila, Eva Chrenková, Juliane Winkler, <u>André F. Rendeiro</u>.
+                    <br><strong>LazySlide: accessible and interoperable whole slide image analysis</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656548">
+                        doi:10.1101/2025.05.28.656548</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.05.28.656548"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.05.28.656548"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.5281/zenodo.15497224">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://wsidata.readthedocs.io">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab book-open"
+                                aria-hidden="true"></span> Notebook </button></a>
+                    <a href="https://lazyslide.readthedocs.io">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab book-open"
+                                aria-hidden="true"></span> Notebook </button></a>
+                    <a href="https://github.com/RendeiroLab/WSIData">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://github.com/RendeiroLab/LazySlide">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
                     Salvo Danilo Lombardo, <u>André F. Rendeiro</u>, Jörg Menche.
                     <br><strong>A multilayer network approach elucidates time- and tissue-specific developmental and aging processes</strong>.
                     <br>
@@ -1789,7 +1838,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-05-22.</p>
+        <p>Last updated on 2025-06-01.</p>
     </div>
     <br>
 </div>

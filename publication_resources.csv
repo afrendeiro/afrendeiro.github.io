@@ -1,4 +1,9 @@
 doi,resource_type,resource_link
+10.1101/2025.05.28.656548,Data,https://doi.org/10.5281/zenodo.15497224
+10.1101/2025.05.28.656548,Notebook,https://wsidata.readthedocs.io
+10.1101/2025.05.28.656548,Notebook,https://lazyslide.readthedocs.io
+10.1101/2025.05.28.656548,Code,https://github.com/RendeiroLab/WSIData
+10.1101/2025.05.28.656548,Code,https://github.com/RendeiroLab/LazySlide
 10.1186/s13059-024-03469-3,Code,https://marsilea.readthedocs.io/
 10.1186/s13059-024-03469-3,Code,https://github.com/Marsilea-viz/marsilea
 10.1186/s13059-024-03469-3,Preprint,https://doi.org/10.1101/2024.02.14.580236
