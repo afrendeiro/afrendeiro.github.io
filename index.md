@@ -229,16 +229,11 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                    <a href="https://doi.org/10.5281/zenodo.15497224">
+                    <a href="https://github.com/RendeiroLab/LazySlide">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                                class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span> Data </button></a>
-                    <a href="https://wsidata.readthedocs.io">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab book-open"
-                                aria-hidden="true"></span> Notebook </button></a>
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
                     <a href="https://lazyslide.readthedocs.io">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
@@ -249,11 +244,40 @@ description: "My personal website"
                             <span
                                 class="fab fa-github"
                                 aria-hidden="true"></span> Code </button></a>
-                    <a href="https://github.com/RendeiroLab/LazySlide">
+                    <a href="https://wsidata.readthedocs.io">
                         <button type="button" class="btn btn-default btn-sm">
                             <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
+                                class="fab book-open"
+                                aria-hidden="true"></span> Notebook </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.15497224">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Adrien Grimont, David J Falvo, Whitney J Sisso, Paul Zumbo, Christopher W Chan, Francisco Santos, Grace Pan, Megan Cleveland, Tomer Yaron, Alexa S Osterhoudt, Yinuo Meng, Maria Paz Zafra, William B Fall, <u>André F. Rendeiro</u>, Erika Hissong, Rhonda K Yantiss, Doron Betel, Mark A Magnuson, Steven D Leach, Anil K Rustgi, Lukas E Dow, Rohit Chandwani.
+                    <br><strong>Molecular dynamics driving phenotypic divergence among KRAS mutants in pancreatic tumorigenesis</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656689">
+                        doi:10.1101/2025.05.28.656689</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.05.28.656689"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.05.28.656689"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
                 </p>
             </li>
             <li>
@@ -1838,7 +1862,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-06-01.</p>
+        <p>Last updated on 2025-06-02.</p>
     </div>
     <br>
 </div>
