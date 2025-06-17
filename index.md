@@ -209,6 +209,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Jiwoon Park, Roberto De Gregorio, Erika Hissong, Elif Ozcelik, Nicholas Bartelo, Felipe Segato Dezem, Luke Zhang, Maycon Marção, Hannah DuBose, Yimin Zheng, Ernesto Abila, Junbum Kim, Jacqueline Proszynski, Akua A Agyemang, Mohith Reddy Arikatla, Evelyn Metzger, Stefan Rogers, Prajan Divakar, Parambir S Dulai, Jason W Reeves, Yan Liang, Liuliu Pan, Sayani Bhattacharjee, Kimberly Young, Ashley Heck, Mithra Korukonda, Dan McGuire, Lidan Wu, Aster Wardhani, Joseph Beechem, George Church, Steven M Lipkin, Sanjay Patel, Fabio Socciarelli, Sebastien Monette, Brian Robinson, Massimo Loda, Olivier Elemento, Luciano Martelotto, Jasmine T Plummer, <u>André F. Rendeiro</u>, Alicia Alonso, Robert E Schwartz, Shauna L Houlihan, Christopher E Mason.
+                    <br><strong>The Spatial Atlas of Human Anatomy (SAHA): A Multimodal Subcellular-Resolution Reference Across Human Organs</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.06.16.658716">
+                        doi:10.1101/2025.06.16.658716</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.06.16.658716"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.06.16.658716"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Yimin Zheng, Ernesto Abila, Eva Chrenková, Juliane Winkler, <u>André F. Rendeiro</u>.
                     <br><strong>LazySlide: accessible and interoperable whole slide image analysis</strong>.
                     <br>
@@ -1862,7 +1886,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-06-02.</p>
+        <p>Last updated on 2025-06-17.</p>
     </div>
     <br>
 </div>
