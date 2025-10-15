@@ -2,7 +2,7 @@ clean:
 	bundler exec jekyll clean
 
 update:
-	python3 update_publications_resources.py
+	uv run --script --with pandas update_publications_resources.py
 
 serve: clean update
 	bundler exec jekyll serve --incremental

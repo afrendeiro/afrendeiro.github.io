@@ -7,6 +7,9 @@ tags: [spatial transcriptomics, multiplexed imaging, cell type prediction, diffu
 ---
 {% include JB/setup %}
 
+> This post is also available as a github gist: [afrendeiro/eb5b2ab723f89ed64eb81a28b2ad78c4](https://gist.github.com/afrendeiro/eb5b2ab723f89ed64eb81a28b2ad78c4)
+
+
 This post explores how to leverage spatial information for cell type prediction using two graph-based models: a Diffusion Classifier and a Graph Neural Network (GNN).
 
 We will use `squidpy` for spatial data handling and `scikit-network` for the models, benchmarking their performance as the fraction of known cell type labels varies.
