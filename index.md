@@ -209,6 +209,54 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Iva Buljan, <u>André F. Rendeiro</u>.
+                    <br><strong>Systematic mapping of human tissue microanatomy reveals age-associated remodeling and resilience</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.10.13.682110">
+                        doi:10.1101/2025.10.13.682110</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.10.13.682110"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.10.13.682110"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Sarah Dobner, Lisa Kleissl, Fanni Tóth, Robert Paxton, Irena Yordanova, Cedric Vanluyten, Hanna Toth, Aglaja Kopf, Jake Burton, Dunja Al-Nuaimi, Vera Belyaeva, <u>André F. Rendeiro</u>, Christoph Bock, Selma Osmanagic-Myers, Joanna Kalucka, Laurens Ceulemans4, Georg Stary, Abdel Rahman Abdel Fattah, Laura P.M.H. de Rooij.
+                    <br><strong>Uncovering the transcriptional hallmarks of endothelial cell aging via integrated single-cell analysis</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.08.18.669055">
+                        doi:10.1101/2025.08.18.669055</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.08.18.669055"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.08.18.669055"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Jiwoon Park, Roberto De Gregorio, Erika Hissong, Elif Ozcelik, Nicholas Bartelo, Felipe Segato Dezem, Luke Zhang, Maycon Marção, Hannah DuBose, Yimin Zheng, Ernesto Abila, Junbum Kim, Jacqueline Proszynski, Akua A Agyemang, Mohith Reddy Arikatla, Evelyn Metzger, Stefan Rogers, Prajan Divakar, Parambir S Dulai, Jason W Reeves, Yan Liang, Liuliu Pan, Sayani Bhattacharjee, Kimberly Young, Ashley Heck, Mithra Korukonda, Dan McGuire, Lidan Wu, Aster Wardhani, Joseph Beechem, George Church, Steven M Lipkin, Sanjay Patel, Fabio Socciarelli, Sebastien Monette, Brian Robinson, Massimo Loda, Olivier Elemento, Luciano Martelotto, Jasmine T Plummer, <u>André F. Rendeiro</u>, Alicia Alonso, Robert E Schwartz, Shauna L Houlihan, Christopher E Mason.
                     <br><strong>The Spatial Atlas of Human Anatomy (SAHA): A Multimodal Subcellular-Resolution Reference Across Human Organs</strong>.
                     <br>
@@ -517,6 +565,117 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>Peer reviewed research</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Barbara Katharina Geist, Julia Guthrie, Hunor Kertesz, Oana Kulterer, Thomas Nakuz, Lukas Nics, Eva-Maria Patronas, <u>André F. Rendeiro</u>, Chrysoula Vraka, Josef Yu, Stefan Grünert, Marcus Hacker.
+                    <br><strong>Metabolic organ networks derived from PET scans are a novel biomarker for overall health status and identify white adipose tissue as key organ in homeostasis</strong>.
+                    <br>
+                    Med (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.medj.2025.100881">
+                        doi:10.1016/j.medj.2025.100881</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.medj.2025.100881"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.medj.2025.100881"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Peter Traxler, Stephan Reichl, Lukas Folkman, Lisa Shaw, Victoria Fife, Amelie Nemc, Djurdja Pasajlic, Anna Kusienicka, Daniele Barreca, Nikolaus Fortelny, <u>André F. Rendeiro</u>, Florian Halbritter, Wolfgang Weninger, Thomas Decker, Matthias Farlik, Christoph Bock.
+                    <br><strong>Integrated time series analysis and high-content CRISPR screening delineates the dynamics of macrophage immune regulation</strong>.
+                    <br>
+                    Cell Systems (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.cels.2025.101346">
+                        doi:10.1016/j.cels.2025.101346</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.cels.2025.101346"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.cels.2025.101346"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="10.5281/zenodo.15262545">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263763">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                    <a href="https://github.com/epigen/macrophage-regulation">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Erika Hissong, Bhavneet Bhinder, Junbum Kim, Kentaro Ohara, Hiranmayi Ravichandran, Majd Al Assaad, Sarah Elsoukkary, Michael Shusterman, Uqba Khan, Kenneth Wha Eng, Rohan Bareja, Jyothi Manohar, Michael Sigouros, <u>André F. Rendeiro</u>, Jose Jessurun, Allyson J. Ocean, Andrea Sboner, Olivier Elemento, Juan Miguel Mosquera, Manish A. Shah.
+                    <br><strong>Integrative transcriptomic and single-cell protein characterization of colorectal carcinoma delineates distinct tumor immune microenvironments associated with overall survival</strong>.
+                    <br>
+                    Pathology - Research and Practice (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1016/j.prp.2025.156150">
+                        doi:10.1016/j.prp.2025.156150</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1016/j.prp.2025.156150"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1016/j.prp.2025.156150"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Felix Eichin, Valentina C Sladky, Matthäus A. Reiner, Marina Leone, Ernesto Abila, <u>André F. Rendeiro</u>, Ralph Böttcher4, Maik Dahlhoff, Thomas Kolbe, Andreas Villunger.
+                    <br><strong>Sequential PIDD1 auto-processing is essential for ploidy control in the liver and heart</strong>.
+                    <br>
+                    BioRxiv (2025).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.06.23.660994">
+                        doi:10.1101/2025.06.23.660994</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1101/2025.06.23.660994"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1101/2025.06.23.660994"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
             <li>
                 <p>
                     Yimin Zheng, Zhihang Zheng, <u>André F. Rendeiro</u><sup>Ω</sup>, Edwin Cheung<sup>Ω</sup>.
@@ -1886,7 +2045,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-06-17.</p>
+        <p>Last updated on 2025-10-15.</p>
     </div>
     <br>
 </div>
