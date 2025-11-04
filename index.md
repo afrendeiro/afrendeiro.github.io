@@ -91,7 +91,7 @@ description: "My personal website"
         <p>
             For my postdoctoral research, I was at the
             <a href="https://icb.med.cornell.edu/">Institute for Computational Biomedicine of Weill Cornell Medical College</a>
-            and the <a href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a> 
+            and the <a href="https://eipm.weill.cornell.edu/">Englander Institute for Precision Medicine</a>
             in the lab of <a href="https://elementolab.weill.cornell.edu/">Olivier Elemento</a>.
             There, I developed computational methods to understand the spatial organization of tissue, and employed them to infectious disease and cancer.
         </p>
@@ -105,21 +105,12 @@ description: "My personal website"
     <div class="col-sm-8 blog-main" id="research">
         <h4>Research highlights</h4>
         <div class="col-sm-12">
-            <!-- <div class="col-sm-6 col-shorter">
-                <h5>Microanatomical basis of human aging:</h5>
-                <ol>
-                    <li>
-                        <a rel="datacite:doi" href="https://dx.doi.org/">
-                        X, <i>et al</i>, BioRxiv, 2024</a>
-                    </li>
-                </ol>
-            </div> -->
-            <div class="col-sm-6 col-shorter">
+             <div class="col-sm-6 col-shorter">
                 <h5>Spatially resolved biology and tissue architecture:</h5>
                 <ol>
                     <li>
-                        <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
-                        Abila, Buljan, Zheng, <i>et al</i>, BioRxiv, 2024</a>
+                        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.10.13.682110">
+                        Buljan, <i>et al</i>, BioRxiv, 2025</a>
                     </li>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1038/s41592-022-01657-2">
@@ -127,10 +118,22 @@ description: "My personal website"
                     </li>
                 </ol>
             </div>
+            <div class="col-sm-6 col-shorter">
+                <h5>Deep learning to study human tissues:</h5>
+                <ol>
+                    <li>
+                        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656548">
+                        Zheng, <i>et al</i>, BioRxiv, 2025</a>
+                    </li>
+                    <li>
+                        <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
+                        Abila, Buljan, Zheng, <i>et al</i>, BioRxiv, 2024</a>
+                    </li>
+                </ol>
+            </div>
         </div>
         <div class="col-sm-12">
-            <div class="col-sm-4 col-shorter">
-                <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
+            <div class="col-sm-4 col-shorter"> <h5>Spatial and temporally resolved COVID-19 pathology and immunology:</h5>
                 <ol>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2022.11.28.22282811">
