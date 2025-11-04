@@ -209,7 +209,7 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
-                    Iva Buljan, <u>André F. Rendeiro</u>.
+                    Iva Buljan, Zsuzsanna Bagó-Horváth, <u>André F. Rendeiro</u>.
                     <br><strong>Systematic mapping of human tissue microanatomy reveals age-associated remodeling and resilience</strong>.
                     <br>
                     BioRxiv (2025).
@@ -2045,7 +2045,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-10-15.</p>
+        <p>Last updated on 2025-11-04.</p>
     </div>
     <br>
 </div>
