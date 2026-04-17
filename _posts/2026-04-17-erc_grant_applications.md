@@ -2,7 +2,7 @@
 layout: post
 title: "My experience with an ERC Starting Grant application"
 category: research
-tags: [python]
+tags: [science, grants]
 ---
 {% include JB/setup %}
 
