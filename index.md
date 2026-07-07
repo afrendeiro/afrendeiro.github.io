@@ -122,8 +122,8 @@ description: "My personal website"
                 <h5>Deep learning to study human tissues:</h5>
                 <ol>
                     <li>
-                        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656548">
-                        Zheng, <i>et al</i>, BioRxiv, 2025</a>
+                        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-026-03044-7">
+                        Zheng, <i>et al</i>, Nature Methods, 2026</a>
                     </li>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
@@ -212,6 +212,30 @@ description: "My personal website"
         <ol reversed="">
             <li>
                 <p>
+                    Daphne A Superville, Eva Chrenková, Yimin Zheng, Alexis J. Combes, Iros Barozzi, Zena Werb, <u>André F. Rendeiro</u>, Christopher S. McGinnis, Andrei Goga, Juliane Winkler.
+                    <br><strong>Tumor Heterogeneity Induces Pro- and Anti-metastatic Myeloid Cell Phenotypes in Breast Cancer Lung Metastasis</strong>.
+                    <br>
+                    BioRxiv (2026).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.64898/2026.03.27.714678">
+                        doi:10.64898/2026.03.27.714678</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.64898/2026.03.27.714678"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.64898/2026.03.27.714678"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                </p>
+            </li>
+            <li>
+                <p>
                     Iva Buljan, Zsuzsanna Bagó-Horváth, <u>André F. Rendeiro</u>.
                     <br><strong>Systematic mapping of human tissue microanatomy reveals age-associated remodeling and resilience</strong>.
                     <br>
@@ -280,55 +304,6 @@ description: "My personal website"
                             style='display: inline-block;'></span>
                     </a>
                     <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                    Yimin Zheng, Ernesto Abila, Eva Chrenková, Juliane Winkler, <u>André F. Rendeiro</u>.
-                    <br><strong>LazySlide: accessible and interoperable whole slide image analysis</strong>.
-                    <br>
-                    BioRxiv (2025).
-                    <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656548">
-                        doi:10.1101/2025.05.28.656548</a>
-                    <a style="float:right">
-                        <span
-                            data-badge-type="2"
-                            data-doi="10.1101/2025.05.28.656548"
-                            data-hide-no-mentions="true"
-                            class="altmetric-embed"></span>
-                        <span
-                            class="__dimensions_badge_embed__"
-                            data-doi="10.1101/2025.05.28.656548"
-                            data-legend="hover-right"
-                            data-style="small_rectangle"
-                            style='display: inline-block;'></span>
-                    </a>
-                    <br>
-                    <a href="https://github.com/RendeiroLab/LazySlide">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                    <a href="https://lazyslide.readthedocs.io">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab book-open"
-                                aria-hidden="true"></span> Notebook </button></a>
-                    <a href="https://github.com/RendeiroLab/WSIData">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab fa-github"
-                                aria-hidden="true"></span> Code </button></a>
-                    <a href="https://wsidata.readthedocs.io">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="fab book-open"
-                                aria-hidden="true"></span> Notebook </button></a>
-                    <a href="https://doi.org/10.5281/zenodo.15497224">
-                        <button type="button" class="btn btn-default btn-sm">
-                            <span
-                                class="glyphicon glyphicon-hdd"
-                                aria-hidden="true"></span> Data </button></a>
                 </p>
             </li>
             <li>
@@ -568,6 +543,60 @@ description: "My personal website"
     <div class="col-sm-12">
         <h4>Peer reviewed research</h4>
         <ol reversed="">
+            <li>
+                <p>
+                    Yimin Zheng, Ernesto Abila, Eva Chrenková, Iva Buljan, Juliane Winkler, <u>André F. Rendeiro</u>.
+                    <br><strong>LazySlide: accessible and interoperable whole slide image analysis</strong>.
+                    <br>
+                    Nature Methods (2026).
+                    <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-026-03044-7">
+                        doi:10.1038/s41592-026-03044-7</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="10.1038/s41592-026-03044-7"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="10.1038/s41592-026-03044-7"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>
+                    <a href="https://doi.org/10.1101/2025.05.28.656548">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-file"
+                                aria-hidden="true"></span> Preprint </button></a>
+                    <a href="https://github.com/RendeiroLab/LazySlide">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://lazyslide.readthedocs.io">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab book-open"
+                                aria-hidden="true"></span> Notebook </button></a>
+                    <a href="https://github.com/RendeiroLab/WSIData">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab fa-github"
+                                aria-hidden="true"></span> Code </button></a>
+                    <a href="https://wsidata.readthedocs.io">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="fab book-open"
+                                aria-hidden="true"></span> Notebook </button></a>
+                    <a href="https://doi.org/10.5281/zenodo.15497224">
+                        <button type="button" class="btn btn-default btn-sm">
+                            <span
+                                class="glyphicon glyphicon-hdd"
+                                aria-hidden="true"></span> Data </button></a>
+                </p>
+            </li>
             <li>
                 <p>
                     Barbara Katharina Geist, Julia Guthrie, Hunor Kertesz, Oana Kulterer, Thomas Nakuz, Lukas Nics, Eva-Maria Patronas, <u>André F. Rendeiro</u>, Chrysoula Vraka, Josef Yu, Stefan Grünert, Marcus Hacker.
@@ -2048,7 +2077,7 @@ description: "My personal website"
     </div>
     <br>
     <div class="col-sm-12" style="margin-bottom: 30px;">
-        <p>Last updated on 2025-11-04.</p>
+        <p>Last updated on 2026-07-07.</p>
     </div>
     <br>
 </div>

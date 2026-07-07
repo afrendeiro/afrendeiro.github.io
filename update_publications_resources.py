@@ -1,4 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env uv --script
+
+# /// script
+# dependencies = [
+#   "pandas",
+# ]
+# ///
 
 import sys
 from datetime import datetime

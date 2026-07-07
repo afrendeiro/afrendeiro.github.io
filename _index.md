@@ -122,8 +122,8 @@ description: "My personal website"
                 <h5>Deep learning to study human tissues:</h5>
                 <ol>
                     <li>
-                        <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.05.28.656548">
-                        Zheng, <i>et al</i>, BioRxiv, 2025</a>
+                        <a rel="datacite:doi" href="http://dx.doi.org/10.1038/s41592-026-03044-7">
+                        Zheng, <i>et al</i>, Nature Methods, 2026</a>
                     </li>
                     <li>
                         <a rel="datacite:doi" href="https://dx.doi.org/10.1101/2024.11.14.618081">
