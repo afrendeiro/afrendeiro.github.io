@@ -1,0 +1,46 @@
+<div class="row blog-main" prefix="datacite: https://purl.org/spar/datacite/" id="publications">
+    <h3>Publications and associated resources</h3>
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <small><sup>*</sup> equal first-author contributions; <sup>Ω</sup> joint corresponding authors</small><br>
+    <div class="col-sm-12">
+        <ol reversed="" class="pub-cols">
+            {% for pub in site.data.publications %}
+            <li{% if pub.highlight %} class="pub-highlight"{% endif %}>
+                <p>
+                    {% case pub.type %}
+                    {% when "preprint" %}<span class="badge text-bg-secondary"><i class="bi bi-file-earmark-richtext me-1"></i>Preprint</span>
+                    {% when "review" %}<span class="badge text-bg-secondary"><i class="bi bi-journal-text me-1"></i>Review</span>
+                    {% when "opinion" %}<span class="badge text-bg-secondary"><i class="bi bi-chat-left-text me-1"></i>Opinion</span>
+                    {% endcase %}
+                    {{ pub.authors }}.
+                    <br><strong>{{ pub.title }}</strong>.
+                    <br>
+                    {{ pub.journal }} ({{ pub.year }}).
+                    <a rel="datacite:doi" href="http://dx.doi.org/{{ pub.doi }}">
+                        doi:{{ pub.doi }}</a>
+                    <a style="float:right">
+                        <span
+                            data-badge-type="2"
+                            data-doi="{{ pub.doi }}"
+                            data-hide-no-mentions="true"
+                            class="altmetric-embed"></span>
+                        <span
+                            class="__dimensions_badge_embed__"
+                            data-doi="{{ pub.doi }}"
+                            data-legend="hover-right"
+                            data-style="small_rectangle"
+                            style='display: inline-block;'></span>
+                    </a>
+                    <br>{% for resource in pub.resources %}
+                    <a href="{{ resource.link }}">
+                        <button type="button" class="btn btn-outline-secondary btn-sm">
+                            <span
+                                class="bi {{ resource.icon }}"
+                                aria-hidden="true"></span> {{ resource.type }} </button></a>{% endfor %}
+                </p>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
