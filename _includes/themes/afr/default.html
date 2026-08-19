@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="auto">
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 		<meta name="author" content="{{ site.author.name }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-		<!--[if lt IE 9]>
-			<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<!-- Theme (avoid flash of wrong theme) -->
+		<script>
+			(() => {
+				const storedTheme = localStorage.getItem("theme");
+				if (storedTheme === "light" || storedTheme === "dark") {
+					document.documentElement.setAttribute("data-bs-theme", storedTheme);
+				} else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+					document.documentElement.setAttribute("data-bs-theme", "dark");
+				}
+			})();
+		</script>
 
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 		<!-- Pygments -->
-		<link rel="stylesheet" href="/assets/themes/afr/css/pygments_style.css">
+		<link rel="stylesheet" href="{{ ASSET_PATH }}/css/pygments_style.css">
 		<!-- Font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
-		<!-- Bootstrap-social -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" rel="stylesheet">
+		<!-- Bootstrap-icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 		<!-- Custom CSS -->
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -29,102 +36,114 @@
 		<!-- Academic icons (ORCID, Google Scholar) -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
-		<!-- Le fav and touch icons -->
-		<!-- Update these with your own images
-			<link rel="shortcut icon" href="images/favicon.ico">
-			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-			<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-			<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-		-->
-
 		<!-- SEO -->
 		<link rel="canonical" href="{{ site.production_url }}{{ page.url }}">
 	</head>
 
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 			<div class="container-fluid">
 
-				<!-- Title and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/#">{{ site.title }}</a>
-				</div><!-- /.navbar-header -->
+				<a class="navbar-brand" href="/#">{{ site.title }}</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="/#research">Research</a></li>
-						<li><a href="/#publications">Publications</a></li>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link" href="/#research">Research</a></li>
+						<li class="nav-item"><a class="nav-link" href="/#publications">Publications</a></li>
 						{% assign group = 'navigation' %}
 						{% assign sorted_pages = site.pages | sort:"weight" %}
 						{% include themes/afr/sorted_pages %}
 					</ul>
 
-					<!-- Search -->
-					<div class="navbar-header navbar-right">
-						<form class="navbar-form" role="search" method="get" action="https://google.com/search">
-							<div class="form-group">
-								<input type="hidden" name="q" value="site:{{ site.production_url }}">
-								<input type="text" class="form-control search-query" name="q" placeholder="Search">
-							</div>
-							<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-						</form>
-					</div>
-
-					<div class="navbar-header navbar-right">
-						<a href="https://rendeiro.group">
-							Lab website:
-						</a>
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://rendeiro.group">
-							<i class="fa-solid fa-globe"></i>
-						</a>
-
+					<ul class="navbar-nav d-flex flex-row flex-sm-row ms-lg-auto gap-2 align-items-center">
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://rendeiro.group" title="Rendeiro group website">
+								<i class="fa-solid fa-globe text-body-secondary"></i>
+							</a>
+						</li>
 						{% if site.author.twitter %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://www.twitter.com/{{ site.author.twitter }}"><i class="fab fa-twitter" style="color:#1DA1F2"></i></a>
+						</li>
 						{% endif %}
 						{% if site.author.bluesky %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://bsky.app/profile/{{ site.author.bluesky }}"><i class="fa-brands fa-bluesky" style="color:#1DA1F2"></i></a>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://bsky.app/profile/{{ site.author.bluesky }}"><i class="fa-brands fa-bluesky" style="color:#1DA1F2"></i></a>
+						</li>
 						{% endif %}
 						{% if site.author.github %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" style="color:black"></i></a>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://github.com/{{ site.author.github }}"><i class="fab fa-github text-body-secondary"></i></a>
+						</li>
 						{% endif %}
-
 						{% if site.author.orcid %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" style="color:#A6CE39"></i>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" style="color:#A6CE39"></i></a>
+						</li>
 						{% endif %}
-
 						{% if site.author.google-scholar %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="https://scholar.google.at/citations?user={{ site.author.google-scholar }}&hl=en"><i class="ai ai-google-scholar"></i>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="https://scholar.google.at/citations?user={{ site.author.google-scholar }}&hl=en"><i class="ai ai-google-scholar"></i></a>
+						</li>
 						{% endif %}
-
 						{% if site.author.cv %}
-						<a class="btn navbar-btn btn-social-icon navbar-btn" href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf"><i class="ai ai-cv" style="color:black"></i>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="{{ site.author.cv }}" download="Rendeiro_AF_CV.pdf"><i class="ai ai-cv text-body-secondary"></i></a>
+						</li>
 						{% endif %}
-
 						{% if site.author.email %}
-						<a class='btn navbar-btn btn-social-icon navbar-btn' href="{{ site.author.email }}" style="unicode-bidi: bidi-override; direction: rtl;"><i class='fas fa-envelope' style='color:#cc724f'></i></a>
+						<li class="nav-item">
+							<a class="nav-link px-1" href="{{ site.author.email }}" style="unicode-bidi: bidi-override; direction: rtl;"><i class='fas fa-envelope' style='color:#cc724f'></i></a>
+						</li>
 						{% endif %}
+					</ul>
 
-					</div>
+					<form class="d-flex" role="search" method="get" action="https://google.com/search">
+						<input type="hidden" name="q" value="site:{{ site.production_url }}">
+						<input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-secondary" type="submit"><i class="bi bi-search"></i></button>
+					</form>
 
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container -->
-		</nav><!-- /.navbar -->
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-highlights me-2 navbar-btn"></i>Theme </a>
+							<ul class="dropdown-menu dropdown-menu-end">
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+										<i class="bi bi-brightness-high-fill me-2 navbar-btn"></i>
+										Light
+									</button>
+								</li>
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+										<i class="bi bi-brightness-alt-high me-2 navbar-btn"></i>
+										Dark
+									</button>
+								</li>
+								<li>
+									<button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+										<i class="bi bi-gear-fill me-2 navbar-btn"></i>
+										Auto
+									</button>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<br>
 		<br>
 
-		<div class="container">
+		<div class="container-lg">
 
 			<!-- Page header -->
 			<div class="row">
-				<div class="col-xs-12 col-md-12">
+				<div class="col-12 col-md-12">
 					<div class="page-header">
 						<h1><a href="{{ page.url }}">{{ page.title }}</a>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 					</div>
@@ -141,35 +160,23 @@
 		<hr>
 
 		<!-- Footer -->
-		<nav class="navbar navbar-default navbar-fixed-bottom navbar-inverted footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-12 text-center navbar-text">
-
-						<!-- Author -->
-						<!--<p>&copy; {{ site.author.name }} 2014 </p> -->
-
-						<!-- Credit -->
-						<small>With help from <a href="https://jekyllrb.com/" target="_blank" title="Jekyll Blogging Framework">Jekyll</a>
-						, <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
-						and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
-						</small>
-
-						<!-- CC licence -->
-						<!-- {% if site.licence %}
-							<a class="licence" rel="license" href="https://creativecommons.org/licenses/{{ site.licence }}/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/{{ site.licence }}/4.0/80x15.png" /></a>
-						{% endif %} -->
-					</div>
-				</div><!-- ./row -->
-			</div><!-- ./container -->
+		<nav class="navbar fixed-bottom bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/#"></a>
+				<small class="navbar-text mx-auto text-center">
+					With help from <a href="https://jekyllrb.com/" target="_blank" title="Jekyll Blogging Framework">Jekyll</a>
+					, <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+					and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+				</small>
+			</div>
 		</nav>
 
 		{% include JB/analytics %}
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- Bootstrap JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<!-- Color mode toggler -->
+		<script defer src="{{ ASSET_PATH }}/js/color_toggler.js"></script>
 		<!-- Anchor JS -->
-		<script src="/assets/themes/afr/js/anchor.js"></script>
+		<script src="{{ ASSET_PATH }}/js/anchor.js"></script>
 	</body>
 </html>
