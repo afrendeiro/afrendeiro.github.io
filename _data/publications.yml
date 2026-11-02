@@ -114,6 +114,22 @@
   - type: Data
     link: https://doi.org/10.5281/zenodo.15497224
     icon: bi-database
+- doi: 10.1016/j.devcel.2026.06.016
+  authors: Adrien Grimont, David J. Falvo, Whitney J. Sisso, Francisco Santos, Christopher
+    W. Chan, Paul Zumbo, William B. Fall, Katherine Ferrick, Grace Pan, Megan Cleveland,
+    Tomer M. Yaron-Barin, Alexa Osterhoudt, Yinuo Meng, Maria Paz Zafra, <u>André
+    F. Rendeiro</u>, Erika Hissong, Rhonda K. Yantiss, Doron Betel, Mark A. Magnuson,
+    Steven D. Leach, Anil K. Rustgi, Lukas E. Dow, Rohit Chandwani
+  title: Molecular dynamics driving phenotypic divergence among KRAS mutants in pancreatic
+    tumorigenesis
+  journal: Developmental Cell
+  year: 2026
+  type: journal
+  highlight: false
+  resources:
+  - type: Preprint
+    link: https://doi.org/10.1101/2025.05.28.656689
+    icon: bi-file-earmark-richtext
 - doi: 10.1101/2025.10.13.682110
   authors: Iva Buljan, Zsuzsanna Bagó-Horváth, <u>André F. Rendeiro</u>
   title: Systematic mapping of human tissue microanatomy reveals age-associated remodeling
@@ -196,7 +212,7 @@
     <u>André F. Rendeiro</u>, Florian Halbritter, Wolfgang Weninger, Thomas Decker,
     Matthias Farlik, Christoph Bock
   title: Integrated time series analysis and high-content CRISPR screening delineates
-    the dynamics of macrophage immune regulation"
+    the dynamics of macrophage immune regulation
   journal: Cell Systems
   year: 2025
   type: journal
@@ -210,20 +226,18 @@
     Manish A. Shah
   title: Integrative transcriptomic and single-cell protein characterization of colorectal
     carcinoma delineates distinct tumor immune microenvironments associated with overall
-    survival"
+    survival
   journal: Pathology - Research and Practice
   year: 2025
   type: journal
   highlight: false
   resources: []
-- doi: 10.1101/2025.05.28.656689
-  authors: Adrien Grimont, David J Falvo, Whitney J Sisso, Paul Zumbo, Christopher
-    W Chan, Francisco Santos, Grace Pan, Megan Cleveland, Tomer Yaron, Alexa S Osterhoudt,
-    Yinuo Meng, Maria Paz Zafra, William B Fall, <u>André F. Rendeiro</u>, Erika Hissong,
-    Rhonda K Yantiss, Doron Betel, Mark A Magnuson, Steven D Leach, Anil K Rustgi,
-    Lukas E Dow, Rohit Chandwani
-  title: Molecular dynamics driving phenotypic divergence among KRAS mutants in pancreatic
-    tumorigenesis"
+- doi: 10.1101/2025.02.19.637138
+  authors: Junbum Kim, Hiranmayi Ravichandran, Liron Yoffe, Bhavneet Bhinder, Kyle
+    Finos, Arshdeep Singh, Bradley B Pua, Stewart Bates, Bevan Emma Huang, <u>André
+    F. Rendeiro</u>, Vivek Mittal, Nasser K. Altorki, Timothy E. McGraw, Olivier Elemento
+  title: Simultaneous immunomodulation and epithelial-to-mesenchymal transition drives
+    lung adenocarcinoma progression
   journal: BioRxiv
   year: 2025
   type: preprint
