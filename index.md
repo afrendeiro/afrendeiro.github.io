@@ -49,6 +49,10 @@ description: "My personal website"
                 Zheng, <i>et al</i>, Nature Methods, 2026</a>
             </li>
             <li>
+                <a rel="datacite:doi" href="https://dx.doi.org/10.64898/2026.09.06.749715">
+                Abila, <i>et al</i>, BioRxiv, 2026</a>
+            </li>
+            <li>
                 <a rel="datacite:doi" href="http://dx.doi.org/10.1101/2025.10.13.682110">
                 Buljan, <i>et al</i>, BioRxiv, 2025</a>
             </li>
